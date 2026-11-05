@@ -3,7 +3,7 @@
  *
  * The chart is built by the data pipeline from PokéAPI `damage_relations`
  * plus `past_damage_relations` (specs/02) and written to
- * data/generated/type-chart/{generation}.json. This module only reads it.
+ * data/generated/type-chart/gen-{generation}.json. This module only reads it.
  */
 
 import type { TypeName, Typing } from "@/lib/types";

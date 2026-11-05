@@ -70,3 +70,12 @@ Formato: fecha · decisión · motivo · alternativas descartadas. Las decisione
 **Decisión:** el parámetro `l` guarda los **ids de especie** de los miembros fijados, y la URL lleva además la `dataVersion` (`d`). "Cambiar" un hueco fija temporalmente al resto y usa una semilla derivada.
 **Motivo:** con solo semilla + índices de hueco, un equipo con miembros fijados de generaciones anteriores no se puede reproducir. Así cualquier enlace reproduce el equipo exacto mientras no cambien los datos.
 **Detalle:** formato en `specs/03` e implementación en `src/lib/url-state.ts`.
+
+### D-014 · 2026-11-05 · Fuente de PokéAPI: volcado estático en GitHub por defecto
+**Decisión:** `data:build` usa por defecto `PokeAPI/api-data` (volcado oficial en GitHub, mismos datos que la API) y permite `--source=pokeapi` para la API en vivo.
+**Motivo:** más rápido, sin límites de uso y sin carga para los servidores de PokéAPI. Con caché local, el build completo de un juego tarda segundos.
+
+### D-015 · 2026-11-05 · Capa "pokeapi" separada de la capa final
+**Decisión:** la fase F2 escribe lo que sale de PokéAPI en `data/generated/{game}/pokeapi/` junto a un informe (`report.md`); la fase F3 combina esa capa con los overrides en `data/generated/{game}/game.json`.
+**Motivo:** permite revisar qué viene de PokéAPI y qué se ha curado, y regenerar una capa sin tocar la otra.
+**Detalles aplicados:** métodos de encuentro clasificados por tipo (los desconocidos no cuentan), evoluciones con objetos inexistentes en la generación descartadas, Maldición sin tipo (`specs/02`).

@@ -1,0 +1,10730 @@
+[
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "abandoned-ship-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "abandoned-ship-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 80,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      35
+    ],
+    "locationAreaId": "abandoned-ship-area",
+    "method": "super-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 99,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "abandoned-ship-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      35
+    ],
+    "locationAreaId": "abandoned-ship-area",
+    "method": "super-rod",
+    "pokemonId": 73,
+    "speciesId": 73
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "abandoned-ship-area",
+    "method": "surf",
+    "pokemonId": 73,
+    "speciesId": 73
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "abandoned-ship-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "abandoned-ship-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "static",
+    "levels": [
+      40,
+      40
+    ],
+    "locationAreaId": "ancient-tomb-area",
+    "method": "static",
+    "pokemonId": 379,
+    "speciesId": 379
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      40,
+      50
+    ],
+    "locationAreaId": "artisan-cave-area",
+    "method": "walk",
+    "pokemonId": 235,
+    "speciesId": 235
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      34
+    ],
+    "locationAreaId": "cave-of-origin-1f",
+    "method": "walk",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      33,
+      36
+    ],
+    "locationAreaId": "cave-of-origin-1f",
+    "method": "walk",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      34
+    ],
+    "locationAreaId": "cave-of-origin-1f",
+    "method": "walk",
+    "pokemonId": 302,
+    "speciesId": 302
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      34
+    ],
+    "locationAreaId": "cave-of-origin-b1f",
+    "method": "walk",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      33,
+      36
+    ],
+    "locationAreaId": "cave-of-origin-b1f",
+    "method": "walk",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      34
+    ],
+    "locationAreaId": "cave-of-origin-b1f",
+    "method": "walk",
+    "pokemonId": 302,
+    "speciesId": 302
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      34
+    ],
+    "locationAreaId": "cave-of-origin-b2f",
+    "method": "walk",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      33,
+      36
+    ],
+    "locationAreaId": "cave-of-origin-b2f",
+    "method": "walk",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      34
+    ],
+    "locationAreaId": "cave-of-origin-b2f",
+    "method": "walk",
+    "pokemonId": 302,
+    "speciesId": 302
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      34
+    ],
+    "locationAreaId": "cave-of-origin-b3f",
+    "method": "walk",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      33,
+      36
+    ],
+    "locationAreaId": "cave-of-origin-b3f",
+    "method": "walk",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      34
+    ],
+    "locationAreaId": "cave-of-origin-b3f",
+    "method": "walk",
+    "pokemonId": 302,
+    "speciesId": 302
+  },
+  {
+    "chance": 90,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      28,
+      35
+    ],
+    "locationAreaId": "cave-of-origin-entrance",
+    "method": "walk",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      33,
+      36
+    ],
+    "locationAreaId": "cave-of-origin-entrance",
+    "method": "walk",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "static",
+    "levels": [
+      40,
+      40
+    ],
+    "locationAreaId": "desert-ruins-area",
+    "method": "static",
+    "pokemonId": 377,
+    "speciesId": 377
+  },
+  {
+    "chance": 50,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      38,
+      45
+    ],
+    "locationAreaId": "desert-underpass-area",
+    "method": "walk",
+    "pokemonId": 132,
+    "speciesId": 132
+  },
+  {
+    "chance": 34,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      35,
+      38
+    ],
+    "locationAreaId": "desert-underpass-area",
+    "method": "walk",
+    "pokemonId": 293,
+    "speciesId": 293
+  },
+  {
+    "chance": 16,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      38,
+      44
+    ],
+    "locationAreaId": "desert-underpass-area",
+    "method": "walk",
+    "pokemonId": 294,
+    "speciesId": 294
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "dewford-town-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "dewford-town-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "dewford-town-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "dewford-town-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "dewford-town-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "dewford-town-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "dewford-town-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "dewford-town-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "dewford-town-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "ever-grande-city-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "ever-grande-city-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "ever-grande-city-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "ever-grande-city-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "ever-grande-city-area",
+    "method": "super-rod",
+    "pokemonId": 222,
+    "speciesId": 222
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "ever-grande-city-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "ever-grande-city-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "ever-grande-city-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 45,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      45
+    ],
+    "locationAreaId": "ever-grande-city-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "ever-grande-city-area",
+    "method": "good-rod",
+    "pokemonId": 370,
+    "speciesId": 370
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "ever-grande-city-area",
+    "method": "super-rod",
+    "pokemonId": 370,
+    "speciesId": 370
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "static",
+    "levels": [
+      30,
+      30
+    ],
+    "locationAreaId": "faraway-island-area",
+    "method": "static",
+    "pokemonId": 151,
+    "speciesId": 151
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      15,
+      16
+    ],
+    "locationAreaId": "fiery-path-area",
+    "method": "walk",
+    "pokemonId": 66,
+    "speciesId": 66
+  },
+  {
+    "chance": 2,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      14,
+      14
+    ],
+    "locationAreaId": "fiery-path-area",
+    "method": "walk",
+    "pokemonId": 88,
+    "speciesId": 88
+  },
+  {
+    "chance": 25,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      15,
+      16
+    ],
+    "locationAreaId": "fiery-path-area",
+    "method": "walk",
+    "pokemonId": 109,
+    "speciesId": 109
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      15,
+      15
+    ],
+    "locationAreaId": "fiery-path-area",
+    "method": "walk",
+    "pokemonId": 218,
+    "speciesId": 218
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      15,
+      16
+    ],
+    "locationAreaId": "fiery-path-area",
+    "method": "walk",
+    "pokemonId": 322,
+    "speciesId": 322
+  },
+  {
+    "chance": 18,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      14,
+      16
+    ],
+    "locationAreaId": "fiery-path-area",
+    "method": "walk",
+    "pokemonId": 324,
+    "speciesId": 324
+  },
+  {
+    "chance": 100,
+    "conditions": [
+      "trade-volbeat"
+    ],
+    "excluded": false,
+    "kind": "trade-ingame",
+    "levels": [
+      5,
+      100
+    ],
+    "locationAreaId": "fortree-city-area",
+    "method": "npc-trade",
+    "pokemonId": 311,
+    "speciesId": 311
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      7,
+      8
+    ],
+    "locationAreaId": "granite-cave-1f",
+    "method": "walk",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      8,
+      8
+    ],
+    "locationAreaId": "granite-cave-1f",
+    "method": "walk",
+    "pokemonId": 63,
+    "speciesId": 63
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      6,
+      9
+    ],
+    "locationAreaId": "granite-cave-1f",
+    "method": "walk",
+    "pokemonId": 74,
+    "speciesId": 74
+  },
+  {
+    "chance": 50,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      6,
+      10
+    ],
+    "locationAreaId": "granite-cave-1f",
+    "method": "walk",
+    "pokemonId": 296,
+    "speciesId": 296
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      7,
+      8
+    ],
+    "locationAreaId": "granite-cave-1fsmall-room",
+    "method": "walk",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      8,
+      8
+    ],
+    "locationAreaId": "granite-cave-1fsmall-room",
+    "method": "walk",
+    "pokemonId": 63,
+    "speciesId": 63
+  },
+  {
+    "chance": 50,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      6,
+      10
+    ],
+    "locationAreaId": "granite-cave-1fsmall-room",
+    "method": "walk",
+    "pokemonId": 296,
+    "speciesId": 296
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      7,
+      8
+    ],
+    "locationAreaId": "granite-cave-1fsmall-room",
+    "method": "walk",
+    "pokemonId": 304,
+    "speciesId": 304
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      9,
+      10
+    ],
+    "locationAreaId": "granite-cave-b1f",
+    "method": "walk",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      9,
+      9
+    ],
+    "locationAreaId": "granite-cave-b1f",
+    "method": "walk",
+    "pokemonId": 63,
+    "speciesId": 63
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      11
+    ],
+    "locationAreaId": "granite-cave-b1f",
+    "method": "walk",
+    "pokemonId": 296,
+    "speciesId": 296
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      9,
+      11
+    ],
+    "locationAreaId": "granite-cave-b1f",
+    "method": "walk",
+    "pokemonId": 302,
+    "speciesId": 302
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      9,
+      11
+    ],
+    "locationAreaId": "granite-cave-b1f",
+    "method": "walk",
+    "pokemonId": 304,
+    "speciesId": 304
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      11
+    ],
+    "locationAreaId": "granite-cave-b2f",
+    "method": "walk",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      10
+    ],
+    "locationAreaId": "granite-cave-b2f",
+    "method": "walk",
+    "pokemonId": 63,
+    "speciesId": 63
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      20
+    ],
+    "locationAreaId": "granite-cave-b2f",
+    "method": "rock-smash",
+    "pokemonId": 74,
+    "speciesId": 74
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      20
+    ],
+    "locationAreaId": "granite-cave-b2f",
+    "method": "rock-smash",
+    "pokemonId": 299,
+    "speciesId": 299
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      12
+    ],
+    "locationAreaId": "granite-cave-b2f",
+    "method": "walk",
+    "pokemonId": 302,
+    "speciesId": 302
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      12
+    ],
+    "locationAreaId": "granite-cave-b2f",
+    "method": "walk",
+    "pokemonId": 304,
+    "speciesId": 304
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      6,
+      16
+    ],
+    "locationAreaId": "hoenn-altering-cave-area",
+    "method": "walk",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 100,
+    "conditions": [
+      "trade-skitty"
+    ],
+    "excluded": false,
+    "kind": "trade-ingame",
+    "levels": [
+      5,
+      100
+    ],
+    "locationAreaId": "hoenn-battle-frontier-area",
+    "method": "npc-trade",
+    "pokemonId": 52,
+    "speciesId": 52
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "static",
+    "levels": [
+      40,
+      40
+    ],
+    "locationAreaId": "hoenn-battle-frontier-area",
+    "method": "wailmer-pail",
+    "pokemonId": 185,
+    "speciesId": 185
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": true,
+    "kind": "excluded",
+    "levels": [
+      10,
+      10
+    ],
+    "locationAreaId": "hoenn-pokecenter-area",
+    "method": "colosseum-bonus-disc-jpn",
+    "pokemonId": 25,
+    "speciesId": 25
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": true,
+    "kind": "excluded",
+    "levels": [
+      10,
+      10
+    ],
+    "locationAreaId": "hoenn-pokecenter-area",
+    "method": "colosseum-bonus-disc-jpn",
+    "pokemonId": 251,
+    "speciesId": 251
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "gift",
+    "levels": [
+      5,
+      5
+    ],
+    "locationAreaId": "hoenn-route-101-area",
+    "method": "gift",
+    "pokemonId": 252,
+    "speciesId": 252
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "gift",
+    "levels": [
+      5,
+      5
+    ],
+    "locationAreaId": "hoenn-route-101-area",
+    "method": "gift",
+    "pokemonId": 255,
+    "speciesId": 255
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "gift",
+    "levels": [
+      5,
+      5
+    ],
+    "locationAreaId": "hoenn-route-101-area",
+    "method": "gift",
+    "pokemonId": 258,
+    "speciesId": 258
+  },
+  {
+    "chance": 45,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      2,
+      3
+    ],
+    "locationAreaId": "hoenn-route-101-area",
+    "method": "walk",
+    "pokemonId": 261,
+    "speciesId": 261
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      2,
+      3
+    ],
+    "locationAreaId": "hoenn-route-101-area",
+    "method": "walk",
+    "pokemonId": 263,
+    "speciesId": 263
+  },
+  {
+    "chance": 45,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      2,
+      3
+    ],
+    "locationAreaId": "hoenn-route-101-area",
+    "method": "walk",
+    "pokemonId": 265,
+    "speciesId": 265
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-102-area",
+    "method": "good-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-102-area",
+    "method": "old-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      30
+    ],
+    "locationAreaId": "hoenn-route-102-area",
+    "method": "surf",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-102-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-102-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 99,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-102-area",
+    "method": "surf",
+    "pokemonId": 183,
+    "speciesId": 183
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      3,
+      4
+    ],
+    "locationAreaId": "hoenn-route-102-area",
+    "method": "walk",
+    "pokemonId": 261,
+    "speciesId": 261
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      3,
+      4
+    ],
+    "locationAreaId": "hoenn-route-102-area",
+    "method": "walk",
+    "pokemonId": 263,
+    "speciesId": 263
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      3,
+      4
+    ],
+    "locationAreaId": "hoenn-route-102-area",
+    "method": "walk",
+    "pokemonId": 265,
+    "speciesId": 265
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      3,
+      4
+    ],
+    "locationAreaId": "hoenn-route-102-area",
+    "method": "walk",
+    "pokemonId": 270,
+    "speciesId": 270
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      3,
+      3
+    ],
+    "locationAreaId": "hoenn-route-102-area",
+    "method": "walk",
+    "pokemonId": 273,
+    "speciesId": 273
+  },
+  {
+    "chance": 4,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      4,
+      4
+    ],
+    "locationAreaId": "hoenn-route-102-area",
+    "method": "walk",
+    "pokemonId": 280,
+    "speciesId": 280
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-102-area",
+    "method": "good-rod",
+    "pokemonId": 341,
+    "speciesId": 341
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "hoenn-route-102-area",
+    "method": "super-rod",
+    "pokemonId": 341,
+    "speciesId": 341
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-103-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-103-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-103-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-103-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-103-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      2,
+      4
+    ],
+    "locationAreaId": "hoenn-route-103-area",
+    "method": "walk",
+    "pokemonId": 261,
+    "speciesId": 261
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      3,
+      4
+    ],
+    "locationAreaId": "hoenn-route-103-area",
+    "method": "walk",
+    "pokemonId": 263,
+    "speciesId": 263
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-103-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      2,
+      4
+    ],
+    "locationAreaId": "hoenn-route-103-area",
+    "method": "walk",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-103-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "hoenn-route-103-area",
+    "method": "super-rod",
+    "pokemonId": 319,
+    "speciesId": 319
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-103-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      45
+    ],
+    "locationAreaId": "hoenn-route-103-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-104-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-104-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "hoenn-route-104-area",
+    "method": "super-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      4,
+      5
+    ],
+    "locationAreaId": "hoenn-route-104-area",
+    "method": "walk",
+    "pokemonId": 183,
+    "speciesId": 183
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      4,
+      5
+    ],
+    "locationAreaId": "hoenn-route-104-area",
+    "method": "walk",
+    "pokemonId": 261,
+    "speciesId": 261
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      4,
+      4
+    ],
+    "locationAreaId": "hoenn-route-104-area",
+    "method": "walk",
+    "pokemonId": 265,
+    "speciesId": 265
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      4,
+      5
+    ],
+    "locationAreaId": "hoenn-route-104-area",
+    "method": "walk",
+    "pokemonId": 276,
+    "speciesId": 276
+  },
+  {
+    "chance": 95,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-104-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      3,
+      5
+    ],
+    "locationAreaId": "hoenn-route-104-area",
+    "method": "walk",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-104-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-105-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-105-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-105-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-105-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-105-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-105-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-105-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-105-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "hoenn-route-105-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-106-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-106-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-106-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-106-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-106-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-106-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-106-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-106-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "hoenn-route-106-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-107-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-107-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-107-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-107-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-107-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-107-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-107-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-107-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "hoenn-route-107-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-108-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-108-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-108-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-108-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-108-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-108-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-108-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-108-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "hoenn-route-108-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-109-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-109-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-109-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-109-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-109-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-109-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-109-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-109-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "hoenn-route-109-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      13,
+      13
+    ],
+    "locationAreaId": "hoenn-route-110-area",
+    "method": "walk",
+    "pokemonId": 43,
+    "speciesId": 43
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-110-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-110-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-110-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-110-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-110-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      12,
+      12
+    ],
+    "locationAreaId": "hoenn-route-110-area",
+    "method": "walk",
+    "pokemonId": 261,
+    "speciesId": 261
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-110-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 8,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      12,
+      12
+    ],
+    "locationAreaId": "hoenn-route-110-area",
+    "method": "walk",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-110-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      12,
+      13
+    ],
+    "locationAreaId": "hoenn-route-110-area",
+    "method": "walk",
+    "pokemonId": 309,
+    "speciesId": 309
+  },
+  {
+    "chance": 2,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      12,
+      13
+    ],
+    "locationAreaId": "hoenn-route-110-area",
+    "method": "walk",
+    "pokemonId": 311,
+    "speciesId": 311
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      13,
+      13
+    ],
+    "locationAreaId": "hoenn-route-110-area",
+    "method": "walk",
+    "pokemonId": 312,
+    "speciesId": 312
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      12,
+      13
+    ],
+    "locationAreaId": "hoenn-route-110-area",
+    "method": "walk",
+    "pokemonId": 316,
+    "speciesId": 316
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-110-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "hoenn-route-110-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      19,
+      21
+    ],
+    "locationAreaId": "hoenn-route-111-area",
+    "method": "walk",
+    "pokemonId": 27,
+    "speciesId": 27
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      20
+    ],
+    "locationAreaId": "hoenn-route-111-area",
+    "method": "rock-smash",
+    "pokemonId": 74,
+    "speciesId": 74
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-111-area",
+    "method": "good-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-111-area",
+    "method": "old-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      30
+    ],
+    "locationAreaId": "hoenn-route-111-area",
+    "method": "surf",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-111-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-111-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 99,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-111-area",
+    "method": "surf",
+    "pokemonId": 183,
+    "speciesId": 183
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      19,
+      21
+    ],
+    "locationAreaId": "hoenn-route-111-area",
+    "method": "walk",
+    "pokemonId": 328,
+    "speciesId": 328
+  },
+  {
+    "chance": 6,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      22
+    ],
+    "locationAreaId": "hoenn-route-111-area",
+    "method": "walk",
+    "pokemonId": 331,
+    "speciesId": 331
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-111-area",
+    "method": "good-rod",
+    "pokemonId": 339,
+    "speciesId": 339
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "hoenn-route-111-area",
+    "method": "super-rod",
+    "pokemonId": 339,
+    "speciesId": 339
+  },
+  {
+    "chance": 24,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      19,
+      21
+    ],
+    "locationAreaId": "hoenn-route-111-area",
+    "method": "walk",
+    "pokemonId": 343,
+    "speciesId": 343
+  },
+  {
+    "chance": 25,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      14,
+      16
+    ],
+    "locationAreaId": "hoenn-route-112-area",
+    "method": "walk",
+    "pokemonId": 183,
+    "speciesId": 183
+  },
+  {
+    "chance": 75,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      14,
+      16
+    ],
+    "locationAreaId": "hoenn-route-112-area",
+    "method": "walk",
+    "pokemonId": 322,
+    "speciesId": 322
+  },
+  {
+    "chance": 25,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      14,
+      16
+    ],
+    "locationAreaId": "hoenn-route-113-area",
+    "method": "walk",
+    "pokemonId": 218,
+    "speciesId": 218
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      16,
+      16
+    ],
+    "locationAreaId": "hoenn-route-113-area",
+    "method": "walk",
+    "pokemonId": 227,
+    "speciesId": 227
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      14,
+      16
+    ],
+    "locationAreaId": "hoenn-route-113-area",
+    "method": "walk",
+    "pokemonId": 327,
+    "speciesId": 327
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      20
+    ],
+    "locationAreaId": "hoenn-route-114-area",
+    "method": "rock-smash",
+    "pokemonId": 74,
+    "speciesId": 74
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-114-area",
+    "method": "good-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-114-area",
+    "method": "old-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      30
+    ],
+    "locationAreaId": "hoenn-route-114-area",
+    "method": "surf",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-114-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-114-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 99,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-114-area",
+    "method": "surf",
+    "pokemonId": 183,
+    "speciesId": 183
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      15,
+      16
+    ],
+    "locationAreaId": "hoenn-route-114-area",
+    "method": "walk",
+    "pokemonId": 270,
+    "speciesId": 270
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      16,
+      18
+    ],
+    "locationAreaId": "hoenn-route-114-area",
+    "method": "walk",
+    "pokemonId": 271,
+    "speciesId": 271
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      15,
+      15
+    ],
+    "locationAreaId": "hoenn-route-114-area",
+    "method": "walk",
+    "pokemonId": 274,
+    "speciesId": 274
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      15,
+      17
+    ],
+    "locationAreaId": "hoenn-route-114-area",
+    "method": "walk",
+    "pokemonId": 333,
+    "speciesId": 333
+  },
+  {
+    "chance": 9,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      15,
+      17
+    ],
+    "locationAreaId": "hoenn-route-114-area",
+    "method": "walk",
+    "pokemonId": 336,
+    "speciesId": 336
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-114-area",
+    "method": "good-rod",
+    "pokemonId": 339,
+    "speciesId": 339
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "hoenn-route-114-area",
+    "method": "super-rod",
+    "pokemonId": 339,
+    "speciesId": 339
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      24,
+      25
+    ],
+    "locationAreaId": "hoenn-route-115-area",
+    "method": "walk",
+    "pokemonId": 39,
+    "speciesId": 39
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-115-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-115-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-115-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-115-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-115-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      23,
+      25
+    ],
+    "locationAreaId": "hoenn-route-115-area",
+    "method": "walk",
+    "pokemonId": 276,
+    "speciesId": 276
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      25
+    ],
+    "locationAreaId": "hoenn-route-115-area",
+    "method": "walk",
+    "pokemonId": 277,
+    "speciesId": 277
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-115-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      24,
+      26
+    ],
+    "locationAreaId": "hoenn-route-115-area",
+    "method": "walk",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-115-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-115-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "hoenn-route-115-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      23,
+      25
+    ],
+    "locationAreaId": "hoenn-route-115-area",
+    "method": "walk",
+    "pokemonId": 333,
+    "speciesId": 333
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      7,
+      7
+    ],
+    "locationAreaId": "hoenn-route-116-area",
+    "method": "walk",
+    "pokemonId": 63,
+    "speciesId": 63
+  },
+  {
+    "chance": 28,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      6,
+      8
+    ],
+    "locationAreaId": "hoenn-route-116-area",
+    "method": "walk",
+    "pokemonId": 261,
+    "speciesId": 261
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      6,
+      8
+    ],
+    "locationAreaId": "hoenn-route-116-area",
+    "method": "walk",
+    "pokemonId": 276,
+    "speciesId": 276
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      6,
+      7
+    ],
+    "locationAreaId": "hoenn-route-116-area",
+    "method": "walk",
+    "pokemonId": 290,
+    "speciesId": 290
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      6,
+      6
+    ],
+    "locationAreaId": "hoenn-route-116-area",
+    "method": "walk",
+    "pokemonId": 293,
+    "speciesId": 293
+  },
+  {
+    "chance": 2,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      7,
+      8
+    ],
+    "locationAreaId": "hoenn-route-116-area",
+    "method": "walk",
+    "pokemonId": 300,
+    "speciesId": 300
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      13,
+      14
+    ],
+    "locationAreaId": "hoenn-route-117-area",
+    "method": "walk",
+    "pokemonId": 43,
+    "speciesId": 43
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-117-area",
+    "method": "good-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-117-area",
+    "method": "old-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      30
+    ],
+    "locationAreaId": "hoenn-route-117-area",
+    "method": "surf",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-117-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-117-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 99,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-117-area",
+    "method": "surf",
+    "pokemonId": 183,
+    "speciesId": 183
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      13,
+      13
+    ],
+    "locationAreaId": "hoenn-route-117-area",
+    "method": "walk",
+    "pokemonId": 183,
+    "speciesId": 183
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      13,
+      14
+    ],
+    "locationAreaId": "hoenn-route-117-area",
+    "method": "walk",
+    "pokemonId": 261,
+    "speciesId": 261
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      13,
+      13
+    ],
+    "locationAreaId": "hoenn-route-117-area",
+    "method": "walk",
+    "pokemonId": 273,
+    "speciesId": 273
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      13,
+      13
+    ],
+    "locationAreaId": "hoenn-route-117-area",
+    "method": "walk",
+    "pokemonId": 313,
+    "speciesId": 313
+  },
+  {
+    "chance": 18,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      13,
+      14
+    ],
+    "locationAreaId": "hoenn-route-117-area",
+    "method": "walk",
+    "pokemonId": 314,
+    "speciesId": 314
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-117-area",
+    "method": "good-rod",
+    "pokemonId": 341,
+    "speciesId": 341
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "hoenn-route-117-area",
+    "method": "super-rod",
+    "pokemonId": 341,
+    "speciesId": 341
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-118-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-118-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-118-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-118-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-118-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      24,
+      26
+    ],
+    "locationAreaId": "hoenn-route-118-area",
+    "method": "walk",
+    "pokemonId": 263,
+    "speciesId": 263
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      26
+    ],
+    "locationAreaId": "hoenn-route-118-area",
+    "method": "walk",
+    "pokemonId": 264,
+    "speciesId": 264
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-118-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 19,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      27
+    ],
+    "locationAreaId": "hoenn-route-118-area",
+    "method": "walk",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-118-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      24,
+      26
+    ],
+    "locationAreaId": "hoenn-route-118-area",
+    "method": "walk",
+    "pokemonId": 309,
+    "speciesId": 309
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      26
+    ],
+    "locationAreaId": "hoenn-route-118-area",
+    "method": "walk",
+    "pokemonId": 310,
+    "speciesId": 310
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-118-area",
+    "method": "good-rod",
+    "pokemonId": 318,
+    "speciesId": 318
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "hoenn-route-118-area",
+    "method": "super-rod",
+    "pokemonId": 318,
+    "speciesId": 318
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "hoenn-route-118-area",
+    "method": "super-rod",
+    "pokemonId": 319,
+    "speciesId": 319
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      25
+    ],
+    "locationAreaId": "hoenn-route-118-area",
+    "method": "walk",
+    "pokemonId": 352,
+    "speciesId": 352
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      24,
+      27
+    ],
+    "locationAreaId": "hoenn-route-119-area",
+    "method": "walk",
+    "pokemonId": 43,
+    "speciesId": 43
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-119-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-119-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-119-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-119-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-119-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      27
+    ],
+    "locationAreaId": "hoenn-route-119-area",
+    "method": "walk",
+    "pokemonId": 263,
+    "speciesId": 263
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      27
+    ],
+    "locationAreaId": "hoenn-route-119-area",
+    "method": "walk",
+    "pokemonId": 264,
+    "speciesId": 264
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-119-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-119-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-119-area",
+    "method": "good-rod",
+    "pokemonId": 318,
+    "speciesId": 318
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "hoenn-route-119-area",
+    "method": "super-rod",
+    "pokemonId": 318,
+    "speciesId": 318
+  },
+  {
+    "chance": 50,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      25
+    ],
+    "locationAreaId": "hoenn-route-119-area",
+    "method": "feebas-tile-fishing",
+    "pokemonId": 349,
+    "speciesId": 349
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "static",
+    "levels": [
+      30,
+      30
+    ],
+    "locationAreaId": "hoenn-route-119-area",
+    "method": "devon-scope",
+    "pokemonId": 352,
+    "speciesId": 352
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      25
+    ],
+    "locationAreaId": "hoenn-route-119-area",
+    "method": "walk",
+    "pokemonId": 352,
+    "speciesId": 352
+  },
+  {
+    "chance": 9,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      27
+    ],
+    "locationAreaId": "hoenn-route-119-area",
+    "method": "walk",
+    "pokemonId": 357,
+    "speciesId": 357
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "gift",
+    "levels": [
+      25,
+      25
+    ],
+    "locationAreaId": "hoenn-route-119-weather-institute",
+    "method": "gift",
+    "pokemonId": 351,
+    "speciesId": 351
+  },
+  {
+    "chance": 25,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      27
+    ],
+    "locationAreaId": "hoenn-route-120-area",
+    "method": "walk",
+    "pokemonId": 43,
+    "speciesId": 43
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-120-area",
+    "method": "good-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-120-area",
+    "method": "old-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      30
+    ],
+    "locationAreaId": "hoenn-route-120-area",
+    "method": "surf",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-120-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-120-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 99,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-120-area",
+    "method": "surf",
+    "pokemonId": 183,
+    "speciesId": 183
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      27
+    ],
+    "locationAreaId": "hoenn-route-120-area",
+    "method": "walk",
+    "pokemonId": 183,
+    "speciesId": 183
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      25
+    ],
+    "locationAreaId": "hoenn-route-120-area",
+    "method": "walk",
+    "pokemonId": 261,
+    "speciesId": 261
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      27
+    ],
+    "locationAreaId": "hoenn-route-120-area",
+    "method": "walk",
+    "pokemonId": 262,
+    "speciesId": 262
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      25
+    ],
+    "locationAreaId": "hoenn-route-120-area",
+    "method": "walk",
+    "pokemonId": 273,
+    "speciesId": 273
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-120-area",
+    "method": "good-rod",
+    "pokemonId": 339,
+    "speciesId": 339
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "hoenn-route-120-area",
+    "method": "super-rod",
+    "pokemonId": 339,
+    "speciesId": 339
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "static",
+    "levels": [
+      30,
+      30
+    ],
+    "locationAreaId": "hoenn-route-120-area",
+    "method": "devon-scope",
+    "pokemonId": 352,
+    "speciesId": 352
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      25
+    ],
+    "locationAreaId": "hoenn-route-120-area",
+    "method": "walk",
+    "pokemonId": 352,
+    "speciesId": 352
+  },
+  {
+    "chance": 8,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      27
+    ],
+    "locationAreaId": "hoenn-route-120-area",
+    "method": "walk",
+    "pokemonId": 359,
+    "speciesId": 359
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      28
+    ],
+    "locationAreaId": "hoenn-route-121-area",
+    "method": "walk",
+    "pokemonId": 43,
+    "speciesId": 43
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      28,
+      28
+    ],
+    "locationAreaId": "hoenn-route-121-area",
+    "method": "walk",
+    "pokemonId": 44,
+    "speciesId": 44
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-121-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-121-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-121-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-121-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-121-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      26
+    ],
+    "locationAreaId": "hoenn-route-121-area",
+    "method": "walk",
+    "pokemonId": 261,
+    "speciesId": 261
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      28
+    ],
+    "locationAreaId": "hoenn-route-121-area",
+    "method": "walk",
+    "pokemonId": 262,
+    "speciesId": 262
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-121-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 9,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      28
+    ],
+    "locationAreaId": "hoenn-route-121-area",
+    "method": "walk",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-121-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-121-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "hoenn-route-121-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      25
+    ],
+    "locationAreaId": "hoenn-route-121-area",
+    "method": "walk",
+    "pokemonId": 352,
+    "speciesId": 352
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      28
+    ],
+    "locationAreaId": "hoenn-route-121-area",
+    "method": "walk",
+    "pokemonId": 353,
+    "speciesId": 353
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-122-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-122-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-122-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-122-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-122-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-122-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-122-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "hoenn-route-122-area",
+    "method": "super-rod",
+    "pokemonId": 319,
+    "speciesId": 319
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-122-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      45
+    ],
+    "locationAreaId": "hoenn-route-122-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      28
+    ],
+    "locationAreaId": "hoenn-route-123-area",
+    "method": "walk",
+    "pokemonId": 43,
+    "speciesId": 43
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      28,
+      28
+    ],
+    "locationAreaId": "hoenn-route-123-area",
+    "method": "walk",
+    "pokemonId": 44,
+    "speciesId": 44
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-123-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-123-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-123-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-123-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-123-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      26
+    ],
+    "locationAreaId": "hoenn-route-123-area",
+    "method": "walk",
+    "pokemonId": 261,
+    "speciesId": 261
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      28
+    ],
+    "locationAreaId": "hoenn-route-123-area",
+    "method": "walk",
+    "pokemonId": 262,
+    "speciesId": 262
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-123-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 9,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      28
+    ],
+    "locationAreaId": "hoenn-route-123-area",
+    "method": "walk",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-123-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-123-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "hoenn-route-123-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      25
+    ],
+    "locationAreaId": "hoenn-route-123-area",
+    "method": "walk",
+    "pokemonId": 352,
+    "speciesId": 352
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      28
+    ],
+    "locationAreaId": "hoenn-route-123-area",
+    "method": "walk",
+    "pokemonId": 353,
+    "speciesId": 353
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-124-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-124-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-124-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-124-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-124-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-124-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-124-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "hoenn-route-124-area",
+    "method": "super-rod",
+    "pokemonId": 319,
+    "speciesId": 319
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-124-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      45
+    ],
+    "locationAreaId": "hoenn-route-124-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      30
+    ],
+    "locationAreaId": "hoenn-route-124-underwater",
+    "method": "seaweed",
+    "pokemonId": 170,
+    "speciesId": 170
+  },
+  {
+    "chance": 65,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      35
+    ],
+    "locationAreaId": "hoenn-route-124-underwater",
+    "method": "seaweed",
+    "pokemonId": 366,
+    "speciesId": 366
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "hoenn-route-124-underwater",
+    "method": "seaweed",
+    "pokemonId": 369,
+    "speciesId": 369
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-125-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-125-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-125-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-125-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-125-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-125-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-125-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "hoenn-route-125-area",
+    "method": "super-rod",
+    "pokemonId": 319,
+    "speciesId": 319
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-125-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      45
+    ],
+    "locationAreaId": "hoenn-route-125-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-126-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-126-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-126-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-126-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-126-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-126-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-126-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "hoenn-route-126-area",
+    "method": "super-rod",
+    "pokemonId": 319,
+    "speciesId": 319
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-126-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      45
+    ],
+    "locationAreaId": "hoenn-route-126-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      30
+    ],
+    "locationAreaId": "hoenn-route-126-underwater",
+    "method": "seaweed",
+    "pokemonId": 170,
+    "speciesId": 170
+  },
+  {
+    "chance": 65,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      35
+    ],
+    "locationAreaId": "hoenn-route-126-underwater",
+    "method": "seaweed",
+    "pokemonId": 366,
+    "speciesId": 366
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "hoenn-route-126-underwater",
+    "method": "seaweed",
+    "pokemonId": 369,
+    "speciesId": 369
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-127-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-127-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-127-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-127-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-127-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-127-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-127-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "hoenn-route-127-area",
+    "method": "super-rod",
+    "pokemonId": 319,
+    "speciesId": 319
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-127-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      45
+    ],
+    "locationAreaId": "hoenn-route-127-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-128-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-128-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-128-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-128-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "hoenn-route-128-area",
+    "method": "super-rod",
+    "pokemonId": 222,
+    "speciesId": 222
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-128-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-128-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-128-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 45,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      45
+    ],
+    "locationAreaId": "hoenn-route-128-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-128-area",
+    "method": "good-rod",
+    "pokemonId": 370,
+    "speciesId": 370
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "hoenn-route-128-area",
+    "method": "super-rod",
+    "pokemonId": 370,
+    "speciesId": 370
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-129-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-129-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-129-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-129-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-129-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-129-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 4,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-129-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "hoenn-route-129-area",
+    "method": "super-rod",
+    "pokemonId": 319,
+    "speciesId": 319
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-129-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      45
+    ],
+    "locationAreaId": "hoenn-route-129-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-129-area",
+    "method": "surf",
+    "pokemonId": 321,
+    "speciesId": 321
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-130-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-130-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-130-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-130-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-130-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-130-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-130-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "hoenn-route-130-area",
+    "method": "super-rod",
+    "pokemonId": 319,
+    "speciesId": 319
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-130-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      45
+    ],
+    "locationAreaId": "hoenn-route-130-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      50
+    ],
+    "locationAreaId": "hoenn-route-130-area",
+    "method": "walk",
+    "pokemonId": 360,
+    "speciesId": 360
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-131-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-131-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-131-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-131-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-131-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-131-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-131-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "hoenn-route-131-area",
+    "method": "super-rod",
+    "pokemonId": 319,
+    "speciesId": 319
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-131-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      45
+    ],
+    "locationAreaId": "hoenn-route-131-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-132-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-132-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-132-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-132-area",
+    "method": "super-rod",
+    "pokemonId": 116,
+    "speciesId": 116
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-132-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-132-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-132-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-132-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "hoenn-route-132-area",
+    "method": "super-rod",
+    "pokemonId": 319,
+    "speciesId": 319
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-132-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 45,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      45
+    ],
+    "locationAreaId": "hoenn-route-132-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-133-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-133-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-133-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-133-area",
+    "method": "super-rod",
+    "pokemonId": 116,
+    "speciesId": 116
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-133-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-133-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-133-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-133-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "hoenn-route-133-area",
+    "method": "super-rod",
+    "pokemonId": 319,
+    "speciesId": 319
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-133-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 45,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      45
+    ],
+    "locationAreaId": "hoenn-route-133-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-134-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-134-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "hoenn-route-134-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-134-area",
+    "method": "super-rod",
+    "pokemonId": 116,
+    "speciesId": 116
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-134-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-route-134-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-134-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-route-134-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "hoenn-route-134-area",
+    "method": "super-rod",
+    "pokemonId": 319,
+    "speciesId": 319
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-route-134-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 45,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      45
+    ],
+    "locationAreaId": "hoenn-route-134-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      35,
+      35
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-north",
+    "method": "walk",
+    "pokemonId": 163,
+    "speciesId": 163
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      33,
+      33
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-north",
+    "method": "walk",
+    "pokemonId": 165,
+    "speciesId": 165
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      33,
+      35
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-north",
+    "method": "walk",
+    "pokemonId": 190,
+    "speciesId": 190
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      34,
+      34
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-north",
+    "method": "walk",
+    "pokemonId": 191,
+    "speciesId": 191
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      34,
+      34
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-north",
+    "method": "walk",
+    "pokemonId": 204,
+    "speciesId": 204
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      40
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-north",
+    "method": "rock-smash",
+    "pokemonId": 213,
+    "speciesId": 213
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      34,
+      36
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-north",
+    "method": "walk",
+    "pokemonId": 216,
+    "speciesId": 216
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      36,
+      39
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-north",
+    "method": "walk",
+    "pokemonId": 228,
+    "speciesId": 228
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      37,
+      40
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-north",
+    "method": "walk",
+    "pokemonId": 241,
+    "speciesId": 241
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-south",
+    "method": "good-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-south",
+    "method": "old-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-south",
+    "method": "super-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-south",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-south",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      35,
+      35
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-south",
+    "method": "walk",
+    "pokemonId": 163,
+    "speciesId": 163
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      33,
+      33
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-south",
+    "method": "walk",
+    "pokemonId": 167,
+    "speciesId": 167
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      34,
+      36
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-south",
+    "method": "walk",
+    "pokemonId": 179,
+    "speciesId": 179
+  },
+  {
+    "chance": 39,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      35
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-south",
+    "method": "surf",
+    "pokemonId": 183,
+    "speciesId": 183
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      34,
+      34
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-south",
+    "method": "walk",
+    "pokemonId": 190,
+    "speciesId": 190
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      33,
+      35
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-south",
+    "method": "walk",
+    "pokemonId": 191,
+    "speciesId": 191
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-south",
+    "method": "surf",
+    "pokemonId": 194,
+    "speciesId": 194
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      35,
+      40
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-south",
+    "method": "surf",
+    "pokemonId": 195,
+    "speciesId": 195
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      37,
+      40
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-south",
+    "method": "walk",
+    "pokemonId": 207,
+    "speciesId": 207
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      34,
+      34
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-south",
+    "method": "walk",
+    "pokemonId": 209,
+    "speciesId": 209
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-south",
+    "method": "good-rod",
+    "pokemonId": 223,
+    "speciesId": 223
+  },
+  {
+    "chance": 59,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      35
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-south",
+    "method": "super-rod",
+    "pokemonId": 223,
+    "speciesId": 223
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      35,
+      40
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-south",
+    "method": "super-rod",
+    "pokemonId": 224,
+    "speciesId": 224
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      36,
+      39
+    ],
+    "locationAreaId": "hoenn-safari-zone-expansion-south",
+    "method": "walk",
+    "pokemonId": 234,
+    "speciesId": 234
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      27,
+      29
+    ],
+    "locationAreaId": "hoenn-safari-zone-neacro-bike-area",
+    "method": "walk",
+    "pokemonId": 43,
+    "speciesId": 43
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      29,
+      31
+    ],
+    "locationAreaId": "hoenn-safari-zone-neacro-bike-area",
+    "method": "walk",
+    "pokemonId": 44,
+    "speciesId": 44
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      30
+    ],
+    "locationAreaId": "hoenn-safari-zone-neacro-bike-area",
+    "method": "rock-smash",
+    "pokemonId": 74,
+    "speciesId": 74
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      27,
+      29
+    ],
+    "locationAreaId": "hoenn-safari-zone-neacro-bike-area",
+    "method": "walk",
+    "pokemonId": 177,
+    "speciesId": 177
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      29,
+      31
+    ],
+    "locationAreaId": "hoenn-safari-zone-neacro-bike-area",
+    "method": "walk",
+    "pokemonId": 178,
+    "speciesId": 178
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      27,
+      29
+    ],
+    "locationAreaId": "hoenn-safari-zone-neacro-bike-area",
+    "method": "walk",
+    "pokemonId": 214,
+    "speciesId": 214
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      27,
+      29
+    ],
+    "locationAreaId": "hoenn-safari-zone-neacro-bike-area",
+    "method": "walk",
+    "pokemonId": 231,
+    "speciesId": 231
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      27,
+      29
+    ],
+    "locationAreaId": "hoenn-safari-zone-nwmach-bike-area",
+    "method": "walk",
+    "pokemonId": 43,
+    "speciesId": 43
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      29,
+      31
+    ],
+    "locationAreaId": "hoenn-safari-zone-nwmach-bike-area",
+    "method": "walk",
+    "pokemonId": 44,
+    "speciesId": 44
+  },
+  {
+    "chance": 95,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      35
+    ],
+    "locationAreaId": "hoenn-safari-zone-nwmach-bike-area",
+    "method": "surf",
+    "pokemonId": 54,
+    "speciesId": 54
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      40
+    ],
+    "locationAreaId": "hoenn-safari-zone-nwmach-bike-area",
+    "method": "surf",
+    "pokemonId": 55,
+    "speciesId": 55
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      27,
+      29
+    ],
+    "locationAreaId": "hoenn-safari-zone-nwmach-bike-area",
+    "method": "walk",
+    "pokemonId": 84,
+    "speciesId": 84
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      29,
+      31
+    ],
+    "locationAreaId": "hoenn-safari-zone-nwmach-bike-area",
+    "method": "walk",
+    "pokemonId": 85,
+    "speciesId": 85
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      27,
+      29
+    ],
+    "locationAreaId": "hoenn-safari-zone-nwmach-bike-area",
+    "method": "walk",
+    "pokemonId": 111,
+    "speciesId": 111
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-safari-zone-nwmach-bike-area",
+    "method": "good-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-safari-zone-nwmach-bike-area",
+    "method": "old-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 80,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      35
+    ],
+    "locationAreaId": "hoenn-safari-zone-nwmach-bike-area",
+    "method": "super-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      40
+    ],
+    "locationAreaId": "hoenn-safari-zone-nwmach-bike-area",
+    "method": "super-rod",
+    "pokemonId": 119,
+    "speciesId": 119
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      27,
+      29
+    ],
+    "locationAreaId": "hoenn-safari-zone-nwmach-bike-area",
+    "method": "walk",
+    "pokemonId": 127,
+    "speciesId": 127
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-safari-zone-nwmach-bike-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-safari-zone-nwmach-bike-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      27
+    ],
+    "locationAreaId": "hoenn-safari-zone-se",
+    "method": "walk",
+    "pokemonId": 25,
+    "speciesId": 25
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      27
+    ],
+    "locationAreaId": "hoenn-safari-zone-se",
+    "method": "walk",
+    "pokemonId": 43,
+    "speciesId": 43
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      25
+    ],
+    "locationAreaId": "hoenn-safari-zone-se",
+    "method": "walk",
+    "pokemonId": 44,
+    "speciesId": 44
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      25
+    ],
+    "locationAreaId": "hoenn-safari-zone-se",
+    "method": "walk",
+    "pokemonId": 84,
+    "speciesId": 84
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      25
+    ],
+    "locationAreaId": "hoenn-safari-zone-se",
+    "method": "walk",
+    "pokemonId": 177,
+    "speciesId": 177
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      27,
+      29
+    ],
+    "locationAreaId": "hoenn-safari-zone-se",
+    "method": "walk",
+    "pokemonId": 202,
+    "speciesId": 202
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      27
+    ],
+    "locationAreaId": "hoenn-safari-zone-se",
+    "method": "walk",
+    "pokemonId": 203,
+    "speciesId": 203
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      27
+    ],
+    "locationAreaId": "hoenn-safari-zone-sw",
+    "method": "walk",
+    "pokemonId": 25,
+    "speciesId": 25
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      27
+    ],
+    "locationAreaId": "hoenn-safari-zone-sw",
+    "method": "walk",
+    "pokemonId": 43,
+    "speciesId": 43
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      25
+    ],
+    "locationAreaId": "hoenn-safari-zone-sw",
+    "method": "walk",
+    "pokemonId": 44,
+    "speciesId": 44
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      35
+    ],
+    "locationAreaId": "hoenn-safari-zone-sw",
+    "method": "surf",
+    "pokemonId": 54,
+    "speciesId": 54
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      27,
+      27
+    ],
+    "locationAreaId": "hoenn-safari-zone-sw",
+    "method": "walk",
+    "pokemonId": 84,
+    "speciesId": 84
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-safari-zone-sw",
+    "method": "good-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-safari-zone-sw",
+    "method": "old-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 80,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      35
+    ],
+    "locationAreaId": "hoenn-safari-zone-sw",
+    "method": "super-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      40
+    ],
+    "locationAreaId": "hoenn-safari-zone-sw",
+    "method": "super-rod",
+    "pokemonId": 119,
+    "speciesId": 119
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-safari-zone-sw",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-safari-zone-sw",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      25
+    ],
+    "locationAreaId": "hoenn-safari-zone-sw",
+    "method": "walk",
+    "pokemonId": 177,
+    "speciesId": 177
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      27,
+      29
+    ],
+    "locationAreaId": "hoenn-safari-zone-sw",
+    "method": "walk",
+    "pokemonId": 202,
+    "speciesId": 202
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      27
+    ],
+    "locationAreaId": "hoenn-safari-zone-sw",
+    "method": "walk",
+    "pokemonId": 203,
+    "speciesId": 203
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      36,
+      36
+    ],
+    "locationAreaId": "hoenn-victory-road-1f",
+    "method": "walk",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 25,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      38,
+      40
+    ],
+    "locationAreaId": "hoenn-victory-road-1f",
+    "method": "walk",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      36,
+      36
+    ],
+    "locationAreaId": "hoenn-victory-road-1f",
+    "method": "walk",
+    "pokemonId": 293,
+    "speciesId": 293
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      40,
+      40
+    ],
+    "locationAreaId": "hoenn-victory-road-1f",
+    "method": "walk",
+    "pokemonId": 294,
+    "speciesId": 294
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      36,
+      36
+    ],
+    "locationAreaId": "hoenn-victory-road-1f",
+    "method": "walk",
+    "pokemonId": 296,
+    "speciesId": 296
+  },
+  {
+    "chance": 25,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      38,
+      40
+    ],
+    "locationAreaId": "hoenn-victory-road-1f",
+    "method": "walk",
+    "pokemonId": 297,
+    "speciesId": 297
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      36,
+      36
+    ],
+    "locationAreaId": "hoenn-victory-road-1f",
+    "method": "walk",
+    "pokemonId": 304,
+    "speciesId": 304
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      40,
+      40
+    ],
+    "locationAreaId": "hoenn-victory-road-1f",
+    "method": "walk",
+    "pokemonId": 305,
+    "speciesId": 305
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      38,
+      42
+    ],
+    "locationAreaId": "hoenn-victory-road-b1f",
+    "method": "walk",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      40
+    ],
+    "locationAreaId": "hoenn-victory-road-b1f",
+    "method": "rock-smash",
+    "pokemonId": 74,
+    "speciesId": 74
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      40
+    ],
+    "locationAreaId": "hoenn-victory-road-b1f",
+    "method": "rock-smash",
+    "pokemonId": 75,
+    "speciesId": 75
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      38,
+      42
+    ],
+    "locationAreaId": "hoenn-victory-road-b1f",
+    "method": "walk",
+    "pokemonId": 297,
+    "speciesId": 297
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      38,
+      38
+    ],
+    "locationAreaId": "hoenn-victory-road-b1f",
+    "method": "walk",
+    "pokemonId": 303,
+    "speciesId": 303
+  },
+  {
+    "chance": 25,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      40,
+      42
+    ],
+    "locationAreaId": "hoenn-victory-road-b1f",
+    "method": "walk",
+    "pokemonId": 305,
+    "speciesId": 305
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      40
+    ],
+    "locationAreaId": "hoenn-victory-road-b2f",
+    "method": "surf",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      40,
+      44
+    ],
+    "locationAreaId": "hoenn-victory-road-b2f",
+    "method": "walk",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-victory-road-b2f",
+    "method": "good-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-victory-road-b2f",
+    "method": "old-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-victory-road-b2f",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "hoenn-victory-road-b2f",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      40,
+      44
+    ],
+    "locationAreaId": "hoenn-victory-road-b2f",
+    "method": "walk",
+    "pokemonId": 302,
+    "speciesId": 302
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      42,
+      44
+    ],
+    "locationAreaId": "hoenn-victory-road-b2f",
+    "method": "walk",
+    "pokemonId": 303,
+    "speciesId": 303
+  },
+  {
+    "chance": 25,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      40,
+      44
+    ],
+    "locationAreaId": "hoenn-victory-road-b2f",
+    "method": "walk",
+    "pokemonId": 305,
+    "speciesId": 305
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "hoenn-victory-road-b2f",
+    "method": "good-rod",
+    "pokemonId": 339,
+    "speciesId": 339
+  },
+  {
+    "chance": 80,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      35
+    ],
+    "locationAreaId": "hoenn-victory-road-b2f",
+    "method": "super-rod",
+    "pokemonId": 339,
+    "speciesId": 339
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      45
+    ],
+    "locationAreaId": "hoenn-victory-road-b2f",
+    "method": "super-rod",
+    "pokemonId": 340,
+    "speciesId": 340
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "static",
+    "levels": [
+      40,
+      40
+    ],
+    "locationAreaId": "island-cave-area",
+    "method": "static",
+    "pokemonId": 378,
+    "speciesId": 378
+  },
+  {
+    "chance": 25,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      22
+    ],
+    "locationAreaId": "jagged-pass-area",
+    "method": "walk",
+    "pokemonId": 66,
+    "speciesId": 66
+  },
+  {
+    "chance": 55,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      22
+    ],
+    "locationAreaId": "jagged-pass-area",
+    "method": "walk",
+    "pokemonId": 322,
+    "speciesId": 322
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      22
+    ],
+    "locationAreaId": "jagged-pass-area",
+    "method": "walk",
+    "pokemonId": 325,
+    "speciesId": 325
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "gift",
+    "levels": [
+      5,
+      5
+    ],
+    "locationAreaId": "lavaridge-town-area",
+    "method": "gift-egg",
+    "pokemonId": 360,
+    "speciesId": 360
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "lilycove-city-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "lilycove-city-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "lilycove-city-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "lilycove-city-area",
+    "method": "super-rod",
+    "pokemonId": 120,
+    "speciesId": 120
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "lilycove-city-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "lilycove-city-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "lilycove-city-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "lilycove-city-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "lilycove-city-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 85,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      45
+    ],
+    "locationAreaId": "lilycove-city-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "gift",
+    "levels": [
+      5,
+      5
+    ],
+    "locationAreaId": "littleroot-town-area",
+    "method": "gift",
+    "pokemonId": 152,
+    "speciesId": 152
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "gift",
+    "levels": [
+      5,
+      5
+    ],
+    "locationAreaId": "littleroot-town-area",
+    "method": "gift",
+    "pokemonId": 155,
+    "speciesId": 155
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "gift",
+    "levels": [
+      5,
+      5
+    ],
+    "locationAreaId": "littleroot-town-area",
+    "method": "gift",
+    "pokemonId": 158,
+    "speciesId": 158
+  },
+  {
+    "chance": 55,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      27,
+      30
+    ],
+    "locationAreaId": "magma-hideout-area",
+    "method": "walk",
+    "pokemonId": 74,
+    "speciesId": 74
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      33
+    ],
+    "locationAreaId": "magma-hideout-area",
+    "method": "walk",
+    "pokemonId": 75,
+    "speciesId": 75
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      28,
+      30
+    ],
+    "locationAreaId": "magma-hideout-area",
+    "method": "walk",
+    "pokemonId": 324,
+    "speciesId": 324
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "static",
+    "levels": [
+      70,
+      70
+    ],
+    "locationAreaId": "marine-cave-area",
+    "method": "static",
+    "pokemonId": 382,
+    "speciesId": 382
+  },
+  {
+    "chance": 90,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "meteor-falls-area",
+    "method": "surf",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 80,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      14,
+      20
+    ],
+    "locationAreaId": "meteor-falls-area",
+    "method": "walk",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "meteor-falls-area",
+    "method": "good-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "meteor-falls-area",
+    "method": "old-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "meteor-falls-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "meteor-falls-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "meteor-falls-area",
+    "method": "surf",
+    "pokemonId": 338,
+    "speciesId": 338
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      14,
+      18
+    ],
+    "locationAreaId": "meteor-falls-area",
+    "method": "walk",
+    "pokemonId": 338,
+    "speciesId": 338
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "meteor-falls-area",
+    "method": "good-rod",
+    "pokemonId": 339,
+    "speciesId": 339
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "meteor-falls-area",
+    "method": "super-rod",
+    "pokemonId": 339,
+    "speciesId": 339
+  },
+  {
+    "chance": 90,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "meteor-falls-b1f",
+    "method": "surf",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 65,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      33,
+      40
+    ],
+    "locationAreaId": "meteor-falls-b1f",
+    "method": "walk",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "meteor-falls-b1f",
+    "method": "good-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "meteor-falls-b1f",
+    "method": "old-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "meteor-falls-b1f",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "meteor-falls-b1f",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "meteor-falls-b1f",
+    "method": "surf",
+    "pokemonId": 338,
+    "speciesId": 338
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      33,
+      39
+    ],
+    "locationAreaId": "meteor-falls-b1f",
+    "method": "walk",
+    "pokemonId": 338,
+    "speciesId": 338
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "meteor-falls-b1f",
+    "method": "good-rod",
+    "pokemonId": 339,
+    "speciesId": 339
+  },
+  {
+    "chance": 80,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      35
+    ],
+    "locationAreaId": "meteor-falls-b1f",
+    "method": "super-rod",
+    "pokemonId": 339,
+    "speciesId": 339
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      45
+    ],
+    "locationAreaId": "meteor-falls-b1f",
+    "method": "super-rod",
+    "pokemonId": 340,
+    "speciesId": 340
+  },
+  {
+    "chance": 90,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "meteor-falls-back",
+    "method": "surf",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 65,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      33,
+      40
+    ],
+    "locationAreaId": "meteor-falls-back",
+    "method": "walk",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "meteor-falls-back",
+    "method": "good-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "meteor-falls-back",
+    "method": "old-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "meteor-falls-back",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "meteor-falls-back",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "meteor-falls-back",
+    "method": "surf",
+    "pokemonId": 338,
+    "speciesId": 338
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      33,
+      39
+    ],
+    "locationAreaId": "meteor-falls-back",
+    "method": "walk",
+    "pokemonId": 338,
+    "speciesId": 338
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "meteor-falls-back",
+    "method": "good-rod",
+    "pokemonId": 339,
+    "speciesId": 339
+  },
+  {
+    "chance": 80,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      35
+    ],
+    "locationAreaId": "meteor-falls-back",
+    "method": "super-rod",
+    "pokemonId": 339,
+    "speciesId": 339
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      45
+    ],
+    "locationAreaId": "meteor-falls-back",
+    "method": "super-rod",
+    "pokemonId": 340,
+    "speciesId": 340
+  },
+  {
+    "chance": 90,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "meteor-falls-backsmall-room",
+    "method": "surf",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 50,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      33,
+      40
+    ],
+    "locationAreaId": "meteor-falls-backsmall-room",
+    "method": "walk",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "meteor-falls-backsmall-room",
+    "method": "good-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "meteor-falls-backsmall-room",
+    "method": "old-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "meteor-falls-backsmall-room",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "meteor-falls-backsmall-room",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "meteor-falls-backsmall-room",
+    "method": "surf",
+    "pokemonId": 338,
+    "speciesId": 338
+  },
+  {
+    "chance": 25,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      35,
+      39
+    ],
+    "locationAreaId": "meteor-falls-backsmall-room",
+    "method": "walk",
+    "pokemonId": 338,
+    "speciesId": 338
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "meteor-falls-backsmall-room",
+    "method": "good-rod",
+    "pokemonId": 339,
+    "speciesId": 339
+  },
+  {
+    "chance": 80,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      35
+    ],
+    "locationAreaId": "meteor-falls-backsmall-room",
+    "method": "super-rod",
+    "pokemonId": 339,
+    "speciesId": 339
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      45
+    ],
+    "locationAreaId": "meteor-falls-backsmall-room",
+    "method": "super-rod",
+    "pokemonId": 340,
+    "speciesId": 340
+  },
+  {
+    "chance": 25,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      35
+    ],
+    "locationAreaId": "meteor-falls-backsmall-room",
+    "method": "walk",
+    "pokemonId": 371,
+    "speciesId": 371
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      50
+    ],
+    "locationAreaId": "mirage-island-area",
+    "method": "walk",
+    "pokemonId": 360,
+    "speciesId": 360
+  },
+  {
+    "chance": 50,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      24
+    ],
+    "locationAreaId": "mirage-tower-area",
+    "method": "walk",
+    "pokemonId": 27,
+    "speciesId": 27
+  },
+  {
+    "chance": 50,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      24
+    ],
+    "locationAreaId": "mirage-tower-area",
+    "method": "walk",
+    "pokemonId": 328,
+    "speciesId": 328
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "mossdeep-city-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "mossdeep-city-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "mossdeep-city-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "mossdeep-city-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "mossdeep-city-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "mossdeep-city-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "mossdeep-city-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "mossdeep-city-area",
+    "method": "super-rod",
+    "pokemonId": 319,
+    "speciesId": 319
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "mossdeep-city-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      45
+    ],
+    "locationAreaId": "mossdeep-city-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "gift",
+    "levels": [
+      5,
+      5
+    ],
+    "locationAreaId": "mossdeep-city-stevens-house",
+    "method": "gift",
+    "pokemonId": 374,
+    "speciesId": 374
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      22,
+      29
+    ],
+    "locationAreaId": "mt-pyre-1f",
+    "method": "walk",
+    "pokemonId": 353,
+    "speciesId": 353
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      22,
+      29
+    ],
+    "locationAreaId": "mt-pyre-2f",
+    "method": "walk",
+    "pokemonId": 353,
+    "speciesId": 353
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      22,
+      29
+    ],
+    "locationAreaId": "mt-pyre-3f",
+    "method": "walk",
+    "pokemonId": 353,
+    "speciesId": 353
+  },
+  {
+    "chance": 90,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      22,
+      29
+    ],
+    "locationAreaId": "mt-pyre-4f",
+    "method": "walk",
+    "pokemonId": 353,
+    "speciesId": 353
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      29
+    ],
+    "locationAreaId": "mt-pyre-4f",
+    "method": "walk",
+    "pokemonId": 355,
+    "speciesId": 355
+  },
+  {
+    "chance": 90,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      22,
+      29
+    ],
+    "locationAreaId": "mt-pyre-5f",
+    "method": "walk",
+    "pokemonId": 353,
+    "speciesId": 353
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      29
+    ],
+    "locationAreaId": "mt-pyre-5f",
+    "method": "walk",
+    "pokemonId": 355,
+    "speciesId": 355
+  },
+  {
+    "chance": 90,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      22,
+      29
+    ],
+    "locationAreaId": "mt-pyre-6f",
+    "method": "walk",
+    "pokemonId": 353,
+    "speciesId": 353
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      29
+    ],
+    "locationAreaId": "mt-pyre-6f",
+    "method": "walk",
+    "pokemonId": 355,
+    "speciesId": 355
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      29
+    ],
+    "locationAreaId": "mt-pyre-outside",
+    "method": "walk",
+    "pokemonId": 37,
+    "speciesId": 37
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      28
+    ],
+    "locationAreaId": "mt-pyre-outside",
+    "method": "walk",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      27,
+      29
+    ],
+    "locationAreaId": "mt-pyre-outside",
+    "method": "walk",
+    "pokemonId": 353,
+    "speciesId": 353
+  },
+  {
+    "chance": 85,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      24,
+      30
+    ],
+    "locationAreaId": "mt-pyre-summit",
+    "method": "walk",
+    "pokemonId": 353,
+    "speciesId": 353
+  },
+  {
+    "chance": 13,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      30
+    ],
+    "locationAreaId": "mt-pyre-summit",
+    "method": "walk",
+    "pokemonId": 355,
+    "speciesId": 355
+  },
+  {
+    "chance": 2,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      28,
+      28
+    ],
+    "locationAreaId": "mt-pyre-summit",
+    "method": "walk",
+    "pokemonId": 358,
+    "speciesId": 358
+  },
+  {
+    "chance": 49,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      22,
+      26
+    ],
+    "locationAreaId": "new-mauville-area",
+    "method": "walk",
+    "pokemonId": 81,
+    "speciesId": 81
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      26
+    ],
+    "locationAreaId": "new-mauville-area",
+    "method": "walk",
+    "pokemonId": 82,
+    "speciesId": 82
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "static",
+    "levels": [
+      25,
+      25
+    ],
+    "locationAreaId": "new-mauville-area",
+    "method": "static",
+    "pokemonId": 100,
+    "speciesId": 100
+  },
+  {
+    "chance": 49,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      22,
+      26
+    ],
+    "locationAreaId": "new-mauville-area",
+    "method": "walk",
+    "pokemonId": 100,
+    "speciesId": 100
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "static",
+    "levels": [
+      30,
+      30
+    ],
+    "locationAreaId": "new-mauville-area",
+    "method": "static",
+    "pokemonId": 101,
+    "speciesId": 101
+  },
+  {
+    "chance": 1,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      26
+    ],
+    "locationAreaId": "new-mauville-area",
+    "method": "walk",
+    "pokemonId": 101,
+    "speciesId": 101
+  },
+  {
+    "chance": 50,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      22,
+      26
+    ],
+    "locationAreaId": "new-mauville-entrance",
+    "method": "walk",
+    "pokemonId": 81,
+    "speciesId": 81
+  },
+  {
+    "chance": 50,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      22,
+      26
+    ],
+    "locationAreaId": "new-mauville-entrance",
+    "method": "walk",
+    "pokemonId": 100,
+    "speciesId": 100
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "pacifidlog-town-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "pacifidlog-town-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "pacifidlog-town-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 100,
+    "conditions": [
+      "trade-bagon"
+    ],
+    "excluded": false,
+    "kind": "trade-ingame",
+    "levels": [
+      5,
+      100
+    ],
+    "locationAreaId": "pacifidlog-town-area",
+    "method": "npc-trade",
+    "pokemonId": 116,
+    "speciesId": 116
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "pacifidlog-town-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "pacifidlog-town-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "pacifidlog-town-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "pacifidlog-town-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "pacifidlog-town-area",
+    "method": "super-rod",
+    "pokemonId": 319,
+    "speciesId": 319
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "pacifidlog-town-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      45
+    ],
+    "locationAreaId": "pacifidlog-town-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "petalburg-city-area",
+    "method": "good-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "petalburg-city-area",
+    "method": "old-rod",
+    "pokemonId": 118,
+    "speciesId": 118
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "petalburg-city-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "petalburg-city-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "petalburg-city-area",
+    "method": "surf",
+    "pokemonId": 183,
+    "speciesId": 183
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "petalburg-city-area",
+    "method": "good-rod",
+    "pokemonId": 341,
+    "speciesId": 341
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "petalburg-city-area",
+    "method": "super-rod",
+    "pokemonId": 341,
+    "speciesId": 341
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      6
+    ],
+    "locationAreaId": "petalburg-woods-area",
+    "method": "walk",
+    "pokemonId": 261,
+    "speciesId": 261
+  },
+  {
+    "chance": 25,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      6
+    ],
+    "locationAreaId": "petalburg-woods-area",
+    "method": "walk",
+    "pokemonId": 265,
+    "speciesId": 265
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      5
+    ],
+    "locationAreaId": "petalburg-woods-area",
+    "method": "walk",
+    "pokemonId": 266,
+    "speciesId": 266
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      5
+    ],
+    "locationAreaId": "petalburg-woods-area",
+    "method": "walk",
+    "pokemonId": 268,
+    "speciesId": 268
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      6
+    ],
+    "locationAreaId": "petalburg-woods-area",
+    "method": "walk",
+    "pokemonId": 276,
+    "speciesId": 276
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      6
+    ],
+    "locationAreaId": "petalburg-woods-area",
+    "method": "walk",
+    "pokemonId": 285,
+    "speciesId": 285
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      6
+    ],
+    "locationAreaId": "petalburg-woods-area",
+    "method": "walk",
+    "pokemonId": 287,
+    "speciesId": 287
+  },
+  {
+    "chance": 25,
+    "conditions": [
+      "story-progress-hall-of-fame",
+      "tv-option-red"
+    ],
+    "excluded": false,
+    "kind": "roaming",
+    "levels": [
+      40,
+      40
+    ],
+    "locationAreaId": "roaming-hoenn-area",
+    "method": "roaming-grass",
+    "pokemonId": 380,
+    "speciesId": 380
+  },
+  {
+    "chance": 25,
+    "conditions": [],
+    "excluded": false,
+    "kind": "roaming",
+    "levels": [
+      40,
+      40
+    ],
+    "locationAreaId": "roaming-hoenn-area",
+    "method": "roaming-water",
+    "pokemonId": 380,
+    "speciesId": 380
+  },
+  {
+    "chance": 25,
+    "conditions": [
+      "story-progress-hall-of-fame",
+      "tv-option-blue"
+    ],
+    "excluded": false,
+    "kind": "roaming",
+    "levels": [
+      40,
+      40
+    ],
+    "locationAreaId": "roaming-hoenn-area",
+    "method": "roaming-grass",
+    "pokemonId": 381,
+    "speciesId": 381
+  },
+  {
+    "chance": 25,
+    "conditions": [],
+    "excluded": false,
+    "kind": "roaming",
+    "levels": [
+      40,
+      40
+    ],
+    "locationAreaId": "roaming-hoenn-area",
+    "method": "roaming-water",
+    "pokemonId": 381,
+    "speciesId": 381
+  },
+  {
+    "chance": 100,
+    "conditions": [
+      "trade-ralts"
+    ],
+    "excluded": false,
+    "kind": "trade-ingame",
+    "levels": [
+      4,
+      100
+    ],
+    "locationAreaId": "rustboro-city-area",
+    "method": "npc-trade",
+    "pokemonId": 273,
+    "speciesId": 273
+  },
+  {
+    "chance": 100,
+    "conditions": [
+      "item-root-fossil"
+    ],
+    "excluded": false,
+    "kind": "gift",
+    "levels": [
+      20,
+      20
+    ],
+    "locationAreaId": "rustboro-city-area",
+    "method": "gift",
+    "pokemonId": 345,
+    "speciesId": 345
+  },
+  {
+    "chance": 100,
+    "conditions": [
+      "item-claw-fossil"
+    ],
+    "excluded": false,
+    "kind": "gift",
+    "levels": [
+      20,
+      20
+    ],
+    "locationAreaId": "rustboro-city-area",
+    "method": "gift",
+    "pokemonId": 347,
+    "speciesId": 347
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      8
+    ],
+    "locationAreaId": "rusturf-tunnel-area",
+    "method": "walk",
+    "pokemonId": 293,
+    "speciesId": 293
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "seafloor-cavern-area",
+    "method": "surf",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 90,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      28,
+      35
+    ],
+    "locationAreaId": "seafloor-cavern-area",
+    "method": "walk",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "seafloor-cavern-area",
+    "method": "surf",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      33,
+      36
+    ],
+    "locationAreaId": "seafloor-cavern-area",
+    "method": "walk",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "seafloor-cavern-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "seafloor-cavern-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "seafloor-cavern-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "seafloor-cavern-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "seafloor-cavern-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "seafloor-cavern-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "seafloor-cavern-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 45,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      32
+    ],
+    "locationAreaId": "shoal-cave-b1f",
+    "method": "walk",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      32,
+      32
+    ],
+    "locationAreaId": "shoal-cave-b1f",
+    "method": "walk",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 50,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      32
+    ],
+    "locationAreaId": "shoal-cave-b1f",
+    "method": "walk",
+    "pokemonId": 363,
+    "speciesId": 363
+  },
+  {
+    "chance": 45,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      32
+    ],
+    "locationAreaId": "shoal-cave-b2f",
+    "method": "walk",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      32,
+      32
+    ],
+    "locationAreaId": "shoal-cave-b2f",
+    "method": "walk",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 50,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      32
+    ],
+    "locationAreaId": "shoal-cave-b2f",
+    "method": "walk",
+    "pokemonId": 363,
+    "speciesId": 363
+  },
+  {
+    "chance": 40,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      30
+    ],
+    "locationAreaId": "shoal-cave-b3f",
+    "method": "walk",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      32
+    ],
+    "locationAreaId": "shoal-cave-b3f",
+    "method": "walk",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      30
+    ],
+    "locationAreaId": "shoal-cave-b3f",
+    "method": "walk",
+    "pokemonId": 361,
+    "speciesId": 361
+  },
+  {
+    "chance": 45,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      32
+    ],
+    "locationAreaId": "shoal-cave-b3f",
+    "method": "walk",
+    "pokemonId": 363,
+    "speciesId": 363
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "shoal-cave-high-tide",
+    "method": "surf",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 45,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      32
+    ],
+    "locationAreaId": "shoal-cave-high-tide",
+    "method": "walk",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      32,
+      32
+    ],
+    "locationAreaId": "shoal-cave-high-tide",
+    "method": "walk",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "shoal-cave-high-tide",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "shoal-cave-high-tide",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "shoal-cave-high-tide",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "shoal-cave-high-tide",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "shoal-cave-high-tide",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "shoal-cave-high-tide",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "shoal-cave-high-tide",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 10,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      35
+    ],
+    "locationAreaId": "shoal-cave-high-tide",
+    "method": "surf",
+    "pokemonId": 363,
+    "speciesId": 363
+  },
+  {
+    "chance": 50,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      32
+    ],
+    "locationAreaId": "shoal-cave-high-tide",
+    "method": "walk",
+    "pokemonId": 363,
+    "speciesId": 363
+  },
+  {
+    "chance": 45,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      32
+    ],
+    "locationAreaId": "shoal-cave-low-tide",
+    "method": "walk",
+    "pokemonId": 41,
+    "speciesId": 41
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      32,
+      32
+    ],
+    "locationAreaId": "shoal-cave-low-tide",
+    "method": "walk",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 50,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      26,
+      32
+    ],
+    "locationAreaId": "shoal-cave-low-tide",
+    "method": "walk",
+    "pokemonId": 363,
+    "speciesId": 363
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      34,
+      35
+    ],
+    "locationAreaId": "sky-pillar-1f",
+    "method": "walk",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      33,
+      34
+    ],
+    "locationAreaId": "sky-pillar-1f",
+    "method": "walk",
+    "pokemonId": 302,
+    "speciesId": 302
+  },
+  {
+    "chance": 25,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      36,
+      38
+    ],
+    "locationAreaId": "sky-pillar-1f",
+    "method": "walk",
+    "pokemonId": 344,
+    "speciesId": 344
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      37,
+      38
+    ],
+    "locationAreaId": "sky-pillar-1f",
+    "method": "walk",
+    "pokemonId": 354,
+    "speciesId": 354
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      34,
+      35
+    ],
+    "locationAreaId": "sky-pillar-3f",
+    "method": "walk",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      33,
+      34
+    ],
+    "locationAreaId": "sky-pillar-3f",
+    "method": "walk",
+    "pokemonId": 302,
+    "speciesId": 302
+  },
+  {
+    "chance": 25,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      36,
+      38
+    ],
+    "locationAreaId": "sky-pillar-3f",
+    "method": "walk",
+    "pokemonId": 344,
+    "speciesId": 344
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      37,
+      38
+    ],
+    "locationAreaId": "sky-pillar-3f",
+    "method": "walk",
+    "pokemonId": 354,
+    "speciesId": 354
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      34,
+      35
+    ],
+    "locationAreaId": "sky-pillar-5f",
+    "method": "walk",
+    "pokemonId": 42,
+    "speciesId": 42
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      33,
+      34
+    ],
+    "locationAreaId": "sky-pillar-5f",
+    "method": "walk",
+    "pokemonId": 302,
+    "speciesId": 302
+  },
+  {
+    "chance": 6,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      38,
+      39
+    ],
+    "locationAreaId": "sky-pillar-5f",
+    "method": "walk",
+    "pokemonId": 334,
+    "speciesId": 334
+  },
+  {
+    "chance": 19,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      36,
+      37
+    ],
+    "locationAreaId": "sky-pillar-5f",
+    "method": "walk",
+    "pokemonId": 344,
+    "speciesId": 344
+  },
+  {
+    "chance": 15,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      37,
+      38
+    ],
+    "locationAreaId": "sky-pillar-5f",
+    "method": "walk",
+    "pokemonId": 354,
+    "speciesId": 354
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "static",
+    "levels": [
+      70,
+      70
+    ],
+    "locationAreaId": "sky-pillar-apex",
+    "method": "static",
+    "pokemonId": 384,
+    "speciesId": 384
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "slateport-city-area",
+    "method": "good-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "slateport-city-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "slateport-city-area",
+    "method": "surf",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 60,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "slateport-city-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "slateport-city-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 35,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "slateport-city-area",
+    "method": "surf",
+    "pokemonId": 278,
+    "speciesId": 278
+  },
+  {
+    "chance": 5,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      25,
+      30
+    ],
+    "locationAreaId": "slateport-city-area",
+    "method": "surf",
+    "pokemonId": 279,
+    "speciesId": 279
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "slateport-city-area",
+    "method": "good-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      20,
+      45
+    ],
+    "locationAreaId": "slateport-city-area",
+    "method": "super-rod",
+    "pokemonId": 320,
+    "speciesId": 320
+  },
+  {
+    "chance": 30,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "sootopolis-city-area",
+    "method": "old-rod",
+    "pokemonId": 72,
+    "speciesId": 72
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      10,
+      30
+    ],
+    "locationAreaId": "sootopolis-city-area",
+    "method": "good-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 70,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      10
+    ],
+    "locationAreaId": "sootopolis-city-area",
+    "method": "old-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 80,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      30,
+      35
+    ],
+    "locationAreaId": "sootopolis-city-area",
+    "method": "super-rod",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      35
+    ],
+    "locationAreaId": "sootopolis-city-area",
+    "method": "surf",
+    "pokemonId": 129,
+    "speciesId": 129
+  },
+  {
+    "chance": 20,
+    "conditions": [],
+    "excluded": false,
+    "kind": "wild",
+    "levels": [
+      5,
+      45
+    ],
+    "locationAreaId": "sootopolis-city-area",
+    "method": "super-rod",
+    "pokemonId": 130,
+    "speciesId": 130
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "static",
+    "levels": [
+      50,
+      50
+    ],
+    "locationAreaId": "southern-island-area",
+    "method": "static",
+    "pokemonId": 380,
+    "speciesId": 380
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "static",
+    "levels": [
+      50,
+      50
+    ],
+    "locationAreaId": "southern-island-area",
+    "method": "static",
+    "pokemonId": 381,
+    "speciesId": 381
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "static",
+    "levels": [
+      30,
+      30
+    ],
+    "locationAreaId": "team-aqua-hideout-area",
+    "method": "static",
+    "pokemonId": 101,
+    "speciesId": 101
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "static",
+    "levels": [
+      30,
+      30
+    ],
+    "locationAreaId": "team-magma-hideout-area",
+    "method": "static",
+    "pokemonId": 101,
+    "speciesId": 101
+  },
+  {
+    "chance": 100,
+    "conditions": [],
+    "excluded": false,
+    "kind": "static",
+    "levels": [
+      70,
+      70
+    ],
+    "locationAreaId": "terra-cave-area",
+    "method": "static",
+    "pokemonId": 383,
+    "speciesId": 383
+  }
+]

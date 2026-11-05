@@ -1,0 +1,47 @@
+{
+  "deep-sea-scale": {
+    "id": "deep-sea-scale",
+    "name": "Escama Marina",
+    "nameEn": "Deep Sea Scale"
+  },
+  "deep-sea-tooth": {
+    "id": "deep-sea-tooth",
+    "name": "Diente Marino",
+    "nameEn": "Deep Sea Tooth"
+  },
+  "dragon-scale": {
+    "id": "dragon-scale",
+    "name": "Escama Dragón",
+    "nameEn": "Dragon Scale"
+  },
+  "fire-stone": {
+    "id": "fire-stone",
+    "name": "Piedra Fuego",
+    "nameEn": "Fire Stone"
+  },
+  "leaf-stone": {
+    "id": "leaf-stone",
+    "name": "Piedra Hoja",
+    "nameEn": "Leaf Stone"
+  },
+  "moon-stone": {
+    "id": "moon-stone",
+    "name": "Piedra Lunar",
+    "nameEn": "Moon Stone"
+  },
+  "sun-stone": {
+    "id": "sun-stone",
+    "name": "Piedra Solar",
+    "nameEn": "Sun Stone"
+  },
+  "thunder-stone": {
+    "id": "thunder-stone",
+    "name": "Piedra Trueno",
+    "nameEn": "Thunder Stone"
+  },
+  "water-stone": {
+    "id": "water-stone",
+    "name": "Piedra Agua",
+    "nameEn": "Water Stone"
+  }
+}

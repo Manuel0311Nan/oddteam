@@ -58,7 +58,7 @@ Orden de construcción de la 1.0, de lo más básico a lo más completo. Cada fa
 - `scripts/build-data/fetch.ts`: cliente con caché en disco, ritmo moderado y `--fresh`.
 - `normalize.ts`: especies, tipos (con `past_types`), stats, sprites, nombres en español, cadenas evolutivas, learnsets por grupo de versiones, movimientos (con `past_values`), MT del grupo, tabla de tipos por generación.
 - Encuentros **por versión** con `chance`, método y condiciones, agregados según `02`.
-- `write.ts`: `data/generated/emerald/*`, `type-chart/3.json`, `meta.json` con `dataVersion`.
+- `write.ts`: `data/generated/emerald/*`, `type-chart/gen-3.json`, `meta.json` con `dataVersion`.
 - Un informe en consola de lo que falta (zonas sin tramo, métodos sin habilitar…), que sirve de lista de tareas para F3.
 
 **Hecho cuando:** `pnpm data:build` genera los JSON de Esmeralda desde caché en segundos, y el informe lista lo que hay que curar.
@@ -213,4 +213,5 @@ Lo aprendido en cada familia se pasa a las specs y a `decisiones.md` antes de em
 |---|---|
 | F0 | Casi lista: herramientas, estructura, tema y CI hechos (`pnpm check` y build en verde). Falta subir a GitHub, ver CI en verde y conectar Vercel. |
 | F1 | Hecha: tipos, RNG con semilla, opciones y URL (D-013), tabla de tipos y rareza, con 47 tests. |
-| F2–F10 | Pendiente |
+| F2 | Hecha: pipeline con caché y 2 fuentes (D-014), capa pokeapi de Esmeralda (246 especies, 115 zonas, 765 encuentros, 329 movimientos, 58 MT/MO) e informe de huecos (D-015). 77 tests. |
+| F3–F10 | Pendiente |
