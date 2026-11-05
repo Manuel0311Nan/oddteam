@@ -40,14 +40,19 @@ Cada equipo muestra un indicador **Esfuerzo de captura: bajo / medio / alto**, c
 ## Semilla y URL
 
 - RNG: `mulberry32`. La semilla se muestra en formato `XXXX-XXXX` (hex).
-- URL: `/{game}?s=7F3A91C2&o=<opciones codificadas>&l=<huecos fijados>`.
+- URL: `/{game}?s=7F3A91C2&o=<opciones codificadas>&l=<especies fijadas>&d=<dataVersion>`.
+  - `o`: cadena compacta y versionada (`1-6-r-u-100-a-v-264.286`: versión · tamaño · inicial · regla de tipos · interruptores · dificultad · rareza · excluidos). Implementación en `src/lib/url-state.ts`.
+  - `l`: **ids de especie** de los miembros fijados, en orden de hueco. Se guardan especies y no posiciones porque el resto del equipo depende de la semilla.
+  - `d`: `dataVersion` con la que se creó el enlace, para avisar si los datos cambiaron.
+  - Un parámetro que falta toma el valor por defecto; uno mal formado da error, nunca se adivina.
+- Estado reproducible = semilla + opciones + especies fijadas + `dataVersion` (D-013).
 - La misma URL debe reproducir el mismo equipo **mientras no cambie `dataVersion`**. Si cambió, se avisa: "Este enlace se creó con datos anteriores; el equipo puede variar".
 
 ## Acciones del usuario
 
 - **Generar**: semilla nueva y nuevo equipo completo (respetando los fijados).
 - **Fijar / desfijar** un hueco.
-- **Cambiar** un hueco: solo ese hueco, con subsemilla derivada.
+- **Cambiar** un hueco: el resto de miembros pasan a contar como fijados para esa operación y el hueco se rellena con una semilla derivada (`deriveSeed(semilla, "slot", hueco, n)`). La URL resultante lleva esa semilla y las especies fijadas, así que reproduce el equipo exacto.
 - **Copiar enlace**.
 
 ## Historial local
