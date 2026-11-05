@@ -65,3 +65,8 @@ Formato: fecha · decisión · motivo · alternativas descartadas. Las decisione
 **Decisión:** `app/`, `components/`, `lib/` y `store/` van dentro de `src/` (alias `@/*` → `src/*`), como los generó create-next-app. `data/`, `scripts/` y `specs/` quedan en la raíz.
 **Motivo:** separa el código de la web de los datos curados y los scripts de build, y no obliga a reorganizar lo generado.
 **Nota:** en las specs, `lib/…` se refiere a `src/lib/…`.
+
+### D-013 · 2026-11-05 · La URL fija especies, no posiciones
+**Decisión:** el parámetro `l` guarda los **ids de especie** de los miembros fijados, y la URL lleva además la `dataVersion` (`d`). "Cambiar" un hueco fija temporalmente al resto y usa una semilla derivada.
+**Motivo:** con solo semilla + índices de hueco, un equipo con miembros fijados de generaciones anteriores no se puede reproducir. Así cualquier enlace reproduce el equipo exacto mientras no cambien los datos.
+**Detalle:** formato en `specs/03` e implementación en `src/lib/url-state.ts`.

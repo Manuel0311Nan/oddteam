@@ -212,4 +212,5 @@ Lo aprendido en cada familia se pasa a las specs y a `decisiones.md` antes de em
 | Fase | Estado |
 |---|---|
 | F0 | Casi lista: herramientas, estructura, tema y CI hechos (`pnpm check` y build en verde). Falta subir a GitHub, ver CI en verde y conectar Vercel. |
-| F1–F10 | Pendiente |
+| F1 | Hecha: tipos, RNG con semilla, opciones y URL (D-013), tabla de tipos y rareza, con 47 tests. |
+| F2–F10 | Pendiente |
