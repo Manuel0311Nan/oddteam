@@ -1,0 +1,6256 @@
+[
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 55,
+      "defense": 30,
+      "hp": 35,
+      "specialAttack": 50,
+      "specialDefense": 40,
+      "speed": 90
+    },
+    "captureRate": 190,
+    "evolutionChainId": 10,
+    "evolvesFrom": 172,
+    "generation": 1,
+    "id": 25,
+    "legendary": false,
+    "mythical": false,
+    "name": "Pikachu",
+    "nameEn": "Pikachu",
+    "slug": "pikachu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/25.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 55,
+      "hp": 60,
+      "specialAttack": 90,
+      "specialDefense": 80,
+      "speed": 100
+    },
+    "captureRate": 75,
+    "evolutionChainId": 10,
+    "evolvesFrom": 25,
+    "generation": 1,
+    "id": 26,
+    "legendary": false,
+    "mythical": false,
+    "name": "Raichu",
+    "nameEn": "Raichu",
+    "slug": "raichu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/26.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 85,
+      "hp": 50,
+      "specialAttack": 20,
+      "specialDefense": 30,
+      "speed": 40
+    },
+    "captureRate": 255,
+    "evolutionChainId": 11,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 27,
+    "legendary": false,
+    "mythical": false,
+    "name": "Sandshrew",
+    "nameEn": "Sandshrew",
+    "slug": "sandshrew",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/27.png",
+    "typing": [
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 110,
+      "hp": 75,
+      "specialAttack": 45,
+      "specialDefense": 55,
+      "speed": 65
+    },
+    "captureRate": 90,
+    "evolutionChainId": 11,
+    "evolvesFrom": 27,
+    "generation": 1,
+    "id": 28,
+    "legendary": false,
+    "mythical": false,
+    "name": "Sandslash",
+    "nameEn": "Sandslash",
+    "slug": "sandslash",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/28.png",
+    "typing": [
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 41,
+      "defense": 40,
+      "hp": 38,
+      "specialAttack": 50,
+      "specialDefense": 65,
+      "speed": 65
+    },
+    "captureRate": 190,
+    "evolutionChainId": 15,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 37,
+    "legendary": false,
+    "mythical": false,
+    "name": "Vulpix",
+    "nameEn": "Vulpix",
+    "slug": "vulpix",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/37.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 76,
+      "defense": 75,
+      "hp": 73,
+      "specialAttack": 81,
+      "specialDefense": 100,
+      "speed": 100
+    },
+    "captureRate": 75,
+    "evolutionChainId": 15,
+    "evolvesFrom": 37,
+    "generation": 1,
+    "id": 38,
+    "legendary": false,
+    "mythical": false,
+    "name": "Ninetales",
+    "nameEn": "Ninetales",
+    "slug": "ninetales",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/38.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 20,
+      "hp": 115,
+      "specialAttack": 45,
+      "specialDefense": 25,
+      "speed": 20
+    },
+    "captureRate": 170,
+    "evolutionChainId": 16,
+    "evolvesFrom": 174,
+    "generation": 1,
+    "id": 39,
+    "legendary": false,
+    "mythical": false,
+    "name": "Jigglypuff",
+    "nameEn": "Jigglypuff",
+    "slug": "jigglypuff",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/39.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 45,
+      "hp": 140,
+      "specialAttack": 75,
+      "specialDefense": 50,
+      "speed": 45
+    },
+    "captureRate": 50,
+    "evolutionChainId": 16,
+    "evolvesFrom": 39,
+    "generation": 1,
+    "id": 40,
+    "legendary": false,
+    "mythical": false,
+    "name": "Wigglytuff",
+    "nameEn": "Wigglytuff",
+    "slug": "wigglytuff",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/40.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 35,
+      "hp": 40,
+      "specialAttack": 30,
+      "specialDefense": 40,
+      "speed": 55
+    },
+    "captureRate": 255,
+    "evolutionChainId": 17,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 41,
+    "legendary": false,
+    "mythical": false,
+    "name": "Zubat",
+    "nameEn": "Zubat",
+    "slug": "zubat",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/41.png",
+    "typing": [
+      "poison",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 70,
+      "hp": 75,
+      "specialAttack": 65,
+      "specialDefense": 75,
+      "speed": 90
+    },
+    "captureRate": 90,
+    "evolutionChainId": 17,
+    "evolvesFrom": 41,
+    "generation": 1,
+    "id": 42,
+    "legendary": false,
+    "mythical": false,
+    "name": "Golbat",
+    "nameEn": "Golbat",
+    "slug": "golbat",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/42.png",
+    "typing": [
+      "poison",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 55,
+      "hp": 45,
+      "specialAttack": 75,
+      "specialDefense": 65,
+      "speed": 30
+    },
+    "captureRate": 255,
+    "evolutionChainId": 18,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 43,
+    "legendary": false,
+    "mythical": false,
+    "name": "Oddish",
+    "nameEn": "Oddish",
+    "slug": "oddish",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/43.png",
+    "typing": [
+      "grass",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 70,
+      "hp": 60,
+      "specialAttack": 85,
+      "specialDefense": 75,
+      "speed": 40
+    },
+    "captureRate": 120,
+    "evolutionChainId": 18,
+    "evolvesFrom": 43,
+    "generation": 1,
+    "id": 44,
+    "legendary": false,
+    "mythical": false,
+    "name": "Gloom",
+    "nameEn": "Gloom",
+    "slug": "gloom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/44.png",
+    "typing": [
+      "grass",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 85,
+      "hp": 75,
+      "specialAttack": 100,
+      "specialDefense": 90,
+      "speed": 50
+    },
+    "captureRate": 45,
+    "evolutionChainId": 18,
+    "evolvesFrom": 44,
+    "generation": 1,
+    "id": 45,
+    "legendary": false,
+    "mythical": false,
+    "name": "Vileplume",
+    "nameEn": "Vileplume",
+    "slug": "vileplume",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/45.png",
+    "typing": [
+      "grass",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 35,
+      "hp": 40,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 90
+    },
+    "captureRate": 255,
+    "evolutionChainId": 22,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 52,
+    "legendary": false,
+    "mythical": false,
+    "name": "Meowth",
+    "nameEn": "Meowth",
+    "slug": "meowth",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/52.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 60,
+      "hp": 65,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 115
+    },
+    "captureRate": 90,
+    "evolutionChainId": 22,
+    "evolvesFrom": 52,
+    "generation": 1,
+    "id": 53,
+    "legendary": false,
+    "mythical": false,
+    "name": "Persian",
+    "nameEn": "Persian",
+    "slug": "persian",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/53.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 52,
+      "defense": 48,
+      "hp": 50,
+      "specialAttack": 65,
+      "specialDefense": 50,
+      "speed": 55
+    },
+    "captureRate": 190,
+    "evolutionChainId": 23,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 54,
+    "legendary": false,
+    "mythical": false,
+    "name": "Psyduck",
+    "nameEn": "Psyduck",
+    "slug": "psyduck",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/54.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 82,
+      "defense": 78,
+      "hp": 80,
+      "specialAttack": 95,
+      "specialDefense": 80,
+      "speed": 85
+    },
+    "captureRate": 75,
+    "evolutionChainId": 23,
+    "evolvesFrom": 54,
+    "generation": 1,
+    "id": 55,
+    "legendary": false,
+    "mythical": false,
+    "name": "Golduck",
+    "nameEn": "Golduck",
+    "slug": "golduck",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/55.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 20,
+      "defense": 15,
+      "hp": 25,
+      "specialAttack": 105,
+      "specialDefense": 55,
+      "speed": 90
+    },
+    "captureRate": 200,
+    "evolutionChainId": 27,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 63,
+    "legendary": false,
+    "mythical": false,
+    "name": "Abra",
+    "nameEn": "Abra",
+    "slug": "abra",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/63.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 35,
+      "defense": 30,
+      "hp": 40,
+      "specialAttack": 120,
+      "specialDefense": 70,
+      "speed": 105
+    },
+    "captureRate": 100,
+    "evolutionChainId": 27,
+    "evolvesFrom": 63,
+    "generation": 1,
+    "id": 64,
+    "legendary": false,
+    "mythical": false,
+    "name": "Kadabra",
+    "nameEn": "Kadabra",
+    "slug": "kadabra",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/64.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 45,
+      "hp": 55,
+      "specialAttack": 135,
+      "specialDefense": 85,
+      "speed": 120
+    },
+    "captureRate": 50,
+    "evolutionChainId": 27,
+    "evolvesFrom": 64,
+    "generation": 1,
+    "id": 65,
+    "legendary": false,
+    "mythical": false,
+    "name": "Alakazam",
+    "nameEn": "Alakazam",
+    "slug": "alakazam",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/65.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 50,
+      "hp": 70,
+      "specialAttack": 35,
+      "specialDefense": 35,
+      "speed": 35
+    },
+    "captureRate": 180,
+    "evolutionChainId": 28,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 66,
+    "legendary": false,
+    "mythical": false,
+    "name": "Machop",
+    "nameEn": "Machop",
+    "slug": "machop",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/66.png",
+    "typing": [
+      "fighting"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 70,
+      "hp": 80,
+      "specialAttack": 50,
+      "specialDefense": 60,
+      "speed": 45
+    },
+    "captureRate": 90,
+    "evolutionChainId": 28,
+    "evolvesFrom": 66,
+    "generation": 1,
+    "id": 67,
+    "legendary": false,
+    "mythical": false,
+    "name": "Machoke",
+    "nameEn": "Machoke",
+    "slug": "machoke",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/67.png",
+    "typing": [
+      "fighting"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 130,
+      "defense": 80,
+      "hp": 90,
+      "specialAttack": 65,
+      "specialDefense": 85,
+      "speed": 55
+    },
+    "captureRate": 45,
+    "evolutionChainId": 28,
+    "evolvesFrom": 67,
+    "generation": 1,
+    "id": 68,
+    "legendary": false,
+    "mythical": false,
+    "name": "Machamp",
+    "nameEn": "Machamp",
+    "slug": "machamp",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/68.png",
+    "typing": [
+      "fighting"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 40,
+      "defense": 35,
+      "hp": 40,
+      "specialAttack": 50,
+      "specialDefense": 100,
+      "speed": 70
+    },
+    "captureRate": 190,
+    "evolutionChainId": 30,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 72,
+    "legendary": false,
+    "mythical": false,
+    "name": "Tentacool",
+    "nameEn": "Tentacool",
+    "slug": "tentacool",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/72.png",
+    "typing": [
+      "water",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 65,
+      "hp": 80,
+      "specialAttack": 80,
+      "specialDefense": 120,
+      "speed": 100
+    },
+    "captureRate": 60,
+    "evolutionChainId": 30,
+    "evolvesFrom": 72,
+    "generation": 1,
+    "id": 73,
+    "legendary": false,
+    "mythical": false,
+    "name": "Tentacruel",
+    "nameEn": "Tentacruel",
+    "slug": "tentacruel",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/73.png",
+    "typing": [
+      "water",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 100,
+      "hp": 40,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 20
+    },
+    "captureRate": 255,
+    "evolutionChainId": 31,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 74,
+    "legendary": false,
+    "mythical": false,
+    "name": "Geodude",
+    "nameEn": "Geodude",
+    "slug": "geodude",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/74.png",
+    "typing": [
+      "rock",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 95,
+      "defense": 115,
+      "hp": 55,
+      "specialAttack": 45,
+      "specialDefense": 45,
+      "speed": 35
+    },
+    "captureRate": 120,
+    "evolutionChainId": 31,
+    "evolvesFrom": 74,
+    "generation": 1,
+    "id": 75,
+    "legendary": false,
+    "mythical": false,
+    "name": "Graveler",
+    "nameEn": "Graveler",
+    "slug": "graveler",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/75.png",
+    "typing": [
+      "rock",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 110,
+      "defense": 130,
+      "hp": 80,
+      "specialAttack": 55,
+      "specialDefense": 65,
+      "speed": 45
+    },
+    "captureRate": 45,
+    "evolutionChainId": 31,
+    "evolvesFrom": 75,
+    "generation": 1,
+    "id": 76,
+    "legendary": false,
+    "mythical": false,
+    "name": "Golem",
+    "nameEn": "Golem",
+    "slug": "golem",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/76.png",
+    "typing": [
+      "rock",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 35,
+      "defense": 70,
+      "hp": 25,
+      "specialAttack": 95,
+      "specialDefense": 55,
+      "speed": 45
+    },
+    "captureRate": 190,
+    "evolutionChainId": 34,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 81,
+    "legendary": false,
+    "mythical": false,
+    "name": "Magnemite",
+    "nameEn": "Magnemite",
+    "slug": "magnemite",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/81.png",
+    "typing": [
+      "electric",
+      "steel"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 95,
+      "hp": 50,
+      "specialAttack": 120,
+      "specialDefense": 70,
+      "speed": 70
+    },
+    "captureRate": 60,
+    "evolutionChainId": 34,
+    "evolvesFrom": 81,
+    "generation": 1,
+    "id": 82,
+    "legendary": false,
+    "mythical": false,
+    "name": "Magneton",
+    "nameEn": "Magneton",
+    "slug": "magneton",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/82.png",
+    "typing": [
+      "electric",
+      "steel"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 45,
+      "hp": 35,
+      "specialAttack": 35,
+      "specialDefense": 35,
+      "speed": 75
+    },
+    "captureRate": 190,
+    "evolutionChainId": 36,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 84,
+    "legendary": false,
+    "mythical": false,
+    "name": "Doduo",
+    "nameEn": "Doduo",
+    "slug": "doduo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/84.png",
+    "typing": [
+      "normal",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 110,
+      "defense": 70,
+      "hp": 60,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 100
+    },
+    "captureRate": 45,
+    "evolutionChainId": 36,
+    "evolvesFrom": 84,
+    "generation": 1,
+    "id": 85,
+    "legendary": false,
+    "mythical": false,
+    "name": "Dodrio",
+    "nameEn": "Dodrio",
+    "slug": "dodrio",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/85.png",
+    "typing": [
+      "normal",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 50,
+      "hp": 80,
+      "specialAttack": 40,
+      "specialDefense": 50,
+      "speed": 25
+    },
+    "captureRate": 190,
+    "evolutionChainId": 38,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 88,
+    "legendary": false,
+    "mythical": false,
+    "name": "Grimer",
+    "nameEn": "Grimer",
+    "slug": "grimer",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/88.png",
+    "typing": [
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 105,
+      "defense": 75,
+      "hp": 105,
+      "specialAttack": 65,
+      "specialDefense": 100,
+      "speed": 50
+    },
+    "captureRate": 75,
+    "evolutionChainId": 38,
+    "evolvesFrom": 88,
+    "generation": 1,
+    "id": 89,
+    "legendary": false,
+    "mythical": false,
+    "name": "Muk",
+    "nameEn": "Muk",
+    "slug": "muk",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/89.png",
+    "typing": [
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 30,
+      "defense": 50,
+      "hp": 40,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 100
+    },
+    "captureRate": 190,
+    "evolutionChainId": 44,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 100,
+    "legendary": false,
+    "mythical": false,
+    "name": "Voltorb",
+    "nameEn": "Voltorb",
+    "slug": "voltorb",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/100.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 70,
+      "hp": 60,
+      "specialAttack": 80,
+      "specialDefense": 80,
+      "speed": 140
+    },
+    "captureRate": 60,
+    "evolutionChainId": 44,
+    "evolvesFrom": 100,
+    "generation": 1,
+    "id": 101,
+    "legendary": false,
+    "mythical": false,
+    "name": "Electrode",
+    "nameEn": "Electrode",
+    "slug": "electrode",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/101.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 95,
+      "hp": 40,
+      "specialAttack": 60,
+      "specialDefense": 45,
+      "speed": 35
+    },
+    "captureRate": 190,
+    "evolutionChainId": 49,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 109,
+    "legendary": false,
+    "mythical": false,
+    "name": "Koffing",
+    "nameEn": "Koffing",
+    "slug": "koffing",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/109.png",
+    "typing": [
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 120,
+      "hp": 65,
+      "specialAttack": 85,
+      "specialDefense": 70,
+      "speed": 60
+    },
+    "captureRate": 60,
+    "evolutionChainId": 49,
+    "evolvesFrom": 109,
+    "generation": 1,
+    "id": 110,
+    "legendary": false,
+    "mythical": false,
+    "name": "Weezing",
+    "nameEn": "Weezing",
+    "slug": "weezing",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/110.png",
+    "typing": [
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 95,
+      "hp": 80,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 25
+    },
+    "captureRate": 120,
+    "evolutionChainId": 50,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 111,
+    "legendary": false,
+    "mythical": false,
+    "name": "Rhyhorn",
+    "nameEn": "Rhyhorn",
+    "slug": "rhyhorn",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/111.png",
+    "typing": [
+      "ground",
+      "rock"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 130,
+      "defense": 120,
+      "hp": 105,
+      "specialAttack": 45,
+      "specialDefense": 45,
+      "speed": 40
+    },
+    "captureRate": 60,
+    "evolutionChainId": 50,
+    "evolvesFrom": 111,
+    "generation": 1,
+    "id": 112,
+    "legendary": false,
+    "mythical": false,
+    "name": "Rhydon",
+    "nameEn": "Rhydon",
+    "slug": "rhydon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/112.png",
+    "typing": [
+      "ground",
+      "rock"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 40,
+      "defense": 70,
+      "hp": 30,
+      "specialAttack": 70,
+      "specialDefense": 25,
+      "speed": 60
+    },
+    "captureRate": 225,
+    "evolutionChainId": 54,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 116,
+    "legendary": false,
+    "mythical": false,
+    "name": "Horsea",
+    "nameEn": "Horsea",
+    "slug": "horsea",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/116.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 95,
+      "hp": 55,
+      "specialAttack": 95,
+      "specialDefense": 45,
+      "speed": 85
+    },
+    "captureRate": 75,
+    "evolutionChainId": 54,
+    "evolvesFrom": 116,
+    "generation": 1,
+    "id": 117,
+    "legendary": false,
+    "mythical": false,
+    "name": "Seadra",
+    "nameEn": "Seadra",
+    "slug": "seadra",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/117.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 67,
+      "defense": 60,
+      "hp": 45,
+      "specialAttack": 35,
+      "specialDefense": 50,
+      "speed": 63
+    },
+    "captureRate": 225,
+    "evolutionChainId": 55,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 118,
+    "legendary": false,
+    "mythical": false,
+    "name": "Goldeen",
+    "nameEn": "Goldeen",
+    "slug": "goldeen",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/118.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 92,
+      "defense": 65,
+      "hp": 80,
+      "specialAttack": 65,
+      "specialDefense": 80,
+      "speed": 68
+    },
+    "captureRate": 60,
+    "evolutionChainId": 55,
+    "evolvesFrom": 118,
+    "generation": 1,
+    "id": 119,
+    "legendary": false,
+    "mythical": false,
+    "name": "Seaking",
+    "nameEn": "Seaking",
+    "slug": "seaking",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/119.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 55,
+      "hp": 30,
+      "specialAttack": 70,
+      "specialDefense": 55,
+      "speed": 85
+    },
+    "captureRate": 225,
+    "evolutionChainId": 56,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 120,
+    "legendary": false,
+    "mythical": false,
+    "name": "Staryu",
+    "nameEn": "Staryu",
+    "slug": "staryu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/120.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 85,
+      "hp": 60,
+      "specialAttack": 100,
+      "specialDefense": 85,
+      "speed": 115
+    },
+    "captureRate": 60,
+    "evolutionChainId": 56,
+    "evolvesFrom": 120,
+    "generation": 1,
+    "id": 121,
+    "legendary": false,
+    "mythical": false,
+    "name": "Starmie",
+    "nameEn": "Starmie",
+    "slug": "starmie",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/121.png",
+    "typing": [
+      "water",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 125,
+      "defense": 100,
+      "hp": 65,
+      "specialAttack": 55,
+      "specialDefense": 70,
+      "speed": 85
+    },
+    "captureRate": 45,
+    "evolutionChainId": 62,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 127,
+    "legendary": false,
+    "mythical": false,
+    "name": "Pinsir",
+    "nameEn": "Pinsir",
+    "slug": "pinsir",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/127.png",
+    "typing": [
+      "bug"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 10,
+      "defense": 55,
+      "hp": 20,
+      "specialAttack": 15,
+      "specialDefense": 20,
+      "speed": 80
+    },
+    "captureRate": 255,
+    "evolutionChainId": 64,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 129,
+    "legendary": false,
+    "mythical": false,
+    "name": "Magikarp",
+    "nameEn": "Magikarp",
+    "slug": "magikarp",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/129.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 125,
+      "defense": 79,
+      "hp": 95,
+      "specialAttack": 60,
+      "specialDefense": 100,
+      "speed": 81
+    },
+    "captureRate": 45,
+    "evolutionChainId": 64,
+    "evolvesFrom": 129,
+    "generation": 1,
+    "id": 130,
+    "legendary": false,
+    "mythical": false,
+    "name": "Gyarados",
+    "nameEn": "Gyarados",
+    "slug": "gyarados",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/130.png",
+    "typing": [
+      "water",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 48,
+      "defense": 48,
+      "hp": 48,
+      "specialAttack": 48,
+      "specialDefense": 48,
+      "speed": 48
+    },
+    "captureRate": 35,
+    "evolutionChainId": 66,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 132,
+    "legendary": false,
+    "mythical": false,
+    "name": "Ditto",
+    "nameEn": "Ditto",
+    "slug": "ditto",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/132.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 100,
+      "hp": 100,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 100
+    },
+    "captureRate": 45,
+    "evolutionChainId": 78,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 151,
+    "legendary": false,
+    "mythical": true,
+    "name": "Mew",
+    "nameEn": "Mew",
+    "slug": "mew",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/151.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 49,
+      "defense": 65,
+      "hp": 45,
+      "specialAttack": 49,
+      "specialDefense": 65,
+      "speed": 45
+    },
+    "captureRate": 45,
+    "evolutionChainId": 79,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 152,
+    "legendary": false,
+    "mythical": false,
+    "name": "Chikorita",
+    "nameEn": "Chikorita",
+    "slug": "chikorita",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/152.png",
+    "typing": [
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 62,
+      "defense": 80,
+      "hp": 60,
+      "specialAttack": 63,
+      "specialDefense": 80,
+      "speed": 60
+    },
+    "captureRate": 45,
+    "evolutionChainId": 79,
+    "evolvesFrom": 152,
+    "generation": 2,
+    "id": 153,
+    "legendary": false,
+    "mythical": false,
+    "name": "Bayleef",
+    "nameEn": "Bayleef",
+    "slug": "bayleef",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/153.png",
+    "typing": [
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 82,
+      "defense": 100,
+      "hp": 80,
+      "specialAttack": 83,
+      "specialDefense": 100,
+      "speed": 80
+    },
+    "captureRate": 45,
+    "evolutionChainId": 79,
+    "evolvesFrom": 153,
+    "generation": 2,
+    "id": 154,
+    "legendary": false,
+    "mythical": false,
+    "name": "Meganium",
+    "nameEn": "Meganium",
+    "slug": "meganium",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/154.png",
+    "typing": [
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 52,
+      "defense": 43,
+      "hp": 39,
+      "specialAttack": 60,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "captureRate": 45,
+    "evolutionChainId": 80,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 155,
+    "legendary": false,
+    "mythical": false,
+    "name": "Cyndaquil",
+    "nameEn": "Cyndaquil",
+    "slug": "cyndaquil",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/155.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 64,
+      "defense": 58,
+      "hp": 58,
+      "specialAttack": 80,
+      "specialDefense": 65,
+      "speed": 80
+    },
+    "captureRate": 45,
+    "evolutionChainId": 80,
+    "evolvesFrom": 155,
+    "generation": 2,
+    "id": 156,
+    "legendary": false,
+    "mythical": false,
+    "name": "Quilava",
+    "nameEn": "Quilava",
+    "slug": "quilava",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/156.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 84,
+      "defense": 78,
+      "hp": 78,
+      "specialAttack": 109,
+      "specialDefense": 85,
+      "speed": 100
+    },
+    "captureRate": 45,
+    "evolutionChainId": 80,
+    "evolvesFrom": 156,
+    "generation": 2,
+    "id": 157,
+    "legendary": false,
+    "mythical": false,
+    "name": "Typhlosion",
+    "nameEn": "Typhlosion",
+    "slug": "typhlosion",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/157.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 64,
+      "hp": 50,
+      "specialAttack": 44,
+      "specialDefense": 48,
+      "speed": 43
+    },
+    "captureRate": 45,
+    "evolutionChainId": 81,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 158,
+    "legendary": false,
+    "mythical": false,
+    "name": "Totodile",
+    "nameEn": "Totodile",
+    "slug": "totodile",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/158.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 80,
+      "hp": 65,
+      "specialAttack": 59,
+      "specialDefense": 63,
+      "speed": 58
+    },
+    "captureRate": 45,
+    "evolutionChainId": 81,
+    "evolvesFrom": 158,
+    "generation": 2,
+    "id": 159,
+    "legendary": false,
+    "mythical": false,
+    "name": "Croconaw",
+    "nameEn": "Croconaw",
+    "slug": "croconaw",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/159.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 105,
+      "defense": 100,
+      "hp": 85,
+      "specialAttack": 79,
+      "specialDefense": 83,
+      "speed": 78
+    },
+    "captureRate": 45,
+    "evolutionChainId": 81,
+    "evolvesFrom": 159,
+    "generation": 2,
+    "id": 160,
+    "legendary": false,
+    "mythical": false,
+    "name": "Feraligatr",
+    "nameEn": "Feraligatr",
+    "slug": "feraligatr",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/160.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 30,
+      "defense": 30,
+      "hp": 60,
+      "specialAttack": 36,
+      "specialDefense": 56,
+      "speed": 50
+    },
+    "captureRate": 255,
+    "evolutionChainId": 83,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 163,
+    "legendary": false,
+    "mythical": false,
+    "name": "Hoothoot",
+    "nameEn": "Hoothoot",
+    "slug": "hoothoot",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/163.png",
+    "typing": [
+      "normal",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 50,
+      "hp": 100,
+      "specialAttack": 76,
+      "specialDefense": 96,
+      "speed": 70
+    },
+    "captureRate": 90,
+    "evolutionChainId": 83,
+    "evolvesFrom": 163,
+    "generation": 2,
+    "id": 164,
+    "legendary": false,
+    "mythical": false,
+    "name": "Noctowl",
+    "nameEn": "Noctowl",
+    "slug": "noctowl",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/164.png",
+    "typing": [
+      "normal",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 20,
+      "defense": 30,
+      "hp": 40,
+      "specialAttack": 40,
+      "specialDefense": 80,
+      "speed": 55
+    },
+    "captureRate": 255,
+    "evolutionChainId": 84,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 165,
+    "legendary": false,
+    "mythical": false,
+    "name": "Ledyba",
+    "nameEn": "Ledyba",
+    "slug": "ledyba",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/165.png",
+    "typing": [
+      "bug",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 35,
+      "defense": 50,
+      "hp": 55,
+      "specialAttack": 55,
+      "specialDefense": 110,
+      "speed": 85
+    },
+    "captureRate": 90,
+    "evolutionChainId": 84,
+    "evolvesFrom": 165,
+    "generation": 2,
+    "id": 166,
+    "legendary": false,
+    "mythical": false,
+    "name": "Ledian",
+    "nameEn": "Ledian",
+    "slug": "ledian",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/166.png",
+    "typing": [
+      "bug",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 40,
+      "hp": 40,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 30
+    },
+    "captureRate": 255,
+    "evolutionChainId": 85,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 167,
+    "legendary": false,
+    "mythical": false,
+    "name": "Spinarak",
+    "nameEn": "Spinarak",
+    "slug": "spinarak",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/167.png",
+    "typing": [
+      "bug",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 70,
+      "hp": 70,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 40
+    },
+    "captureRate": 90,
+    "evolutionChainId": 85,
+    "evolvesFrom": 167,
+    "generation": 2,
+    "id": 168,
+    "legendary": false,
+    "mythical": false,
+    "name": "Ariados",
+    "nameEn": "Ariados",
+    "slug": "ariados",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/168.png",
+    "typing": [
+      "bug",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 80,
+      "hp": 85,
+      "specialAttack": 70,
+      "specialDefense": 80,
+      "speed": 130
+    },
+    "captureRate": 90,
+    "evolutionChainId": 17,
+    "evolvesFrom": 42,
+    "generation": 2,
+    "id": 169,
+    "legendary": false,
+    "mythical": false,
+    "name": "Crobat",
+    "nameEn": "Crobat",
+    "slug": "crobat",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/169.png",
+    "typing": [
+      "poison",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 38,
+      "defense": 38,
+      "hp": 75,
+      "specialAttack": 56,
+      "specialDefense": 56,
+      "speed": 67
+    },
+    "captureRate": 190,
+    "evolutionChainId": 86,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 170,
+    "legendary": false,
+    "mythical": false,
+    "name": "Chinchou",
+    "nameEn": "Chinchou",
+    "slug": "chinchou",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/170.png",
+    "typing": [
+      "water",
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 58,
+      "defense": 58,
+      "hp": 125,
+      "specialAttack": 76,
+      "specialDefense": 76,
+      "speed": 67
+    },
+    "captureRate": 75,
+    "evolutionChainId": 86,
+    "evolvesFrom": 170,
+    "generation": 2,
+    "id": 171,
+    "legendary": false,
+    "mythical": false,
+    "name": "Lanturn",
+    "nameEn": "Lanturn",
+    "slug": "lanturn",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/171.png",
+    "typing": [
+      "water",
+      "electric"
+    ]
+  },
+  {
+    "baby": true,
+    "baseStats": {
+      "attack": 40,
+      "defense": 15,
+      "hp": 20,
+      "specialAttack": 35,
+      "specialDefense": 35,
+      "speed": 60
+    },
+    "captureRate": 190,
+    "evolutionChainId": 10,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 172,
+    "legendary": false,
+    "mythical": false,
+    "name": "Pichu",
+    "nameEn": "Pichu",
+    "slug": "pichu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/172.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": true,
+    "baseStats": {
+      "attack": 30,
+      "defense": 15,
+      "hp": 90,
+      "specialAttack": 40,
+      "specialDefense": 20,
+      "speed": 15
+    },
+    "captureRate": 170,
+    "evolutionChainId": 16,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 174,
+    "legendary": false,
+    "mythical": false,
+    "name": "Igglybuff",
+    "nameEn": "Igglybuff",
+    "slug": "igglybuff",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/174.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 45,
+      "hp": 40,
+      "specialAttack": 70,
+      "specialDefense": 45,
+      "speed": 70
+    },
+    "captureRate": 190,
+    "evolutionChainId": 88,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 177,
+    "legendary": false,
+    "mythical": false,
+    "name": "Natu",
+    "nameEn": "Natu",
+    "slug": "natu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/177.png",
+    "typing": [
+      "psychic",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 70,
+      "hp": 65,
+      "specialAttack": 95,
+      "specialDefense": 70,
+      "speed": 95
+    },
+    "captureRate": 75,
+    "evolutionChainId": 88,
+    "evolvesFrom": 177,
+    "generation": 2,
+    "id": 178,
+    "legendary": false,
+    "mythical": false,
+    "name": "Xatu",
+    "nameEn": "Xatu",
+    "slug": "xatu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/178.png",
+    "typing": [
+      "psychic",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 40,
+      "defense": 40,
+      "hp": 55,
+      "specialAttack": 65,
+      "specialDefense": 45,
+      "speed": 35
+    },
+    "captureRate": 235,
+    "evolutionChainId": 89,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 179,
+    "legendary": false,
+    "mythical": false,
+    "name": "Mareep",
+    "nameEn": "Mareep",
+    "slug": "mareep",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/179.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 55,
+      "defense": 55,
+      "hp": 70,
+      "specialAttack": 80,
+      "specialDefense": 60,
+      "speed": 45
+    },
+    "captureRate": 120,
+    "evolutionChainId": 89,
+    "evolvesFrom": 179,
+    "generation": 2,
+    "id": 180,
+    "legendary": false,
+    "mythical": false,
+    "name": "Flaaffy",
+    "nameEn": "Flaaffy",
+    "slug": "flaaffy",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/180.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 75,
+      "hp": 90,
+      "specialAttack": 115,
+      "specialDefense": 90,
+      "speed": 55
+    },
+    "captureRate": 45,
+    "evolutionChainId": 89,
+    "evolvesFrom": 180,
+    "generation": 2,
+    "id": 181,
+    "legendary": false,
+    "mythical": false,
+    "name": "Ampharos",
+    "nameEn": "Ampharos",
+    "slug": "ampharos",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/181.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 85,
+      "hp": 75,
+      "specialAttack": 90,
+      "specialDefense": 100,
+      "speed": 50
+    },
+    "captureRate": 45,
+    "evolutionChainId": 18,
+    "evolvesFrom": 44,
+    "generation": 2,
+    "id": 182,
+    "legendary": false,
+    "mythical": false,
+    "name": "Bellossom",
+    "nameEn": "Bellossom",
+    "slug": "bellossom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/182.png",
+    "typing": [
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 20,
+      "defense": 50,
+      "hp": 70,
+      "specialAttack": 20,
+      "specialDefense": 50,
+      "speed": 40
+    },
+    "captureRate": 190,
+    "evolutionChainId": 90,
+    "evolvesFrom": 298,
+    "generation": 2,
+    "id": 183,
+    "legendary": false,
+    "mythical": false,
+    "name": "Marill",
+    "nameEn": "Marill",
+    "slug": "marill",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/183.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 80,
+      "hp": 100,
+      "specialAttack": 50,
+      "specialDefense": 80,
+      "speed": 50
+    },
+    "captureRate": 75,
+    "evolutionChainId": 90,
+    "evolvesFrom": 183,
+    "generation": 2,
+    "id": 184,
+    "legendary": false,
+    "mythical": false,
+    "name": "Azumarill",
+    "nameEn": "Azumarill",
+    "slug": "azumarill",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/184.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 115,
+      "hp": 70,
+      "specialAttack": 30,
+      "specialDefense": 65,
+      "speed": 30
+    },
+    "captureRate": 65,
+    "evolutionChainId": 91,
+    "evolvesFrom": 438,
+    "generation": 2,
+    "id": 185,
+    "legendary": false,
+    "mythical": false,
+    "name": "Sudowoodo",
+    "nameEn": "Sudowoodo",
+    "slug": "sudowoodo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/185.png",
+    "typing": [
+      "rock"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 55,
+      "hp": 55,
+      "specialAttack": 40,
+      "specialDefense": 55,
+      "speed": 85
+    },
+    "captureRate": 45,
+    "evolutionChainId": 93,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 190,
+    "legendary": false,
+    "mythical": false,
+    "name": "Aipom",
+    "nameEn": "Aipom",
+    "slug": "aipom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/190.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 30,
+      "defense": 30,
+      "hp": 30,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 30
+    },
+    "captureRate": 235,
+    "evolutionChainId": 94,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 191,
+    "legendary": false,
+    "mythical": false,
+    "name": "Sunkern",
+    "nameEn": "Sunkern",
+    "slug": "sunkern",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/191.png",
+    "typing": [
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 55,
+      "hp": 75,
+      "specialAttack": 105,
+      "specialDefense": 85,
+      "speed": 30
+    },
+    "captureRate": 120,
+    "evolutionChainId": 94,
+    "evolvesFrom": 191,
+    "generation": 2,
+    "id": 192,
+    "legendary": false,
+    "mythical": false,
+    "name": "Sunflora",
+    "nameEn": "Sunflora",
+    "slug": "sunflora",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/192.png",
+    "typing": [
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 45,
+      "hp": 55,
+      "specialAttack": 25,
+      "specialDefense": 25,
+      "speed": 15
+    },
+    "captureRate": 255,
+    "evolutionChainId": 96,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 194,
+    "legendary": false,
+    "mythical": false,
+    "name": "Wooper",
+    "nameEn": "Wooper",
+    "slug": "wooper",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/194.png",
+    "typing": [
+      "water",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 85,
+      "hp": 95,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 35
+    },
+    "captureRate": 90,
+    "evolutionChainId": 96,
+    "evolvesFrom": 194,
+    "generation": 2,
+    "id": 195,
+    "legendary": false,
+    "mythical": false,
+    "name": "Quagsire",
+    "nameEn": "Quagsire",
+    "slug": "quagsire",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/195.png",
+    "typing": [
+      "water",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 33,
+      "defense": 58,
+      "hp": 190,
+      "specialAttack": 33,
+      "specialDefense": 58,
+      "speed": 33
+    },
+    "captureRate": 45,
+    "evolutionChainId": 100,
+    "evolvesFrom": 360,
+    "generation": 2,
+    "id": 202,
+    "legendary": false,
+    "mythical": false,
+    "name": "Wobbuffet",
+    "nameEn": "Wobbuffet",
+    "slug": "wobbuffet",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/202.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 65,
+      "hp": 70,
+      "specialAttack": 90,
+      "specialDefense": 65,
+      "speed": 85
+    },
+    "captureRate": 60,
+    "evolutionChainId": 101,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 203,
+    "legendary": false,
+    "mythical": false,
+    "name": "Girafarig",
+    "nameEn": "Girafarig",
+    "slug": "girafarig",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/203.png",
+    "typing": [
+      "normal",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 90,
+      "hp": 50,
+      "specialAttack": 35,
+      "specialDefense": 35,
+      "speed": 15
+    },
+    "captureRate": 190,
+    "evolutionChainId": 102,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 204,
+    "legendary": false,
+    "mythical": false,
+    "name": "Pineco",
+    "nameEn": "Pineco",
+    "slug": "pineco",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/204.png",
+    "typing": [
+      "bug"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 140,
+      "hp": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 40
+    },
+    "captureRate": 75,
+    "evolutionChainId": 102,
+    "evolvesFrom": 204,
+    "generation": 2,
+    "id": 205,
+    "legendary": false,
+    "mythical": false,
+    "name": "Forretress",
+    "nameEn": "Forretress",
+    "slug": "forretress",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/205.png",
+    "typing": [
+      "bug",
+      "steel"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 105,
+      "hp": 65,
+      "specialAttack": 35,
+      "specialDefense": 65,
+      "speed": 85
+    },
+    "captureRate": 60,
+    "evolutionChainId": 104,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 207,
+    "legendary": false,
+    "mythical": false,
+    "name": "Gligar",
+    "nameEn": "Gligar",
+    "slug": "gligar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/207.png",
+    "typing": [
+      "ground",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 50,
+      "hp": 60,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 30
+    },
+    "captureRate": 190,
+    "evolutionChainId": 105,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 209,
+    "legendary": false,
+    "mythical": false,
+    "name": "Snubbull",
+    "nameEn": "Snubbull",
+    "slug": "snubbull",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/209.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 120,
+      "defense": 75,
+      "hp": 90,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 45
+    },
+    "captureRate": 75,
+    "evolutionChainId": 105,
+    "evolvesFrom": 209,
+    "generation": 2,
+    "id": 210,
+    "legendary": false,
+    "mythical": false,
+    "name": "Granbull",
+    "nameEn": "Granbull",
+    "slug": "granbull",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/210.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 10,
+      "defense": 230,
+      "hp": 20,
+      "specialAttack": 10,
+      "specialDefense": 230,
+      "speed": 5
+    },
+    "captureRate": 190,
+    "evolutionChainId": 107,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 213,
+    "legendary": false,
+    "mythical": false,
+    "name": "Shuckle",
+    "nameEn": "Shuckle",
+    "slug": "shuckle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/213.png",
+    "typing": [
+      "bug",
+      "rock"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 125,
+      "defense": 75,
+      "hp": 80,
+      "specialAttack": 40,
+      "specialDefense": 95,
+      "speed": 85
+    },
+    "captureRate": 45,
+    "evolutionChainId": 108,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 214,
+    "legendary": false,
+    "mythical": false,
+    "name": "Heracross",
+    "nameEn": "Heracross",
+    "slug": "heracross",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/214.png",
+    "typing": [
+      "bug",
+      "fighting"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 50,
+      "hp": 60,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 40
+    },
+    "captureRate": 120,
+    "evolutionChainId": 110,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 216,
+    "legendary": false,
+    "mythical": false,
+    "name": "Teddiursa",
+    "nameEn": "Teddiursa",
+    "slug": "teddiursa",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/216.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 130,
+      "defense": 75,
+      "hp": 90,
+      "specialAttack": 75,
+      "specialDefense": 75,
+      "speed": 55
+    },
+    "captureRate": 60,
+    "evolutionChainId": 110,
+    "evolvesFrom": 216,
+    "generation": 2,
+    "id": 217,
+    "legendary": false,
+    "mythical": false,
+    "name": "Ursaring",
+    "nameEn": "Ursaring",
+    "slug": "ursaring",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/217.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 40,
+      "defense": 40,
+      "hp": 40,
+      "specialAttack": 70,
+      "specialDefense": 40,
+      "speed": 20
+    },
+    "captureRate": 190,
+    "evolutionChainId": 111,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 218,
+    "legendary": false,
+    "mythical": false,
+    "name": "Slugma",
+    "nameEn": "Slugma",
+    "slug": "slugma",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/218.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 120,
+      "hp": 50,
+      "specialAttack": 80,
+      "specialDefense": 80,
+      "speed": 30
+    },
+    "captureRate": 75,
+    "evolutionChainId": 111,
+    "evolvesFrom": 218,
+    "generation": 2,
+    "id": 219,
+    "legendary": false,
+    "mythical": false,
+    "name": "Magcargo",
+    "nameEn": "Magcargo",
+    "slug": "magcargo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/219.png",
+    "typing": [
+      "fire",
+      "rock"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 55,
+      "defense": 85,
+      "hp": 55,
+      "specialAttack": 65,
+      "specialDefense": 85,
+      "speed": 35
+    },
+    "captureRate": 60,
+    "evolutionChainId": 113,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 222,
+    "legendary": false,
+    "mythical": false,
+    "name": "Corsola",
+    "nameEn": "Corsola",
+    "slug": "corsola",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/222.png",
+    "typing": [
+      "water",
+      "rock"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 35,
+      "hp": 35,
+      "specialAttack": 65,
+      "specialDefense": 35,
+      "speed": 65
+    },
+    "captureRate": 190,
+    "evolutionChainId": 114,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 223,
+    "legendary": false,
+    "mythical": false,
+    "name": "Remoraid",
+    "nameEn": "Remoraid",
+    "slug": "remoraid",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/223.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 105,
+      "defense": 75,
+      "hp": 75,
+      "specialAttack": 105,
+      "specialDefense": 75,
+      "speed": 45
+    },
+    "captureRate": 75,
+    "evolutionChainId": 114,
+    "evolvesFrom": 223,
+    "generation": 2,
+    "id": 224,
+    "legendary": false,
+    "mythical": false,
+    "name": "Octillery",
+    "nameEn": "Octillery",
+    "slug": "octillery",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/224.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 140,
+      "hp": 65,
+      "specialAttack": 40,
+      "specialDefense": 70,
+      "speed": 70
+    },
+    "captureRate": 25,
+    "evolutionChainId": 117,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 227,
+    "legendary": false,
+    "mythical": false,
+    "name": "Skarmory",
+    "nameEn": "Skarmory",
+    "slug": "skarmory",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/227.png",
+    "typing": [
+      "steel",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 30,
+      "hp": 45,
+      "specialAttack": 80,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "captureRate": 120,
+    "evolutionChainId": 118,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 228,
+    "legendary": false,
+    "mythical": false,
+    "name": "Houndour",
+    "nameEn": "Houndour",
+    "slug": "houndour",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/228.png",
+    "typing": [
+      "dark",
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 50,
+      "hp": 75,
+      "specialAttack": 110,
+      "specialDefense": 80,
+      "speed": 95
+    },
+    "captureRate": 45,
+    "evolutionChainId": 118,
+    "evolvesFrom": 228,
+    "generation": 2,
+    "id": 229,
+    "legendary": false,
+    "mythical": false,
+    "name": "Houndoom",
+    "nameEn": "Houndoom",
+    "slug": "houndoom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/229.png",
+    "typing": [
+      "dark",
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 95,
+      "defense": 95,
+      "hp": 75,
+      "specialAttack": 95,
+      "specialDefense": 95,
+      "speed": 85
+    },
+    "captureRate": 45,
+    "evolutionChainId": 54,
+    "evolvesFrom": 117,
+    "generation": 2,
+    "id": 230,
+    "legendary": false,
+    "mythical": false,
+    "name": "Kingdra",
+    "nameEn": "Kingdra",
+    "slug": "kingdra",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/230.png",
+    "typing": [
+      "water",
+      "dragon"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 60,
+      "hp": 90,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 40
+    },
+    "captureRate": 120,
+    "evolutionChainId": 119,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 231,
+    "legendary": false,
+    "mythical": false,
+    "name": "Phanpy",
+    "nameEn": "Phanpy",
+    "slug": "phanpy",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/231.png",
+    "typing": [
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 120,
+      "defense": 120,
+      "hp": 90,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 50
+    },
+    "captureRate": 60,
+    "evolutionChainId": 119,
+    "evolvesFrom": 231,
+    "generation": 2,
+    "id": 232,
+    "legendary": false,
+    "mythical": false,
+    "name": "Donphan",
+    "nameEn": "Donphan",
+    "slug": "donphan",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/232.png",
+    "typing": [
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 95,
+      "defense": 62,
+      "hp": 73,
+      "specialAttack": 85,
+      "specialDefense": 65,
+      "speed": 85
+    },
+    "captureRate": 45,
+    "evolutionChainId": 120,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 234,
+    "legendary": false,
+    "mythical": false,
+    "name": "Stantler",
+    "nameEn": "Stantler",
+    "slug": "stantler",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/234.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 20,
+      "defense": 35,
+      "hp": 55,
+      "specialAttack": 20,
+      "specialDefense": 45,
+      "speed": 75
+    },
+    "captureRate": 45,
+    "evolutionChainId": 121,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 235,
+    "legendary": false,
+    "mythical": false,
+    "name": "Smeargle",
+    "nameEn": "Smeargle",
+    "slug": "smeargle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/235.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 105,
+      "hp": 95,
+      "specialAttack": 40,
+      "specialDefense": 70,
+      "speed": 100
+    },
+    "captureRate": 45,
+    "evolutionChainId": 122,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 241,
+    "legendary": false,
+    "mythical": false,
+    "name": "Miltank",
+    "nameEn": "Miltank",
+    "slug": "miltank",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/241.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 100,
+      "hp": 100,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 100
+    },
+    "captureRate": 45,
+    "evolutionChainId": 129,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 251,
+    "legendary": false,
+    "mythical": true,
+    "name": "Celebi",
+    "nameEn": "Celebi",
+    "slug": "celebi",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/251.png",
+    "typing": [
+      "psychic",
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 35,
+      "hp": 40,
+      "specialAttack": 65,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "captureRate": 45,
+    "evolutionChainId": 130,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 252,
+    "legendary": false,
+    "mythical": false,
+    "name": "Treecko",
+    "nameEn": "Treecko",
+    "slug": "treecko",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/252.png",
+    "typing": [
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 45,
+      "hp": 50,
+      "specialAttack": 85,
+      "specialDefense": 65,
+      "speed": 95
+    },
+    "captureRate": 45,
+    "evolutionChainId": 130,
+    "evolvesFrom": 252,
+    "generation": 3,
+    "id": 253,
+    "legendary": false,
+    "mythical": false,
+    "name": "Grovyle",
+    "nameEn": "Grovyle",
+    "slug": "grovyle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/253.png",
+    "typing": [
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 65,
+      "hp": 70,
+      "specialAttack": 105,
+      "specialDefense": 85,
+      "speed": 120
+    },
+    "captureRate": 45,
+    "evolutionChainId": 130,
+    "evolvesFrom": 253,
+    "generation": 3,
+    "id": 254,
+    "legendary": false,
+    "mythical": false,
+    "name": "Sceptile",
+    "nameEn": "Sceptile",
+    "slug": "sceptile",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/254.png",
+    "typing": [
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 40,
+      "hp": 45,
+      "specialAttack": 70,
+      "specialDefense": 50,
+      "speed": 45
+    },
+    "captureRate": 45,
+    "evolutionChainId": 131,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 255,
+    "legendary": false,
+    "mythical": false,
+    "name": "Torchic",
+    "nameEn": "Torchic",
+    "slug": "torchic",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/255.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 60,
+      "hp": 60,
+      "specialAttack": 85,
+      "specialDefense": 60,
+      "speed": 55
+    },
+    "captureRate": 45,
+    "evolutionChainId": 131,
+    "evolvesFrom": 255,
+    "generation": 3,
+    "id": 256,
+    "legendary": false,
+    "mythical": false,
+    "name": "Combusken",
+    "nameEn": "Combusken",
+    "slug": "combusken",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/256.png",
+    "typing": [
+      "fire",
+      "fighting"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 120,
+      "defense": 70,
+      "hp": 80,
+      "specialAttack": 110,
+      "specialDefense": 70,
+      "speed": 80
+    },
+    "captureRate": 45,
+    "evolutionChainId": 131,
+    "evolvesFrom": 256,
+    "generation": 3,
+    "id": 257,
+    "legendary": false,
+    "mythical": false,
+    "name": "Blaziken",
+    "nameEn": "Blaziken",
+    "slug": "blaziken",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/257.png",
+    "typing": [
+      "fire",
+      "fighting"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 50,
+      "hp": 50,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 40
+    },
+    "captureRate": 45,
+    "evolutionChainId": 132,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 258,
+    "legendary": false,
+    "mythical": false,
+    "name": "Mudkip",
+    "nameEn": "Mudkip",
+    "slug": "mudkip",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/258.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 70,
+      "hp": 70,
+      "specialAttack": 60,
+      "specialDefense": 70,
+      "speed": 50
+    },
+    "captureRate": 45,
+    "evolutionChainId": 132,
+    "evolvesFrom": 258,
+    "generation": 3,
+    "id": 259,
+    "legendary": false,
+    "mythical": false,
+    "name": "Marshtomp",
+    "nameEn": "Marshtomp",
+    "slug": "marshtomp",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/259.png",
+    "typing": [
+      "water",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 110,
+      "defense": 90,
+      "hp": 100,
+      "specialAttack": 85,
+      "specialDefense": 90,
+      "speed": 60
+    },
+    "captureRate": 45,
+    "evolutionChainId": 132,
+    "evolvesFrom": 259,
+    "generation": 3,
+    "id": 260,
+    "legendary": false,
+    "mythical": false,
+    "name": "Swampert",
+    "nameEn": "Swampert",
+    "slug": "swampert",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/260.png",
+    "typing": [
+      "water",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 55,
+      "defense": 35,
+      "hp": 35,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 35
+    },
+    "captureRate": 255,
+    "evolutionChainId": 133,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 261,
+    "legendary": false,
+    "mythical": false,
+    "name": "Poochyena",
+    "nameEn": "Poochyena",
+    "slug": "poochyena",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/261.png",
+    "typing": [
+      "dark"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 70,
+      "hp": 70,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 70
+    },
+    "captureRate": 127,
+    "evolutionChainId": 133,
+    "evolvesFrom": 261,
+    "generation": 3,
+    "id": 262,
+    "legendary": false,
+    "mythical": false,
+    "name": "Mightyena",
+    "nameEn": "Mightyena",
+    "slug": "mightyena",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/262.png",
+    "typing": [
+      "dark"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 30,
+      "defense": 41,
+      "hp": 38,
+      "specialAttack": 30,
+      "specialDefense": 41,
+      "speed": 60
+    },
+    "captureRate": 255,
+    "evolutionChainId": 134,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 263,
+    "legendary": false,
+    "mythical": false,
+    "name": "Zigzagoon",
+    "nameEn": "Zigzagoon",
+    "slug": "zigzagoon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/263.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 61,
+      "hp": 78,
+      "specialAttack": 50,
+      "specialDefense": 61,
+      "speed": 100
+    },
+    "captureRate": 90,
+    "evolutionChainId": 134,
+    "evolvesFrom": 263,
+    "generation": 3,
+    "id": 264,
+    "legendary": false,
+    "mythical": false,
+    "name": "Linoone",
+    "nameEn": "Linoone",
+    "slug": "linoone",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/264.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 35,
+      "hp": 45,
+      "specialAttack": 20,
+      "specialDefense": 30,
+      "speed": 20
+    },
+    "captureRate": 255,
+    "evolutionChainId": 135,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 265,
+    "legendary": false,
+    "mythical": false,
+    "name": "Wurmple",
+    "nameEn": "Wurmple",
+    "slug": "wurmple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/265.png",
+    "typing": [
+      "bug"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 35,
+      "defense": 55,
+      "hp": 50,
+      "specialAttack": 25,
+      "specialDefense": 25,
+      "speed": 15
+    },
+    "captureRate": 120,
+    "evolutionChainId": 135,
+    "evolvesFrom": 265,
+    "generation": 3,
+    "id": 266,
+    "legendary": false,
+    "mythical": false,
+    "name": "Silcoon",
+    "nameEn": "Silcoon",
+    "slug": "silcoon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/266.png",
+    "typing": [
+      "bug"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 50,
+      "hp": 60,
+      "specialAttack": 90,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "captureRate": 45,
+    "evolutionChainId": 135,
+    "evolvesFrom": 266,
+    "generation": 3,
+    "id": 267,
+    "legendary": false,
+    "mythical": false,
+    "name": "Beautifly",
+    "nameEn": "Beautifly",
+    "slug": "beautifly",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/267.png",
+    "typing": [
+      "bug",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 35,
+      "defense": 55,
+      "hp": 50,
+      "specialAttack": 25,
+      "specialDefense": 25,
+      "speed": 15
+    },
+    "captureRate": 120,
+    "evolutionChainId": 135,
+    "evolvesFrom": 265,
+    "generation": 3,
+    "id": 268,
+    "legendary": false,
+    "mythical": false,
+    "name": "Cascoon",
+    "nameEn": "Cascoon",
+    "slug": "cascoon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/268.png",
+    "typing": [
+      "bug"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 70,
+      "hp": 60,
+      "specialAttack": 50,
+      "specialDefense": 90,
+      "speed": 65
+    },
+    "captureRate": 45,
+    "evolutionChainId": 135,
+    "evolvesFrom": 268,
+    "generation": 3,
+    "id": 269,
+    "legendary": false,
+    "mythical": false,
+    "name": "Dustox",
+    "nameEn": "Dustox",
+    "slug": "dustox",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/269.png",
+    "typing": [
+      "bug",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 30,
+      "defense": 30,
+      "hp": 40,
+      "specialAttack": 40,
+      "specialDefense": 50,
+      "speed": 30
+    },
+    "captureRate": 255,
+    "evolutionChainId": 136,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 270,
+    "legendary": false,
+    "mythical": false,
+    "name": "Lotad",
+    "nameEn": "Lotad",
+    "slug": "lotad",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/270.png",
+    "typing": [
+      "water",
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 50,
+      "hp": 60,
+      "specialAttack": 60,
+      "specialDefense": 70,
+      "speed": 50
+    },
+    "captureRate": 120,
+    "evolutionChainId": 136,
+    "evolvesFrom": 270,
+    "generation": 3,
+    "id": 271,
+    "legendary": false,
+    "mythical": false,
+    "name": "Lombre",
+    "nameEn": "Lombre",
+    "slug": "lombre",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/271.png",
+    "typing": [
+      "water",
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 70,
+      "hp": 80,
+      "specialAttack": 90,
+      "specialDefense": 100,
+      "speed": 70
+    },
+    "captureRate": 45,
+    "evolutionChainId": 136,
+    "evolvesFrom": 271,
+    "generation": 3,
+    "id": 272,
+    "legendary": false,
+    "mythical": false,
+    "name": "Ludicolo",
+    "nameEn": "Ludicolo",
+    "slug": "ludicolo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/272.png",
+    "typing": [
+      "water",
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 40,
+      "defense": 50,
+      "hp": 40,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 30
+    },
+    "captureRate": 255,
+    "evolutionChainId": 137,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 273,
+    "legendary": false,
+    "mythical": false,
+    "name": "Seedot",
+    "nameEn": "Seedot",
+    "slug": "seedot",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/273.png",
+    "typing": [
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 40,
+      "hp": 70,
+      "specialAttack": 60,
+      "specialDefense": 40,
+      "speed": 60
+    },
+    "captureRate": 120,
+    "evolutionChainId": 137,
+    "evolvesFrom": 273,
+    "generation": 3,
+    "id": 274,
+    "legendary": false,
+    "mythical": false,
+    "name": "Nuzleaf",
+    "nameEn": "Nuzleaf",
+    "slug": "nuzleaf",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/274.png",
+    "typing": [
+      "grass",
+      "dark"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 60,
+      "hp": 90,
+      "specialAttack": 90,
+      "specialDefense": 60,
+      "speed": 80
+    },
+    "captureRate": 45,
+    "evolutionChainId": 137,
+    "evolvesFrom": 274,
+    "generation": 3,
+    "id": 275,
+    "legendary": false,
+    "mythical": false,
+    "name": "Shiftry",
+    "nameEn": "Shiftry",
+    "slug": "shiftry",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/275.png",
+    "typing": [
+      "grass",
+      "dark"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 55,
+      "defense": 30,
+      "hp": 40,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 85
+    },
+    "captureRate": 200,
+    "evolutionChainId": 138,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 276,
+    "legendary": false,
+    "mythical": false,
+    "name": "Taillow",
+    "nameEn": "Taillow",
+    "slug": "taillow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/276.png",
+    "typing": [
+      "normal",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 60,
+      "hp": 60,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 125
+    },
+    "captureRate": 45,
+    "evolutionChainId": 138,
+    "evolvesFrom": 276,
+    "generation": 3,
+    "id": 277,
+    "legendary": false,
+    "mythical": false,
+    "name": "Swellow",
+    "nameEn": "Swellow",
+    "slug": "swellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/277.png",
+    "typing": [
+      "normal",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 30,
+      "defense": 30,
+      "hp": 40,
+      "specialAttack": 55,
+      "specialDefense": 30,
+      "speed": 85
+    },
+    "captureRate": 190,
+    "evolutionChainId": 139,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 278,
+    "legendary": false,
+    "mythical": false,
+    "name": "Wingull",
+    "nameEn": "Wingull",
+    "slug": "wingull",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/278.png",
+    "typing": [
+      "water",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 100,
+      "hp": 60,
+      "specialAttack": 85,
+      "specialDefense": 70,
+      "speed": 65
+    },
+    "captureRate": 45,
+    "evolutionChainId": 139,
+    "evolvesFrom": 278,
+    "generation": 3,
+    "id": 279,
+    "legendary": false,
+    "mythical": false,
+    "name": "Pelipper",
+    "nameEn": "Pelipper",
+    "slug": "pelipper",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/279.png",
+    "typing": [
+      "water",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 25,
+      "defense": 25,
+      "hp": 28,
+      "specialAttack": 45,
+      "specialDefense": 35,
+      "speed": 40
+    },
+    "captureRate": 235,
+    "evolutionChainId": 140,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 280,
+    "legendary": false,
+    "mythical": false,
+    "name": "Ralts",
+    "nameEn": "Ralts",
+    "slug": "ralts",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/280.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 35,
+      "defense": 35,
+      "hp": 38,
+      "specialAttack": 65,
+      "specialDefense": 55,
+      "speed": 50
+    },
+    "captureRate": 120,
+    "evolutionChainId": 140,
+    "evolvesFrom": 280,
+    "generation": 3,
+    "id": 281,
+    "legendary": false,
+    "mythical": false,
+    "name": "Kirlia",
+    "nameEn": "Kirlia",
+    "slug": "kirlia",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/281.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 65,
+      "hp": 68,
+      "specialAttack": 125,
+      "specialDefense": 115,
+      "speed": 80
+    },
+    "captureRate": 45,
+    "evolutionChainId": 140,
+    "evolvesFrom": 281,
+    "generation": 3,
+    "id": 282,
+    "legendary": false,
+    "mythical": false,
+    "name": "Gardevoir",
+    "nameEn": "Gardevoir",
+    "slug": "gardevoir",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/282.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 30,
+      "defense": 32,
+      "hp": 40,
+      "specialAttack": 50,
+      "specialDefense": 52,
+      "speed": 65
+    },
+    "captureRate": 200,
+    "evolutionChainId": 141,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 283,
+    "legendary": false,
+    "mythical": false,
+    "name": "Surskit",
+    "nameEn": "Surskit",
+    "slug": "surskit",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/283.png",
+    "typing": [
+      "bug",
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 62,
+      "hp": 70,
+      "specialAttack": 80,
+      "specialDefense": 82,
+      "speed": 60
+    },
+    "captureRate": 75,
+    "evolutionChainId": 141,
+    "evolvesFrom": 283,
+    "generation": 3,
+    "id": 284,
+    "legendary": false,
+    "mythical": false,
+    "name": "Masquerain",
+    "nameEn": "Masquerain",
+    "slug": "masquerain",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/284.png",
+    "typing": [
+      "bug",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 40,
+      "defense": 60,
+      "hp": 60,
+      "specialAttack": 40,
+      "specialDefense": 60,
+      "speed": 35
+    },
+    "captureRate": 255,
+    "evolutionChainId": 142,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 285,
+    "legendary": false,
+    "mythical": false,
+    "name": "Shroomish",
+    "nameEn": "Shroomish",
+    "slug": "shroomish",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/285.png",
+    "typing": [
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 130,
+      "defense": 80,
+      "hp": 60,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 70
+    },
+    "captureRate": 90,
+    "evolutionChainId": 142,
+    "evolvesFrom": 285,
+    "generation": 3,
+    "id": 286,
+    "legendary": false,
+    "mythical": false,
+    "name": "Breloom",
+    "nameEn": "Breloom",
+    "slug": "breloom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/286.png",
+    "typing": [
+      "grass",
+      "fighting"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 60,
+      "hp": 60,
+      "specialAttack": 35,
+      "specialDefense": 35,
+      "speed": 30
+    },
+    "captureRate": 255,
+    "evolutionChainId": 143,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 287,
+    "legendary": false,
+    "mythical": false,
+    "name": "Slakoth",
+    "nameEn": "Slakoth",
+    "slug": "slakoth",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/287.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 80,
+      "hp": 80,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 90
+    },
+    "captureRate": 120,
+    "evolutionChainId": 143,
+    "evolvesFrom": 287,
+    "generation": 3,
+    "id": 288,
+    "legendary": false,
+    "mythical": false,
+    "name": "Vigoroth",
+    "nameEn": "Vigoroth",
+    "slug": "vigoroth",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/288.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 160,
+      "defense": 100,
+      "hp": 150,
+      "specialAttack": 95,
+      "specialDefense": 65,
+      "speed": 100
+    },
+    "captureRate": 45,
+    "evolutionChainId": 143,
+    "evolvesFrom": 288,
+    "generation": 3,
+    "id": 289,
+    "legendary": false,
+    "mythical": false,
+    "name": "Slaking",
+    "nameEn": "Slaking",
+    "slug": "slaking",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/289.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 90,
+      "hp": 31,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 40
+    },
+    "captureRate": 255,
+    "evolutionChainId": 144,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 290,
+    "legendary": false,
+    "mythical": false,
+    "name": "Nincada",
+    "nameEn": "Nincada",
+    "slug": "nincada",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/290.png",
+    "typing": [
+      "bug",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 45,
+      "hp": 61,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 160
+    },
+    "captureRate": 120,
+    "evolutionChainId": 144,
+    "evolvesFrom": 290,
+    "generation": 3,
+    "id": 291,
+    "legendary": false,
+    "mythical": false,
+    "name": "Ninjask",
+    "nameEn": "Ninjask",
+    "slug": "ninjask",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/291.png",
+    "typing": [
+      "bug",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 45,
+      "hp": 1,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 40
+    },
+    "captureRate": 45,
+    "evolutionChainId": 144,
+    "evolvesFrom": 290,
+    "generation": 3,
+    "id": 292,
+    "legendary": false,
+    "mythical": false,
+    "name": "Shedinja",
+    "nameEn": "Shedinja",
+    "slug": "shedinja",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/292.png",
+    "typing": [
+      "bug",
+      "ghost"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 51,
+      "defense": 23,
+      "hp": 64,
+      "specialAttack": 51,
+      "specialDefense": 23,
+      "speed": 28
+    },
+    "captureRate": 190,
+    "evolutionChainId": 145,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 293,
+    "legendary": false,
+    "mythical": false,
+    "name": "Whismur",
+    "nameEn": "Whismur",
+    "slug": "whismur",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/293.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 71,
+      "defense": 43,
+      "hp": 84,
+      "specialAttack": 71,
+      "specialDefense": 43,
+      "speed": 48
+    },
+    "captureRate": 120,
+    "evolutionChainId": 145,
+    "evolvesFrom": 293,
+    "generation": 3,
+    "id": 294,
+    "legendary": false,
+    "mythical": false,
+    "name": "Loudred",
+    "nameEn": "Loudred",
+    "slug": "loudred",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/294.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 91,
+      "defense": 63,
+      "hp": 104,
+      "specialAttack": 91,
+      "specialDefense": 63,
+      "speed": 68
+    },
+    "captureRate": 45,
+    "evolutionChainId": 145,
+    "evolvesFrom": 294,
+    "generation": 3,
+    "id": 295,
+    "legendary": false,
+    "mythical": false,
+    "name": "Exploud",
+    "nameEn": "Exploud",
+    "slug": "exploud",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/295.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 30,
+      "hp": 72,
+      "specialAttack": 20,
+      "specialDefense": 30,
+      "speed": 25
+    },
+    "captureRate": 180,
+    "evolutionChainId": 146,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 296,
+    "legendary": false,
+    "mythical": false,
+    "name": "Makuhita",
+    "nameEn": "Makuhita",
+    "slug": "makuhita",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/296.png",
+    "typing": [
+      "fighting"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 120,
+      "defense": 60,
+      "hp": 144,
+      "specialAttack": 40,
+      "specialDefense": 60,
+      "speed": 50
+    },
+    "captureRate": 200,
+    "evolutionChainId": 146,
+    "evolvesFrom": 296,
+    "generation": 3,
+    "id": 297,
+    "legendary": false,
+    "mythical": false,
+    "name": "Hariyama",
+    "nameEn": "Hariyama",
+    "slug": "hariyama",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/297.png",
+    "typing": [
+      "fighting"
+    ]
+  },
+  {
+    "baby": true,
+    "baseStats": {
+      "attack": 20,
+      "defense": 40,
+      "hp": 50,
+      "specialAttack": 20,
+      "specialDefense": 40,
+      "speed": 20
+    },
+    "captureRate": 150,
+    "evolutionChainId": 90,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 298,
+    "legendary": false,
+    "mythical": false,
+    "name": "Azurill",
+    "nameEn": "Azurill",
+    "slug": "azurill",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/298.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 135,
+      "hp": 30,
+      "specialAttack": 45,
+      "specialDefense": 90,
+      "speed": 30
+    },
+    "captureRate": 255,
+    "evolutionChainId": 147,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 299,
+    "legendary": false,
+    "mythical": false,
+    "name": "Nosepass",
+    "nameEn": "Nosepass",
+    "slug": "nosepass",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/299.png",
+    "typing": [
+      "rock"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 45,
+      "hp": 50,
+      "specialAttack": 35,
+      "specialDefense": 35,
+      "speed": 50
+    },
+    "captureRate": 255,
+    "evolutionChainId": 148,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 300,
+    "legendary": false,
+    "mythical": false,
+    "name": "Skitty",
+    "nameEn": "Skitty",
+    "slug": "skitty",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/300.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 65,
+      "hp": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "captureRate": 60,
+    "evolutionChainId": 148,
+    "evolvesFrom": 300,
+    "generation": 3,
+    "id": 301,
+    "legendary": false,
+    "mythical": false,
+    "name": "Delcatty",
+    "nameEn": "Delcatty",
+    "slug": "delcatty",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/301.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 75,
+      "hp": 50,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 50
+    },
+    "captureRate": 45,
+    "evolutionChainId": 149,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 302,
+    "legendary": false,
+    "mythical": false,
+    "name": "Sableye",
+    "nameEn": "Sableye",
+    "slug": "sableye",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/302.png",
+    "typing": [
+      "dark",
+      "ghost"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 85,
+      "hp": 50,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 50
+    },
+    "captureRate": 45,
+    "evolutionChainId": 150,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 303,
+    "legendary": false,
+    "mythical": false,
+    "name": "Mawile",
+    "nameEn": "Mawile",
+    "slug": "mawile",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/303.png",
+    "typing": [
+      "steel"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 100,
+      "hp": 50,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 30
+    },
+    "captureRate": 180,
+    "evolutionChainId": 151,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 304,
+    "legendary": false,
+    "mythical": false,
+    "name": "Aron",
+    "nameEn": "Aron",
+    "slug": "aron",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/304.png",
+    "typing": [
+      "steel",
+      "rock"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 140,
+      "hp": 60,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 40
+    },
+    "captureRate": 90,
+    "evolutionChainId": 151,
+    "evolvesFrom": 304,
+    "generation": 3,
+    "id": 305,
+    "legendary": false,
+    "mythical": false,
+    "name": "Lairon",
+    "nameEn": "Lairon",
+    "slug": "lairon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/305.png",
+    "typing": [
+      "steel",
+      "rock"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 110,
+      "defense": 180,
+      "hp": 70,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 50
+    },
+    "captureRate": 45,
+    "evolutionChainId": 151,
+    "evolvesFrom": 305,
+    "generation": 3,
+    "id": 306,
+    "legendary": false,
+    "mythical": false,
+    "name": "Aggron",
+    "nameEn": "Aggron",
+    "slug": "aggron",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/306.png",
+    "typing": [
+      "steel",
+      "rock"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 40,
+      "defense": 55,
+      "hp": 30,
+      "specialAttack": 40,
+      "specialDefense": 55,
+      "speed": 60
+    },
+    "captureRate": 180,
+    "evolutionChainId": 152,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 307,
+    "legendary": false,
+    "mythical": false,
+    "name": "Meditite",
+    "nameEn": "Meditite",
+    "slug": "meditite",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/307.png",
+    "typing": [
+      "fighting",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 75,
+      "hp": 60,
+      "specialAttack": 60,
+      "specialDefense": 75,
+      "speed": 80
+    },
+    "captureRate": 90,
+    "evolutionChainId": 152,
+    "evolvesFrom": 307,
+    "generation": 3,
+    "id": 308,
+    "legendary": false,
+    "mythical": false,
+    "name": "Medicham",
+    "nameEn": "Medicham",
+    "slug": "medicham",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/308.png",
+    "typing": [
+      "fighting",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 40,
+      "hp": 40,
+      "specialAttack": 65,
+      "specialDefense": 40,
+      "speed": 65
+    },
+    "captureRate": 120,
+    "evolutionChainId": 153,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 309,
+    "legendary": false,
+    "mythical": false,
+    "name": "Electrike",
+    "nameEn": "Electrike",
+    "slug": "electrike",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/309.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 60,
+      "hp": 70,
+      "specialAttack": 105,
+      "specialDefense": 60,
+      "speed": 105
+    },
+    "captureRate": 45,
+    "evolutionChainId": 153,
+    "evolvesFrom": 309,
+    "generation": 3,
+    "id": 310,
+    "legendary": false,
+    "mythical": false,
+    "name": "Manectric",
+    "nameEn": "Manectric",
+    "slug": "manectric",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/310.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 40,
+      "hp": 60,
+      "specialAttack": 85,
+      "specialDefense": 75,
+      "speed": 95
+    },
+    "captureRate": 200,
+    "evolutionChainId": 154,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 311,
+    "legendary": false,
+    "mythical": false,
+    "name": "Plusle",
+    "nameEn": "Plusle",
+    "slug": "plusle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/311.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 40,
+      "defense": 50,
+      "hp": 60,
+      "specialAttack": 75,
+      "specialDefense": 85,
+      "speed": 95
+    },
+    "captureRate": 200,
+    "evolutionChainId": 155,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 312,
+    "legendary": false,
+    "mythical": false,
+    "name": "Minun",
+    "nameEn": "Minun",
+    "slug": "minun",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/312.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 73,
+      "defense": 55,
+      "hp": 65,
+      "specialAttack": 47,
+      "specialDefense": 75,
+      "speed": 85
+    },
+    "captureRate": 150,
+    "evolutionChainId": 156,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 313,
+    "legendary": false,
+    "mythical": false,
+    "name": "Volbeat",
+    "nameEn": "Volbeat",
+    "slug": "volbeat",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/313.png",
+    "typing": [
+      "bug"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 47,
+      "defense": 55,
+      "hp": 65,
+      "specialAttack": 73,
+      "specialDefense": 75,
+      "speed": 85
+    },
+    "captureRate": 150,
+    "evolutionChainId": 157,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 314,
+    "legendary": false,
+    "mythical": false,
+    "name": "Illumise",
+    "nameEn": "Illumise",
+    "slug": "illumise",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/314.png",
+    "typing": [
+      "bug"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 45,
+      "hp": 50,
+      "specialAttack": 100,
+      "specialDefense": 80,
+      "speed": 65
+    },
+    "captureRate": 150,
+    "evolutionChainId": 158,
+    "evolvesFrom": 406,
+    "generation": 3,
+    "id": 315,
+    "legendary": false,
+    "mythical": false,
+    "name": "Roselia",
+    "nameEn": "Roselia",
+    "slug": "roselia",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/315.png",
+    "typing": [
+      "grass",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 43,
+      "defense": 53,
+      "hp": 70,
+      "specialAttack": 43,
+      "specialDefense": 53,
+      "speed": 40
+    },
+    "captureRate": 225,
+    "evolutionChainId": 159,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 316,
+    "legendary": false,
+    "mythical": false,
+    "name": "Gulpin",
+    "nameEn": "Gulpin",
+    "slug": "gulpin",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/316.png",
+    "typing": [
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 73,
+      "defense": 83,
+      "hp": 100,
+      "specialAttack": 73,
+      "specialDefense": 83,
+      "speed": 55
+    },
+    "captureRate": 75,
+    "evolutionChainId": 159,
+    "evolvesFrom": 316,
+    "generation": 3,
+    "id": 317,
+    "legendary": false,
+    "mythical": false,
+    "name": "Swalot",
+    "nameEn": "Swalot",
+    "slug": "swalot",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/317.png",
+    "typing": [
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 20,
+      "hp": 45,
+      "specialAttack": 65,
+      "specialDefense": 20,
+      "speed": 65
+    },
+    "captureRate": 225,
+    "evolutionChainId": 160,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 318,
+    "legendary": false,
+    "mythical": false,
+    "name": "Carvanha",
+    "nameEn": "Carvanha",
+    "slug": "carvanha",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/318.png",
+    "typing": [
+      "water",
+      "dark"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 120,
+      "defense": 40,
+      "hp": 70,
+      "specialAttack": 95,
+      "specialDefense": 40,
+      "speed": 95
+    },
+    "captureRate": 60,
+    "evolutionChainId": 160,
+    "evolvesFrom": 318,
+    "generation": 3,
+    "id": 319,
+    "legendary": false,
+    "mythical": false,
+    "name": "Sharpedo",
+    "nameEn": "Sharpedo",
+    "slug": "sharpedo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/319.png",
+    "typing": [
+      "water",
+      "dark"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 35,
+      "hp": 130,
+      "specialAttack": 70,
+      "specialDefense": 35,
+      "speed": 60
+    },
+    "captureRate": 125,
+    "evolutionChainId": 161,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 320,
+    "legendary": false,
+    "mythical": false,
+    "name": "Wailmer",
+    "nameEn": "Wailmer",
+    "slug": "wailmer",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/320.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 45,
+      "hp": 170,
+      "specialAttack": 90,
+      "specialDefense": 45,
+      "speed": 60
+    },
+    "captureRate": 60,
+    "evolutionChainId": 161,
+    "evolvesFrom": 320,
+    "generation": 3,
+    "id": 321,
+    "legendary": false,
+    "mythical": false,
+    "name": "Wailord",
+    "nameEn": "Wailord",
+    "slug": "wailord",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/321.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 40,
+      "hp": 60,
+      "specialAttack": 65,
+      "specialDefense": 45,
+      "speed": 35
+    },
+    "captureRate": 255,
+    "evolutionChainId": 162,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 322,
+    "legendary": false,
+    "mythical": false,
+    "name": "Numel",
+    "nameEn": "Numel",
+    "slug": "numel",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/322.png",
+    "typing": [
+      "fire",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 70,
+      "hp": 70,
+      "specialAttack": 105,
+      "specialDefense": 75,
+      "speed": 40
+    },
+    "captureRate": 150,
+    "evolutionChainId": 162,
+    "evolvesFrom": 322,
+    "generation": 3,
+    "id": 323,
+    "legendary": false,
+    "mythical": false,
+    "name": "Camerupt",
+    "nameEn": "Camerupt",
+    "slug": "camerupt",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/323.png",
+    "typing": [
+      "fire",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 140,
+      "hp": 70,
+      "specialAttack": 85,
+      "specialDefense": 70,
+      "speed": 20
+    },
+    "captureRate": 90,
+    "evolutionChainId": 163,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 324,
+    "legendary": false,
+    "mythical": false,
+    "name": "Torkoal",
+    "nameEn": "Torkoal",
+    "slug": "torkoal",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/324.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 25,
+      "defense": 35,
+      "hp": 60,
+      "specialAttack": 70,
+      "specialDefense": 80,
+      "speed": 60
+    },
+    "captureRate": 255,
+    "evolutionChainId": 164,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 325,
+    "legendary": false,
+    "mythical": false,
+    "name": "Spoink",
+    "nameEn": "Spoink",
+    "slug": "spoink",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/325.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 65,
+      "hp": 80,
+      "specialAttack": 90,
+      "specialDefense": 110,
+      "speed": 80
+    },
+    "captureRate": 60,
+    "evolutionChainId": 164,
+    "evolvesFrom": 325,
+    "generation": 3,
+    "id": 326,
+    "legendary": false,
+    "mythical": false,
+    "name": "Grumpig",
+    "nameEn": "Grumpig",
+    "slug": "grumpig",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/326.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 60,
+      "hp": 60,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 60
+    },
+    "captureRate": 255,
+    "evolutionChainId": 165,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 327,
+    "legendary": false,
+    "mythical": false,
+    "name": "Spinda",
+    "nameEn": "Spinda",
+    "slug": "spinda",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/327.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 45,
+      "hp": 45,
+      "specialAttack": 45,
+      "specialDefense": 45,
+      "speed": 10
+    },
+    "captureRate": 255,
+    "evolutionChainId": 166,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 328,
+    "legendary": false,
+    "mythical": false,
+    "name": "Trapinch",
+    "nameEn": "Trapinch",
+    "slug": "trapinch",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/328.png",
+    "typing": [
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 50,
+      "hp": 50,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 70
+    },
+    "captureRate": 120,
+    "evolutionChainId": 166,
+    "evolvesFrom": 328,
+    "generation": 3,
+    "id": 329,
+    "legendary": false,
+    "mythical": false,
+    "name": "Vibrava",
+    "nameEn": "Vibrava",
+    "slug": "vibrava",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/329.png",
+    "typing": [
+      "ground",
+      "dragon"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 80,
+      "hp": 80,
+      "specialAttack": 80,
+      "specialDefense": 80,
+      "speed": 100
+    },
+    "captureRate": 45,
+    "evolutionChainId": 166,
+    "evolvesFrom": 329,
+    "generation": 3,
+    "id": 330,
+    "legendary": false,
+    "mythical": false,
+    "name": "Flygon",
+    "nameEn": "Flygon",
+    "slug": "flygon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/330.png",
+    "typing": [
+      "ground",
+      "dragon"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 40,
+      "hp": 50,
+      "specialAttack": 85,
+      "specialDefense": 40,
+      "speed": 35
+    },
+    "captureRate": 190,
+    "evolutionChainId": 167,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 331,
+    "legendary": false,
+    "mythical": false,
+    "name": "Cacnea",
+    "nameEn": "Cacnea",
+    "slug": "cacnea",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/331.png",
+    "typing": [
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 115,
+      "defense": 60,
+      "hp": 70,
+      "specialAttack": 115,
+      "specialDefense": 60,
+      "speed": 55
+    },
+    "captureRate": 60,
+    "evolutionChainId": 167,
+    "evolvesFrom": 331,
+    "generation": 3,
+    "id": 332,
+    "legendary": false,
+    "mythical": false,
+    "name": "Cacturne",
+    "nameEn": "Cacturne",
+    "slug": "cacturne",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/332.png",
+    "typing": [
+      "grass",
+      "dark"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 40,
+      "defense": 60,
+      "hp": 45,
+      "specialAttack": 40,
+      "specialDefense": 75,
+      "speed": 50
+    },
+    "captureRate": 255,
+    "evolutionChainId": 168,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 333,
+    "legendary": false,
+    "mythical": false,
+    "name": "Swablu",
+    "nameEn": "Swablu",
+    "slug": "swablu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/333.png",
+    "typing": [
+      "normal",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 90,
+      "hp": 75,
+      "specialAttack": 70,
+      "specialDefense": 105,
+      "speed": 80
+    },
+    "captureRate": 45,
+    "evolutionChainId": 168,
+    "evolvesFrom": 333,
+    "generation": 3,
+    "id": 334,
+    "legendary": false,
+    "mythical": false,
+    "name": "Altaria",
+    "nameEn": "Altaria",
+    "slug": "altaria",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/334.png",
+    "typing": [
+      "dragon",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 115,
+      "defense": 60,
+      "hp": 73,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 90
+    },
+    "captureRate": 90,
+    "evolutionChainId": 169,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 335,
+    "legendary": false,
+    "mythical": false,
+    "name": "Zangoose",
+    "nameEn": "Zangoose",
+    "slug": "zangoose",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/335.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 60,
+      "hp": 73,
+      "specialAttack": 100,
+      "specialDefense": 60,
+      "speed": 65
+    },
+    "captureRate": 90,
+    "evolutionChainId": 170,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 336,
+    "legendary": false,
+    "mythical": false,
+    "name": "Seviper",
+    "nameEn": "Seviper",
+    "slug": "seviper",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/336.png",
+    "typing": [
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 55,
+      "defense": 65,
+      "hp": 70,
+      "specialAttack": 95,
+      "specialDefense": 85,
+      "speed": 70
+    },
+    "captureRate": 45,
+    "evolutionChainId": 171,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 337,
+    "legendary": false,
+    "mythical": false,
+    "name": "Lunatone",
+    "nameEn": "Lunatone",
+    "slug": "lunatone",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/337.png",
+    "typing": [
+      "rock",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 95,
+      "defense": 85,
+      "hp": 70,
+      "specialAttack": 55,
+      "specialDefense": 65,
+      "speed": 70
+    },
+    "captureRate": 45,
+    "evolutionChainId": 172,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 338,
+    "legendary": false,
+    "mythical": false,
+    "name": "Solrock",
+    "nameEn": "Solrock",
+    "slug": "solrock",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/338.png",
+    "typing": [
+      "rock",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 48,
+      "defense": 43,
+      "hp": 50,
+      "specialAttack": 46,
+      "specialDefense": 41,
+      "speed": 60
+    },
+    "captureRate": 190,
+    "evolutionChainId": 173,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 339,
+    "legendary": false,
+    "mythical": false,
+    "name": "Barboach",
+    "nameEn": "Barboach",
+    "slug": "barboach",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/339.png",
+    "typing": [
+      "water",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 78,
+      "defense": 73,
+      "hp": 110,
+      "specialAttack": 76,
+      "specialDefense": 71,
+      "speed": 60
+    },
+    "captureRate": 75,
+    "evolutionChainId": 173,
+    "evolvesFrom": 339,
+    "generation": 3,
+    "id": 340,
+    "legendary": false,
+    "mythical": false,
+    "name": "Whiscash",
+    "nameEn": "Whiscash",
+    "slug": "whiscash",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/340.png",
+    "typing": [
+      "water",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 65,
+      "hp": 43,
+      "specialAttack": 50,
+      "specialDefense": 35,
+      "speed": 35
+    },
+    "captureRate": 205,
+    "evolutionChainId": 174,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 341,
+    "legendary": false,
+    "mythical": false,
+    "name": "Corphish",
+    "nameEn": "Corphish",
+    "slug": "corphish",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/341.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 120,
+      "defense": 85,
+      "hp": 63,
+      "specialAttack": 90,
+      "specialDefense": 55,
+      "speed": 55
+    },
+    "captureRate": 155,
+    "evolutionChainId": 174,
+    "evolvesFrom": 341,
+    "generation": 3,
+    "id": 342,
+    "legendary": false,
+    "mythical": false,
+    "name": "Crawdaunt",
+    "nameEn": "Crawdaunt",
+    "slug": "crawdaunt",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/342.png",
+    "typing": [
+      "water",
+      "dark"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 40,
+      "defense": 55,
+      "hp": 40,
+      "specialAttack": 40,
+      "specialDefense": 70,
+      "speed": 55
+    },
+    "captureRate": 255,
+    "evolutionChainId": 175,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 343,
+    "legendary": false,
+    "mythical": false,
+    "name": "Baltoy",
+    "nameEn": "Baltoy",
+    "slug": "baltoy",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/343.png",
+    "typing": [
+      "ground",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 105,
+      "hp": 60,
+      "specialAttack": 70,
+      "specialDefense": 120,
+      "speed": 75
+    },
+    "captureRate": 90,
+    "evolutionChainId": 175,
+    "evolvesFrom": 343,
+    "generation": 3,
+    "id": 344,
+    "legendary": false,
+    "mythical": false,
+    "name": "Claydol",
+    "nameEn": "Claydol",
+    "slug": "claydol",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/344.png",
+    "typing": [
+      "ground",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 41,
+      "defense": 77,
+      "hp": 66,
+      "specialAttack": 61,
+      "specialDefense": 87,
+      "speed": 23
+    },
+    "captureRate": 45,
+    "evolutionChainId": 176,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 345,
+    "legendary": false,
+    "mythical": false,
+    "name": "Lileep",
+    "nameEn": "Lileep",
+    "slug": "lileep",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/345.png",
+    "typing": [
+      "rock",
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 81,
+      "defense": 97,
+      "hp": 86,
+      "specialAttack": 81,
+      "specialDefense": 107,
+      "speed": 43
+    },
+    "captureRate": 45,
+    "evolutionChainId": 176,
+    "evolvesFrom": 345,
+    "generation": 3,
+    "id": 346,
+    "legendary": false,
+    "mythical": false,
+    "name": "Cradily",
+    "nameEn": "Cradily",
+    "slug": "cradily",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/346.png",
+    "typing": [
+      "rock",
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 95,
+      "defense": 50,
+      "hp": 45,
+      "specialAttack": 40,
+      "specialDefense": 50,
+      "speed": 75
+    },
+    "captureRate": 45,
+    "evolutionChainId": 177,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 347,
+    "legendary": false,
+    "mythical": false,
+    "name": "Anorith",
+    "nameEn": "Anorith",
+    "slug": "anorith",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/347.png",
+    "typing": [
+      "rock",
+      "bug"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 125,
+      "defense": 100,
+      "hp": 75,
+      "specialAttack": 70,
+      "specialDefense": 80,
+      "speed": 45
+    },
+    "captureRate": 45,
+    "evolutionChainId": 177,
+    "evolvesFrom": 347,
+    "generation": 3,
+    "id": 348,
+    "legendary": false,
+    "mythical": false,
+    "name": "Armaldo",
+    "nameEn": "Armaldo",
+    "slug": "armaldo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/348.png",
+    "typing": [
+      "rock",
+      "bug"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 15,
+      "defense": 20,
+      "hp": 20,
+      "specialAttack": 10,
+      "specialDefense": 55,
+      "speed": 80
+    },
+    "captureRate": 255,
+    "evolutionChainId": 178,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 349,
+    "legendary": false,
+    "mythical": false,
+    "name": "Feebas",
+    "nameEn": "Feebas",
+    "slug": "feebas",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/349.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 79,
+      "hp": 95,
+      "specialAttack": 100,
+      "specialDefense": 125,
+      "speed": 81
+    },
+    "captureRate": 60,
+    "evolutionChainId": 178,
+    "evolvesFrom": 349,
+    "generation": 3,
+    "id": 350,
+    "legendary": false,
+    "mythical": false,
+    "name": "Milotic",
+    "nameEn": "Milotic",
+    "slug": "milotic",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/350.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 70,
+      "hp": 70,
+      "specialAttack": 70,
+      "specialDefense": 70,
+      "speed": 70
+    },
+    "captureRate": 45,
+    "evolutionChainId": 179,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 351,
+    "legendary": false,
+    "mythical": false,
+    "name": "Castform",
+    "nameEn": "Castform",
+    "slug": "castform",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/351.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 70,
+      "hp": 60,
+      "specialAttack": 60,
+      "specialDefense": 120,
+      "speed": 40
+    },
+    "captureRate": 200,
+    "evolutionChainId": 180,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 352,
+    "legendary": false,
+    "mythical": false,
+    "name": "Kecleon",
+    "nameEn": "Kecleon",
+    "slug": "kecleon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/352.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 35,
+      "hp": 44,
+      "specialAttack": 63,
+      "specialDefense": 33,
+      "speed": 45
+    },
+    "captureRate": 225,
+    "evolutionChainId": 181,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 353,
+    "legendary": false,
+    "mythical": false,
+    "name": "Shuppet",
+    "nameEn": "Shuppet",
+    "slug": "shuppet",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/353.png",
+    "typing": [
+      "ghost"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 115,
+      "defense": 65,
+      "hp": 64,
+      "specialAttack": 83,
+      "specialDefense": 63,
+      "speed": 65
+    },
+    "captureRate": 45,
+    "evolutionChainId": 181,
+    "evolvesFrom": 353,
+    "generation": 3,
+    "id": 354,
+    "legendary": false,
+    "mythical": false,
+    "name": "Banette",
+    "nameEn": "Banette",
+    "slug": "banette",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/354.png",
+    "typing": [
+      "ghost"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 40,
+      "defense": 90,
+      "hp": 20,
+      "specialAttack": 30,
+      "specialDefense": 90,
+      "speed": 25
+    },
+    "captureRate": 190,
+    "evolutionChainId": 182,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 355,
+    "legendary": false,
+    "mythical": false,
+    "name": "Duskull",
+    "nameEn": "Duskull",
+    "slug": "duskull",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/355.png",
+    "typing": [
+      "ghost"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 130,
+      "hp": 40,
+      "specialAttack": 60,
+      "specialDefense": 130,
+      "speed": 25
+    },
+    "captureRate": 90,
+    "evolutionChainId": 182,
+    "evolvesFrom": 355,
+    "generation": 3,
+    "id": 356,
+    "legendary": false,
+    "mythical": false,
+    "name": "Dusclops",
+    "nameEn": "Dusclops",
+    "slug": "dusclops",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/356.png",
+    "typing": [
+      "ghost"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 68,
+      "defense": 83,
+      "hp": 99,
+      "specialAttack": 72,
+      "specialDefense": 87,
+      "speed": 51
+    },
+    "captureRate": 200,
+    "evolutionChainId": 183,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 357,
+    "legendary": false,
+    "mythical": false,
+    "name": "Tropius",
+    "nameEn": "Tropius",
+    "slug": "tropius",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/357.png",
+    "typing": [
+      "grass",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 70,
+      "hp": 65,
+      "specialAttack": 95,
+      "specialDefense": 80,
+      "speed": 65
+    },
+    "captureRate": 45,
+    "evolutionChainId": 184,
+    "evolvesFrom": 433,
+    "generation": 3,
+    "id": 358,
+    "legendary": false,
+    "mythical": false,
+    "name": "Chimecho",
+    "nameEn": "Chimecho",
+    "slug": "chimecho",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/358.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 130,
+      "defense": 60,
+      "hp": 65,
+      "specialAttack": 75,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "captureRate": 30,
+    "evolutionChainId": 185,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 359,
+    "legendary": false,
+    "mythical": false,
+    "name": "Absol",
+    "nameEn": "Absol",
+    "slug": "absol",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/359.png",
+    "typing": [
+      "dark"
+    ]
+  },
+  {
+    "baby": true,
+    "baseStats": {
+      "attack": 23,
+      "defense": 48,
+      "hp": 95,
+      "specialAttack": 23,
+      "specialDefense": 48,
+      "speed": 23
+    },
+    "captureRate": 125,
+    "evolutionChainId": 100,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 360,
+    "legendary": false,
+    "mythical": false,
+    "name": "Wynaut",
+    "nameEn": "Wynaut",
+    "slug": "wynaut",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/360.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 50,
+      "hp": 50,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 50
+    },
+    "captureRate": 190,
+    "evolutionChainId": 186,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 361,
+    "legendary": false,
+    "mythical": false,
+    "name": "Snorunt",
+    "nameEn": "Snorunt",
+    "slug": "snorunt",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/361.png",
+    "typing": [
+      "ice"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 80,
+      "hp": 80,
+      "specialAttack": 80,
+      "specialDefense": 80,
+      "speed": 80
+    },
+    "captureRate": 75,
+    "evolutionChainId": 186,
+    "evolvesFrom": 361,
+    "generation": 3,
+    "id": 362,
+    "legendary": false,
+    "mythical": false,
+    "name": "Glalie",
+    "nameEn": "Glalie",
+    "slug": "glalie",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/362.png",
+    "typing": [
+      "ice"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 40,
+      "defense": 50,
+      "hp": 70,
+      "specialAttack": 55,
+      "specialDefense": 50,
+      "speed": 25
+    },
+    "captureRate": 255,
+    "evolutionChainId": 187,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 363,
+    "legendary": false,
+    "mythical": false,
+    "name": "Spheal",
+    "nameEn": "Spheal",
+    "slug": "spheal",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/363.png",
+    "typing": [
+      "ice",
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 70,
+      "hp": 90,
+      "specialAttack": 75,
+      "specialDefense": 70,
+      "speed": 45
+    },
+    "captureRate": 120,
+    "evolutionChainId": 187,
+    "evolvesFrom": 363,
+    "generation": 3,
+    "id": 364,
+    "legendary": false,
+    "mythical": false,
+    "name": "Sealeo",
+    "nameEn": "Sealeo",
+    "slug": "sealeo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/364.png",
+    "typing": [
+      "ice",
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 90,
+      "hp": 110,
+      "specialAttack": 95,
+      "specialDefense": 90,
+      "speed": 65
+    },
+    "captureRate": 45,
+    "evolutionChainId": 187,
+    "evolvesFrom": 364,
+    "generation": 3,
+    "id": 365,
+    "legendary": false,
+    "mythical": false,
+    "name": "Walrein",
+    "nameEn": "Walrein",
+    "slug": "walrein",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/365.png",
+    "typing": [
+      "ice",
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 64,
+      "defense": 85,
+      "hp": 35,
+      "specialAttack": 74,
+      "specialDefense": 55,
+      "speed": 32
+    },
+    "captureRate": 255,
+    "evolutionChainId": 188,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 366,
+    "legendary": false,
+    "mythical": false,
+    "name": "Clamperl",
+    "nameEn": "Clamperl",
+    "slug": "clamperl",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/366.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 104,
+      "defense": 105,
+      "hp": 55,
+      "specialAttack": 94,
+      "specialDefense": 75,
+      "speed": 52
+    },
+    "captureRate": 60,
+    "evolutionChainId": 188,
+    "evolvesFrom": 366,
+    "generation": 3,
+    "id": 367,
+    "legendary": false,
+    "mythical": false,
+    "name": "Huntail",
+    "nameEn": "Huntail",
+    "slug": "huntail",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/367.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 84,
+      "defense": 105,
+      "hp": 55,
+      "specialAttack": 114,
+      "specialDefense": 75,
+      "speed": 52
+    },
+    "captureRate": 60,
+    "evolutionChainId": 188,
+    "evolvesFrom": 366,
+    "generation": 3,
+    "id": 368,
+    "legendary": false,
+    "mythical": false,
+    "name": "Gorebyss",
+    "nameEn": "Gorebyss",
+    "slug": "gorebyss",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/368.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 130,
+      "hp": 100,
+      "specialAttack": 45,
+      "specialDefense": 65,
+      "speed": 55
+    },
+    "captureRate": 25,
+    "evolutionChainId": 189,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 369,
+    "legendary": false,
+    "mythical": false,
+    "name": "Relicanth",
+    "nameEn": "Relicanth",
+    "slug": "relicanth",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/369.png",
+    "typing": [
+      "water",
+      "rock"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 30,
+      "defense": 55,
+      "hp": 43,
+      "specialAttack": 40,
+      "specialDefense": 65,
+      "speed": 97
+    },
+    "captureRate": 225,
+    "evolutionChainId": 190,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 370,
+    "legendary": false,
+    "mythical": false,
+    "name": "Luvdisc",
+    "nameEn": "Luvdisc",
+    "slug": "luvdisc",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/370.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 60,
+      "hp": 45,
+      "specialAttack": 40,
+      "specialDefense": 30,
+      "speed": 50
+    },
+    "captureRate": 45,
+    "evolutionChainId": 191,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 371,
+    "legendary": false,
+    "mythical": false,
+    "name": "Bagon",
+    "nameEn": "Bagon",
+    "slug": "bagon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/371.png",
+    "typing": [
+      "dragon"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 95,
+      "defense": 100,
+      "hp": 65,
+      "specialAttack": 60,
+      "specialDefense": 50,
+      "speed": 50
+    },
+    "captureRate": 45,
+    "evolutionChainId": 191,
+    "evolvesFrom": 371,
+    "generation": 3,
+    "id": 372,
+    "legendary": false,
+    "mythical": false,
+    "name": "Shelgon",
+    "nameEn": "Shelgon",
+    "slug": "shelgon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/372.png",
+    "typing": [
+      "dragon"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 135,
+      "defense": 80,
+      "hp": 95,
+      "specialAttack": 110,
+      "specialDefense": 80,
+      "speed": 100
+    },
+    "captureRate": 45,
+    "evolutionChainId": 191,
+    "evolvesFrom": 372,
+    "generation": 3,
+    "id": 373,
+    "legendary": false,
+    "mythical": false,
+    "name": "Salamence",
+    "nameEn": "Salamence",
+    "slug": "salamence",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/373.png",
+    "typing": [
+      "dragon",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 55,
+      "defense": 80,
+      "hp": 40,
+      "specialAttack": 35,
+      "specialDefense": 60,
+      "speed": 30
+    },
+    "captureRate": 3,
+    "evolutionChainId": 192,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 374,
+    "legendary": false,
+    "mythical": false,
+    "name": "Beldum",
+    "nameEn": "Beldum",
+    "slug": "beldum",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/374.png",
+    "typing": [
+      "steel",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 100,
+      "hp": 60,
+      "specialAttack": 55,
+      "specialDefense": 80,
+      "speed": 50
+    },
+    "captureRate": 3,
+    "evolutionChainId": 192,
+    "evolvesFrom": 374,
+    "generation": 3,
+    "id": 375,
+    "legendary": false,
+    "mythical": false,
+    "name": "Metang",
+    "nameEn": "Metang",
+    "slug": "metang",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/375.png",
+    "typing": [
+      "steel",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 135,
+      "defense": 130,
+      "hp": 80,
+      "specialAttack": 95,
+      "specialDefense": 90,
+      "speed": 70
+    },
+    "captureRate": 3,
+    "evolutionChainId": 192,
+    "evolvesFrom": 375,
+    "generation": 3,
+    "id": 376,
+    "legendary": false,
+    "mythical": false,
+    "name": "Metagross",
+    "nameEn": "Metagross",
+    "slug": "metagross",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/376.png",
+    "typing": [
+      "steel",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 200,
+      "hp": 80,
+      "specialAttack": 50,
+      "specialDefense": 100,
+      "speed": 50
+    },
+    "captureRate": 3,
+    "evolutionChainId": 193,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 377,
+    "legendary": true,
+    "mythical": false,
+    "name": "Regirock",
+    "nameEn": "Regirock",
+    "slug": "regirock",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/377.png",
+    "typing": [
+      "rock"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 100,
+      "hp": 80,
+      "specialAttack": 100,
+      "specialDefense": 200,
+      "speed": 50
+    },
+    "captureRate": 3,
+    "evolutionChainId": 194,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 378,
+    "legendary": true,
+    "mythical": false,
+    "name": "Regice",
+    "nameEn": "Regice",
+    "slug": "regice",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/378.png",
+    "typing": [
+      "ice"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 150,
+      "hp": 80,
+      "specialAttack": 75,
+      "specialDefense": 150,
+      "speed": 50
+    },
+    "captureRate": 3,
+    "evolutionChainId": 195,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 379,
+    "legendary": true,
+    "mythical": false,
+    "name": "Registeel",
+    "nameEn": "Registeel",
+    "slug": "registeel",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/379.png",
+    "typing": [
+      "steel"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 90,
+      "hp": 80,
+      "specialAttack": 110,
+      "specialDefense": 130,
+      "speed": 110
+    },
+    "captureRate": 3,
+    "evolutionChainId": 196,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 380,
+    "legendary": true,
+    "mythical": false,
+    "name": "Latias",
+    "nameEn": "Latias",
+    "slug": "latias",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/380.png",
+    "typing": [
+      "dragon",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 80,
+      "hp": 80,
+      "specialAttack": 130,
+      "specialDefense": 110,
+      "speed": 110
+    },
+    "captureRate": 3,
+    "evolutionChainId": 197,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 381,
+    "legendary": true,
+    "mythical": false,
+    "name": "Latios",
+    "nameEn": "Latios",
+    "slug": "latios",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/381.png",
+    "typing": [
+      "dragon",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 90,
+      "hp": 100,
+      "specialAttack": 150,
+      "specialDefense": 140,
+      "speed": 90
+    },
+    "captureRate": 3,
+    "evolutionChainId": 198,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 382,
+    "legendary": true,
+    "mythical": false,
+    "name": "Kyogre",
+    "nameEn": "Kyogre",
+    "slug": "kyogre",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/382.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 150,
+      "defense": 140,
+      "hp": 100,
+      "specialAttack": 100,
+      "specialDefense": 90,
+      "speed": 90
+    },
+    "captureRate": 3,
+    "evolutionChainId": 199,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 383,
+    "legendary": true,
+    "mythical": false,
+    "name": "Groudon",
+    "nameEn": "Groudon",
+    "slug": "groudon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/383.png",
+    "typing": [
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 150,
+      "defense": 90,
+      "hp": 105,
+      "specialAttack": 150,
+      "specialDefense": 90,
+      "speed": 95
+    },
+    "captureRate": 45,
+    "evolutionChainId": 200,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 384,
+    "legendary": true,
+    "mythical": false,
+    "name": "Rayquaza",
+    "nameEn": "Rayquaza",
+    "slug": "rayquaza",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/384.png",
+    "typing": [
+      "dragon",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 100,
+      "hp": 100,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 100
+    },
+    "captureRate": 3,
+    "evolutionChainId": 201,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 385,
+    "legendary": false,
+    "mythical": true,
+    "name": "Jirachi",
+    "nameEn": "Jirachi",
+    "slug": "jirachi",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/385.png",
+    "typing": [
+      "steel",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 150,
+      "defense": 50,
+      "hp": 50,
+      "specialAttack": 150,
+      "specialDefense": 50,
+      "speed": 150
+    },
+    "captureRate": 3,
+    "evolutionChainId": 202,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 386,
+    "legendary": false,
+    "mythical": true,
+    "name": "Deoxys",
+    "nameEn": "Deoxys",
+    "slug": "deoxys",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/386.png",
+    "typing": [
+      "psychic"
+    ]
+  }
+]

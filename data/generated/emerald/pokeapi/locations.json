@@ -1,0 +1,807 @@
+[
+  {
+    "hasSpanishName": false,
+    "id": "abandoned-ship-area",
+    "location": "abandoned-ship",
+    "name": "Abandoned Ship",
+    "nameEn": "Abandoned Ship"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "ancient-tomb-area",
+    "location": "ancient-tomb",
+    "name": "Tumba Antigua",
+    "nameEn": "Ancient Tomb"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "artisan-cave-area",
+    "location": "artisan-cave",
+    "name": "Artisan Cave",
+    "nameEn": "Artisan Cave"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "cave-of-origin-1f",
+    "location": "cave-of-origin",
+    "name": "Cueva Ancestral (Cave of Origin (1F))",
+    "nameEn": "Cave of Origin (Cave of Origin (1F))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "cave-of-origin-b1f",
+    "location": "cave-of-origin",
+    "name": "Cueva Ancestral (Cave of Origin (B1F))",
+    "nameEn": "Cave of Origin (Cave of Origin (B1F))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "cave-of-origin-b2f",
+    "location": "cave-of-origin",
+    "name": "Cueva Ancestral (Cave of Origin (B2F))",
+    "nameEn": "Cave of Origin (Cave of Origin (B2F))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "cave-of-origin-b3f",
+    "location": "cave-of-origin",
+    "name": "Cueva Ancestral (Cave of Origin (B3F))",
+    "nameEn": "Cave of Origin (Cave of Origin (B3F))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "cave-of-origin-entrance",
+    "location": "cave-of-origin",
+    "name": "Cueva Ancestral (Cave of Origin (entrance))",
+    "nameEn": "Cave of Origin (Cave of Origin (entrance))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "desert-ruins-area",
+    "location": "desert-ruins",
+    "name": "Ruinas del Desierto",
+    "nameEn": "Desert Ruins"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "desert-underpass-area",
+    "location": "desert-underpass",
+    "name": "Desert Underpass",
+    "nameEn": "Desert Underpass"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "dewford-town-area",
+    "location": "dewford-town",
+    "name": "Pueblo Azuliza",
+    "nameEn": "Dewford Town"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "ever-grande-city-area",
+    "location": "ever-grande-city",
+    "name": "Ciudad Colosalia",
+    "nameEn": "Ever Grande City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "faraway-island-area",
+    "location": "faraway-island",
+    "name": "Faraway Island",
+    "nameEn": "Faraway Island"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "fiery-path-area",
+    "location": "fiery-path",
+    "name": "Senda Ígnea",
+    "nameEn": "Fiery Path"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "fortree-city-area",
+    "location": "fortree-city",
+    "name": "Ciudad Arborada",
+    "nameEn": "Fortree City"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "granite-cave-1f",
+    "location": "granite-cave",
+    "name": "Cueva Granito (Granite Cave (1F))",
+    "nameEn": "Granite Cave (Granite Cave (1F))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "granite-cave-1fsmall-room",
+    "location": "granite-cave",
+    "name": "Cueva Granito (Granite Cave (1F/small room))",
+    "nameEn": "Granite Cave (Granite Cave (1F/small room))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "granite-cave-b1f",
+    "location": "granite-cave",
+    "name": "Cueva Granito (Granite Cave (B1F))",
+    "nameEn": "Granite Cave (Granite Cave (B1F))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "granite-cave-b2f",
+    "location": "granite-cave",
+    "name": "Cueva Granito (Granite Cave (B2F))",
+    "nameEn": "Granite Cave (Granite Cave (B2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "hoenn-altering-cave-area",
+    "location": "hoenn-altering-cave",
+    "name": "Altering Cave",
+    "nameEn": "Altering Cave"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "hoenn-battle-frontier-area",
+    "location": "hoenn-battle-frontier",
+    "name": "Hoenn Battle Frontier",
+    "nameEn": "Hoenn Battle Frontier"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "hoenn-pokecenter-area",
+    "location": "hoenn-pokecenter",
+    "name": "hoenn-pokecenter",
+    "nameEn": "hoenn-pokecenter"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-101-area",
+    "location": "hoenn-route-101",
+    "name": "Ruta 101 (Road 101)",
+    "nameEn": "Route 101 (Road 101)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-102-area",
+    "location": "hoenn-route-102",
+    "name": "Ruta 102 (Road 102)",
+    "nameEn": "Route 102 (Road 102)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-103-area",
+    "location": "hoenn-route-103",
+    "name": "Ruta 103 (Road 103)",
+    "nameEn": "Route 103 (Road 103)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-104-area",
+    "location": "hoenn-route-104",
+    "name": "Ruta 104 (Road 104)",
+    "nameEn": "Route 104 (Road 104)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-105-area",
+    "location": "hoenn-route-105",
+    "name": "Ruta 105 (Road 105)",
+    "nameEn": "Route 105 (Road 105)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-106-area",
+    "location": "hoenn-route-106",
+    "name": "Ruta 106 (Road 106)",
+    "nameEn": "Route 106 (Road 106)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-107-area",
+    "location": "hoenn-route-107",
+    "name": "Ruta 107 (Road 107)",
+    "nameEn": "Route 107 (Road 107)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-108-area",
+    "location": "hoenn-route-108",
+    "name": "Ruta 108 (Road 108)",
+    "nameEn": "Route 108 (Road 108)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-109-area",
+    "location": "hoenn-route-109",
+    "name": "Ruta 109 (Road 109)",
+    "nameEn": "Route 109 (Road 109)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-110-area",
+    "location": "hoenn-route-110",
+    "name": "Ruta 110 (Road 110)",
+    "nameEn": "Route 110 (Road 110)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-111-area",
+    "location": "hoenn-route-111",
+    "name": "Ruta 111 (Road 111)",
+    "nameEn": "Route 111 (Road 111)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-112-area",
+    "location": "hoenn-route-112",
+    "name": "Ruta 112 (Road 112)",
+    "nameEn": "Route 112 (Road 112)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-113-area",
+    "location": "hoenn-route-113",
+    "name": "Ruta 113 (Road 113)",
+    "nameEn": "Route 113 (Road 113)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-114-area",
+    "location": "hoenn-route-114",
+    "name": "Ruta 114 (Road 114)",
+    "nameEn": "Route 114 (Road 114)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-115-area",
+    "location": "hoenn-route-115",
+    "name": "Ruta 115 (Road 115)",
+    "nameEn": "Route 115 (Road 115)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-116-area",
+    "location": "hoenn-route-116",
+    "name": "Ruta 116 (Road 116)",
+    "nameEn": "Route 116 (Road 116)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-117-area",
+    "location": "hoenn-route-117",
+    "name": "Ruta 117 (Road 117)",
+    "nameEn": "Route 117 (Road 117)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-118-area",
+    "location": "hoenn-route-118",
+    "name": "Ruta 118 (Road 118)",
+    "nameEn": "Route 118 (Road 118)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-119-area",
+    "location": "hoenn-route-119",
+    "name": "Ruta 119 (Road 119)",
+    "nameEn": "Route 119 (Road 119)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-119-weather-institute",
+    "location": "hoenn-route-119",
+    "name": "Ruta 119 (Weather Institute (Road 119))",
+    "nameEn": "Route 119 (Weather Institute (Road 119))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-120-area",
+    "location": "hoenn-route-120",
+    "name": "Ruta 120 (Road 120)",
+    "nameEn": "Route 120 (Road 120)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-121-area",
+    "location": "hoenn-route-121",
+    "name": "Ruta 121 (Road 121)",
+    "nameEn": "Route 121 (Road 121)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-122-area",
+    "location": "hoenn-route-122",
+    "name": "Ruta 122 (Road 122)",
+    "nameEn": "Route 122 (Road 122)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-123-area",
+    "location": "hoenn-route-123",
+    "name": "Ruta 123 (Road 123)",
+    "nameEn": "Route 123 (Road 123)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-124-area",
+    "location": "hoenn-route-124",
+    "name": "Ruta 124 (Road 124)",
+    "nameEn": "Route 124 (Road 124)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-124-underwater",
+    "location": "hoenn-route-124",
+    "name": "Ruta 124 (Road 124 (underwater))",
+    "nameEn": "Route 124 (Road 124 (underwater))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-125-area",
+    "location": "hoenn-route-125",
+    "name": "Ruta 125 (Road 125)",
+    "nameEn": "Route 125 (Road 125)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-126-area",
+    "location": "hoenn-route-126",
+    "name": "Ruta 126 (Road 126)",
+    "nameEn": "Route 126 (Road 126)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-126-underwater",
+    "location": "hoenn-route-126",
+    "name": "Ruta 126 (Road 126 (underwater))",
+    "nameEn": "Route 126 (Road 126 (underwater))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-127-area",
+    "location": "hoenn-route-127",
+    "name": "Ruta 127 (Road 127)",
+    "nameEn": "Route 127 (Road 127)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-128-area",
+    "location": "hoenn-route-128",
+    "name": "Ruta 128 (Road 128)",
+    "nameEn": "Route 128 (Road 128)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-129-area",
+    "location": "hoenn-route-129",
+    "name": "Ruta 129 (Road 129)",
+    "nameEn": "Route 129 (Road 129)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-130-area",
+    "location": "hoenn-route-130",
+    "name": "Ruta 130 (Road 130)",
+    "nameEn": "Route 130 (Road 130)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-131-area",
+    "location": "hoenn-route-131",
+    "name": "Ruta 131 (Road 131)",
+    "nameEn": "Route 131 (Road 131)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-132-area",
+    "location": "hoenn-route-132",
+    "name": "Ruta 132 (Road 132)",
+    "nameEn": "Route 132 (Road 132)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-133-area",
+    "location": "hoenn-route-133",
+    "name": "Ruta 133 (Road 133)",
+    "nameEn": "Route 133 (Road 133)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-route-134-area",
+    "location": "hoenn-route-134",
+    "name": "Ruta 134 (Road 134)",
+    "nameEn": "Route 134 (Road 134)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-safari-zone-expansion-north",
+    "location": "hoenn-safari-zone",
+    "name": "Zona Safari (Safari Zone (expansion north))",
+    "nameEn": "Safari Zone (Safari Zone (expansion north))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-safari-zone-expansion-south",
+    "location": "hoenn-safari-zone",
+    "name": "Zona Safari (Safari Zone (expansion south))",
+    "nameEn": "Safari Zone (Safari Zone (expansion south))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-safari-zone-neacro-bike-area",
+    "location": "hoenn-safari-zone",
+    "name": "Zona Safari (Safari Zone (NE/acro bike area))",
+    "nameEn": "Safari Zone (Safari Zone (NE/acro bike area))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-safari-zone-nwmach-bike-area",
+    "location": "hoenn-safari-zone",
+    "name": "Zona Safari (Safari Zone (NW/mach bike area))",
+    "nameEn": "Safari Zone (Safari Zone (NW/mach bike area))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-safari-zone-se",
+    "location": "hoenn-safari-zone",
+    "name": "Zona Safari (Safari Zone (SE))",
+    "nameEn": "Safari Zone (Safari Zone (SE))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-safari-zone-sw",
+    "location": "hoenn-safari-zone",
+    "name": "Zona Safari (Safari Zone (SW))",
+    "nameEn": "Safari Zone (Safari Zone (SW))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-victory-road-1f",
+    "location": "hoenn-victory-road",
+    "name": "Calle Victoria (Victory Road (1F))",
+    "nameEn": "Victory Road (Victory Road (1F))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-victory-road-b1f",
+    "location": "hoenn-victory-road",
+    "name": "Calle Victoria (Victory Road (B1F))",
+    "nameEn": "Victory Road (Victory Road (B1F))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "hoenn-victory-road-b2f",
+    "location": "hoenn-victory-road",
+    "name": "Calle Victoria (Victory Road (B2F))",
+    "nameEn": "Victory Road (Victory Road (B2F))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "island-cave-area",
+    "location": "island-cave",
+    "name": "Cueva Insular",
+    "nameEn": "Island Cave"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "jagged-pass-area",
+    "location": "jagged-pass",
+    "name": "Desfiladero",
+    "nameEn": "Jagged Pass"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "lavaridge-town-area",
+    "location": "lavaridge-town",
+    "name": "Pueblo Lavacalda",
+    "nameEn": "Lavaridge Town"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "lilycove-city-area",
+    "location": "lilycove-city",
+    "name": "Ciudad Calagua",
+    "nameEn": "Lilycove City"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "littleroot-town-area",
+    "location": "littleroot-town",
+    "name": "Villa Raíz",
+    "nameEn": "Littleroot Town"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "magma-hideout-area",
+    "location": "magma-hideout",
+    "name": "Magma Hideout",
+    "nameEn": "Magma Hideout"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "marine-cave-area",
+    "location": "marine-cave",
+    "name": "Marine Cave",
+    "nameEn": "Marine Cave"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "meteor-falls-area",
+    "location": "meteor-falls",
+    "name": "Cascada Meteoro",
+    "nameEn": "Meteor Falls"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "meteor-falls-b1f",
+    "location": "meteor-falls",
+    "name": "Cascada Meteoro (Meteor Falls (B1F))",
+    "nameEn": "Meteor Falls (Meteor Falls (B1F))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "meteor-falls-back",
+    "location": "meteor-falls",
+    "name": "Cascada Meteoro (Meteor Falls (back))",
+    "nameEn": "Meteor Falls (Meteor Falls (back))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "meteor-falls-backsmall-room",
+    "location": "meteor-falls",
+    "name": "Cascada Meteoro (Meteor Falls (back/small room))",
+    "nameEn": "Meteor Falls (Meteor Falls (back/small room))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mirage-island-area",
+    "location": "mirage-island",
+    "name": "mirage-island (Mirage Island)",
+    "nameEn": "mirage-island (Mirage Island)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mirage-tower-area",
+    "location": "mirage-tower",
+    "name": "Mirage Tower",
+    "nameEn": "Mirage Tower"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "mossdeep-city-area",
+    "location": "mossdeep-city",
+    "name": "Ciudad Algaria",
+    "nameEn": "Mossdeep City"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "mossdeep-city-stevens-house",
+    "location": "mossdeep-city",
+    "name": "Ciudad Algaria (Mossdeep City (Steven's house))",
+    "nameEn": "Mossdeep City (Mossdeep City (Steven's house))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "mt-pyre-1f",
+    "location": "mt-pyre",
+    "name": "Monte Pírico (Mount Pyre (1F))",
+    "nameEn": "Mt. Pyre (Mount Pyre (1F))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "mt-pyre-2f",
+    "location": "mt-pyre",
+    "name": "Monte Pírico (Mount Pyre (2F))",
+    "nameEn": "Mt. Pyre (Mount Pyre (2F))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "mt-pyre-3f",
+    "location": "mt-pyre",
+    "name": "Monte Pírico (Mount Pyre (3F))",
+    "nameEn": "Mt. Pyre (Mount Pyre (3F))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "mt-pyre-4f",
+    "location": "mt-pyre",
+    "name": "Monte Pírico (Mount Pyre (4F))",
+    "nameEn": "Mt. Pyre (Mount Pyre (4F))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "mt-pyre-5f",
+    "location": "mt-pyre",
+    "name": "Monte Pírico (Mount Pyre (5F))",
+    "nameEn": "Mt. Pyre (Mount Pyre (5F))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "mt-pyre-6f",
+    "location": "mt-pyre",
+    "name": "Monte Pírico (Mount Pyre (6F))",
+    "nameEn": "Mt. Pyre (Mount Pyre (6F))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "mt-pyre-outside",
+    "location": "mt-pyre",
+    "name": "Monte Pírico (Mount Pyre (outside))",
+    "nameEn": "Mt. Pyre (Mount Pyre (outside))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "mt-pyre-summit",
+    "location": "mt-pyre",
+    "name": "Monte Pírico (Mount Pyre (summit))",
+    "nameEn": "Mt. Pyre (Mount Pyre (summit))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "new-mauville-area",
+    "location": "new-mauville",
+    "name": "Malvalanova",
+    "nameEn": "New Mauville"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "new-mauville-entrance",
+    "location": "new-mauville",
+    "name": "Malvalanova (New Mauville (entrance))",
+    "nameEn": "New Mauville (New Mauville (entrance))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "pacifidlog-town-area",
+    "location": "pacifidlog-town",
+    "name": "Pueblo Oromar",
+    "nameEn": "Pacifidlog Town"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "petalburg-city-area",
+    "location": "petalburg-city",
+    "name": "Ciudad Petalia",
+    "nameEn": "Petalburg City"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "petalburg-woods-area",
+    "location": "petalburg-woods",
+    "name": "Bosque Petalia",
+    "nameEn": "Petalburg Woods"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "roaming-hoenn-area",
+    "location": "roaming-hoenn",
+    "name": "Roaming Hoenn",
+    "nameEn": "Roaming Hoenn"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "rustboro-city-area",
+    "location": "rustboro-city",
+    "name": "Ciudad Férrica",
+    "nameEn": "Rustboro City"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "rusturf-tunnel-area",
+    "location": "rusturf-tunnel",
+    "name": "Túnel Fervergal",
+    "nameEn": "Rusturf Tunnel"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "seafloor-cavern-area",
+    "location": "seafloor-cavern",
+    "name": "Caverna Abisal",
+    "nameEn": "Seafloor Cavern"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "shoal-cave-b1f",
+    "location": "shoal-cave",
+    "name": "Cueva Cardumen (Shoal Cave (B1F))",
+    "nameEn": "Shoal Cave (Shoal Cave (B1F))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "shoal-cave-b2f",
+    "location": "shoal-cave",
+    "name": "Cueva Cardumen",
+    "nameEn": "Shoal Cave"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "shoal-cave-b3f",
+    "location": "shoal-cave",
+    "name": "Cueva Cardumen",
+    "nameEn": "Shoal Cave"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "shoal-cave-high-tide",
+    "location": "shoal-cave",
+    "name": "Cueva Cardumen",
+    "nameEn": "Shoal Cave"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "shoal-cave-low-tide",
+    "location": "shoal-cave",
+    "name": "Cueva Cardumen",
+    "nameEn": "Shoal Cave"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "sky-pillar-1f",
+    "location": "sky-pillar",
+    "name": "Pilar Celeste (Sky Pillar (1F))",
+    "nameEn": "Sky Pillar (Sky Pillar (1F))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "sky-pillar-3f",
+    "location": "sky-pillar",
+    "name": "Pilar Celeste (Sky Pillar (3F))",
+    "nameEn": "Sky Pillar (Sky Pillar (3F))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "sky-pillar-5f",
+    "location": "sky-pillar",
+    "name": "Pilar Celeste (Sky Pillar (5F))",
+    "nameEn": "Sky Pillar (Sky Pillar (5F))"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "sky-pillar-apex",
+    "location": "sky-pillar",
+    "name": "Pilar Celeste (Sky Pillar Apex)",
+    "nameEn": "Sky Pillar (Sky Pillar Apex)"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "slateport-city-area",
+    "location": "slateport-city",
+    "name": "Ciudad Portual",
+    "nameEn": "Slateport City"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "sootopolis-city-area",
+    "location": "sootopolis-city",
+    "name": "Arrecípolis",
+    "nameEn": "Sootopolis City"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "southern-island-area",
+    "location": "southern-island",
+    "name": "Isla del Sur",
+    "nameEn": "Southern Island"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "team-aqua-hideout-area",
+    "location": "team-aqua-hideout",
+    "name": "Guarida Aqua",
+    "nameEn": "Team Aqua Hideout"
+  },
+  {
+    "hasSpanishName": true,
+    "id": "team-magma-hideout-area",
+    "location": "team-magma-hideout",
+    "name": "Guarida Magma",
+    "nameEn": "Team Magma Hideout"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "terra-cave-area",
+    "location": "terra-cave",
+    "name": "Terra Cave",
+    "nameEn": "Terra Cave"
+  }
+]

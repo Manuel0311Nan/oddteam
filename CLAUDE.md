@@ -98,8 +98,10 @@ pnpm typecheck           # tsc --noEmit
 pnpm test                # Vitest (una pasada)
 pnpm test:watch          # Vitest en modo watch
 pnpm check               # lint + typecheck + test (lo mismo que CI)
-pnpm data:build          # PokéAPI + overrides → data/generated (usa caché local) · F2
-pnpm data:build --fresh  # ignora la caché y vuelve a descargar · F2
+pnpm data:build          # PokéAPI → data/generated (+ overrides desde F3), con caché local
+pnpm data:build --game=emerald
+pnpm data:build --fresh  # ignora la caché y vuelve a descargar
+pnpm data:build --source=pokeapi   # API en vivo en vez del volcado de GitHub (D-014)
 pnpm data:featured       # recalcula equipos destacados · F6
 ```
 
@@ -122,6 +124,7 @@ Antes de dar una tarea por terminada, `pnpm check` tiene que pasar.
 
 - ❌ No llamar a PokéAPI en runtime ni desde el cliente. Solo desde `scripts/build-data/`, y con caché local.
 - ❌ No editar a mano `data/generated/`. Las correcciones van en `data/overrides/`.
+- ❌ No contar un método de encuentro sin clasificar: se añade a `scripts/build-data/encounters.ts` con su tipo (D-015).
 - ❌ No usar el dex regional de PokéAPI como pool sin filtrar: incluye exclusivos de la otra versión y especies imposibles.
 - ❌ No filtrar encuentros por grupo de versiones: siempre por versión (`version_details[].version`).
 - ❌ No dar por iguales dos versiones de una familia: lo que cambia va en `versions/{game}.ts`, y Esmeralda y Platino son familias propias.

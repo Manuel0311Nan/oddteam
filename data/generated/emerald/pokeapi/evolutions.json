@@ -1,0 +1,1904 @@
+[
+  {
+    "baseSpeciesId": 172,
+    "id": 10,
+    "steps": [
+      {
+        "details": [
+          {
+            "minHappiness": 220,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 172,
+        "toSpeciesId": 25
+      },
+      {
+        "details": [
+          {
+            "item": "thunder-stone",
+            "trigger": "use-item"
+          }
+        ],
+        "fromSpeciesId": 25,
+        "toSpeciesId": 26
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 27,
+    "id": 11,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 22,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 27,
+        "toSpeciesId": 28
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 37,
+    "id": 15,
+    "steps": [
+      {
+        "details": [
+          {
+            "item": "fire-stone",
+            "trigger": "use-item"
+          }
+        ],
+        "fromSpeciesId": 37,
+        "toSpeciesId": 38
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 174,
+    "id": 16,
+    "steps": [
+      {
+        "details": [
+          {
+            "minHappiness": 160,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 174,
+        "toSpeciesId": 39
+      },
+      {
+        "details": [
+          {
+            "item": "moon-stone",
+            "trigger": "use-item"
+          }
+        ],
+        "fromSpeciesId": 39,
+        "toSpeciesId": 40
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 41,
+    "id": 17,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 22,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 41,
+        "toSpeciesId": 42
+      },
+      {
+        "details": [
+          {
+            "minHappiness": 160,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 42,
+        "toSpeciesId": 169
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 43,
+    "id": 18,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 21,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 43,
+        "toSpeciesId": 44
+      },
+      {
+        "details": [
+          {
+            "item": "leaf-stone",
+            "trigger": "use-item"
+          }
+        ],
+        "fromSpeciesId": 44,
+        "toSpeciesId": 45
+      },
+      {
+        "details": [
+          {
+            "item": "sun-stone",
+            "trigger": "use-item"
+          }
+        ],
+        "fromSpeciesId": 44,
+        "toSpeciesId": 182
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 52,
+    "id": 22,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 28,
+            "trigger": "level-up"
+          },
+          {
+            "minHappiness": 160,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 52,
+        "toSpeciesId": 53
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 54,
+    "id": 23,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 33,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 54,
+        "toSpeciesId": 55
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 63,
+    "id": 27,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 16,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 63,
+        "toSpeciesId": 64
+      },
+      {
+        "details": [
+          {
+            "trigger": "trade"
+          }
+        ],
+        "fromSpeciesId": 64,
+        "toSpeciesId": 65
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 66,
+    "id": 28,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 28,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 66,
+        "toSpeciesId": 67
+      },
+      {
+        "details": [
+          {
+            "trigger": "trade"
+          }
+        ],
+        "fromSpeciesId": 67,
+        "toSpeciesId": 68
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 72,
+    "id": 30,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 30,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 72,
+        "toSpeciesId": 73
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 74,
+    "id": 31,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 25,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 74,
+        "toSpeciesId": 75
+      },
+      {
+        "details": [
+          {
+            "trigger": "trade"
+          }
+        ],
+        "fromSpeciesId": 75,
+        "toSpeciesId": 76
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 81,
+    "id": 34,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 30,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 81,
+        "toSpeciesId": 82
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 84,
+    "id": 36,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 31,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 84,
+        "toSpeciesId": 85
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 88,
+    "id": 38,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 38,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 88,
+        "toSpeciesId": 89
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 100,
+    "id": 44,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 30,
+            "trigger": "level-up"
+          },
+          {
+            "item": "leaf-stone",
+            "trigger": "use-item"
+          }
+        ],
+        "fromSpeciesId": 100,
+        "toSpeciesId": 101
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 109,
+    "id": 49,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 35,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 109,
+        "toSpeciesId": 110
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 111,
+    "id": 50,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 42,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 111,
+        "toSpeciesId": 112
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 116,
+    "id": 54,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 32,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 116,
+        "toSpeciesId": 117
+      },
+      {
+        "details": [
+          {
+            "heldItem": "dragon-scale",
+            "trigger": "trade"
+          }
+        ],
+        "fromSpeciesId": 117,
+        "toSpeciesId": 230
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 118,
+    "id": 55,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 33,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 118,
+        "toSpeciesId": 119
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 120,
+    "id": 56,
+    "steps": [
+      {
+        "details": [
+          {
+            "item": "water-stone",
+            "trigger": "use-item"
+          }
+        ],
+        "fromSpeciesId": 120,
+        "toSpeciesId": 121
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 127,
+    "id": 62,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 129,
+    "id": 64,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 20,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 129,
+        "toSpeciesId": 130
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 132,
+    "id": 66,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 151,
+    "id": 78,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 152,
+    "id": 79,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 16,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 152,
+        "toSpeciesId": 153
+      },
+      {
+        "details": [
+          {
+            "minLevel": 32,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 153,
+        "toSpeciesId": 154
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 155,
+    "id": 80,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 14,
+            "trigger": "level-up"
+          },
+          {
+            "minLevel": 17,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 155,
+        "toSpeciesId": 156
+      },
+      {
+        "details": [
+          {
+            "minLevel": 36,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 156,
+        "toSpeciesId": 157
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 158,
+    "id": 81,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 18,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 158,
+        "toSpeciesId": 159
+      },
+      {
+        "details": [
+          {
+            "minLevel": 30,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 159,
+        "toSpeciesId": 160
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 163,
+    "id": 83,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 20,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 163,
+        "toSpeciesId": 164
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 165,
+    "id": 84,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 18,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 165,
+        "toSpeciesId": 166
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 167,
+    "id": 85,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 22,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 167,
+        "toSpeciesId": 168
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 170,
+    "id": 86,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 27,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 170,
+        "toSpeciesId": 171
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 177,
+    "id": 88,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 25,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 177,
+        "toSpeciesId": 178
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 179,
+    "id": 89,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 15,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 179,
+        "toSpeciesId": 180
+      },
+      {
+        "details": [
+          {
+            "minLevel": 30,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 180,
+        "toSpeciesId": 181
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 298,
+    "id": 90,
+    "steps": [
+      {
+        "details": [
+          {
+            "minHappiness": 160,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 298,
+        "toSpeciesId": 183
+      },
+      {
+        "details": [
+          {
+            "minLevel": 18,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 183,
+        "toSpeciesId": 184
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 185,
+    "id": 91,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 190,
+    "id": 93,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 191,
+    "id": 94,
+    "steps": [
+      {
+        "details": [
+          {
+            "item": "sun-stone",
+            "trigger": "use-item"
+          }
+        ],
+        "fromSpeciesId": 191,
+        "toSpeciesId": 192
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 194,
+    "id": 96,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 20,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 194,
+        "toSpeciesId": 195
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 360,
+    "id": 100,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 15,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 360,
+        "toSpeciesId": 202
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 203,
+    "id": 101,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 204,
+    "id": 102,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 31,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 204,
+        "toSpeciesId": 205
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 207,
+    "id": 104,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 209,
+    "id": 105,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 23,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 209,
+        "toSpeciesId": 210
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 213,
+    "id": 107,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 214,
+    "id": 108,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 216,
+    "id": 110,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 30,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 216,
+        "toSpeciesId": 217
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 218,
+    "id": 111,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 38,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 218,
+        "toSpeciesId": 219
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 222,
+    "id": 113,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 223,
+    "id": 114,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 25,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 223,
+        "toSpeciesId": 224
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 227,
+    "id": 117,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 228,
+    "id": 118,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 24,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 228,
+        "toSpeciesId": 229
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 231,
+    "id": 119,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 25,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 231,
+        "toSpeciesId": 232
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 234,
+    "id": 120,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 235,
+    "id": 121,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 241,
+    "id": 122,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 251,
+    "id": 129,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 252,
+    "id": 130,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 16,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 252,
+        "toSpeciesId": 253
+      },
+      {
+        "details": [
+          {
+            "minLevel": 36,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 253,
+        "toSpeciesId": 254
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 255,
+    "id": 131,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 16,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 255,
+        "toSpeciesId": 256
+      },
+      {
+        "details": [
+          {
+            "minLevel": 36,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 256,
+        "toSpeciesId": 257
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 258,
+    "id": 132,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 16,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 258,
+        "toSpeciesId": 259
+      },
+      {
+        "details": [
+          {
+            "minLevel": 36,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 259,
+        "toSpeciesId": 260
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 261,
+    "id": 133,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 18,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 261,
+        "toSpeciesId": 262
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 263,
+    "id": 134,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 20,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 263,
+        "toSpeciesId": 264
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 265,
+    "id": 135,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 7,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 265,
+        "toSpeciesId": 266
+      },
+      {
+        "details": [
+          {
+            "minLevel": 10,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 266,
+        "toSpeciesId": 267
+      },
+      {
+        "details": [
+          {
+            "minLevel": 7,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 265,
+        "toSpeciesId": 268
+      },
+      {
+        "details": [
+          {
+            "minLevel": 10,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 268,
+        "toSpeciesId": 269
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 270,
+    "id": 136,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 14,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 270,
+        "toSpeciesId": 271
+      },
+      {
+        "details": [
+          {
+            "item": "water-stone",
+            "trigger": "use-item"
+          }
+        ],
+        "fromSpeciesId": 271,
+        "toSpeciesId": 272
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 273,
+    "id": 137,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 14,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 273,
+        "toSpeciesId": 274
+      },
+      {
+        "details": [
+          {
+            "item": "leaf-stone",
+            "trigger": "use-item"
+          }
+        ],
+        "fromSpeciesId": 274,
+        "toSpeciesId": 275
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 276,
+    "id": 138,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 22,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 276,
+        "toSpeciesId": 277
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 278,
+    "id": 139,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 25,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 278,
+        "toSpeciesId": 279
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 280,
+    "id": 140,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 20,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 280,
+        "toSpeciesId": 281
+      },
+      {
+        "details": [
+          {
+            "minLevel": 30,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 281,
+        "toSpeciesId": 282
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 283,
+    "id": 141,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 22,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 283,
+        "toSpeciesId": 284
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 285,
+    "id": 142,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 23,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 285,
+        "toSpeciesId": 286
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 287,
+    "id": 143,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 18,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 287,
+        "toSpeciesId": 288
+      },
+      {
+        "details": [
+          {
+            "minLevel": 36,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 288,
+        "toSpeciesId": 289
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 290,
+    "id": 144,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 20,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 290,
+        "toSpeciesId": 291
+      },
+      {
+        "details": [
+          {
+            "trigger": "shed"
+          }
+        ],
+        "fromSpeciesId": 290,
+        "toSpeciesId": 292
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 293,
+    "id": 145,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 20,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 293,
+        "toSpeciesId": 294
+      },
+      {
+        "details": [
+          {
+            "minLevel": 40,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 294,
+        "toSpeciesId": 295
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 296,
+    "id": 146,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 24,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 296,
+        "toSpeciesId": 297
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 299,
+    "id": 147,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 300,
+    "id": 148,
+    "steps": [
+      {
+        "details": [
+          {
+            "item": "moon-stone",
+            "trigger": "use-item"
+          }
+        ],
+        "fromSpeciesId": 300,
+        "toSpeciesId": 301
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 302,
+    "id": 149,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 303,
+    "id": 150,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 304,
+    "id": 151,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 32,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 304,
+        "toSpeciesId": 305
+      },
+      {
+        "details": [
+          {
+            "minLevel": 42,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 305,
+        "toSpeciesId": 306
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 307,
+    "id": 152,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 37,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 307,
+        "toSpeciesId": 308
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 309,
+    "id": 153,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 26,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 309,
+        "toSpeciesId": 310
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 311,
+    "id": 154,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 312,
+    "id": 155,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 313,
+    "id": 156,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 314,
+    "id": 157,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 315,
+    "id": 158,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 316,
+    "id": 159,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 26,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 316,
+        "toSpeciesId": 317
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 318,
+    "id": 160,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 30,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 318,
+        "toSpeciesId": 319
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 320,
+    "id": 161,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 40,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 320,
+        "toSpeciesId": 321
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 322,
+    "id": 162,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 33,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 322,
+        "toSpeciesId": 323
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 324,
+    "id": 163,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 325,
+    "id": 164,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 32,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 325,
+        "toSpeciesId": 326
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 327,
+    "id": 165,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 328,
+    "id": 166,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 35,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 328,
+        "toSpeciesId": 329
+      },
+      {
+        "details": [
+          {
+            "minLevel": 45,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 329,
+        "toSpeciesId": 330
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 331,
+    "id": 167,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 32,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 331,
+        "toSpeciesId": 332
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 333,
+    "id": 168,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 35,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 333,
+        "toSpeciesId": 334
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 335,
+    "id": 169,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 336,
+    "id": 170,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 337,
+    "id": 171,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 338,
+    "id": 172,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 339,
+    "id": 173,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 30,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 339,
+        "toSpeciesId": 340
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 341,
+    "id": 174,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 30,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 341,
+        "toSpeciesId": 342
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 343,
+    "id": 175,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 36,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 343,
+        "toSpeciesId": 344
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 345,
+    "id": 176,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 40,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 345,
+        "toSpeciesId": 346
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 347,
+    "id": 177,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 40,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 347,
+        "toSpeciesId": 348
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 349,
+    "id": 178,
+    "steps": [
+      {
+        "details": [
+          {
+            "minBeauty": 170,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 349,
+        "toSpeciesId": 350
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 351,
+    "id": 179,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 352,
+    "id": 180,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 353,
+    "id": 181,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 37,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 353,
+        "toSpeciesId": 354
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 355,
+    "id": 182,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 37,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 355,
+        "toSpeciesId": 356
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 357,
+    "id": 183,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 358,
+    "id": 184,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 359,
+    "id": 185,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 361,
+    "id": 186,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 42,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 361,
+        "toSpeciesId": 362
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 363,
+    "id": 187,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 32,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 363,
+        "toSpeciesId": 364
+      },
+      {
+        "details": [
+          {
+            "minLevel": 44,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 364,
+        "toSpeciesId": 365
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 366,
+    "id": 188,
+    "steps": [
+      {
+        "details": [
+          {
+            "heldItem": "deep-sea-tooth",
+            "trigger": "trade"
+          }
+        ],
+        "fromSpeciesId": 366,
+        "toSpeciesId": 367
+      },
+      {
+        "details": [
+          {
+            "heldItem": "deep-sea-scale",
+            "trigger": "trade"
+          }
+        ],
+        "fromSpeciesId": 366,
+        "toSpeciesId": 368
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 369,
+    "id": 189,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 370,
+    "id": 190,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 371,
+    "id": 191,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 30,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 371,
+        "toSpeciesId": 372
+      },
+      {
+        "details": [
+          {
+            "minLevel": 50,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 372,
+        "toSpeciesId": 373
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 374,
+    "id": 192,
+    "steps": [
+      {
+        "details": [
+          {
+            "minLevel": 20,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 374,
+        "toSpeciesId": 375
+      },
+      {
+        "details": [
+          {
+            "minLevel": 45,
+            "trigger": "level-up"
+          }
+        ],
+        "fromSpeciesId": 375,
+        "toSpeciesId": 376
+      }
+    ]
+  },
+  {
+    "baseSpeciesId": 377,
+    "id": 193,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 378,
+    "id": 194,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 379,
+    "id": 195,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 380,
+    "id": 196,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 381,
+    "id": 197,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 382,
+    "id": 198,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 383,
+    "id": 199,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 384,
+    "id": 200,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 385,
+    "id": 201,
+    "steps": []
+  },
+  {
+    "baseSpeciesId": 386,
+    "id": 202,
+    "steps": []
+  }
+]

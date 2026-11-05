@@ -1,0 +1,292 @@
+[
+  {
+    "item": "hm01",
+    "moveId": "cut",
+    "number": "HM01"
+  },
+  {
+    "item": "hm02",
+    "moveId": "fly",
+    "number": "HM02"
+  },
+  {
+    "item": "hm03",
+    "moveId": "surf",
+    "number": "HM03"
+  },
+  {
+    "item": "hm04",
+    "moveId": "strength",
+    "number": "HM04"
+  },
+  {
+    "item": "hm05",
+    "moveId": "flash",
+    "number": "HM05"
+  },
+  {
+    "item": "hm06",
+    "moveId": "rock-smash",
+    "number": "HM06"
+  },
+  {
+    "item": "hm07",
+    "moveId": "waterfall",
+    "number": "HM07"
+  },
+  {
+    "item": "hm08",
+    "moveId": "dive",
+    "number": "HM08"
+  },
+  {
+    "item": "tm01",
+    "moveId": "focus-punch",
+    "number": "TM01"
+  },
+  {
+    "item": "tm02",
+    "moveId": "dragon-claw",
+    "number": "TM02"
+  },
+  {
+    "item": "tm03",
+    "moveId": "water-pulse",
+    "number": "TM03"
+  },
+  {
+    "item": "tm04",
+    "moveId": "calm-mind",
+    "number": "TM04"
+  },
+  {
+    "item": "tm05",
+    "moveId": "roar",
+    "number": "TM05"
+  },
+  {
+    "item": "tm06",
+    "moveId": "toxic",
+    "number": "TM06"
+  },
+  {
+    "item": "tm07",
+    "moveId": "hail",
+    "number": "TM07"
+  },
+  {
+    "item": "tm08",
+    "moveId": "bulk-up",
+    "number": "TM08"
+  },
+  {
+    "item": "tm09",
+    "moveId": "bullet-seed",
+    "number": "TM09"
+  },
+  {
+    "item": "tm10",
+    "moveId": "hidden-power",
+    "number": "TM10"
+  },
+  {
+    "item": "tm11",
+    "moveId": "sunny-day",
+    "number": "TM11"
+  },
+  {
+    "item": "tm12",
+    "moveId": "taunt",
+    "number": "TM12"
+  },
+  {
+    "item": "tm13",
+    "moveId": "ice-beam",
+    "number": "TM13"
+  },
+  {
+    "item": "tm14",
+    "moveId": "blizzard",
+    "number": "TM14"
+  },
+  {
+    "item": "tm15",
+    "moveId": "hyper-beam",
+    "number": "TM15"
+  },
+  {
+    "item": "tm16",
+    "moveId": "light-screen",
+    "number": "TM16"
+  },
+  {
+    "item": "tm17",
+    "moveId": "protect",
+    "number": "TM17"
+  },
+  {
+    "item": "tm18",
+    "moveId": "rain-dance",
+    "number": "TM18"
+  },
+  {
+    "item": "tm19",
+    "moveId": "giga-drain",
+    "number": "TM19"
+  },
+  {
+    "item": "tm20",
+    "moveId": "safeguard",
+    "number": "TM20"
+  },
+  {
+    "item": "tm21",
+    "moveId": "frustration",
+    "number": "TM21"
+  },
+  {
+    "item": "tm22",
+    "moveId": "solar-beam",
+    "number": "TM22"
+  },
+  {
+    "item": "tm23",
+    "moveId": "iron-tail",
+    "number": "TM23"
+  },
+  {
+    "item": "tm24",
+    "moveId": "thunderbolt",
+    "number": "TM24"
+  },
+  {
+    "item": "tm25",
+    "moveId": "thunder",
+    "number": "TM25"
+  },
+  {
+    "item": "tm26",
+    "moveId": "earthquake",
+    "number": "TM26"
+  },
+  {
+    "item": "tm27",
+    "moveId": "return",
+    "number": "TM27"
+  },
+  {
+    "item": "tm28",
+    "moveId": "dig",
+    "number": "TM28"
+  },
+  {
+    "item": "tm29",
+    "moveId": "psychic",
+    "number": "TM29"
+  },
+  {
+    "item": "tm30",
+    "moveId": "shadow-ball",
+    "number": "TM30"
+  },
+  {
+    "item": "tm31",
+    "moveId": "brick-break",
+    "number": "TM31"
+  },
+  {
+    "item": "tm32",
+    "moveId": "double-team",
+    "number": "TM32"
+  },
+  {
+    "item": "tm33",
+    "moveId": "reflect",
+    "number": "TM33"
+  },
+  {
+    "item": "tm34",
+    "moveId": "shock-wave",
+    "number": "TM34"
+  },
+  {
+    "item": "tm35",
+    "moveId": "flamethrower",
+    "number": "TM35"
+  },
+  {
+    "item": "tm36",
+    "moveId": "sludge-bomb",
+    "number": "TM36"
+  },
+  {
+    "item": "tm37",
+    "moveId": "sandstorm",
+    "number": "TM37"
+  },
+  {
+    "item": "tm38",
+    "moveId": "fire-blast",
+    "number": "TM38"
+  },
+  {
+    "item": "tm39",
+    "moveId": "rock-tomb",
+    "number": "TM39"
+  },
+  {
+    "item": "tm40",
+    "moveId": "aerial-ace",
+    "number": "TM40"
+  },
+  {
+    "item": "tm41",
+    "moveId": "torment",
+    "number": "TM41"
+  },
+  {
+    "item": "tm42",
+    "moveId": "facade",
+    "number": "TM42"
+  },
+  {
+    "item": "tm43",
+    "moveId": "secret-power",
+    "number": "TM43"
+  },
+  {
+    "item": "tm44",
+    "moveId": "rest",
+    "number": "TM44"
+  },
+  {
+    "item": "tm45",
+    "moveId": "attract",
+    "number": "TM45"
+  },
+  {
+    "item": "tm46",
+    "moveId": "thief",
+    "number": "TM46"
+  },
+  {
+    "item": "tm47",
+    "moveId": "steel-wing",
+    "number": "TM47"
+  },
+  {
+    "item": "tm48",
+    "moveId": "skill-swap",
+    "number": "TM48"
+  },
+  {
+    "item": "tm49",
+    "moveId": "snatch",
+    "number": "TM49"
+  },
+  {
+    "item": "tm50",
+    "moveId": "overheat",
+    "number": "TM50"
+  }
+]

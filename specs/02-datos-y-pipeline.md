@@ -114,25 +114,57 @@ Los porcentajes de PokéAPI se revisan en los juegos de lanzamiento contra una s
 
 ```
 scripts/build-data/
-  fetch.ts       # descarga con caché en .cache/pokeapi (respeta la fair use policy)
-  normalize.ts   # PokéAPI → tipos internos
-  merge.ts       # aplica overrides
-  validate.ts    # reglas de integridad (abajo)
-  write.ts       # escribe data/generated
+  index.ts        # orquestador: pnpm data:build [--game=…] [--fresh] [--source=…]
+  config.ts       # juegos que sabe construir (slugs de PokéAPI)
+  client.ts       # descarga con caché en .cache/pokeapi/<fuente>/ y concurrencia limitada
+  resolve.ts      # past_types, past_stats, past_damage_relations, past_values
+  normalize.ts    # PokéAPI → capa generada (especies, movimientos, MT, evoluciones, tabla de tipos)
+  encounters.ts   # agregación de encuentros y clasificación de métodos
+  report.ts       # informe de lo que falta por curar
+  write.ts        # JSON estable y dataVersion
+  merge.ts        # aplica overrides (F3)
+  validate.ts     # reglas de integridad (F3)
 ```
 
-Salida:
+### Fuente
+
+PokéAPI tiene dos fuentes con los mismos datos (D-014):
+
+- `github` (por defecto): el volcado estático oficial `PokeAPI/api-data`, direccionado por id. Es más rápido y no carga los servidores de PokéAPI.
+- `pokeapi`: la API REST en vivo (`--source=pokeapi`).
+
+Todo se cachea en disco; `--fresh` ignora la caché.
+
+### Salida
+
+Dos capas. La capa **pokeapi** (F2) es lo que sale de PokéAPI sin curar; la capa **final** (F3) la combina con `data/overrides/`.
 
 ```
 data/generated/
-  games.json                    # lista de juegos publicados + metadatos
-  {game}/game.json              # tramos, pool, jefes, MT, objetos
-  {game}/learnsets.json         # especie → movimientos (por nivel / MT / tutor)
-  {versionGroup}/moves.json     # movimientos usados por ese grupo
-  type-chart/{generation}.json  # tabla de tipos de esa generación
-  featured/{game}.json          # equipos destacados (ver 05)
-  meta.json                     # dataVersion (hash) y fecha de build
+  meta.json                         # dataVersion (hash del contenido) y juegos
+  type-chart/gen-{generation}.json  # tabla de tipos de esa generación (gen-3.json…)
+  {versionGroup}/moves.json         # movimientos con valores de ese grupo (past_values)
+  {versionGroup}/machines.json      # número de MT/MO → movimiento
+  {game}/pokeapi/game.json          # versión, grupo, generación, región, dex regional
+  {game}/pokeapi/species.json       # especies con tipos y estadísticas de su generación
+  {game}/pokeapi/locations.json     # zonas con encuentros en esta versión
+  {game}/pokeapi/encounters.json    # encuentros agregados, con tipo y exclusión
+  {game}/pokeapi/learnsets.json     # especie → movimientos (nivel / MT / tutor / huevo)
+  {game}/pokeapi/evolutions.json    # cadenas limitadas a la generación
+  {game}/pokeapi/items.json         # objetos evolutivos que existen en la generación
+  {game}/report.md                  # informe de huecos: lista de tareas de F3
+  {game}/game.json                  # F3: tramos, pool, jefes, MT, objetos (capa final)
+  featured/{game}.json              # F6: equipos destacados
 ```
+
+La salida es determinista: mismos datos de entrada → mismos archivos y misma `dataVersion`.
+
+### Reglas que aplica la capa pokeapi
+
+- **Encuentros por versión**, nunca por grupo.
+- **Métodos de encuentro clasificados** (`encounters.ts`): PokéAPI codifica regalos, estáticos, intercambios y errantes como métodos (`gift`, `gift-egg`, `static`, `devon-scope`, `npc-trade`, `roaming-*`…). Cada método tiene un tipo: salvaje, regalo, estático, intercambio, errante o excluido (p. ej. `colosseum-bonus-disc-jpn`). Un método **sin clasificar no cuenta** hasta que se añade.
+- **Evoluciones**: se eliminan especies posteriores a la generación, se deduplican métodos idénticos y se descartan los métodos que usan objetos que no existían en esa generación (`item.game_indices`), p. ej. Piedra Hielo para Vulpix o Escama Bella para Feebas en Gen 3. Los que siguen siendo ambiguos van al informe.
+- **Maldición** (tipo "???" en Gen 2–4) queda con tipo `null`.
 
 ### Validador (bloquea la publicación de un juego)
 

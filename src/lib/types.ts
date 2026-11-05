@@ -82,7 +82,7 @@ export type Segment = {
 // Encounters and pool
 // ---------------------------------------------------------------------------
 
-export type EncounterKind = "wild" | "gift" | "static" | "trade-ingame";
+export type EncounterKind = "wild" | "gift" | "static" | "trade-ingame" | "roaming";
 
 export const RARITIES = ["guaranteed", "common", "uncommon", "rare", "very-rare"] as const;
 export type Rarity = (typeof RARITIES)[number];
@@ -175,7 +175,7 @@ export type Boss = {
 export type Move = {
   id: string; // PokéAPI slug
   name: string; // Spanish name
-  type: TypeName; // already adjusted to the version group (past_values)
+  type: TypeName | null; // adjusted to the version group (past_values); null = "???" (Curse, Gen 2–4)
   damageClass: DamageClass;
   power: number | null;
   accuracy: number | null;
