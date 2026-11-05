@@ -1,26 +1,83 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * OddTeam palette (specs/06-interfaz.md).
+ * Light theme only for now; a dark theme can be added later under .dark.
+ */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --radius: 0.75rem;
+
+  --background: #f3f0e8; /* cream ground */
+  --foreground: #17171c; /* ink */
+  --card: #ffffff;
+  --card-foreground: #17171c;
+  --popover: #ffffff;
+  --popover-foreground: #17171c;
+  --primary: #c42f17; /* main action red */
+  --primary-foreground: #ffffff;
+  --secondary: #17171c;
+  --secondary-foreground: #ffffff;
+  --muted: #ece7dc;
+  --muted-foreground: #5e5b55;
+  --accent: #e8e3d8;
+  --accent-foreground: #17171c;
+  --destructive: #a8291f;
+  --border: #ddd7cb;
+  --input: #ddd7cb;
+  --ring: #2747a8;
+
+  /* Battle verdicts */
+  --advantage: #2747a8;
+  --advantage-foreground: #ffffff;
+  --tough: #fbe1c8;
+  --tough-foreground: #7a3300;
+  --neutral: #ece7dc;
+  --neutral-foreground: #3a3832;
 }
 
 @theme inline {
+  --font-sans: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-advantage: var(--advantage);
+  --color-advantage-foreground: var(--advantage-foreground);
+  --color-tough: var(--tough);
+  --color-tough-foreground: var(--tough-foreground);
+  --color-neutral: var(--neutral);
+  --color-neutral-foreground: var(--neutral-foreground);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
 }

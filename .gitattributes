@@ -1,0 +1,4 @@
+# Normalize line endings across Windows and CI
+* text=auto eol=lf
+*.ico binary
+*.png binary
