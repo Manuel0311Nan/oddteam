@@ -57,7 +57,7 @@ data/overrides/
 - **Conservador:** si una fuente no permite precisar, se asigna el tramo **más tardío** posible. Nunca se da por disponible antes algo que no consta (D-016).
 - El tramo de una zona es el de la primera parte del walkthrough que la recorre; los métodos (Surf, cañas…) añaden su propio requisito.
 - Una MT de recompensa de gimnasio está disponible en el tramo **siguiente** a ese gimnasio.
-- Las MT del Casino cuentan (las fichas se compran con dinero) y se marcan como repetibles.
+- Las MT del Casino **no cuentan** (D-020): se usa su otra ubicación o quedan `excluded`.
 - Zonas de aparición aleatoria (Isla Espejismo) y contenido de eventos o accesorios quedan como `excluded`.
 - Los nombres de lugares salen de PokéAPI en español; los que solo tiene en inglés se toman de WikiDex y, mientras no se revisan, se listan como aviso.
 

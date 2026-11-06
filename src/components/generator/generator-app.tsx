@@ -8,6 +8,7 @@ import { CAPTURE_EFFORT_LABELS, captureEffort } from "@/lib/generator/effort";
 import { formatSeed } from "@/lib/rng";
 import { createGeneratorStore } from "@/store/generator";
 import { AvailabilityTimeline } from "./availability-timeline";
+import { BossTable } from "./boss-table";
 import { OptionsPanel } from "./options-panel";
 import { PokemonCard } from "./pokemon-card";
 
@@ -132,6 +133,7 @@ export function GeneratorApp({ game }: { game: ClientGame }) {
         </section>
 
         {team.length ? <AvailabilityTimeline team={team} game={game} /> : null}
+        {team.length ? <BossTable team={team} game={game} /> : null}
       </div>
     </div>
   );
