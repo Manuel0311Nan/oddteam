@@ -30,7 +30,49 @@ PokéAPI se consulta **solo en build**, con caché en disco. La web consume JSON
 | Cuándo se habilita cada método de encuentro (cañas, Surf, Golpe Roca, Cabezazo…) | **Curado** | `overrides/{family}/key-items.ts` |
 | Diferencias de cada versión (exclusivos, encuentros, zonas, jefes) | **Curado** | `overrides/{family}/versions/{game}.ts` |
 
-Fuentes de referencia para curar: Bulbapedia, Serebii, Pokexperto, WikiDex. Cada override indica la fuente en un comentario.
+Fuentes para curar (D-017): **PokéAPI** primero; **Bulbapedia** para lo que PokéAPI no tiene; **Serebii** y **WikiDex** para contrastar, y WikiDex para los nombres en español. Ninguna otra. Cada override cita su fuente (`data/overrides/sources.ts`).
+
+## Overrides: formato
+
+Los overrides son TypeScript tipado (`data/overrides/types.ts`). Cada dato lleva `source` (clave de `data/overrides/sources.ts`), y opcionalmente `note` y `todo`. Un `todo` es algo pendiente de verificar: **bloquea la publicación** y aparece en el informe.
+
+```
+data/overrides/
+  types.ts                  # formato de todos los overrides
+  sources.ts                # fuentes citadas (URL y fecha de consulta)
+  {family}/
+    index.ts                # junta las piezas de la familia
+    segments.ts             # tramos y nivel esperado
+    locations.ts            # zona → tramo (con excepciones por método)
+    key-items.ts            # método → tramo (cañas, MO…) y condiciones que limitan
+    special-encounters.ts   # correcciones de regalos, estáticos, intercambios (único, exclusivo, rareza…)
+    evolution-items.ts      # objetos evolutivos y elección de método cuando PokéAPI da varios
+    bosses.ts               # líderes, Alto Mando y campeón con equipos y movimientos
+    tms.ts                  # MT/MO: ubicación, tramo y si se puede repetir
+    versions/{game}.ts      # diferencias de la versión y especies del dex revisadas a mano
+```
+
+### Reglas de curación
+
+- **Conservador:** si una fuente no permite precisar, se asigna el tramo **más tardío** posible. Nunca se da por disponible antes algo que no consta (D-016).
+- El tramo de una zona es el de la primera parte del walkthrough que la recorre; los métodos (Surf, cañas…) añaden su propio requisito.
+- Una MT de recompensa de gimnasio está disponible en el tramo **siguiente** a ese gimnasio.
+- Las MT del Casino cuentan (las fichas se compran con dinero) y se marcan como repetibles.
+- Zonas de aparición aleatoria (Isla Espejismo) y contenido de eventos o accesorios quedan como `excluded`.
+- Los nombres de lugares salen de PokéAPI en español; los que solo tiene en inglés se toman de WikiDex y, mientras no se revisan, se listan como aviso.
+
+## Merge (F3)
+
+`merge.ts` combina la capa pokeapi con los overrides en `data/generated/{game}/game.json`:
+
+- **Tramo de un encuentro** = el más tardío entre zona (o su excepción por método), método y condiciones. Un encuentro especial con `segment` lo sustituye.
+- **Intercambios in-game** (`trade-<especie>`): no están disponibles antes de que se pueda conseguir la especie que piden por otra vía; si nunca se puede, se descartan.
+- **Rareza curada:** `special-encounters.ts` puede fijar la rareza cuando el porcentaje de PokéAPI engaña (Feebas: 50 % por intento, pero solo en 6 casillas ocultas).
+- **Pool por forma final:** una entrada por cada forma final alcanzable de cada línea, empezando en la forma más baja que se puede conseguir. Si la última evolución es por intercambio, hay además una entrada con la forma anterior (sin intercambio).
+- **Evoluciones por objeto** requieren el objeto ubicado; su tramo es el del objeto.
+- **Especies del dex fuera del pool:** si solo se obtienen en el post-juego es un aviso; si no, deben revisarse en `versions/{game}.ts`.
+
+Niveles de incidencia en el informe: **error** y **TODO** bloquean la publicación; **aviso** no. `pnpm data:build --strict` falla si algún juego no es publicable (para CI y antes de publicar).
 
 ## Versiones y familias
 
@@ -178,7 +220,8 @@ La salida es determinista: mismos datos de entrada → mismos archivos y misma `
 - No queda ningún `TODO` en los overrides del juego (base de la familia + su versión).
 - Ninguna especie del pool se obtiene **solo** en la otra versión de la familia (comparando los encuentros de ambas).
 - El validador se ejecuta **por versión**: una versión de la familia puede publicarse aunque la otra no esté lista.
-- Muestreo: se generan 10 000 equipos con todas las combinaciones de opciones y ninguno falla `validate`.
+- Muestreo: se generan 10 000 equipos con todas las combinaciones de opciones y ninguno falla `validate` (F4).
+- Los movimientos de los jefes existen en PokéAPI; las MT de recompensa existen en el juego.
 
 ## Modelo (tipos internos, resumido)
 

@@ -1,5 +1,5 @@
 /**
- * pnpm data:build [--game=emerald] [--fresh] [--source=github|pokeapi] [--concurrency=8]
+ * pnpm data:build [--game=emerald] [--fresh] [--strict] [--source=github|pokeapi] [--concurrency=8]
  *
  * Default source: the official static dump on GitHub (same data as the live API, D-014).
  *
@@ -9,6 +9,8 @@
  */
 
 import { join } from "node:path";
+import { pathToFileURL } from "node:url";
+import type { FamilyOverrides, VersionOverrides } from "../../data/overrides/types";
 import type {
   GeneratedEvolutionChain,
   GeneratedGameInfo,
@@ -48,6 +50,7 @@ import type {
   ApiType,
   ApiVersionGroup,
 } from "./pokeapi-types";
+import { curationReport, merge } from "./merge";
 import { buildReport } from "./report";
 import { generationNumber, localizedName } from "./resolve";
 import { OutputSet } from "./write";
@@ -56,7 +59,7 @@ const ROOT = process.cwd();
 const OUT_DIR = join(ROOT, "data", "generated");
 const CACHE_DIR = join(ROOT, ".cache", "pokeapi");
 
-type Args = { games: GameConfig[]; fresh: boolean; source: Source; concurrency: number };
+type Args = { games: GameConfig[]; fresh: boolean; strict: boolean; source: Source; concurrency: number };
 
 function parseArgs(argv: readonly string[]): Args {
   const get = (flag: string) => argv.find((a) => a.startsWith(`--${flag}=`))?.split("=")[1];
@@ -68,6 +71,7 @@ function parseArgs(argv: readonly string[]): Args {
   return {
     games: games as GameConfig[],
     fresh: argv.includes("--fresh"),
+    strict: argv.includes("--strict"),
     source,
     concurrency: Number(get("concurrency") ?? 8),
   };
@@ -79,7 +83,30 @@ async function byName<T>(client: PokeApiClient, resource: string, name: string):
   return client.get<T>(entry.url);
 }
 
-async function buildGame(client: PokeApiClient, config: GameConfig, out: OutputSet, log: (m: string) => void) {
+async function loadOverrides(config: GameConfig): Promise<{ family: FamilyOverrides; version: VersionOverrides } | null> {
+  const dir = join(ROOT, "data", "overrides", config.family);
+  try {
+    const familyModule = (await import(pathToFileURL(join(dir, "index.ts")).href)) as { family: FamilyOverrides };
+    const versionModule = (await import(pathToFileURL(join(dir, "versions", `${config.slug}.ts`)).href)) as {
+      version: VersionOverrides;
+    };
+    return { family: familyModule.family, version: versionModule.version };
+  } catch (error) {
+    if (error instanceof Error && /Cannot find module|ERR_MODULE_NOT_FOUND/.test(`${error.message} ${(error as { code?: string }).code ?? ""}`)) {
+      return null;
+    }
+    throw error;
+  }
+}
+
+type GameResult = { slug: string; publishable: boolean | null };
+
+async function buildGame(
+  client: PokeApiClient,
+  config: GameConfig,
+  out: OutputSet,
+  log: (m: string) => void,
+): Promise<GameResult> {
   // Version group order lets us resolve move values per version group.
   const vgList = await client.list("version-group");
   const versionGroups = await Promise.all(vgList.map((v) => client.get<ApiVersionGroup>(v.url)));
@@ -201,11 +228,16 @@ async function buildGame(client: PokeApiClient, config: GameConfig, out: OutputS
     items[i.name] = { id: i.name, name: n.es, nameEn: n.en };
   }
 
-  // Moves of every learnset, with values of this version group
+  // Moves of every learnset and of the curated bosses, with values of this version group
+  const overrides = await loadOverrides(config);
   const moveIds = new Set<string>();
   for (const l of Object.values(learnsets)) {
     for (const m of [...l.levelUp.map((x) => x.moveId), ...l.machine, ...l.tutor, ...l.egg]) moveIds.add(m);
   }
+  for (const b of overrides?.family.bosses ?? []) for (const p of b.team) for (const m of p.moves) moveIds.add(m);
+  const moveList = new Set((await client.list("move")).map((m) => m.name));
+  const unknownMoves = [...moveIds].filter((m) => !moveList.has(m));
+  for (const m of unknownMoves) moveIds.delete(m); // reported by the merge as unknown moves
   const movesRaw = await Promise.all([...moveIds].map((m) => byName<ApiMove>(client, "move", m)));
   const moves: Record<string, GeneratedMove> = {};
   let movesWithoutSpanish = 0;
@@ -261,7 +293,8 @@ async function buildGame(client: PokeApiClient, config: GameConfig, out: OutputS
       const loc = locationById.get(a.location.name);
       const locName = localizedName(loc?.names ?? [], a.location.name);
       const areaName = localizedName(a.names, "");
-      const suffix = areaName.en && areaName.en !== locName.en ? ` (${areaName.es})` : "";
+      // Only a Spanish area name is shown; English area labels ("Road 101") are dropped.
+      const suffix = areaName.hasEs && areaName.es !== locName.es ? ` (${areaName.es})` : "";
       return {
         id: a.name,
         location: a.location.name,
@@ -295,9 +328,35 @@ async function buildGame(client: PokeApiClient, config: GameConfig, out: OutputS
   out.json(`${config.versionGroup}/moves.json`, moves);
   out.json(`${config.versionGroup}/machines.json`, machines);
   out.json(`type-chart/gen-${generation}.json`, typeChart);
+  // F3: merge with the curated overrides
+  let publishable: boolean | null = null;
+  let curation = "## Estado de curación (fase F3)\n\nSin overrides para este juego todavía.\n";
+  if (overrides) {
+    const result = merge({
+      game: config.slug,
+      info,
+      species: sortedSpecies,
+      areas,
+      encounters,
+      chains,
+      machines,
+      moves,
+      family: overrides.family,
+      version: overrides.version,
+    });
+    out.json(`${config.slug}/game.json`, result.game);
+    curation = curationReport(result);
+    const errors = result.issues.filter((i) => i.level === "error").length;
+    const todos = result.issues.filter((i) => i.level === "todo").length;
+    publishable = errors === 0 && todos === 0;
+    log(
+      `  curación: ${result.stats.areasCurated}/${result.stats.areasTotal} zonas · ${result.stats.tmsCurated}/${result.stats.tmsTotal} MT · ${result.stats.bosses} jefes · pool ${result.stats.poolEntries} entradas · ${errors} errores · ${todos} TODO`,
+    );
+  }
+
   out.text(
     `${config.slug}/report.md`,
-    buildReport({
+    `${buildReport({
       game: info,
       species,
       areas,
@@ -307,12 +366,13 @@ async function buildGame(client: PokeApiClient, config: GameConfig, out: OutputS
       removedEvolutions,
       movesWithoutSpanish,
       machines: machines.length,
-    }),
+    })}\n${curation}`,
   );
 
   log(
     `  ${areas.length} zonas con encuentros · ${encounters.length} encuentros · ${Object.keys(moves).length} movimientos · ${machines.length} MT/MO`,
   );
+  return { slug: config.slug, publishable };
 }
 
 async function main() {
@@ -328,9 +388,10 @@ async function main() {
 
   log(`data:build · fuente ${args.source}${args.fresh ? " · sin caché" : ""}`);
   const out = new OutputSet();
+  const results: GameResult[] = [];
   for (const game of args.games) {
     log(`· ${game.slug}`);
-    await buildGame(client, game, out, log);
+    results.push(await buildGame(client, game, out, log));
   }
 
   const meta: GeneratedMeta = { dataVersion: out.dataVersion(), games: args.games.map((g) => g.slug) };
@@ -341,6 +402,13 @@ async function main() {
     `\n${written.length} archivos en data/generated · dataVersion ${meta.dataVersion} · ${network} descargas, ${cache} desde caché · ${((Date.now() - started) / 1000).toFixed(1)} s`,
   );
   for (const g of args.games) log(`Informe: data/generated/${g.slug}/report.md`);
+
+  // --strict: fail unless every game is publishable (no errors, no TODO).
+  const blocked = results.filter((r) => r.publishable !== true);
+  if (args.strict && blocked.length > 0) {
+    console.error(`\n--strict: no publicable → ${blocked.map((r) => r.slug).join(", ")}`);
+    process.exit(1);
+  }
 }
 
 main().catch((error: unknown) => {

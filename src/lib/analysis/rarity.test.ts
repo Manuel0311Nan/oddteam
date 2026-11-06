@@ -32,6 +32,10 @@ describe("encounterRarity", () => {
     expect(encounterRarity({ kind: "trade-ingame" })).toBe("guaranteed");
   });
 
+  it("lets a curated rarity win over the chance", () => {
+    expect(encounterRarity({ kind: "wild", chance: 50, rarity: "very-rare" })).toBe("very-rare");
+  });
+
   it("uses the chance for wild encounters", () => {
     expect(encounterRarity({ kind: "wild", chance: 4 })).toBe("rare");
     expect(() => encounterRarity({ kind: "wild" })).toThrow(RangeError);

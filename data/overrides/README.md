@@ -3,8 +3,10 @@
 Datos **curados a mano** que completan o corrigen PokéAPI. Organizados por familia (`specs/02-datos-y-pipeline.md`, D-009):
 
 ```
+types.ts                 # formato (tipos)
+sources.ts               # fuentes citadas
 {family}/
-  family.ts
+  index.ts
   segments.ts
   locations.ts
   key-items.ts
@@ -18,4 +20,6 @@ Datos **curados a mano** que completan o corrigen PokéAPI. Organizados por fami
 Reglas:
 - TypeScript tipado.
 - Cada archivo cita su fuente en un comentario.
-- Lo no verificado se marca `TODO`; un juego con `TODO` no se publica.
+- Cada entrada tiene `source`; lo no verificado lleva `todo` y un juego con `todo` no se publica.
+- Ante la duda, el tramo más tardío posible (D-016).
+- El estado de curación de cada juego está al final de `data/generated/{game}/report.md`.

@@ -102,6 +102,7 @@ pnpm data:build          # PokéAPI → data/generated (+ overrides desde F3), c
 pnpm data:build --game=emerald
 pnpm data:build --fresh  # ignora la caché y vuelve a descargar
 pnpm data:build --source=pokeapi   # API en vivo en vez del volcado de GitHub (D-014)
+pnpm data:build --strict # falla si algún juego tiene errores o TODO (antes de publicar)
 pnpm data:featured       # recalcula equipos destacados · F6
 ```
 
@@ -132,7 +133,11 @@ Antes de dar una tarea por terminada, `pnpm check` tiene que pasar.
 - ❌ No contar como disponibles los encuentros que dependen de masivas, Pokéradar, ranura de GBA u otras condiciones de post-juego o hardware.
 - ❌ No dar por disponible un encuentro de pesca, Surf, Golpe Roca, etc. antes de que se habilite ese método (`key-items.ts`).
 - ❌ No mezclar rareza y dificultad: la dificultad mide combates; la rareza va en "Esfuerzo de captura" (D-011).
-- ❌ No inventar datos de líderes, MT o ubicaciones. Si un dato no está verificado, se marca `TODO` en el override y el juego no se publica.
+- ❌ No inventar datos de líderes, MT o ubicaciones. Si un dato no está verificado, se marca `todo` en el override y el juego no se publica.
+- ❌ No curar sin `source`. Cada dato de `data/overrides/` cita una fuente de `data/overrides/sources.ts`.
+- ❌ No usar otras webs que las de la jerarquía de fuentes (D-017): PokéAPI → Bulbapedia → Serebii / WikiDex. WikiDex para nombres en español.
+- ❌ No adelantar la disponibilidad ante la duda: se asigna el tramo más tardío posible (D-016).
+- ❌ No escribir de memoria nombres de lugares en español: se usan los de PokéAPI y, si no los tiene, los de WikiDex.
 - ❌ No recomendar un ataque o una MT que el Pokémon no tenga **a tiempo** para ese combate: nivel esperado o MT conseguida antes de ese tramo.
 - ❌ No calcular físico/especial por tipo en Gen 1–3: se usa la clase moderna en todos los juegos.
 - ❌ No devolver equipos que no pasan la validación. Error claro o nada.

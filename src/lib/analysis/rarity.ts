@@ -12,8 +12,9 @@ export function rarityFromChance(chance: number): Rarity {
   return "very-rare";
 }
 
-/** Rarity of one encounter: gifts, statics and in-game trades are guaranteed. */
-export function encounterRarity(encounter: Pick<Encounter, "kind" | "chance">): Rarity {
+/** Rarity of one encounter: a curated rarity wins; gifts, statics and in-game trades are guaranteed. */
+export function encounterRarity(encounter: Pick<Encounter, "kind" | "chance" | "rarity">): Rarity {
+  if (encounter.rarity) return encounter.rarity;
   if (encounter.kind !== "wild") return "guaranteed";
   if (encounter.chance === undefined) {
     throw new RangeError("Wild encounter without chance");
@@ -27,7 +28,7 @@ export function compareRarity(a: Rarity, b: Rarity): number {
 }
 
 /** Easiest rarity among the given encounters, or null if there are none. */
-export function bestRarity(encounters: readonly Pick<Encounter, "kind" | "chance">[]): Rarity | null {
+export function bestRarity(encounters: readonly Pick<Encounter, "kind" | "chance" | "rarity">[]): Rarity | null {
   let best: Rarity | null = null;
   for (const e of encounters) {
     const r = encounterRarity(e);

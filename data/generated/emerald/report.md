@@ -45,14 +45,14 @@ Hay que comprobarlos, asignarles tramo y marcar los estáticos de una sola oport
 - [ ] Regalo: Chikorita (#152) · Villa Raíz · nv 5 · `gift`
 - [ ] Regalo: Cyndaquil (#155) · Villa Raíz · nv 5 · `gift`
 - [ ] Regalo: Totodile (#158) · Villa Raíz · nv 5 · `gift`
-- [ ] Regalo: Treecko (#252) · Ruta 101 (Road 101) · nv 5 · `gift`
-- [ ] Regalo: Torchic (#255) · Ruta 101 (Road 101) · nv 5 · `gift`
-- [ ] Regalo: Mudkip (#258) · Ruta 101 (Road 101) · nv 5 · `gift`
+- [ ] Regalo: Treecko (#252) · Ruta 101 · nv 5 · `gift`
+- [ ] Regalo: Torchic (#255) · Ruta 101 · nv 5 · `gift`
+- [ ] Regalo: Mudkip (#258) · Ruta 101 · nv 5 · `gift`
 - [ ] Regalo: Lileep (#345) · Ciudad Férrica · nv 20 · `gift`
 - [ ] Regalo: Anorith (#347) · Ciudad Férrica · nv 20 · `gift`
-- [ ] Regalo: Castform (#351) · Ruta 119 (Weather Institute (Road 119)) · nv 25 · `gift`
+- [ ] Regalo: Castform (#351) · Ruta 119 · nv 25 · `gift`
 - [ ] Regalo: Wynaut (#360) · Pueblo Lavacalda · nv 5 · `gift-egg`
-- [ ] Regalo: Beldum (#374) · Ciudad Algaria (Mossdeep City (Steven's house)) · nv 5 · `gift`
+- [ ] Regalo: Beldum (#374) · Ciudad Algaria · nv 5 · `gift`
 - [ ] Errante: Latias (#380) · Roaming Hoenn · nv 40 · `roaming-grass`
 - [ ] Errante: Latias (#380) · Roaming Hoenn · nv 40 · `roaming-water`
 - [ ] Errante: Latios (#381) · Roaming Hoenn · nv 40 · `roaming-grass`
@@ -63,8 +63,8 @@ Hay que comprobarlos, asignarles tramo y marcar los estáticos de una sola oport
 - [ ] Estático: Electrode (#101) · Guarida Magma · nv 30 · `static`
 - [ ] Estático: Mew (#151) · Faraway Island · nv 30 · `static`
 - [ ] Estático: Sudowoodo (#185) · Hoenn Battle Frontier · nv 40 · `wailmer-pail`
-- [ ] Estático: Kecleon (#352) · Ruta 119 (Road 119) · nv 30 · `devon-scope`
-- [ ] Estático: Kecleon (#352) · Ruta 120 (Road 120) · nv 30 · `devon-scope`
+- [ ] Estático: Kecleon (#352) · Ruta 119 · nv 30 · `devon-scope`
+- [ ] Estático: Kecleon (#352) · Ruta 120 · nv 30 · `devon-scope`
 - [ ] Estático: Regirock (#377) · Ruinas del Desierto · nv 40 · `static`
 - [ ] Estático: Regice (#378) · Cueva Insular · nv 40 · `static`
 - [ ] Estático: Registeel (#379) · Tumba Antigua · nv 40 · `static`
@@ -72,7 +72,7 @@ Hay que comprobarlos, asignarles tramo y marcar los estáticos de una sola oport
 - [ ] Estático: Latios (#381) · Isla del Sur · nv 50 · `static`
 - [ ] Estático: Kyogre (#382) · Marine Cave · nv 70 · `static`
 - [ ] Estático: Groudon (#383) · Terra Cave · nv 70 · `static`
-- [ ] Estático: Rayquaza (#384) · Pilar Celeste (Sky Pillar Apex) · nv 70 · `static`
+- [ ] Estático: Rayquaza (#384) · Pilar Celeste · nv 70 · `static`
 - [ ] Intercambio: Meowth (#52) · Hoenn Battle Frontier · nv 5–100 · `npc-trade`
 - [ ] Intercambio: Horsea (#116) · Pueblo Oromar · nv 5–100 · `npc-trade`
 - [ ] Intercambio: Seedot (#273) · Ciudad Férrica · nv 4–100 · `npc-trade`
@@ -266,3 +266,79 @@ Ninguno.
 - Especies con estadísticas antiguas aplicadas (past_stats): 29
 - Movimientos sin nombre en español: 0
 - Los porcentajes de PokéAPI se revisan contra una segunda fuente antes de publicar (specs/02).
+
+## Estado de curación (fase F3)
+
+⛔ **No publicable todavía**: 0 errores y 22 TODO.
+
+- Zonas con tramo: 114/114
+- MT/MO ubicadas: 58/58
+- Jefes: 13
+- Encuentros que cuentan para la historia: 714
+- Pool: 102 entradas (formas finales) de 93 líneas evolutivas
+
+### TODO
+
+**zonas** (3)
+
+- [ ] hoenn-route-106-area: Verificar desde qué tramo se puede pescar en la Ruta 106 sin Surf (orilla junto a Pueblo Azuliza)
+- [ ] mossdeep-city-stevens-house: Verificar con una fuente que el Beldum de casa de Máximo es post-juego en Esmeralda
+- [ ] artisan-cave-area: Verificar con una fuente el acceso a la Cueva Arte (no aparece en las partes del walkthrough)
+
+**objetos evolutivos** (1)
+
+- [ ] water-stone: Las parcelas se encuentran bajo el agua: confirmar si hay alguna antes de Buceo; si no, pasar a gym-7-8
+
+**evoluciones** (3)
+
+- [ ] voltorb→electrode: Confirmar con una fuente de Gen 3
+- [ ] cyndaquil→quilava: Confirmar con una fuente de Gen 3
+- [ ] meowth→persian: Confirmar con una fuente de Gen 3
+
+**MT** (3)
+
+- [ ] TM12: Confirmar con qué medalla se abre el 5º desafío de la Casa Trampa
+- [ ] TM23: Confirmar si la MT23 de Cascada Meteoro requiere Surf o Cascada
+- [ ] TM37: Confirmar si la MT37 está en el desierto o en la Ruta 111 sur
+
+**especies sin obtener** (12)
+
+- [ ] lunatone: Confirmar que en Esmeralda solo se obtiene por intercambio
+- [ ] surskit: Revisar: ¿solo masivas en Esmeralda?
+- [ ] masquerain: Depende de Surskit
+- [ ] azurill: Revisar si se considera obtenible por crianza
+- [ ] meditite: Revisar si hay encuentros en Esmeralda
+- [ ] medicham: Depende de Meditite
+- [ ] roselia: Revisar: ¿solo masivas en Esmeralda?
+- [ ] zangoose: Revisar si es exclusivo de otra versión en Esmeralda
+- [ ] igglybuff: Revisar si se considera obtenible por crianza
+- [ ] pichu: Revisar si se considera obtenible por crianza
+- [ ] jirachi: Confirmar: no obtenible jugando
+- [ ] deoxys: Confirmar: no obtenible jugando
+
+### Avisos (no bloquean)
+
+**solo post-juego** (7)
+
+- [ ] beldum solo se obtiene en el post-juego (fuera del pool)
+- [ ] metang solo se obtiene en el post-juego (fuera del pool)
+- [ ] metagross solo se obtiene en el post-juego (fuera del pool)
+- [ ] latias solo se obtiene en el post-juego (fuera del pool)
+- [ ] latios solo se obtiene en el post-juego (fuera del pool)
+- [ ] kyogre solo se obtiene en el post-juego (fuera del pool)
+- [ ] groudon solo se obtiene en el post-juego (fuera del pool)
+
+**nombres** (12)
+
+- [ ] Zona sin nombre en español en PokéAPI: abandoned-ship-area ("Abandoned Ship")
+- [ ] Zona sin nombre en español en PokéAPI: artisan-cave-area ("Artisan Cave")
+- [ ] Zona sin nombre en español en PokéAPI: desert-underpass-area ("Desert Underpass")
+- [ ] Zona sin nombre en español en PokéAPI: faraway-island-area ("Faraway Island")
+- [ ] Zona sin nombre en español en PokéAPI: hoenn-altering-cave-area ("Altering Cave")
+- [ ] Zona sin nombre en español en PokéAPI: hoenn-battle-frontier-area ("Hoenn Battle Frontier")
+- [ ] Zona sin nombre en español en PokéAPI: magma-hideout-area ("Magma Hideout")
+- [ ] Zona sin nombre en español en PokéAPI: marine-cave-area ("Marine Cave")
+- [ ] Zona sin nombre en español en PokéAPI: mirage-island-area ("mirage-island (Mirage Island)")
+- [ ] Zona sin nombre en español en PokéAPI: mirage-tower-area ("Mirage Tower")
+- [ ] Zona sin nombre en español en PokéAPI: roaming-hoenn-area ("Roaming Hoenn")
+- [ ] Zona sin nombre en español en PokéAPI: terra-cave-area ("Terra Cave")

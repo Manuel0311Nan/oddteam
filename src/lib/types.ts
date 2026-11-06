@@ -99,6 +99,10 @@ export type Encounter = {
   levels: readonly [number, number];
   segment: string; // Segment.id when it becomes possible
   unique: boolean; // one-shot static encounter
+  /** Encounters sharing a group are mutually exclusive (one starter, one fossil…). */
+  exclusiveGroup?: string;
+  /** Curated rarity when the chance is misleading (e.g. Feebas tiles). */
+  rarity?: Rarity;
 };
 
 export type EvolutionTrigger = "level-up" | "use-item" | "trade" | "friendship" | "other";

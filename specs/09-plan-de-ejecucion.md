@@ -214,4 +214,5 @@ Lo aprendido en cada familia se pasa a las specs y a `decisiones.md` antes de em
 | F0 | Casi lista: herramientas, estructura, tema y CI hechos (`pnpm check` y build en verde). Falta subir a GitHub, ver CI en verde y conectar Vercel. |
 | F1 | Hecha: tipos, RNG con semilla, opciones y URL (D-013), tabla de tipos y rareza, con 47 tests. |
 | F2 | Hecha: pipeline con caché y 2 fuentes (D-014), capa pokeapi de Esmeralda (246 especies, 115 zonas, 765 encuentros, 329 movimientos, 58 MT/MO) e informe de huecos (D-015). 77 tests. |
-| F3–F10 | Pendiente |
+| F3 | En curso: overrides de Esmeralda con fuentes (114/114 zonas, 58/58 MT/MO, 13 jefes con movimientos), merge y validador (D-016). Pool: 102 formas finales de 93 líneas. Quedan 22 TODO por verificar y reverificar contra Bulbapedia/Serebii/WikiDex lo tomado de otras webs (D-017). |
+| F4–F10 | Pendiente |
