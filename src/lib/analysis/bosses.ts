@@ -7,7 +7,7 @@
  */
 
 import type { Boss, PoolEntry, Segment, TypeName, Typing } from "@/lib/types";
-import { SCORE_EFFECTIVE, TM_IMPROVEMENT, TOP_MOVES } from "./constants";
+import { effectiveThreshold, TM_IMPROVEMENT, TOP_MOVES } from "./constants";
 import { availableMoves, type CombatData, formsAt, mean, type MoveSource, scoreAgainst } from "./moves";
 import { effectiveness } from "./types";
 
@@ -25,6 +25,8 @@ export type EntryVsBoss = {
   weakness: number;
   /** TMs available by then that would improve the best average score by ≥ 20 %. */
   tmBoosts: RatedMove[];
+  /** Has at least one damaging move of its own type by then (friction, specs/05). */
+  hasStab: boolean;
 };
 
 /** Most common type in the boss team (gyms are mono-type). */
@@ -48,7 +50,7 @@ export function analyzeEntryVsBoss(
   const formId = forms[forms.length - 1] as number;
   const weakness = effectiveness(data.chart, mainType(opponents), data.typingOf(formId));
   if (!available) {
-    return { available, formId, level, moves: [], bestPerOpponent: opponents.map(() => 0), weakness, tmBoosts: [] };
+    return { available, formId, level, moves: [], bestPerOpponent: opponents.map(() => 0), weakness, tmBoosts: [], hasStab: false };
   }
 
   const rated: (RatedMove & { perOpponent: number[] })[] = [];
@@ -68,7 +70,9 @@ export function analyzeEntryVsBoss(
     .map(strip);
 
   const bestPerOpponent = opponents.map((_, i) => Math.round(Math.max(0, ...rated.map((r) => r.perOpponent[i] ?? 0))));
-  return { available, formId, level, moves: rated.slice(0, TOP_MOVES).map(strip), bestPerOpponent, weakness, tmBoosts };
+  const ownTypes: readonly (TypeName | null)[] = data.typingOf(formId);
+  const hasStab = rated.some((r) => ownTypes.includes(data.moves[r.moveId]?.type ?? null));
+  return { available, formId, level, moves: rated.slice(0, TOP_MOVES).map(strip), bestPerOpponent, weakness, tmBoosts, hasStab };
 }
 
 /** Matchups of every pool entry (by final form) against every boss (by id). */
@@ -114,6 +118,7 @@ export function teamVerdict(team: readonly PoolEntry[], boss: Boss, matchups: Ma
     return { verdict: "tough", available, answers: boss.team.map(() => null), weak: [], reason: "Nadie del equipo está disponible todavía." };
   }
 
+  const threshold = effectiveThreshold(rows[0]?.m.level ?? 1);
   const answers: (number | null)[] = [];
   let covered = 0;
   for (let i = 0; i < opponents; i++) {
@@ -122,7 +127,7 @@ export function teamVerdict(team: readonly PoolEntry[], boss: Boss, matchups: Ma
       const s = r.m.bestPerOpponent[i] ?? 0;
       if (!best || s > best.score) best = { id: r.id, score: s };
     }
-    const effective = !!best && best.score >= SCORE_EFFECTIVE;
+    const effective = !!best && best.score >= threshold;
     if (effective) covered++;
     answers.push(effective && best ? best.id : null);
   }

@@ -1,7 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useStore } from "zustand";
+import { computeDifficulty } from "@/lib/analysis/difficulty";
+import { difficultyDataOf } from "@/lib/analysis/difficulty-data";
 import type { ClientGame } from "@/lib/game-data";
 import { earlyNeeded } from "@/lib/generator/context";
 import { CAPTURE_EFFORT_LABELS, captureEffort } from "@/lib/generator/effort";
@@ -9,6 +11,7 @@ import { formatSeed } from "@/lib/rng";
 import { createGeneratorStore } from "@/store/generator";
 import { AvailabilityTimeline } from "./availability-timeline";
 import { BossTable } from "./boss-table";
+import { DifficultyBadge } from "./difficulty-badge";
 import { OptionsPanel } from "./options-panel";
 import { PokemonCard } from "./pokemon-card";
 
@@ -28,13 +31,15 @@ export function GeneratorApp({ game }: { game: ClientGame }) {
     if (q) window.history.replaceState(null, "", `?${q}`);
   }, [state.ready, state.slots, state.seed, state.options, store]);
 
-  const team = state.slots.map((s) => s.entry);
+  const team = useMemo(() => state.slots.map((s) => s.entry), [state.slots]);
   const order = (id: string) => game.segments.find((s) => s.id === id)?.order ?? 0;
   const lastSegment = team.length
     ? game.segments.find((s) => s.order === Math.max(...team.map((m) => order(m.firstAvailable))))
     : undefined;
   const early = team.filter((m) => order(m.firstAvailable) <= 1).length;
   const effort = team.length ? captureEffort(team) : null;
+  const dd = useMemo(() => difficultyDataOf(game), [game]);
+  const difficulty = useMemo(() => (team.length ? computeDifficulty(team, dd) : null), [team, dd]);
 
   const copyLink = async () => {
     try {
@@ -73,6 +78,7 @@ export function GeneratorApp({ game }: { game: ClientGame }) {
             <h1 className="text-4xl font-extrabold leading-none tracking-tight sm:text-[40px]">Tu próximo equipo</h1>
             {team.length ? (
               <div className="flex flex-wrap items-center gap-2.5">
+                {difficulty ? <DifficultyBadge result={difficulty} /> : null}
                 {effort ? (
                   <span className="rounded-full border border-foreground px-3 py-0.5 text-[13px] font-bold">
                     Esfuerzo de captura: {CAPTURE_EFFORT_LABELS[effort]}

@@ -69,7 +69,7 @@ Para cada Pokémon del jefe se calcula el mejor `score` del equipo disponible y 
 - **Complicado:** ningún miembro disponible tiene un ataque eficaz, o la mitad o más del equipo disponible es débil al tipo principal del jefe.
 - **Neutro:** el resto.
 
-En concreto (`teamVerdict`), con "cubierto" = algún miembro disponible tiene un ataque con `score ≥ SCORE_EFFECTIVE` (120) contra ese rival:
+En concreto (`teamVerdict`), un rival está "cubierto" si algún miembro disponible tiene contra él un ataque con `score ≥ 120 × máx(1, nivel esperado / 30)`. El umbral sube con el nivel porque los ataques también lo hacen (D-021).
 
 - **Complicado** si no hay nadie disponible, si no se cubre a ningún rival, o si débiles × 2 ≥ disponibles.
 - **Ventaja** si cubiertos × 2 > rivales y nadie recibe ×4.

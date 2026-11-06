@@ -30,7 +30,7 @@
    - regla de tipos cumplida;
    - inicial según la opción;
    - progresión equilibrada cumplida.
-6. **Dificultad:** si hay filtro, se calcula (`05`) y se descarta el equipo si no cae en el nivel pedido. *Hasta la fase F6 el filtro devuelve un error ("todavía no disponible") y la interfaz no lo muestra.*
+6. **Dificultad:** si hay filtro, se calcula (`05`) y se descarta el equipo si no cae en el nivel pedido. Si tras los intentos no aparece ninguno, se devuelve un error claro (`no-difficulty`). Un equipo **completamente fijado** (p. ej., al abrir un enlace) se mantiene tal cual, porque no queda nada que elegir.
 7. **Reintentos:** hasta 500 intentos. Si no hay solución, se devuelve un error que dice **qué restricción** lo impide (p. ej., "monotipo Hielo + Paseo no tiene solución en Esmeralda").
 
 ## Esfuerzo de captura

@@ -130,7 +130,7 @@ Cada override cita su fuente en un comentario. Lo no verificado se marca `TODO`.
 - Calibración: 5 equipos de referencia de Esmeralda con dificultad conocida, convertidos en test de regresión.
 - Filtro de dificultad en el generador y `DifficultyBadge`.
 - `scripts/featured/`: genera, puntúa y elige 10 equipos variados por nivel.
-- Página `/emerald/destacados` con pestañas.
+- Página `/emerald/destacados` con pestañas y navegación Generador / Destacados.
 
 **Hecho cuando:** los 5 equipos de referencia caen en su nivel y la página de destacados enlaza al generador con su semilla.
 
@@ -217,4 +217,5 @@ Lo aprendido en cada familia se pasa a las specs y a `decisiones.md` antes de em
 | F3 | En curso: overrides de Esmeralda con fuentes (114/114 zonas, 58/58 MT/MO, 13 jefes con movimientos), merge y validador (D-016). Pool: 102 formas finales de 93 líneas. Quedan 22 TODO por verificar y reverificar contra Bulbapedia/Serebii/WikiDex lo tomado de otras webs (D-017). |
 | F4 | Hecha (M1): generador puro con 15 tests y muestreo de 10 000 equipos sin inválidos; portada, `/[game]` estático, opciones, tarjetas, línea de tiempo, Fijar/Cambiar, enlace reproducible (D-019), historial local y borradores (D-018). Pendiente: ver la preview en Vercel con `ODDTEAM_SHOW_DRAFTS=1`. |
 | F5 | Hecha: `analysis/moves.ts` (formas y ataques a tiempo, puntuación) y `analysis/bosses.ts` (precálculo por entrada y jefe, veredicto), `BossTable` desplegable con ataques, MT agrupadas y "elige uno" para las de un solo uso. Premios del Casino fuera (D-020). 31 tests de análisis, 116 en total. |
-| F6–F10 | Pendiente |
+| F6 | Hecha, con calibración provisional: `analysis/difficulty.ts` (4 componentes), cortes y umbral calibrados (D-021), filtro de dificultad en el generador, `DifficultyBadge` con desglose, `data:featured` (20 000 equipos, 10 por nivel, D-022) y `/emerald/destacados` con pestañas. 5 equipos de referencia provisionales: falta confirmarlos con partidas reales. 139 tests. |
+| F7–F10 | Pendiente |

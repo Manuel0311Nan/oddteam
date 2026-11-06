@@ -2,6 +2,9 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import type { GeneratedSpecies } from "@/lib/generated-types";
+import { computeDifficulty } from "@/lib/analysis/difficulty";
+import { difficultyDataOf } from "@/lib/analysis/difficulty-data";
+import { loadClientGame } from "@/lib/game-data";
 import { createRng, deriveSeed } from "@/lib/rng";
 import {
   DIFFICULTIES,
@@ -107,11 +110,47 @@ describe("options", () => {
     expect(penalized).toBeLessThan(normal * 0.6);
   });
 
-  it("rejects the difficulty filter until phase F6", () => {
+  it("rejects the difficulty filter when the context cannot estimate difficulty", () => {
     expect(generateTeam({ ctx, options: { ...DEFAULT_OPTIONS, difficulty: "hard" }, seed: 1 })).toMatchObject({
       ok: false,
       code: "difficulty-unavailable",
     });
+  });
+});
+
+describe("difficulty filter (specs/03 step 6, specs/05)", () => {
+  const client = loadClientGame("emerald")!;
+  const dd = difficultyDataOf(client);
+  const withDifficulty = createContext(game, typings, "Esmeralda", (team) => computeDifficulty(team, dd).level);
+
+  for (const level of DIFFICULTIES) {
+    it(`only returns ${level} teams`, () => {
+      for (let i = 0; i < 20; i++) {
+        const r = generateTeam({ ctx: withDifficulty, options: { ...DEFAULT_OPTIONS, difficulty: level }, seed: deriveSeed(7, level, i) });
+        expect(r.ok).toBe(true);
+        if (r.ok) expect(computeDifficulty(r.team, dd).level).toBe(level);
+      }
+    });
+  }
+
+  it("keeps a fully locked team as it is", () => {
+    const base = generateTeam({ ctx: withDifficulty, options: { ...DEFAULT_OPTIONS, difficulty: "easy" }, seed: 3 });
+    if (!base.ok) throw new Error("expected a team");
+    const locked = base.team.map(entryKey);
+    const r = generateTeam({ ctx: withDifficulty, options: { ...DEFAULT_OPTIONS, difficulty: "challenge" }, seed: 4, locked });
+    expect(r.ok && r.team.map(entryKey)).toEqual(locked);
+  });
+
+  it("explains when no team of that level exists with the locked members", () => {
+    const easy = generateTeam({ ctx: withDifficulty, options: { ...DEFAULT_OPTIONS, difficulty: "easy" }, seed: 5 });
+    if (!easy.ok) throw new Error("expected a team");
+    const r = generateTeam({
+      ctx: withDifficulty,
+      options: { ...DEFAULT_OPTIONS, difficulty: "challenge" },
+      seed: 6,
+      locked: easy.team.slice(0, 5).map(entryKey),
+    });
+    expect(r).toMatchObject({ ok: false, code: "no-difficulty" });
   });
 });
 

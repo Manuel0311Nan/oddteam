@@ -4,7 +4,7 @@ import { RefreshCw, X } from "lucide-react";
 import { useId, useMemo, useState } from "react";
 import { Segmented, Switch } from "@/components/ui/segmented";
 import type { ClientGame } from "@/lib/game-data";
-import { type GeneratorOptions, type RarityFilter, TYPE_NAMES, type TypeName } from "@/lib/types";
+import { type DifficultyFilter, type GeneratorOptions, type RarityFilter, TYPE_NAMES, type TypeName } from "@/lib/types";
 
 type Props = {
   game: ClientGame;
@@ -113,6 +113,23 @@ export function OptionsPanel({ game, options, onChange, onGenerate }: Props) {
             </select>
           </label>
         ) : null}
+      </section>
+
+      <section className="flex flex-col gap-2.5">
+        <Heading>Dificultad</Heading>
+        <Segmented<DifficultyFilter>
+          label="Dificultad"
+          columns={5}
+          value={options.difficulty}
+          options={[
+            { value: "any", label: "Todas" },
+            { value: "easy", label: "Paseo" },
+            { value: "normal", label: "Normal" },
+            { value: "hard", label: "Exig." },
+            { value: "challenge", label: "Reto" },
+          ]}
+          onChange={(v) => onChange({ difficulty: v })}
+        />
       </section>
 
       <section className="flex flex-col gap-2.5">

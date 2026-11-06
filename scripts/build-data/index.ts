@@ -1,5 +1,5 @@
 /**
- * pnpm data:build [--game=emerald] [--fresh] [--strict] [--source=github|pokeapi] [--concurrency=8]
+ * pnpm data:build [--game=emerald] [--fresh] [--strict] [--source=github|pokeapi] [--concurrency=8] [--no-featured]
  *
  * Default source: the official static dump on GitHub (same data as the live API, D-014).
  *
@@ -27,6 +27,7 @@ import type {
   GeneratedEncounter,
 } from "@/lib/generated-types";
 import { validateTypeChart } from "@/lib/analysis/types";
+import { buildFeatured, summary } from "../featured/build";
 import { createClient, idFromUrl, type PokeApiClient, type Source } from "./client";
 import { findGameConfig, GAME_CONFIGS, type GameConfig } from "./config";
 import { aggregateAreaEncounters, isExcludedCondition, methodKind } from "./encounters";
@@ -63,7 +64,7 @@ const ROOT = process.cwd();
 const OUT_DIR = join(ROOT, "data", "generated");
 const CACHE_DIR = join(ROOT, ".cache", "pokeapi");
 
-type Args = { games: GameConfig[]; fresh: boolean; strict: boolean; source: Source; concurrency: number };
+type Args = { games: GameConfig[]; fresh: boolean; strict: boolean; source: Source; concurrency: number; featured: boolean };
 
 function parseArgs(argv: readonly string[]): Args {
   const get = (flag: string) => argv.find((a) => a.startsWith(`--${flag}=`))?.split("=")[1];
@@ -76,6 +77,7 @@ function parseArgs(argv: readonly string[]): Args {
     games: games as GameConfig[],
     fresh: argv.includes("--fresh"),
     strict: argv.includes("--strict"),
+    featured: !argv.includes("--no-featured"),
     source,
     concurrency: Number(get("concurrency") ?? 8),
   };
@@ -455,6 +457,11 @@ async function main() {
     `\n${written.length} archivos en data/generated · dataVersion ${meta.dataVersion} · ${network} descargas, ${cache} desde caché · ${((Date.now() - started) / 1000).toFixed(1)} s`,
   );
   for (const g of args.games) log(`Informe: data/generated/${g.slug}/report.md`);
+
+  // Featured teams depend on the data just written: rebuild them now (D-021).
+  if (args.featured) {
+    for (const g of args.games) log(`Destacados ${g.slug}: ${summary(await buildFeatured(g.slug))}`);
+  }
 
   // --strict: fail unless every game is publishable (no errors, no TODO).
   const blocked = results.filter((r) => r.publishable !== true);
