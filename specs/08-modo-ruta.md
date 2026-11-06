@@ -1,6 +1,6 @@
 # 08 · Modo Ruta
 
-**Estado:** Borrador · Entra en la 1.0
+**Estado:** Acordado (implementado en F7 para Esmeralda) · Entra en la 1.0
 
 ## Idea
 
@@ -73,9 +73,23 @@ Etiqueta:
 - **Para salir del paso:** `shortTerm` alto pero `longTerm` bajo.
 - Los que no son buenos en ninguno de los dos no se recomiendan.
 
-Los pesos y umbrales viven en `lib/analysis/constants.ts`, junto a los de dificultad.
+Los pesos y umbrales viven en `src/lib/analysis/constants.ts`, junto a los de dificultad.
+
+### Detalle de la implementación
+
+- **Utilidad contra un jefe (0–100):** el umbral de "ataque eficaz" de `04` (que sube con el nivel, D-021) vale 50 y el doble vale 100. Se restan 20 si el candidato recibe ×2 del tipo principal del jefe y 40 si recibe ×4.
+- **shortTerm:** utilidad media contra el próximo jefe. En la Liga, contra el Alto Mando y el campeón.
+- **longTerm:** media ponderada contra los jefes posteriores. Pesan 2 los dos siguientes, 1,5 la Liga y 1 el resto.
+  - Bonus de ±15 por las stats base de la forma final, centrado en 420.
+  - −10 por evolución tardía: por nivel por encima del 40, o por objeto en la segunda mitad de la historia.
+- **Etiquetas:** "Para quedarse" si `longTerm ≥ 55`; "Para salir del paso" si `shortTerm ≥ 50`. Los iniciales se muestran siempre, con su valoración.
+- **routeScore:** `(0,6 × shortTerm + 0,4 × longTerm) × rarityFactor × (0,5 si ya estaba disponible antes)`.
+- **Captura que se muestra:** la mejor opción ya posible en esa parada. Se elige por rareza y, si empatan, por el tramo más reciente, que es el más cercano al jugador.
+- **Selección:** 4 por parada, de los 15 mejores candidatos de cada parada. La primera elección sale de los "Para quedarse".
 
 ## Precálculo
+
+> **Sustituido por D-023:** no hay `route.json`. `buildRoute` calcula las paradas en el navegador a partir de los enfrentamientos precalculados de `04`, con cualquier opción. El tipo real es `RouteStop` en `src/lib/analysis/route.ts`. Lo de abajo queda como referencia del diseño original.
 
 `pnpm data:build` genera `data/generated/{game}/route.json`:
 
@@ -114,7 +128,7 @@ La precomputación se hace con las opciones por defecto (sin legendarios, sin in
 4. Siempre que exista, al menos una recomendación "Para quedarse" por parada.
 5. **Ver otras** en una parada: subsemilla nueva solo para esa parada.
 
-URL: `/{game}/ruta?s=…&o=…`, con el mismo esquema que el generador (`03`).
+URL: `/{game}/ruta?s=…&o=…&r=…`, con el mismo esquema que el generador (`03`). `r` guarda las pulsaciones de "Ver otras" por parada (D-023).
 
 ## Interfaz
 

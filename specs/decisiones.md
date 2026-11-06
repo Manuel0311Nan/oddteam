@@ -134,3 +134,14 @@ Con estos cambios, en 20 000 equipos por defecto el reparto es: Paseo ~39 %, Nor
 2. Segunda pasada: sin ese límite, si al nivel le faltan equipos.
 
 **Motivo:** con las opciones por defecto todos los equipos llevan uno de los 3 iniciales, así que el límite de 2 dejaba solo 6 equipos por nivel. Además, Swampert casi nunca sale en equipos difíciles.
+
+### D-023 · 2026-11-07 · La Ruta se calcula en el navegador, sin route.json
+**Decisión:** no se genera `data/generated/{game}/route.json`. La Ruta se calcula con la función pura `buildRoute` (`src/lib/analysis/route.ts`) a partir de los enfrentamientos que ya se precalculan en el build para el generador (`04`). Se hace en el navegador y con cualquier combinación de opciones. `pickRoute` elige las recomendaciones con la semilla. Sustituye a la sección "Precálculo" de `08`.
+**Motivo:**
+- Son unas 100 líneas × 9 paradas sobre datos ya calculados, así que tarda milisegundos.
+- La spec ya pedía recalcular en el cliente al cambiar legendarios o intercambio. Con un `route.json` habría dos caminos para lo mismo y un archivo más que podría quedarse desfasado respecto a los datos.
+
+**También:**
+- Una recomendación por **línea evolutiva** en cada parada (Wurmple → Beautifly o Dustox, Machoke o Machamp): la de mejor puntuación.
+- La URL de la Ruta añade `r`, las pulsaciones de "Ver otras" por parada, para que un enlace compartido reproduzca exactamente lo que se ve.
+- El factor ×0,5 para especies de tramos anteriores se aplica a `routeScore`, así que afecta tanto a qué candidatos entran en la lista como al muestreo.

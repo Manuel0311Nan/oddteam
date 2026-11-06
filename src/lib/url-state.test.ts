@@ -3,8 +3,10 @@ import { DEFAULT_OPTIONS, normalizeOptions } from "@/lib/generator/options";
 import type { GeneratorOptions } from "@/lib/types";
 import {
   decodeOptions,
+  decodeRouteState,
   decodeUrlState,
   encodeOptions,
+  encodeRouteState,
   encodeUrlState,
 } from "@/lib/url-state";
 
@@ -117,5 +119,20 @@ describe("encodeUrlState / decodeUrlState", () => {
       const result = decodeUrlState(new URLSearchParams(query));
       expect(result.ok, query).toBe(false);
     }
+  });
+});
+
+describe("route URL (specs/08)", () => {
+  it("round-trips seed, options and 'Ver otras' counters, dropping trailing zeros", () => {
+    const options = { ...DEFAULT_OPTIONS, allowTradeEvolutions: true, excluded: [183] };
+    const params = encodeRouteState({ seed: 0xabc, options, others: [0, 2, 0, 0], dataVersion: "ab12cd34" });
+    expect(params.get("r")).toBe("0.2");
+    const decoded = decodeRouteState(params);
+    expect(decoded).toEqual({ ok: true, state: { seed: 0xabc, options, others: [0, 2], dataVersion: "ab12cd34" } });
+  });
+
+  it("omits r without presses and rejects a malformed one", () => {
+    expect(encodeRouteState({ seed: 1, options: DEFAULT_OPTIONS, others: [0, 0] }).has("r")).toBe(false);
+    expect(decodeRouteState(new URLSearchParams("s=00000001&r=1.x")).ok).toBe(false);
   });
 });

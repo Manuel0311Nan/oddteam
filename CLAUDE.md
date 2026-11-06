@@ -67,7 +67,10 @@ src/
     [game]/ruta/page.tsx        # modo Ruta: recomendaciones por tramo
     [game]/destacados/page.tsx  # equipos destacados por dificultad
   components/
-    generator/                  # opciones, tarjeta, línea de tiempo, tabla de combates
+    generator/                  # opciones, tarjeta, línea de tiempo, tabla de combates, dificultad
+    route/                      # modo Ruta
+    featured/                   # pestañas de destacados
+    site/                       # cabecera y navegación Equipo / Ruta / Destacados
     ui/                         # shadcn
   lib/
     generator/                  # filter, pick, validate

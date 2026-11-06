@@ -213,3 +213,43 @@ export function decodeUrlState(params: URLSearchParams): DecodeResult {
 
   return { ok: true, state };
 }
+
+// ---------------------------------------------------------------------------
+// Route mode (specs/08): /{game}/ruta?s=…&o=…&r=0.0.2&d=…
+//   r  "Ver otras" presses per stop, in stop order (trailing zeros omitted)
+// ---------------------------------------------------------------------------
+
+export type RouteUrlState = {
+  seed: Seed;
+  options: GeneratorOptions;
+  others: readonly number[];
+  dataVersion?: string;
+};
+
+export function encodeRouteState(state: RouteUrlState): URLSearchParams {
+  const params = new URLSearchParams();
+  params.set("s", seedToParam(state.seed));
+  params.set("o", encodeOptions(state.options));
+  const others = [...state.others];
+  while (others.length && others[others.length - 1] === 0) others.pop();
+  if (others.length) params.set("r", encodeIds(others));
+  if (state.dataVersion) params.set("d", state.dataVersion);
+  return params;
+}
+
+export type RouteDecodeResult =
+  | { ok: true; state: { seed?: Seed; options: GeneratorOptions; others: number[]; dataVersion?: string } }
+  | { ok: false; reason: string };
+
+export function decodeRouteState(params: URLSearchParams): RouteDecodeResult {
+  const base = new URLSearchParams(params);
+  base.delete("l");
+  base.delete("r");
+  const decoded = decodeUrlState(base);
+  if (!decoded.ok) return decoded;
+  const r = params.get("r");
+  const others = r === null ? [] : decodeIds(r);
+  if (!others || others.length > 64) return { ok: false, reason: "Las paradas del enlace no son válidas." };
+  const { seed, options, dataVersion } = decoded.state;
+  return { ok: true, state: { seed, options, others, dataVersion } };
+}

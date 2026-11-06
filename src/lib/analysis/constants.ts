@@ -130,3 +130,44 @@ export const FRICTION_POINTS = {
 export const LATE_EVOLUTION_LEVEL = 40;
 /** "Second half": segment order ≥ this fraction of the last segment's order. */
 export const LATE_SEGMENT_FRACTION = 0.5;
+
+// ---------------------------------------------------------------------------
+// Route mode (specs/08).
+// ---------------------------------------------------------------------------
+
+/** Weights of short and long term in routeScore. */
+export const ROUTE_WEIGHTS = { shortTerm: 0.6, longTerm: 0.4 } as const;
+
+/** Rarity factor at the stop (specs/08). */
+export const ROUTE_RARITY_FACTOR: Record<Rarity, number> = {
+  guaranteed: 1,
+  common: 1,
+  uncommon: 0.9,
+  rare: 0.7,
+  "very-rare": 0.4,
+};
+
+/** Species already available in earlier segments weigh less, so each stop brings news. */
+export const ROUTE_OLD_FACTOR = 0.5;
+
+/** Utility 0–100 against a boss: the "effective" threshold of specs/04 scores 50, twice that scores 100. */
+export const ROUTE_UTILITY_AT_THRESHOLD = 50;
+/** Points taken from the utility when the member is weak (×2) or very weak (×4) to the boss's main type. */
+export const ROUTE_WEAKNESS_PENALTY = { double: 20, quad: 40 } as const;
+
+/** longTerm: extra weight of the 2 bosses after the next one and of the League. */
+export const ROUTE_LONG_WEIGHTS = { soon: 2, league: 1.5, other: 1 } as const;
+/** longTerm: bonus for the base stat total of the final form, ±max, centered on CENTER. */
+export const ROUTE_STATS_BONUS = { center: 420, perPoint: 0.25, max: 15 } as const;
+/** longTerm: penalty for a level evolution above LATE_EVOLUTION_LEVEL or a late item. */
+export const ROUTE_LATE_EVOLUTION_PENALTY = 10;
+
+/** Labels: "Para quedarse" from this longTerm; "Para salir del paso" needs at least this shortTerm. */
+export const ROUTE_KEEP_THRESHOLD = 55;
+export const ROUTE_SHORT_THRESHOLD = 50;
+
+/** Candidates kept per stop and recommendations shown. */
+export const ROUTE_TOP_CANDIDATES = 15;
+export const ROUTE_PICKS = 4;
+/** A species is not recommended in more than this many consecutive stops. */
+export const ROUTE_MAX_CONSECUTIVE = 2;
