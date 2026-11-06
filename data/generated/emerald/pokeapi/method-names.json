@@ -1,0 +1,42 @@
+{
+  "devon-scope": {
+    "from": "item",
+    "name": "Detector Devon",
+    "nameEn": "Devon Scope"
+  },
+  "good-rod": {
+    "from": "item",
+    "name": "Caña Buena",
+    "nameEn": "Good Rod"
+  },
+  "old-rod": {
+    "from": "item",
+    "name": "Caña Vieja",
+    "nameEn": "Old Rod"
+  },
+  "rock-smash": {
+    "from": "move",
+    "name": "Golpe Roca",
+    "nameEn": "Rock Smash"
+  },
+  "seaweed": {
+    "from": "move",
+    "name": "Buceo",
+    "nameEn": "Dive"
+  },
+  "super-rod": {
+    "from": "item",
+    "name": "Supercaña",
+    "nameEn": "Super Rod"
+  },
+  "surf": {
+    "from": "move",
+    "name": "Surf",
+    "nameEn": "Surf"
+  },
+  "wailmer-pail": {
+    "from": "item",
+    "name": "Wailmegadera",
+    "nameEn": "Wailmer Pail"
+  }
+}

@@ -1,6 +1,6 @@
 # 03 · Generador
 
-**Estado:** Borrador
+**Estado:** Acordado · implementado en la fase F4 (`src/lib/generator/`)
 
 ## Opciones
 
@@ -30,7 +30,7 @@
    - regla de tipos cumplida;
    - inicial según la opción;
    - progresión equilibrada cumplida.
-6. **Dificultad:** si hay filtro, se calcula (`05`) y se descarta el equipo si no cae en el nivel pedido.
+6. **Dificultad:** si hay filtro, se calcula (`05`) y se descarta el equipo si no cae en el nivel pedido. *Hasta la fase F6 el filtro devuelve un error ("todavía no disponible") y la interfaz no lo muestra.*
 7. **Reintentos:** hasta 500 intentos. Si no hay solución, se devuelve un error que dice **qué restricción** lo impide (p. ej., "monotipo Hielo + Paseo no tiene solución en Esmeralda").
 
 ## Esfuerzo de captura
@@ -42,18 +42,23 @@ Cada equipo muestra un indicador **Esfuerzo de captura: bajo / medio / alto**, c
 - RNG: `mulberry32`. La semilla se muestra en formato `XXXX-XXXX` (hex).
 - URL: `/{game}?s=7F3A91C2&o=<opciones codificadas>&l=<especies fijadas>&d=<dataVersion>`.
   - `o`: cadena compacta y versionada (`1-6-r-u-100-a-v-264.286`: versión · tamaño · inicial · regla de tipos · interruptores · dificultad · rareza · excluidos). Implementación en `src/lib/url-state.ts`.
-  - `l`: **ids de especie** de los miembros fijados, en orden de hueco. Se guardan especies y no posiciones porque el resto del equipo depende de la semilla.
+  - `l`: **ids de especie (forma final) de todo el equipo**, en orden de hueco (D-019). El historial local cambia los pesos del sorteo, así que la semilla sola no reproduciría el equipo en otro dispositivo.
   - `d`: `dataVersion` con la que se creó el enlace, para avisar si los datos cambiaron.
   - Un parámetro que falta toma el valor por defecto; uno mal formado da error, nunca se adivina.
-- Estado reproducible = semilla + opciones + especies fijadas + `dataVersion` (D-013).
+- Estado reproducible = equipo (`l`) + opciones + `dataVersion` (D-013, D-019). La semilla se usa para los siguientes "Generar" y "Cambiar".
+- Al abrir un enlace, sus miembros aparecen sin fijar.
 - La misma URL debe reproducir el mismo equipo **mientras no cambie `dataVersion`**. Si cambió, se avisa: "Este enlace se creó con datos anteriores; el equipo puede variar".
 
 ## Acciones del usuario
 
 - **Generar**: semilla nueva y nuevo equipo completo (respetando los fijados).
-- **Fijar / desfijar** un hueco.
+- **Fijar / desfijar** un hueco. Al regenerar, los fijados conservan su posición y el generador rellena los huecos libres.
 - **Cambiar** un hueco: el resto de miembros pasan a contar como fijados para esa operación y el hueco se rellena con una semilla derivada (`deriveSeed(semilla, "slot", hueco, n)`). La URL resultante lleva esa semilla y las especies fijadas, así que reproduce el equipo exacto.
 - **Copiar enlace**.
+
+## Errores
+
+Si no hay solución tras 500 intentos, el mensaje dice la causa más frecuente: pocas líneas evolutivas con esas opciones, ningún inicial válido, pocos Pokémon antes del 2º gimnasio o ninguna combinación de tipos. Los Pokémon fijados se mantienen aunque no pasen los filtros, pero deben ser compatibles entre sí.
 
 ## Historial local
 

@@ -14,6 +14,9 @@ import type { FamilyOverrides, VersionOverrides } from "../../data/overrides/typ
 import type {
   GeneratedEvolutionChain,
   GeneratedGameInfo,
+  GeneratedGameListEntry,
+  GeneratedMethodNames,
+  GeneratedTypeNames,
   GeneratedItem,
   GeneratedLearnset,
   GeneratedLocationArea,
@@ -48,6 +51,7 @@ import type {
   ApiRegion,
   ApiSpecies,
   ApiType,
+  ApiVersion,
   ApiVersionGroup,
 } from "./pokeapi-types";
 import { curationReport, merge } from "./merge";
@@ -77,6 +81,19 @@ function parseArgs(argv: readonly string[]): Args {
   };
 }
 
+/** Encounter methods named after an item or a move: their Spanish name comes from PokéAPI. */
+const METHOD_NAME_SOURCES: Readonly<Record<string, { item: string } | { move: string }>> = {
+  "old-rod": { item: "old-rod" },
+  "good-rod": { item: "good-rod" },
+  "super-rod": { item: "super-rod" },
+  "devon-scope": { item: "devon-scope" },
+  "wailmer-pail": { item: "wailmer-pail" },
+  surf: { move: "surf" },
+  "rock-smash": { move: "rock-smash" },
+  seaweed: { move: "dive" },
+  headbutt: { move: "headbutt" },
+};
+
 async function byName<T>(client: PokeApiClient, resource: string, name: string): Promise<T> {
   const entry = (await client.list(resource)).find((r) => r.name === name);
   if (!entry) throw new Error(`${resource} "${name}" not found`);
@@ -99,7 +116,7 @@ async function loadOverrides(config: GameConfig): Promise<{ family: FamilyOverri
   }
 }
 
-type GameResult = { slug: string; publishable: boolean | null };
+type GameResult = { slug: string; publishable: boolean | null; entry: GeneratedGameListEntry };
 
 async function buildGame(
   client: PokeApiClient,
@@ -119,6 +136,8 @@ async function buildGame(
   const vg = versionGroups.find((v) => v.name === config.versionGroup);
   if (!vg) throw new Error(`Version group not found: ${config.versionGroup}`);
   const generation = generationNumber(vg.generation);
+  const versionData = await byName<ApiVersion>(client, "version", config.version);
+  const versionName = localizedName(versionData.names, config.version);
   log(`  grupo ${vg.name} · Gen ${generation} · orden ${vg.order}`);
 
   // Locations and wild encounters of this version.
@@ -261,6 +280,12 @@ async function buildGame(
   const typeChart = buildTypeChart(typesRaw, generation);
   const chartErrors = validateTypeChart(typeChart);
   if (chartErrors.length > 0) throw new Error(`Invalid type chart: ${chartErrors.join("; ")}`);
+  const typeNames: GeneratedTypeNames = {};
+  for (const t of typesRaw) {
+    if (!typeChart.types.includes(t.name as never) && t.name !== "fairy") continue;
+    const n = localizedName(t.names, t.name);
+    typeNames[t.name] = { name: n.es, nameEn: n.en };
+  }
 
   // Encounters with species ids and exclusion flag
   const encounters: GeneratedEncounter[] = rawEncounters
@@ -307,6 +332,8 @@ async function buildGame(
 
   const info: GeneratedGameInfo = {
     slug: config.slug,
+    name: versionName.es,
+    nameEn: versionName.en,
     family: config.family,
     version: config.version,
     versionGroup: config.versionGroup,
@@ -328,6 +355,20 @@ async function buildGame(
   out.json(`${config.versionGroup}/moves.json`, moves);
   out.json(`${config.versionGroup}/machines.json`, machines);
   out.json(`type-chart/gen-${generation}.json`, typeChart);
+  out.json("type-names.json", typeNames);
+
+  const methodNames: GeneratedMethodNames = {};
+  for (const method of new Set(encounters.map((e) => e.method))) {
+    const src = METHOD_NAME_SOURCES[method];
+    if (!src) continue;
+    const res =
+      "item" in src
+        ? await byName<{ name: string; names: { name: string; language: { name: string } }[] }>(client, "item", src.item)
+        : await byName<{ name: string; names: { name: string; language: { name: string } }[] }>(client, "move", src.move);
+    const n = localizedName(res.names as never, res.name);
+    methodNames[method] = { name: n.es, nameEn: n.en, from: "item" in src ? "item" : "move" };
+  }
+  out.json(`${config.slug}/pokeapi/method-names.json`, methodNames);
   // F3: merge with the curated overrides
   let publishable: boolean | null = null;
   let curation = "## Estado de curación (fase F3)\n\nSin overrides para este juego todavía.\n";
@@ -372,7 +413,18 @@ async function buildGame(
   log(
     `  ${areas.length} zonas con encuentros · ${encounters.length} encuentros · ${Object.keys(moves).length} movimientos · ${machines.length} MT/MO`,
   );
-  return { slug: config.slug, publishable };
+  return {
+    slug: config.slug,
+    publishable,
+    entry: {
+      slug: config.slug,
+      name: info.name,
+      family: config.family,
+      region: config.region,
+      generation,
+      publishable: publishable === true,
+    },
+  };
 }
 
 async function main() {
@@ -394,6 +446,7 @@ async function main() {
     results.push(await buildGame(client, game, out, log));
   }
 
+  out.json("games.json", results.map((r) => r.entry));
   const meta: GeneratedMeta = { dataVersion: out.dataVersion(), games: args.games.map((g) => g.slug) };
   out.json("meta.json", meta);
   const written = await out.writeTo(OUT_DIR);

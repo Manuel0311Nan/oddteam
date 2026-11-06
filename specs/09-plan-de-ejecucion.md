@@ -215,4 +215,5 @@ Lo aprendido en cada familia se pasa a las specs y a `decisiones.md` antes de em
 | F1 | Hecha: tipos, RNG con semilla, opciones y URL (D-013), tabla de tipos y rareza, con 47 tests. |
 | F2 | Hecha: pipeline con caché y 2 fuentes (D-014), capa pokeapi de Esmeralda (246 especies, 115 zonas, 765 encuentros, 329 movimientos, 58 MT/MO) e informe de huecos (D-015). 77 tests. |
 | F3 | En curso: overrides de Esmeralda con fuentes (114/114 zonas, 58/58 MT/MO, 13 jefes con movimientos), merge y validador (D-016). Pool: 102 formas finales de 93 líneas. Quedan 22 TODO por verificar y reverificar contra Bulbapedia/Serebii/WikiDex lo tomado de otras webs (D-017). |
-| F4–F10 | Pendiente |
+| F4 | Hecha (M1): generador puro con 15 tests y muestreo de 10 000 equipos sin inválidos; portada, `/[game]` estático, opciones, tarjetas, línea de tiempo, Fijar/Cambiar, enlace reproducible (D-019), historial local y borradores (D-018). Pendiente: ver la preview en Vercel con `ODDTEAM_SHOW_DRAFTS=1`. |
+| F5–F10 | Pendiente |
