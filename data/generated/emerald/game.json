@@ -14788,9 +14788,9 @@
     {
       "moveId": "ice-beam",
       "number": "TM13",
-      "repeatable": true,
-      "segment": "gym-2-3",
-      "where": "Casino de Malvalona (4000 fichas) · Nao Abandonada (Llave Almacén)"
+      "repeatable": false,
+      "segment": "gym-7-8",
+      "where": "Nao Abandonada (Llave Almacén, zona de Buceo) · también en el Casino"
     },
     {
       "moveId": "blizzard",
@@ -14865,9 +14865,9 @@
     {
       "moveId": "thunderbolt",
       "number": "TM24",
-      "repeatable": true,
-      "segment": "gym-2-3",
-      "where": "Casino de Malvalona (4000 fichas) · Erico tras Malvalanova"
+      "repeatable": false,
+      "segment": "gym-5-6",
+      "where": "Ciudad Malvalona, Erico tras resolver Malvalanova · también en el Casino"
     },
     {
       "moveId": "thunder",
@@ -14900,9 +14900,9 @@
     {
       "moveId": "psychic",
       "number": "TM29",
-      "repeatable": true,
-      "segment": "gym-2-3",
-      "where": "Casino de Malvalona (3500 fichas) · Calle Victoria"
+      "repeatable": false,
+      "segment": "league",
+      "where": "Calle Victoria · también en el Casino"
     },
     {
       "moveId": "shadow-ball",
@@ -14921,9 +14921,9 @@
     {
       "moveId": "double-team",
       "number": "TM32",
-      "repeatable": true,
-      "segment": "gym-2-3",
-      "where": "Casino de Malvalona (1500 fichas) · Ruta 113 (oculta)"
+      "repeatable": false,
+      "segment": "gym-3-4",
+      "where": "Ruta 113 (objeto oculto) · también en el Casino"
     },
     {
       "moveId": "reflect",
@@ -14943,7 +14943,7 @@
       "moveId": "flamethrower",
       "number": "TM35",
       "repeatable": true,
-      "segment": "gym-2-3",
+      "segment": "excluded",
       "where": "Casino de Malvalona (4000 fichas)"
     },
     {

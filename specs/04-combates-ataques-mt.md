@@ -1,6 +1,6 @@
 # 04 · Combates, ataques recomendados y MT
 
-**Estado:** Borrador
+**Estado:** Acordado (implementado en F5 para Esmeralda)
 
 ## Objetivo
 
@@ -14,14 +14,17 @@ Para cada jefe, decir:
 
 Un miembro cuenta para un jefe si su especie (o preevolución) se obtiene en un tramo **anterior o igual** al del jefe.
 
-Para ese combate se usa la **forma esperada al nivel esperado**: si la evolución es por nivel ≤ `expectedLevel` del tramo, se usa la forma evolucionada; si es por objeto, solo si el objeto se consigue antes.
+Para ese combate se usa la **forma esperada al nivel esperado**: si la evolución es por nivel ≤ `expectedLevel` del tramo, se usa la forma evolucionada; si es por objeto (o intercambio in-game), solo si el objeto se consigue en un tramo ≤ el del jefe.
+
+Las evoluciones por **amistad, belleza, muda u otras condiciones** no se dan por hechas: la cadena se corta ahí y se usa la forma anterior. La interfaz lo avisa en una nota al pie.
 
 ## Ataques disponibles
 
 Un movimiento está disponible para un miembro en un combate si cumple una de estas condiciones:
 
 - Lo aprende **por nivel** con `level_learned_at ≤ expectedLevel`, en su forma actual o en una anterior.
-- Es una **MT/MO** que puede aprender y cuya ubicación tiene un tramo **≤** el del jefe. Las MT de un solo uso cuentan, pero se marcan como tales.
+- Es una **MT/MO** que puede aprender **la forma actual** y cuya ubicación tiene un tramo **≤** el del jefe. Las MT de un solo uso cuentan, pero se marcan como tales.
+- Los premios del **Casino** no cuentan (D-020): se usa el siguiente sitio donde se consiga la MT, o se excluye si solo está en el Casino.
 - Es de un **tutor** curado con tramo ≤ el del jefe (opcional, si el override lo incluye).
 
 Quedan fuera los movimientos de huevo y los de evento.
@@ -50,9 +53,13 @@ Por cada jefe se listan las MT que:
 
 - ya se han conseguido antes de ese combate (tramo ≤ jefe),
 - puede aprender algún miembro disponible, y
-- mejoran el mejor ataque de ese miembro contra ese jefe en un ≥ 20 %.
+- mejoran el mejor ataque de ese miembro contra ese jefe en un ≥ 20 % (`TM_IMPROVEMENT = 1.2`), como mucho 2 por miembro.
 
-Formato: *"MT03 [movimiento] — en [zona] ([tramo]) — para Pelipper"*.
+Se **agrupan por MT**. Si una MT de un solo uso sirve a varios miembros, se muestra una vez con *"para A o B (elige uno)"*.
+
+Formato: *"Excavar — MT28 · Ruta 114 · un solo uso — para Blaziken o Linoone (elige uno)"*.
+
+**Limitación conocida:** el veredicto se calcula por rival con filas precalculadas independientes, así que puede contar la misma MT de un solo uso para dos miembros. Solo la lista de recomendaciones la agrupa.
 
 ## Veredicto del combate
 
@@ -62,7 +69,17 @@ Para cada Pokémon del jefe se calcula el mejor `score` del equipo disponible y 
 - **Complicado:** ningún miembro disponible tiene un ataque eficaz, o la mitad o más del equipo disponible es débil al tipo principal del jefe.
 - **Neutro:** el resto.
 
-Los umbrales se calibran con equipos reales de prueba (ver `05`) y viven en `lib/analysis/constants.ts`.
+En concreto (`teamVerdict`), con "cubierto" = algún miembro disponible tiene un ataque con `score ≥ SCORE_EFFECTIVE` (120) contra ese rival:
+
+- **Complicado** si no hay nadie disponible, si no se cubre a ningún rival, o si débiles × 2 ≥ disponibles.
+- **Ventaja** si cubiertos × 2 > rivales y nadie recibe ×4.
+- **Neutro** el resto.
+
+Los umbrales se calibran con equipos reales de prueba (ver `05`) y viven en `src/lib/analysis/constants.ts`.
+
+## Cálculo
+
+El análisis de cada entrada del pool contra cada jefe se **precalcula en el servidor** al construir la página (`computeMatchups` en `loadClientGame`): forma y nivel, 3 mejores ataques, mejor puntuación por rival, debilidad y MT que mejoran. El cliente solo combina las filas de los 6 miembros (`teamVerdict`). En Esmeralda son ~31 KB comprimidos.
 
 ## Fuera de alcance (1.0)
 

@@ -5,7 +5,8 @@ import type { Availability, TmOverride } from "../types";
  * Where each Emerald TM/HM is obtained and the earliest segment in which it
  * can be had. Locations: PokéTools (cheapest source) and Smogon (requirements).
  * Gym rewards are available in the segment after that gym.
- * Game Corner coins can be bought with money in Mauville, so those TMs count.
+ * Game Corner (Casino) prizes do NOT count (D-020): their coin cost is out of
+ * reach at that point of a normal playthrough; the next non-Casino place is used.
  * The move of each number comes from PokéAPI (machines.json).
  *
  * Place names use PokéAPI's Spanish names. Places PokéAPI has only in English
@@ -18,7 +19,7 @@ const tm = (
   where: string,
   segment: Availability,
   repeatable = false,
-  extra: Partial<Pick<TmOverride, "note" | "todo">> = {},
+  extra: Partial<Pick<TmOverride, "note" | "todo" | "source">> = {},
 ): TmOverride => ({ where, segment, repeatable, source: S, ...extra });
 
 export const tms: Readonly<Record<string, TmOverride>> = {
@@ -36,7 +37,10 @@ export const tms: Readonly<Record<string, TmOverride>> = {
   TM12: tm("Casa Trampa, premio del 5º desafío", "gym-5-6", false, {
     todo: "Confirmar con qué medalla se abre el 5º desafío de la Casa Trampa",
   }),
-  TM13: tm("Casino de Malvalona (4000 fichas) · Nao Abandonada (Llave Almacén)", "gym-2-3", true),
+  TM13: tm("Nao Abandonada (Llave Almacén, zona de Buceo) · también en el Casino", "gym-7-8", false, {
+    note: "El Casino no cuenta (D-020); la zona oculta requiere Surf y Buceo según WikiDex",
+    source: [...S, "wikidex-nao-abandonada"],
+  }),
   TM14: tm("Centro Comercial de Ciudad Calagua, 4ª planta ($5500)", "gym-6-7", true),
   TM15: tm("Centro Comercial de Ciudad Calagua, 4ª planta ($7500)", "gym-6-7", true),
   TM16: tm("Centro Comercial de Ciudad Calagua, 4ª planta ($3000)", "gym-6-7", true),
@@ -49,20 +53,24 @@ export const tms: Readonly<Record<string, TmOverride>> = {
   TM23: tm("Cascada Meteoro", "gym-3-4", false, {
     todo: "Confirmar si la MT23 de Cascada Meteoro requiere Surf o Cascada",
   }),
-  TM24: tm("Casino de Malvalona (4000 fichas) · Erico tras Malvalanova", "gym-2-3", true),
+  TM24: tm("Ciudad Malvalona, Erico tras resolver Malvalanova · también en el Casino", "gym-5-6", false, {
+    note: "El Casino no cuenta (D-020); Malvalanova es la Parte 9",
+  }),
   TM25: tm("Centro Comercial de Ciudad Calagua, 4ª planta ($5500)", "gym-6-7", true),
   TM26: tm("Caverna Abisal (Buceo, Golpe Roca, Fuerza y Surf)", "gym-7-8"),
   TM27: tm("Pueblo Pardal, Prof. Cozmo tras recuperar el meteorito · Pueblo Oromar", "gym-4-5", false, {
     note: "Conservador: el meteorito se recupera en el Monte Cenizo y se entrega después",
   }),
   TM28: tm("Ruta 114, Maníaco de los fósiles", "gym-3-4"),
-  TM29: tm("Casino de Malvalona (3500 fichas) · Calle Victoria", "gym-2-3", true),
+  TM29: tm("Calle Victoria · también en el Casino", "league", false, { note: "El Casino no cuenta (D-020)" }),
   TM30: tm("Monte Pírico, 6ª planta (Surf)", "gym-6-7"),
   TM31: tm("Arrecípolis (con Surf)", "gym-7-8"),
-  TM32: tm("Casino de Malvalona (1500 fichas) · Ruta 113 (oculta)", "gym-2-3", true),
+  TM32: tm("Ruta 113 (objeto oculto) · también en el Casino", "gym-3-4", false, { note: "El Casino no cuenta (D-020)" }),
   TM33: tm("Centro Comercial de Ciudad Calagua, 4ª planta ($3000)", "gym-6-7", true),
   TM34: tm("Ciudad Malvalona, recompensa de Erico", "gym-3-4"),
-  TM35: tm("Casino de Malvalona (4000 fichas)", "gym-2-3", true),
+  TM35: tm("Casino de Malvalona (4000 fichas)", "excluded", true, {
+    note: "Solo en el Casino, que no cuenta (D-020)",
+  }),
   TM36: tm("Pueblo Azuliza, niña del edificio noroeste", "gym-1-2"),
   TM37: tm("Ruta 111", "gym-4-5", false, {
     note: "Conservador: se asume en el desierto (Gafas Aislantes)",

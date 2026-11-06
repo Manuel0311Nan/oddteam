@@ -84,7 +84,7 @@ Formato: fecha · decisión · motivo · alternativas descartadas. Las decisione
 **Decisión:**
 - **Conservador:** ante la duda, el tramo más tardío posible; nunca se da por disponible antes algo que no consta.
 - Una zona toma el tramo de la primera parte del walkthrough que la recorre; Surf, cañas y demás métodos añaden su requisito.
-- Las MT de gimnasio cuentan desde el tramo siguiente a ese gimnasio. Las MT del Casino cuentan (fichas compradas) y son repetibles.
+- Las MT de gimnasio cuentan desde el tramo siguiente a ese gimnasio. ~~Las MT del Casino cuentan~~ (corregido en D-020).
 - Aparición aleatoria (Isla Espejismo), eventos y accesorios → `excluded`.
 - Un intercambio in-game no está disponible antes que la especie que pide.
 - La rareza se puede fijar a mano cuando el porcentaje de PokéAPI engaña (Feebas).
@@ -109,3 +109,7 @@ Formato: fecha · decisión · motivo · alternativas descartadas. Las decisione
 ### D-019 · 2026-11-06 · La URL lleva el equipo completo
 **Decisión:** el parámetro `l` guarda las formas finales de **todo** el equipo, no solo los fijados (sustituye a la parte de D-013 sobre `l`).
 **Motivo:** el historial local hace menos probables los Pokémon ya usados; con la semilla sola, el mismo enlace daría equipos distintos en otro dispositivo. Con el equipo en la URL el enlace siempre reproduce el mismo equipo; la semilla sigue sirviendo para los siguientes "Generar" y "Cambiar".
+
+### D-020 · 2026-11-06 · Los premios del Casino no cuentan
+**Decisión:** las MT que se consiguen con fichas del Casino **no cuentan** como disponibles. Si una MT tiene otra ubicación, se usa esa; si solo está en el Casino, queda `excluded`. Corrige D-016.
+**Motivo:** al revisar el análisis de combates, las MT del Casino (Lanzallamas, Rayo Hielo, Psíquico por miles de fichas) aparecían como recomendadas antes del 3er gimnasio. Su coste en fichas no es alcanzable en ese punto de una partida normal, así que inflaban el análisis.
