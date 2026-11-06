@@ -2,12 +2,13 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 const TABS = [
-  { href: "", label: "Generador" },
+  { href: "", label: "Equipo" },
+  { href: "/ruta", label: "Ruta" },
   { href: "/destacados", label: "Destacados" },
 ] as const;
 
 /** Sections of a game (specs/06). */
-export function GameNav({ slug, current }: { slug: string; current: "" | "/destacados" }) {
+export function GameNav({ slug, current }: { slug: string; current: (typeof TABS)[number]["href"] }) {
   return (
     <nav aria-label="Secciones del juego" className="mx-auto max-w-[1280px] px-4 pt-5 sm:px-6">
       <ul className="flex gap-1.5">

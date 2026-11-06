@@ -183,7 +183,7 @@ export function OptionsPanel({ game, options, onChange, onGenerate }: Props) {
   );
 }
 
-function ExcludedPicker({
+export function ExcludedPicker({
   game,
   excluded,
   onChange,
