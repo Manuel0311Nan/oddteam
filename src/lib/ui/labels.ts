@@ -3,7 +3,7 @@
  * come from the data (PokéAPI); these are only interface texts.
  */
 
-import type { Encounter, Rarity, TypeName } from "@/lib/types";
+import type { Difficulty, Encounter, Rarity, TypeName } from "@/lib/types";
 
 /** Background / foreground per type, chosen for AA contrast (specs/06). */
 export const TYPE_COLORS: Record<TypeName, { bg: string; fg: string }> = {
@@ -58,3 +58,25 @@ export const SEGMENT_TONE = (order: number, total: number): { bg: string; fg: st
   if (order < third * 2) return { bg: "#FBEBC8", fg: "#5A3D00", bar: "#B07A00" };
   return { bg: "#F7DCD3", fg: "#6E1F0E", bar: "#C42F17" };
 };
+
+/** Difficulty pill colors (specs/05), from easiest to hardest. AA contrast. */
+export const DIFFICULTY_TONE: Record<Difficulty, { bg: string; fg: string }> = {
+  easy: { bg: "#E4F0DA", fg: "#24461A" },
+  normal: { bg: "#FBEBC8", fg: "#5A3D00" },
+  hard: { bg: "#F7DCD3", fg: "#6E1F0E" },
+  challenge: { bg: "#17171C", fg: "#FFFFFF" },
+};
+
+export const DIFFICULTY_COMPONENT_LABELS = {
+  availability: "Disponibilidad",
+  bosses: "Combates",
+  stats: "Stats",
+  friction: "Fricción",
+} as const;
+
+export const DIFFICULTY_COMPONENT_HINTS = {
+  availability: "Cuándo se completa el equipo",
+  bosses: "Veredictos contra los jefes",
+  stats: "Stats base de las formas en cada combate",
+  friction: "Evoluciones tardías, MO, únicos y falta de ataques de su tipo",
+} as const;

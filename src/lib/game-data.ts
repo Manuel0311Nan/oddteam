@@ -3,9 +3,10 @@
  * The client receives a ClientGame: only what the generator and the UI need.
  */
 
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { computeMatchups, mainType, type Matchups } from "@/lib/analysis/bosses";
+import type { FeaturedFile } from "@/lib/analysis/featured";
 import type { Learnset } from "@/lib/analysis/moves";
 import type { TypeChart } from "@/lib/analysis/types";
 import type {
@@ -55,6 +56,8 @@ export type ClientGame = {
   matchups: Matchups;
   moveNames: Record<string, string>;
   tms: Record<string, Pick<TmEntry, "where" | "segment" | "repeatable" | "moveId">>;
+  /** Base stat total of every form used in a battle (difficulty, specs/05). */
+  statTotals: Record<number, number>;
 };
 
 export function loadClientGame(slug: string): ClientGame | null {
@@ -108,6 +111,13 @@ export function loadClientGame(slug: string): ClientGame | null {
       for (const r of [...m.moves, ...m.tmBoosts]) usedMoves.add(r.moveId);
     }
   }
+  const statTotals: Record<number, number> = {};
+  for (const row of Object.values(matchups)) {
+    for (const m of Object.values(row)) {
+      const st = bySpecies.get(m.formId)?.baseStats;
+      if (st) statTotals[m.formId] = st.hp + st.attack + st.defense + st.specialAttack + st.specialDefense + st.speed;
+    }
+  }
   const speciesMap: Record<number, ClientSpecies> = {};
   for (const s of species) {
     if (needed.has(s.id)) speciesMap[s.id] = { id: s.id, name: s.name, typing: s.typing, sprite: s.sprite };
@@ -147,5 +157,22 @@ export function loadClientGame(slug: string): ClientGame | null {
     tms: Object.fromEntries(
       game.tms.map((t) => [t.number, { where: t.where, segment: t.segment, repeatable: t.repeatable, moveId: t.moveId }]),
     ),
+    statTotals,
   };
+}
+
+/**
+ * Featured teams of a game (specs/05), or null if they were not computed or
+ * belong to other data (they are rebuilt by `pnpm data:build`, D-021).
+ */
+export function loadFeatured(slug: string): FeaturedFile | null {
+  const path = join(DATA_DIR, "featured", `${slug}.json`);
+  if (!existsSync(path)) return null;
+  const file = JSON.parse(readFileSync(path, "utf8")) as FeaturedFile;
+  const meta = readJson<GeneratedMeta>("meta.json");
+  if (file.dataVersion !== meta.dataVersion) {
+    console.warn(`featured/${slug}.json es de otros datos (${file.dataVersion} ≠ ${meta.dataVersion}): ejecuta pnpm data:featured`);
+    return null;
+  }
+  return file;
 }

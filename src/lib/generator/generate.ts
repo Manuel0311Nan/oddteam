@@ -3,6 +3,7 @@
  * same context + options + seed + locked + history → same result.
  */
 
+import { DIFFICULTY_LABELS } from "@/lib/analysis/difficulty";
 import { createRng, deriveSeed, type Rng, type Seed } from "@/lib/rng";
 import type { GeneratorOptions, PoolEntry } from "@/lib/types";
 import { earlyNeeded, entryKey, type GeneratorContext, isEarly, speciesOf } from "./context";
@@ -29,19 +30,20 @@ export type GenerateErrorCode =
   | "pool-too-small"
   | "no-starter"
   | "no-early"
+  | "no-difficulty"
   | "no-combination";
 
 export type GenerateResult =
   | { ok: true; team: PoolEntry[]; attempts: number }
   | { ok: false; code: GenerateErrorCode; message: string };
 
-type Failure = "no-starter" | "no-early" | "no-combination";
+type Failure = "no-starter" | "no-early" | "no-difficulty" | "no-combination";
 
 export function generateTeam(input: GenerateInput): GenerateResult {
   const { ctx, seed } = input;
   const options = normalizeOptions(input.options);
 
-  if (options.difficulty !== "any") {
+  if (options.difficulty !== "any" && !ctx.difficultyOf) {
     return {
       ok: false,
       code: "difficulty-unavailable",
@@ -96,10 +98,17 @@ export function generateTeam(input: GenerateInput): GenerateResult {
     const rng = createRng(deriveSeed(seed, "attempt", attempt));
     const outcome = buildTeam(rng);
     if (Array.isArray(outcome)) {
-      if (validateTeam(ctx, outcome, options, starterAvailable).length === 0) {
-        return { ok: true, team: outcome, attempts: attempt + 1 };
+      if (validateTeam(ctx, outcome, options, starterAvailable).length > 0) {
+        failures.set("no-combination", (failures.get("no-combination") ?? 0) + 1);
+        continue;
       }
-      failures.set("no-combination", (failures.get("no-combination") ?? 0) + 1);
+      // Difficulty filter (specs/03, step 6). A fully locked team has nothing left to choose: it is kept as is.
+      const filtered = options.difficulty !== "any" && locked.length < options.size;
+      if (filtered && ctx.difficultyOf?.(outcome) !== options.difficulty) {
+        failures.set("no-difficulty", (failures.get("no-difficulty") ?? 0) + 1);
+        continue;
+      }
+      return { ok: true, team: outcome, attempts: attempt + 1 };
     } else {
       failures.set(outcome, (failures.get(outcome) ?? 0) + 1);
     }
@@ -152,6 +161,8 @@ export function generateTeam(input: GenerateInput): GenerateResult {
         return "Ningún inicial encaja con las opciones elegidas.";
       case "no-early":
         return `No hay suficientes Pokémon antes del 2º gimnasio que cumplan las opciones en ${ctx.gameName}. Desactiva la progresión equilibrada o relaja alguna opción.`;
+      case "no-difficulty":
+        return `No he encontrado un equipo de dificultad «${options.difficulty === "any" ? "" : DIFFICULTY_LABELS[options.difficulty]}» con estas opciones en ${ctx.gameName}. Prueba otra dificultad, suelta algún fijado o relaja alguna opción.`;
       case "no-combination":
         return `No hay ninguna combinación de ${options.size} Pokémon que cumpla todas las opciones en ${ctx.gameName}. Prueba con otra regla de tipos o menos restricciones.`;
     }

@@ -113,3 +113,24 @@ Formato: fecha · decisión · motivo · alternativas descartadas. Las decisione
 ### D-020 · 2026-11-06 · Los premios del Casino no cuentan
 **Decisión:** las MT que se consiguen con fichas del Casino **no cuentan** como disponibles. Si una MT tiene otra ubicación, se usa esa; si solo está en el Casino, queda `excluded`. Corrige D-016.
 **Motivo:** al revisar el análisis de combates, las MT del Casino (Lanzallamas, Rayo Hielo, Psíquico por miles de fichas) aparecían como recomendadas antes del 3er gimnasio. Su coste en fichas no es alcanzable en ese punto de una partida normal, así que inflaban el análisis.
+
+### D-021 · 2026-11-07 · Calibración de la dificultad y destacados siempre al día
+**Decisión:**
+1. **Cortes de nivel 20 / 30 / 40** (Paseo < 20 ≤ Normal < 30 ≤ Exigente < 40 ≤ Reto) en vez de los iniciales 25 / 50 / 75. Pesos sin cambios (0,30 · 0,40 · 0,15 · 0,15).
+2. **El umbral de "ataque eficaz" sube con el nivel** del combate: `120 × máx(1, nivel / 30)` (nv 40 → 160, nv 56 → 224). Afecta al veredicto de `04`.
+3. `pnpm data:build` **recalcula los destacados** al terminar (`--no-featured` para saltarlo). `pnpm data:featured` sigue existiendo para recalcularlos solos. La página de destacados no muestra un archivo de otra `dataVersion`.
+
+**Motivo:**
+- Con 5 000 equipos de Esmeralda con opciones por defecto, las puntuaciones iban de ~5 a ~52 con los cortes iniciales. No salía ningún equipo Exigente ni Reto.
+- Con el umbral fijo de 120, el 100 % de los equipos tenía Ventaja contra Sixto, Nívea y Dracón, porque a nivel 56 casi cualquier ataque del tipo propio pasa de 120.
+
+Con estos cambios, en 20 000 equipos por defecto el reparto es: Paseo ~39 %, Normal ~47 %, Exigente ~12 % y Reto ~1,6 %.
+
+**Pendiente:** los 5 equipos de referencia de `difficulty.test.ts` son **provisionales**: están elegidos por construcción (pronto y fuertes frente a tarde y débiles), no por partidas reales. Manuel los confirma o corrige con su experiencia, y se recalibra.
+
+### D-022 · 2026-11-07 · El inicial no cuenta para la variedad de destacados
+**Decisión:** en los destacados, el límite de "ninguna especie en más de 2 equipos del mismo nivel" no se aplica al inicial. Los iniciales se reparten en dos pasadas:
+1. Primera pasada: como mucho `ceil(10 / iniciales)` equipos por inicial.
+2. Segunda pasada: sin ese límite, si al nivel le faltan equipos.
+
+**Motivo:** con las opciones por defecto todos los equipos llevan uno de los 3 iniciales, así que el límite de 2 dejaba solo 6 equipos por nivel. Además, Swampert casi nunca sale en equipos difíciles.

@@ -105,7 +105,8 @@ pnpm data:build --game=emerald
 pnpm data:build --fresh  # ignora la caché y vuelve a descargar
 pnpm data:build --source=pokeapi   # API en vivo en vez del volcado de GitHub (D-014)
 pnpm data:build --strict # falla si algún juego tiene errores o TODO (antes de publicar)
-pnpm data:featured       # recalcula equipos destacados · F6
+pnpm data:build --no-featured  # sin recalcular los destacados (por defecto se recalculan, D-021)
+pnpm data:featured       # recalcula solo los equipos destacados
 ```
 
 Antes de dar una tarea por terminada, `pnpm check` tiene que pasar.

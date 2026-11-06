@@ -9,6 +9,8 @@
  */
 
 import { createStore } from "zustand/vanilla";
+import { computeDifficulty } from "@/lib/analysis/difficulty";
+import { difficultyDataOf } from "@/lib/analysis/difficulty-data";
 import type { ClientGame } from "@/lib/game-data";
 import { createContext, entryKey, type GeneratorContext } from "@/lib/generator/context";
 import { generateTeam, rerollSlot } from "@/lib/generator/generate";
@@ -61,7 +63,8 @@ function writeLocal(key: string, value: unknown): void {
 
 export function createGeneratorStore(game: ClientGame) {
   const typings = new Map<number, Typing>(Object.values(game.species).map((s) => [s.id, s.typing]));
-  const ctx: GeneratorContext = createContext(game, typings, game.name);
+  const difficultyData = difficultyDataOf(game);
+  const ctx: GeneratorContext = createContext(game, typings, game.name, (team) => computeDifficulty(team, difficultyData).level);
   const byFinal = new Map(game.pool.map((e) => [entryKey(e), e]));
   const historyKey = `oddteam:history:${game.slug}`;
   const excludedKey = `oddteam:excluded:${game.slug}`;
