@@ -72,6 +72,8 @@ src/
   lib/
     generator/                  # filter, pick, validate
     analysis/                   # types (tabla de tipos), moves (ataques recomendados), bosses, difficulty, route
+    game-data.ts                # lee data/generated en el servidor y prepara los datos del cliente
+    ui/labels.ts                # textos y colores de la interfaz (los nombres oficiales vienen de los datos)
     rng.ts                      # mulberry32 con semilla
     url-state.ts                # codificar/decodificar opciones y semilla en la URL
     types.ts
@@ -107,6 +109,8 @@ pnpm data:featured       # recalcula equipos destacados · F6
 ```
 
 Antes de dar una tarea por terminada, `pnpm check` tiene que pasar.
+
+Variables de entorno: `ODDTEAM_SHOW_DRAFTS=1` muestra los juegos en borrador en un build de producción (D-018). En desarrollo siempre se ven.
 
 ## Convenciones
 

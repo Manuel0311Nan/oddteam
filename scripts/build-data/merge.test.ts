@@ -113,6 +113,8 @@ const base = (over: Partial<MergeInput> = {}): MergeInput => ({
   game: "emerald",
   info: {
     slug: "emerald",
+    name: "Esmeralda",
+    nameEn: "Emerald",
     family: "emerald",
     version: "emerald",
     versionGroup: "emerald",

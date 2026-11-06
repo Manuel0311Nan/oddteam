@@ -1,0 +1,74 @@
+{
+  "bug": {
+    "name": "Bicho",
+    "nameEn": "Bug"
+  },
+  "dark": {
+    "name": "Siniestro",
+    "nameEn": "Dark"
+  },
+  "dragon": {
+    "name": "Dragón",
+    "nameEn": "Dragon"
+  },
+  "electric": {
+    "name": "Eléctrico",
+    "nameEn": "Electric"
+  },
+  "fairy": {
+    "name": "Hada",
+    "nameEn": "Fairy"
+  },
+  "fighting": {
+    "name": "Lucha",
+    "nameEn": "Fighting"
+  },
+  "fire": {
+    "name": "Fuego",
+    "nameEn": "Fire"
+  },
+  "flying": {
+    "name": "Volador",
+    "nameEn": "Flying"
+  },
+  "ghost": {
+    "name": "Fantasma",
+    "nameEn": "Ghost"
+  },
+  "grass": {
+    "name": "Planta",
+    "nameEn": "Grass"
+  },
+  "ground": {
+    "name": "Tierra",
+    "nameEn": "Ground"
+  },
+  "ice": {
+    "name": "Hielo",
+    "nameEn": "Ice"
+  },
+  "normal": {
+    "name": "Normal",
+    "nameEn": "Normal"
+  },
+  "poison": {
+    "name": "Veneno",
+    "nameEn": "Poison"
+  },
+  "psychic": {
+    "name": "Psíquico",
+    "nameEn": "Psychic"
+  },
+  "rock": {
+    "name": "Roca",
+    "nameEn": "Rock"
+  },
+  "steel": {
+    "name": "Acero",
+    "nameEn": "Steel"
+  },
+  "water": {
+    "name": "Agua",
+    "nameEn": "Water"
+  }
+}

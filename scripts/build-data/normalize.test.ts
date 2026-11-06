@@ -91,13 +91,13 @@ describe("buildTypeChart", () => {
     no_damage_to: none.map((n) => ref(n)),
   });
   const types: ApiType[] = [
-    { id: 8, name: "ghost", generation: gen("i"), damage_relations: rel(["ghost", "psychic"], ["dark"], ["normal"]), past_damage_relations: [{ generation: gen("v"), damage_relations: rel(["ghost", "psychic"], ["dark", "steel"], ["normal"]) }] },
-    { id: 1, name: "normal", generation: gen("i"), damage_relations: rel([], ["steel"], ["ghost"]), past_damage_relations: [] },
-    { id: 9, name: "steel", generation: gen("ii"), damage_relations: rel(["fairy"], [], []), past_damage_relations: [] },
-    { id: 14, name: "psychic", generation: gen("i"), damage_relations: rel([], [], []), past_damage_relations: [] },
-    { id: 17, name: "dark", generation: gen("ii"), damage_relations: rel([], [], []), past_damage_relations: [] },
-    { id: 18, name: "fairy", generation: gen("vi"), damage_relations: rel(["dragon"], [], []), past_damage_relations: [] },
-    { id: 10001, name: "unknown", generation: gen("ii"), damage_relations: rel([], [], []), past_damage_relations: [] },
+    { id: 8, name: "ghost", names: [], generation: gen("i"), damage_relations: rel(["ghost", "psychic"], ["dark"], ["normal"]), past_damage_relations: [{ generation: gen("v"), damage_relations: rel(["ghost", "psychic"], ["dark", "steel"], ["normal"]) }] },
+    { id: 1, name: "normal", names: [], generation: gen("i"), damage_relations: rel([], ["steel"], ["ghost"]), past_damage_relations: [] },
+    { id: 9, name: "steel", names: [], generation: gen("ii"), damage_relations: rel(["fairy"], [], []), past_damage_relations: [] },
+    { id: 14, name: "psychic", names: [], generation: gen("i"), damage_relations: rel([], [], []), past_damage_relations: [] },
+    { id: 17, name: "dark", names: [], generation: gen("ii"), damage_relations: rel([], [], []), past_damage_relations: [] },
+    { id: 18, name: "fairy", names: [], generation: gen("vi"), damage_relations: rel(["dragon"], [], []), past_damage_relations: [] },
+    { id: 10001, name: "unknown", names: [], generation: gen("ii"), damage_relations: rel([], [], []), past_damage_relations: [] },
   ];
 
   it("builds Gen 3 without Fairy and with old Ghost relations", () => {

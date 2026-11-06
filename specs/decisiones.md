@@ -101,3 +101,11 @@ Formato: fecha · decisión · motivo · alternativas descartadas. Las decisione
 **Motivo:** curar siempre con los mismos sitios, para que los datos sean coherentes entre juegos y se puedan revisar.
 **Consecuencia:** los datos de Esmeralda tomados de PokémonDB, Smogon, PokéTools y Dittobase se reverifican contra Bulbapedia (o Serebii/WikiDex); si alguna página de Bulbapedia no se puede consultar, Serebii hace de principal.
 **Ejemplo:** el lugar que había traducido como "Barco Abandonado" es oficialmente "Nao Abandonada" según WikiDex.
+
+### D-018 · 2026-11-06 · Juegos en borrador
+**Decisión:** un juego con errores o TODO en su curación es un **borrador**. Se ve en desarrollo y con `ODDTEAM_SHOW_DRAFTS=1` (p. ej., en las previews de Vercel), con un aviso visible y `noindex`. En producción sin esa variable no se genera su página.
+**Motivo:** poder probar la web con datos reales sin publicar un juego que aún no cumple "Qué NO hacer" (validador en verde).
+
+### D-019 · 2026-11-06 · La URL lleva el equipo completo
+**Decisión:** el parámetro `l` guarda las formas finales de **todo** el equipo, no solo los fijados (sustituye a la parte de D-013 sobre `l`).
+**Motivo:** el historial local hace menos probables los Pokémon ya usados; con la semilla sola, el mismo enlace daría equipos distintos en otro dispositivo. Con el equipo en la URL el enlace siempre reproduce el mismo equipo; la semilla sigue sirviendo para los siguientes "Generar" y "Cambiar".

@@ -18,6 +18,8 @@ export type GeneratedMeta = {
 
 export type GeneratedGameInfo = {
   slug: string;
+  name: string; // Spanish version name ("Esmeralda")
+  nameEn: string;
   family: string;
   version: string;
   versionGroup: string;
@@ -125,3 +127,20 @@ export type GeneratedEvolutionChain = {
 };
 
 export type GeneratedItem = { id: string; name: string; nameEn: string };
+
+/** data/generated/games.json: games the web knows about. */
+export type GeneratedGameListEntry = {
+  slug: string;
+  name: string;
+  family: string;
+  region: string;
+  generation: number;
+  /** No errors and no TODO in its curation (specs/02). Drafts are only shown in development. */
+  publishable: boolean;
+};
+
+/** data/generated/method-names.json: Spanish names of item- or move-based encounter methods, from PokéAPI. */
+export type GeneratedMethodNames = Record<string, { name: string; nameEn: string; from: "item" | "move" }>;
+
+/** data/generated/type-names.json: Spanish names of the types, from PokéAPI. */
+export type GeneratedTypeNames = Record<string, { name: string; nameEn: string }>;

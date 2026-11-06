@@ -14,7 +14,7 @@ export type ApiVersionGroup = {
   regions: NamedRef[];
 };
 
-export type ApiVersion = { id: number; name: string; version_group: NamedRef };
+export type ApiVersion = { id: number; name: string; names: LocalizedName[]; version_group: NamedRef };
 
 export type ApiRegion = { id: number; name: string; locations: NamedRef[] };
 
@@ -127,6 +127,7 @@ export type DamageRelations = {
 export type ApiType = {
   id: number;
   name: string;
+  names: LocalizedName[];
   generation: NamedRef;
   damage_relations: DamageRelations;
   past_damage_relations: { generation: NamedRef; damage_relations: DamageRelations }[];
