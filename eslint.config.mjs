@@ -18,7 +18,18 @@ const eslintConfig = [
       "out/**",
       "build/**",
       "next-env.d.ts",
+      ".cache/**",
+      "data/generated/**",
     ],
+  },
+  {
+    rules: {
+      // Leading underscore = intentionally unused (e.g. fields dropped with a rest spread).
+      "@typescript-eslint/no-unused-vars": [
+        "warn",
+        { argsIgnorePattern: "^_", varsIgnorePattern: "^_", ignoreRestSiblings: true },
+      ],
+    },
   },
 ];
 

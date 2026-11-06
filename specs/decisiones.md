@@ -79,3 +79,25 @@ Formato: fecha · decisión · motivo · alternativas descartadas. Las decisione
 **Decisión:** la fase F2 escribe lo que sale de PokéAPI en `data/generated/{game}/pokeapi/` junto a un informe (`report.md`); la fase F3 combina esa capa con los overrides en `data/generated/{game}/game.json`.
 **Motivo:** permite revisar qué viene de PokéAPI y qué se ha curado, y regenerar una capa sin tocar la otra.
 **Detalles aplicados:** métodos de encuentro clasificados por tipo (los desconocidos no cuentan), evoluciones con objetos inexistentes en la generación descartadas, Maldición sin tipo (`specs/02`).
+
+### D-016 · 2026-11-06 · Criterios de curación
+**Decisión:**
+- **Conservador:** ante la duda, el tramo más tardío posible; nunca se da por disponible antes algo que no consta.
+- Una zona toma el tramo de la primera parte del walkthrough que la recorre; Surf, cañas y demás métodos añaden su requisito.
+- Las MT de gimnasio cuentan desde el tramo siguiente a ese gimnasio. Las MT del Casino cuentan (fichas compradas) y son repetibles.
+- Aparición aleatoria (Isla Espejismo), eventos y accesorios → `excluded`.
+- Un intercambio in-game no está disponible antes que la especie que pide.
+- La rareza se puede fijar a mano cuando el porcentaje de PokéAPI engaña (Feebas).
+- Especies solo del post-juego: fuera del pool, como aviso.
+**Motivo:** que el generador nunca proponga un equipo imposible; si se equivoca, que sea por proponer algo más tarde de lo posible.
+
+### D-017 · 2026-11-06 · Jerarquía de fuentes
+**Decisión:**
+1. **PokéAPI** es la verdad para todo lo que tiene (especies, tipos, estadísticas, movimientos, encuentros, porcentajes, evoluciones, números de MT). Solo se corrige con un motivo documentado (D-016).
+2. **Bulbapedia** es la fuente principal para lo que PokéAPI no tiene: orden de la historia, jefes, ubicación de MT, MO, cañas y objetos.
+3. **Serebii** y **WikiDex** son fuentes de contraste. **WikiDex** es además la fuente principal de **nombres en español** que PokéAPI no tiene (lugares, objetos, personajes).
+4. **Ninguna otra web.** Si un dato no está en estas fuentes, queda como `todo`.
+
+**Motivo:** curar siempre con los mismos sitios, para que los datos sean coherentes entre juegos y se puedan revisar.
+**Consecuencia:** los datos de Esmeralda tomados de PokémonDB, Smogon, PokéTools y Dittobase se reverifican contra Bulbapedia (o Serebii/WikiDex); si alguna página de Bulbapedia no se puede consultar, Serebii hace de principal.
+**Ejemplo:** el lugar que había traducido como "Barco Abandonado" es oficialmente "Nao Abandonada" según WikiDex.
