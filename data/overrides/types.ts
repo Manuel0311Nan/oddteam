@@ -29,6 +29,11 @@ export type SegmentOverride = Sourced & {
 export type LocationOverride = Sourced & {
   /** When the area becomes reachable. */
   segment: Availability;
+  /**
+   * Spanish name shown in the UI when PokéAPI has none (Sinnoh, D-027).
+   * Official names from WikiDex; a short Spanish detail may follow (floor, part).
+   */
+  name?: string;
   /** Per-method exceptions (e.g. walking encounters only in a part reached later). */
   methods?: Readonly<Record<string, Availability>>;
 };
@@ -36,6 +41,11 @@ export type LocationOverride = Sourced & {
 export type MethodOverride = Sourced & {
   /** When the method becomes usable (rod obtained, HM usable…). */
   segment: Availability;
+  /**
+   * Floor for the rarity of every encounter of this method, when the chance
+   * alone overstates how easy it is (honey trees: hours of waiting, random tree group).
+   */
+  minRarity?: Rarity;
 };
 
 export type ConditionOverride = Sourced & {
@@ -69,6 +79,8 @@ export type EvolutionChoice = Sourced & {
   to: string;
   /** Which PokéAPI method is the one valid in this family. */
   keep: { trigger: string; minLevel?: number; item?: string };
+  /** Earliest segment for evolutions tied to a place (moss rock, ice rock, magnetic field). */
+  segment?: Availability;
 };
 
 export type BossOverride = Sourced & {

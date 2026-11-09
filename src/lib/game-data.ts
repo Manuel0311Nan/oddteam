@@ -13,7 +13,6 @@ import type {
   GeneratedGameListEntry,
   GeneratedMove,
   GeneratedItem,
-  GeneratedMeta,
   GeneratedMethodNames,
   GeneratedSpecies,
   GeneratedTypeNames,
@@ -31,8 +30,9 @@ export function draftsVisible(): boolean {
   return process.env.NODE_ENV !== "production" || process.env.ODDTEAM_SHOW_DRAFTS === "1";
 }
 
+/** Games the web can show: merged with overrides (they have a game.json) and, in production, publishable. */
 export function listGames(): GeneratedGameListEntry[] {
-  const games = readJson<GeneratedGameListEntry[]>("games.json");
+  const games = readJson<GeneratedGameListEntry[]>("games.json").filter((g) => existsSync(join(DATA_DIR, g.slug, "game.json")));
   return draftsVisible() ? games : games.filter((g) => g.publishable);
 }
 
@@ -66,7 +66,6 @@ export function loadClientGame(slug: string): ClientGame | null {
 
   const game = readJson<Game>(slug, "game.json");
   const species = readJson<GeneratedSpecies[]>(slug, "pokeapi", "species.json");
-  const meta = readJson<GeneratedMeta>("meta.json");
   const typeNames = readJson<GeneratedTypeNames>("type-names.json");
   const methodNames = readJson<GeneratedMethodNames>(slug, "pokeapi", "method-names.json");
   const items = readJson<Record<string, GeneratedItem>>(slug, "pokeapi", "items.json");
@@ -138,7 +137,7 @@ export function loadClientGame(slug: string): ClientGame | null {
     name: entry.name,
     region: entry.region,
     publishable: entry.publishable,
-    dataVersion: meta.dataVersion,
+    dataVersion: entry.dataVersion,
     segments: [...game.segments],
     pool,
     species: speciesMap,
@@ -169,9 +168,9 @@ export function loadFeatured(slug: string): FeaturedFile | null {
   const path = join(DATA_DIR, "featured", `${slug}.json`);
   if (!existsSync(path)) return null;
   const file = JSON.parse(readFileSync(path, "utf8")) as FeaturedFile;
-  const meta = readJson<GeneratedMeta>("meta.json");
-  if (file.dataVersion !== meta.dataVersion) {
-    console.warn(`featured/${slug}.json es de otros datos (${file.dataVersion} ≠ ${meta.dataVersion}): ejecuta pnpm data:featured`);
+  const current = readJson<GeneratedGameListEntry[]>("games.json").find((g) => g.slug === slug)?.dataVersion;
+  if (file.dataVersion !== current) {
+    console.warn(`featured/${slug}.json es de otros datos (${file.dataVersion} ≠ ${current}): ejecuta pnpm data:featured`);
     return null;
   }
   return file;

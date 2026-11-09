@@ -12,7 +12,8 @@
 import type { BaseStats, DamageClass, TypeName, Typing } from "@/lib/types";
 
 export type GeneratedMeta = {
-  dataVersion: string; // short content hash of every generated data file
+  /** Hash of the per-game versions; each game has its own in games.json (D-026). */
+  dataVersion: string;
   games: string[];
 };
 
@@ -137,6 +138,12 @@ export type GeneratedGameListEntry = {
   generation: number;
   /** No errors and no TODO in its curation (specs/02). Drafts are only shown in development. */
   publishable: boolean;
+  /**
+   * Short hash of the files this game reads: its own folder, its version group's
+   * moves and machines, its generation's type chart and the type names (D-026).
+   * Changing another game's data does not change it.
+   */
+  dataVersion: string;
 };
 
 /** data/generated/method-names.json: Spanish names of item- or move-based encounter methods, from PokéAPI. */

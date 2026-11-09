@@ -23,6 +23,14 @@ export const GAME_CONFIGS: readonly GameConfig[] = [
     region: "hoenn",
     pokedexes: ["hoenn"],
   },
+  {
+    slug: "platinum",
+    family: "platinum",
+    version: "platinum",
+    versionGroup: "platinum",
+    region: "sinnoh",
+    pokedexes: ["extended-sinnoh"],
+  },
 ];
 
 export function findGameConfig(slug: string): GameConfig | undefined {

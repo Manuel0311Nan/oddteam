@@ -45,10 +45,10 @@ export class OutputSet {
     this.files.set(path, content.endsWith("\n") ? content : `${content}\n`);
   }
 
-  /** Hash of the data files only (reports and meta excluded). */
-  dataVersion(): string {
+  /** Hash of the data files only (reports and meta excluded), optionally restricted to some paths. */
+  dataVersion(include: (path: string) => boolean = () => true): string {
     const data = new Map(
-      [...this.files].filter(([p]) => p.endsWith(".json") && !p.endsWith("meta.json")),
+      [...this.files].filter(([p]) => p.endsWith(".json") && !p.endsWith("meta.json") && include(p)),
     );
     return dataVersionOf(data);
   }

@@ -280,3 +280,10 @@ type TmEntry = { number: string; moveId: string; where: string; segment: string;
 ```
 
 `Segment.expectedLevel` es el nivel orientativo del jugador al cerrar ese tramo. Se cura a partir del nivel del as del jefe (por defecto, nivel del as − 2).
+
+## Ampliaciones de F9 (Platino)
+
+- `LocationOverride.name`: nombre en español de la zona cuando PokéAPI no lo tiene, de WikiDex (D-027).
+- `MethodOverride.minRarity`: rareza mínima de todos los encuentros de un método (árboles de miel).
+- `EvolutionChoice.segment`: tramo de las evoluciones que dependen de un lugar.
+- Versión de datos por juego en `games.json`; `meta.json` guarda el hash de todas (D-026).
