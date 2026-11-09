@@ -1,0 +1,1143 @@
+[
+  {
+    "hasSpanishName": false,
+    "id": "acuity-lakefront-area",
+    "location": "acuity-lakefront",
+    "name": "Acuity Lakefront",
+    "nameEn": "Acuity Lakefront"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "canalave-city-area",
+    "location": "canalave-city",
+    "name": "Canalave City",
+    "nameEn": "Canalave City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "celestic-town-area",
+    "location": "celestic-town",
+    "name": "Celestic Town",
+    "nameEn": "Celestic Town"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "distortion-world-area",
+    "location": "distortion-world",
+    "name": "Distortion World",
+    "nameEn": "Distortion World"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "eterna-city-area",
+    "location": "eterna-city",
+    "name": "Eterna City",
+    "nameEn": "Eterna City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "eterna-city-eterna-condominiums",
+    "location": "eterna-city",
+    "name": "Eterna City",
+    "nameEn": "Eterna City (Eterna City Condominiums)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "eterna-city-west-gate",
+    "location": "eterna-city",
+    "name": "Eterna City",
+    "nameEn": "Eterna City (Eterna City (west gate))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "eterna-forest-area",
+    "location": "eterna-forest",
+    "name": "Eterna Forest",
+    "nameEn": "Eterna Forest"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "floaroma-meadow-area",
+    "location": "floaroma-meadow",
+    "name": "Floaroma Meadow",
+    "nameEn": "Floaroma Meadow"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "flower-paradise-area",
+    "location": "flower-paradise",
+    "name": "Flower Paradise",
+    "nameEn": "Flower Paradise"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "fuego-ironworks-area",
+    "location": "fuego-ironworks",
+    "name": "Fuego Ironworks",
+    "nameEn": "Fuego Ironworks"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "great-marsh-area-1",
+    "location": "great-marsh",
+    "name": "Great Marsh",
+    "nameEn": "Great Marsh (Great Marsh Area 1)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "great-marsh-area-2",
+    "location": "great-marsh",
+    "name": "Great Marsh",
+    "nameEn": "Great Marsh (Great Marsh Area 2)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "great-marsh-area-3",
+    "location": "great-marsh",
+    "name": "Great Marsh",
+    "nameEn": "Great Marsh (Great Marsh Area 3)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "great-marsh-area-4",
+    "location": "great-marsh",
+    "name": "Great Marsh",
+    "nameEn": "Great Marsh (Great Marsh Area 4)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "great-marsh-area-5",
+    "location": "great-marsh",
+    "name": "Great Marsh",
+    "nameEn": "Great Marsh (Great Marsh Area 5)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "great-marsh-area-6",
+    "location": "great-marsh",
+    "name": "Great Marsh",
+    "nameEn": "Great Marsh (Great Marsh Area 6)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "hearthome-city-area",
+    "location": "hearthome-city",
+    "name": "Hearthome City",
+    "nameEn": "Hearthome City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "iron-island-1f",
+    "location": "iron-island",
+    "name": "Iron Island",
+    "nameEn": "Iron Island (Iron Island (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "iron-island-area",
+    "location": "iron-island",
+    "name": "Iron Island",
+    "nameEn": "Iron Island (Iron Island area)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "iron-island-b1f-left",
+    "location": "iron-island",
+    "name": "Iron Island",
+    "nameEn": "Iron Island (Iron Island (B1F left))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "iron-island-b1f-right",
+    "location": "iron-island",
+    "name": "Iron Island",
+    "nameEn": "Iron Island (Iron Island (B1F right))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "iron-island-b2f-left",
+    "location": "iron-island",
+    "name": "Iron Island",
+    "nameEn": "Iron Island (Iron Island (B2F left))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "iron-island-b2f-right",
+    "location": "iron-island",
+    "name": "Iron Island",
+    "nameEn": "Iron Island (Iron Island (B2F right))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "iron-island-b3f",
+    "location": "iron-island",
+    "name": "Iron Island",
+    "nameEn": "Iron Island (Iron Island (B3F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lake-acuity-area",
+    "location": "lake-acuity",
+    "name": "Lake Acuity",
+    "nameEn": "Lake Acuity"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lake-acuity-cavern",
+    "location": "lake-acuity",
+    "name": "Lake Acuity",
+    "nameEn": "Lake Acuity (Lake Acuity Cavern)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lake-valor-area",
+    "location": "lake-valor",
+    "name": "Lake Valor",
+    "nameEn": "Lake Valor"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lake-valor-cavern",
+    "location": "lake-valor",
+    "name": "Lake Valor",
+    "nameEn": "Lake Valor (Lake Valor Cavern)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lake-verity-after-galactic-intervention",
+    "location": "lake-verity",
+    "name": "Lake Verity",
+    "nameEn": "Lake Verity (Lake Verity (after Galactic intervention))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lake-verity-before-galactic-intervention",
+    "location": "lake-verity",
+    "name": "Lake Verity",
+    "nameEn": "Lake Verity (Lake Verity (before Galactic intervention))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lost-tower-1f",
+    "location": "lost-tower",
+    "name": "Lost Tower",
+    "nameEn": "Lost Tower (Lost Tower (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lost-tower-2f",
+    "location": "lost-tower",
+    "name": "Lost Tower",
+    "nameEn": "Lost Tower (Lost Tower (2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lost-tower-3f",
+    "location": "lost-tower",
+    "name": "Lost Tower",
+    "nameEn": "Lost Tower (Lost Tower (3F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lost-tower-4f",
+    "location": "lost-tower",
+    "name": "Lost Tower",
+    "nameEn": "Lost Tower (Lost Tower (4F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lost-tower-5f",
+    "location": "lost-tower",
+    "name": "Lost Tower",
+    "nameEn": "Lost Tower (Lost Tower (5F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "maniac-tunnel-26-plus-different-unown-caught",
+    "location": "maniac-tunnel",
+    "name": "Maniac Tunnel",
+    "nameEn": "Maniac Tunnel (Maniac Tunnel (26+ different Unown caught))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-coronet-1f-from-exterior",
+    "location": "mt-coronet",
+    "name": "Mt. Coronet",
+    "nameEn": "Mt. Coronet (Mount Coronet (1F from exterior))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-coronet-1f-route-207",
+    "location": "mt-coronet",
+    "name": "Mt. Coronet",
+    "nameEn": "Mt. Coronet (Mount Coronet (1F Road 207))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-coronet-1f-route-211",
+    "location": "mt-coronet",
+    "name": "Mt. Coronet",
+    "nameEn": "Mt. Coronet (Mount Coronet (1F Road 211))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-coronet-1f-route-216",
+    "location": "mt-coronet",
+    "name": "Mt. Coronet",
+    "nameEn": "Mt. Coronet (Mount Coronet (1F Road 216))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-coronet-2f",
+    "location": "mt-coronet",
+    "name": "Mt. Coronet",
+    "nameEn": "Mt. Coronet (Mount Coronet (2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-coronet-3f",
+    "location": "mt-coronet",
+    "name": "Mt. Coronet",
+    "nameEn": "Mt. Coronet (Mount Coronet (3F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-coronet-4f",
+    "location": "mt-coronet",
+    "name": "Mt. Coronet",
+    "nameEn": "Mt. Coronet (Mount Coronet (4F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-coronet-4f-small-room",
+    "location": "mt-coronet",
+    "name": "Mt. Coronet",
+    "nameEn": "Mt. Coronet (Mount Coronet (4F small room))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-coronet-5f",
+    "location": "mt-coronet",
+    "name": "Mt. Coronet",
+    "nameEn": "Mt. Coronet (Mount Coronet (5F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-coronet-6f",
+    "location": "mt-coronet",
+    "name": "Mt. Coronet",
+    "nameEn": "Mt. Coronet (Mount Coronet (6F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-coronet-b1f",
+    "location": "mt-coronet",
+    "name": "Mt. Coronet",
+    "nameEn": "Mt. Coronet (Mount Coronet (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-coronet-exterior-blizzard",
+    "location": "mt-coronet",
+    "name": "Mt. Coronet",
+    "nameEn": "Mt. Coronet (Mount Coronet (exterior blizzard))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-coronet-exterior-snowfall",
+    "location": "mt-coronet",
+    "name": "Mt. Coronet",
+    "nameEn": "Mt. Coronet (Mount Coronet (exterior snowfall))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "newmoon-island-area",
+    "location": "newmoon-island",
+    "name": "Newmoon Island",
+    "nameEn": "Newmoon Island"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "old-chateau-2f",
+    "location": "old-chateau",
+    "name": "Old Chateau",
+    "nameEn": "Old Chateau (Old Chateau (2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "old-chateau-2f-left-room",
+    "location": "old-chateau",
+    "name": "Old Chateau",
+    "nameEn": "Old Chateau (Old Chateau (2F left room))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "old-chateau-2f-leftmost-room",
+    "location": "old-chateau",
+    "name": "Old Chateau",
+    "nameEn": "Old Chateau (Old Chateau (2F leftmost room))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "old-chateau-2f-middle-room",
+    "location": "old-chateau",
+    "name": "Old Chateau",
+    "nameEn": "Old Chateau (Old Chateau (2F middle room))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "old-chateau-2f-private-room",
+    "location": "old-chateau",
+    "name": "Old Chateau",
+    "nameEn": "Old Chateau (Old Chateau (2F private room))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "old-chateau-2f-right-room",
+    "location": "old-chateau",
+    "name": "Old Chateau",
+    "nameEn": "Old Chateau (Old Chateau (2F right room))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "old-chateau-2f-rightmost-room",
+    "location": "old-chateau",
+    "name": "Old Chateau",
+    "nameEn": "Old Chateau (Old Chateau (2F rightmost room))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "old-chateau-dining-room",
+    "location": "old-chateau",
+    "name": "Old Chateau",
+    "nameEn": "Old Chateau (Old Chateau (dining room))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "old-chateau-entrance",
+    "location": "old-chateau",
+    "name": "Old Chateau",
+    "nameEn": "Old Chateau (Old Chateau (entrance))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "oreburgh-city-north-west-house",
+    "location": "oreburgh-city",
+    "name": "Oreburgh City",
+    "nameEn": "Oreburgh City (Oreburgh City (Northwest House))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "oreburgh-city-oreburgh-mining-museum",
+    "location": "oreburgh-city",
+    "name": "Oreburgh City",
+    "nameEn": "Oreburgh City (Oreburgh Mining Museum)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "oreburgh-gate-1f",
+    "location": "oreburgh-gate",
+    "name": "Oreburgh Gate",
+    "nameEn": "Oreburgh Gate (Oreburgh Gate (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "oreburgh-gate-b1f",
+    "location": "oreburgh-gate",
+    "name": "Oreburgh Gate",
+    "nameEn": "Oreburgh Gate (Oreburgh Gate (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "oreburgh-mine-1f",
+    "location": "oreburgh-mine",
+    "name": "Oreburgh Mine",
+    "nameEn": "Oreburgh Mine (Oreburgh mine (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "oreburgh-mine-b1f",
+    "location": "oreburgh-mine",
+    "name": "Oreburgh Mine",
+    "nameEn": "Oreburgh Mine (Oreburgh mine (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "pastoria-city-area",
+    "location": "pastoria-city",
+    "name": "Pastoria City",
+    "nameEn": "Pastoria City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "ravaged-path-area",
+    "location": "ravaged-path",
+    "name": "Ravaged Path",
+    "nameEn": "Ravaged Path"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "resort-area-area",
+    "location": "resort-area",
+    "name": "Resort Area",
+    "nameEn": "Resort Area"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "roaming-sinnoh-area",
+    "location": "roaming-sinnoh",
+    "name": "Roaming Sinnoh",
+    "nameEn": "Roaming Sinnoh"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "ruin-maniac-cave-0-9-different-unown-caught",
+    "location": "ruin-maniac-cave",
+    "name": "Ruin Maniac Cave",
+    "nameEn": "Ruin Maniac Cave (Ruin Maniac Cave (0–9 different Unown caught))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "ruin-maniac-cave-10-25-different-unown-caught",
+    "location": "ruin-maniac-cave",
+    "name": "Ruin Maniac Cave",
+    "nameEn": "Ruin Maniac Cave (Ruin Maniac Cave (10–25 different Unown caught))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sendoff-spring-area",
+    "location": "sendoff-spring",
+    "name": "Sendoff Spring",
+    "nameEn": "Sendoff Spring"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-hall-of-origin-1-area",
+    "location": "sinnoh-hall-of-origin-1",
+    "name": "Hall of Origin",
+    "nameEn": "Hall of Origin"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-pokemart-area",
+    "location": "sinnoh-pokemart",
+    "name": "sinnoh-pokemart",
+    "nameEn": "sinnoh-pokemart"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-pokemon-league-area",
+    "location": "sinnoh-pokemon-league",
+    "name": "Pokémon League",
+    "nameEn": "Pokémon League (Sinnoh League)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-201-area",
+    "location": "sinnoh-route-201",
+    "name": "Route 201",
+    "nameEn": "Route 201 (Road 201)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-202-area",
+    "location": "sinnoh-route-202",
+    "name": "Route 202",
+    "nameEn": "Route 202 (Road 202)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-203-area",
+    "location": "sinnoh-route-203",
+    "name": "Route 203",
+    "nameEn": "Route 203 (Road 203)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-204-north-towards-floaroma-town",
+    "location": "sinnoh-route-204",
+    "name": "Route 204",
+    "nameEn": "Route 204 (Road 204 (north, towards Floaroma Town))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-204-south-towards-jubilife-city",
+    "location": "sinnoh-route-204",
+    "name": "Route 204",
+    "nameEn": "Route 204 (Road 204 (south, towards Jubilife City))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-205-east-towards-eterna-city",
+    "location": "sinnoh-route-205",
+    "name": "Route 205",
+    "nameEn": "Route 205 (Road 205 (east, towards Eterna City))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-205-south-towards-floaroma-town",
+    "location": "sinnoh-route-205",
+    "name": "Route 205",
+    "nameEn": "Route 205 (Road 205 (south, towards Floaroma Town))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-206-area",
+    "location": "sinnoh-route-206",
+    "name": "Route 206",
+    "nameEn": "Route 206 (Road 206)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-207-area",
+    "location": "sinnoh-route-207",
+    "name": "Route 207",
+    "nameEn": "Route 207 (Road 207)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-208-area",
+    "location": "sinnoh-route-208",
+    "name": "Route 208",
+    "nameEn": "Route 208 (Road 208)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-209-area",
+    "location": "sinnoh-route-209",
+    "name": "Route 209",
+    "nameEn": "Route 209 (Road 209)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-210-south-towards-solaceon-town",
+    "location": "sinnoh-route-210",
+    "name": "Route 210",
+    "nameEn": "Route 210 (Road 210 (south, towards Solaceon Town))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-210-west-towards-celestic-town",
+    "location": "sinnoh-route-210",
+    "name": "Route 210",
+    "nameEn": "Route 210 (Road 210 (west, towards Celestic Town))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-211-east-towards-celestic-town",
+    "location": "sinnoh-route-211",
+    "name": "Route 211",
+    "nameEn": "Route 211 (Road 211 (east, towards Celestic Town))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-211-west-towards-eterna-city",
+    "location": "sinnoh-route-211",
+    "name": "Route 211",
+    "nameEn": "Route 211 (Road 211 (west, towards Eterna City))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-212-east-towards-pastoria-city",
+    "location": "sinnoh-route-212",
+    "name": "Route 212",
+    "nameEn": "Route 212 (Road 212 (east, towards Pastoria City))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-212-north-towards-hearthome-city",
+    "location": "sinnoh-route-212",
+    "name": "Route 212",
+    "nameEn": "Route 212 (Road 212 (north, towards Hearthome City))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-213-area",
+    "location": "sinnoh-route-213",
+    "name": "Route 213",
+    "nameEn": "Route 213 (Road 213)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-214-area",
+    "location": "sinnoh-route-214",
+    "name": "Route 214",
+    "nameEn": "Route 214 (Road 214)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-215-area",
+    "location": "sinnoh-route-215",
+    "name": "Route 215",
+    "nameEn": "Route 215 (Road 215)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-216-area",
+    "location": "sinnoh-route-216",
+    "name": "Route 216",
+    "nameEn": "Route 216 (Road 216)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-217-area",
+    "location": "sinnoh-route-217",
+    "name": "Route 217",
+    "nameEn": "Route 217 (Road 217)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-218-area",
+    "location": "sinnoh-route-218",
+    "name": "Route 218",
+    "nameEn": "Route 218 (Road 218)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-219-area",
+    "location": "sinnoh-route-219",
+    "name": "Route 219",
+    "nameEn": "Route 219 (Road 219)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-221-area",
+    "location": "sinnoh-route-221",
+    "name": "Route 221",
+    "nameEn": "Route 221 (Road 221)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-222-area",
+    "location": "sinnoh-route-222",
+    "name": "Route 222",
+    "nameEn": "Route 222 (Road 222)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-224-area",
+    "location": "sinnoh-route-224",
+    "name": "Route 224",
+    "nameEn": "Route 224 (Road 224)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-225-area",
+    "location": "sinnoh-route-225",
+    "name": "Route 225",
+    "nameEn": "Route 225 (Road 225)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-227-area",
+    "location": "sinnoh-route-227",
+    "name": "Route 227",
+    "nameEn": "Route 227 (Road 227)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-228-area",
+    "location": "sinnoh-route-228",
+    "name": "Route 228",
+    "nameEn": "Route 228 (Road 228)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-route-229-area",
+    "location": "sinnoh-route-229",
+    "name": "Route 229",
+    "nameEn": "Route 229 (Road 229)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-sea-route-220-area",
+    "location": "sinnoh-sea-route-220",
+    "name": "Sea Route 220",
+    "nameEn": "Sea Route 220 (Road 220)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-sea-route-223-area",
+    "location": "sinnoh-sea-route-223",
+    "name": "Sea Route 223",
+    "nameEn": "Sea Route 223 (Road 223)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-sea-route-226-area",
+    "location": "sinnoh-sea-route-226",
+    "name": "Sea Route 226",
+    "nameEn": "Sea Route 226 (Road 226)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-sea-route-226-island-house",
+    "location": "sinnoh-sea-route-226",
+    "name": "Sea Route 226",
+    "nameEn": "Sea Route 226 (Route 226 (Island House))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-sea-route-230-area",
+    "location": "sinnoh-sea-route-230",
+    "name": "Sea Route 230",
+    "nameEn": "Sea Route 230 (Road 230)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-victory-road-1f",
+    "location": "sinnoh-victory-road",
+    "name": "Victory Road",
+    "nameEn": "Victory Road (Victory Road (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-victory-road-2f",
+    "location": "sinnoh-victory-road",
+    "name": "Victory Road",
+    "nameEn": "Victory Road (Victory Road (2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-victory-road-b1f",
+    "location": "sinnoh-victory-road",
+    "name": "Victory Road",
+    "nameEn": "Victory Road (Victory Road (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-victory-road-inside",
+    "location": "sinnoh-victory-road",
+    "name": "Victory Road",
+    "nameEn": "Victory Road (Victory Road (inside))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-victory-road-inside-b1f",
+    "location": "sinnoh-victory-road",
+    "name": "Victory Road",
+    "nameEn": "Victory Road (Victory Road (inside B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinnoh-victory-road-inside-exit",
+    "location": "sinnoh-victory-road",
+    "name": "Victory Road",
+    "nameEn": "Victory Road (Victory Road (inside exit))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "snowpoint-city-north-west-house",
+    "location": "snowpoint-city",
+    "name": "Snowpoint City",
+    "nameEn": "Snowpoint City (Snowpoint City (Northwest House))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "snowpoint-temple-1f",
+    "location": "snowpoint-temple",
+    "name": "Snowpoint Temple",
+    "nameEn": "Snowpoint Temple (Snowpoint Temple (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "snowpoint-temple-b1f",
+    "location": "snowpoint-temple",
+    "name": "Snowpoint Temple",
+    "nameEn": "Snowpoint Temple (Snowpoint Temple (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "snowpoint-temple-b2f",
+    "location": "snowpoint-temple",
+    "name": "Snowpoint Temple",
+    "nameEn": "Snowpoint Temple (Snowpoint Temple (B2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "snowpoint-temple-b3f",
+    "location": "snowpoint-temple",
+    "name": "Snowpoint Temple",
+    "nameEn": "Snowpoint Temple (Snowpoint Temple (B3F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "snowpoint-temple-b4f",
+    "location": "snowpoint-temple",
+    "name": "Snowpoint Temple",
+    "nameEn": "Snowpoint Temple (Snowpoint Temple (B4F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "snowpoint-temple-b5f",
+    "location": "snowpoint-temple",
+    "name": "Snowpoint Temple",
+    "nameEn": "Snowpoint Temple (Snowpoint Temple (B5F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "solaceon-ruins-1f",
+    "location": "solaceon-ruins",
+    "name": "Solaceon Ruins",
+    "nameEn": "Solaceon Ruins (Solaceon Ruins (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "solaceon-ruins-2f",
+    "location": "solaceon-ruins",
+    "name": "Solaceon Ruins",
+    "nameEn": "Solaceon Ruins (Solaceon Ruins (2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "solaceon-ruins-b1f-a",
+    "location": "solaceon-ruins",
+    "name": "Solaceon Ruins",
+    "nameEn": "Solaceon Ruins (Solaceon Ruins (B1F A))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "solaceon-ruins-b1f-b",
+    "location": "solaceon-ruins",
+    "name": "Solaceon Ruins",
+    "nameEn": "Solaceon Ruins (Solaceon Ruins (B1F B))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "solaceon-ruins-b1f-c",
+    "location": "solaceon-ruins",
+    "name": "Solaceon Ruins",
+    "nameEn": "Solaceon Ruins (Solaceon Ruins (B1F C))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "solaceon-ruins-b2f-a",
+    "location": "solaceon-ruins",
+    "name": "Solaceon Ruins",
+    "nameEn": "Solaceon Ruins (Solaceon Ruins (B2F A))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "solaceon-ruins-b2f-b",
+    "location": "solaceon-ruins",
+    "name": "Solaceon Ruins",
+    "nameEn": "Solaceon Ruins (Solaceon Ruins (B2F B))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "solaceon-ruins-b2f-c",
+    "location": "solaceon-ruins",
+    "name": "Solaceon Ruins",
+    "nameEn": "Solaceon Ruins (Solaceon Ruins (B2F C))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "solaceon-ruins-b3f-a",
+    "location": "solaceon-ruins",
+    "name": "Solaceon Ruins",
+    "nameEn": "Solaceon Ruins (Solaceon Ruins (B3F A))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "solaceon-ruins-b3f-b",
+    "location": "solaceon-ruins",
+    "name": "Solaceon Ruins",
+    "nameEn": "Solaceon Ruins (Solaceon Ruins (B3F B))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "solaceon-ruins-b3f-c",
+    "location": "solaceon-ruins",
+    "name": "Solaceon Ruins",
+    "nameEn": "Solaceon Ruins (Solaceon Ruins (B3F C))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "solaceon-ruins-b3f-d",
+    "location": "solaceon-ruins",
+    "name": "Solaceon Ruins",
+    "nameEn": "Solaceon Ruins (Solaceon Ruins (B3F D))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "solaceon-ruins-b3f-e",
+    "location": "solaceon-ruins",
+    "name": "Solaceon Ruins",
+    "nameEn": "Solaceon Ruins (Solaceon Ruins (B3F E))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "solaceon-ruins-b4f-a",
+    "location": "solaceon-ruins",
+    "name": "Solaceon Ruins",
+    "nameEn": "Solaceon Ruins (Solaceon Ruins (B4F A))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "solaceon-ruins-b4f-b",
+    "location": "solaceon-ruins",
+    "name": "Solaceon Ruins",
+    "nameEn": "Solaceon Ruins (Solaceon Ruins (B4F B))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "solaceon-ruins-b4f-c",
+    "location": "solaceon-ruins",
+    "name": "Solaceon Ruins",
+    "nameEn": "Solaceon Ruins (Solaceon Ruins (B4F C))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "solaceon-ruins-b4f-d",
+    "location": "solaceon-ruins",
+    "name": "Solaceon Ruins",
+    "nameEn": "Solaceon Ruins (Solaceon Ruins (B4F D))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "solaceon-ruins-b5f",
+    "location": "solaceon-ruins",
+    "name": "Solaceon Ruins",
+    "nameEn": "Solaceon Ruins (Solaceon Ruins (B5F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "spear-pillar-area",
+    "location": "spear-pillar",
+    "name": "Spear Pillar",
+    "nameEn": "Spear Pillar"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "stark-mountain-area",
+    "location": "stark-mountain",
+    "name": "Stark Mountain",
+    "nameEn": "Stark Mountain (Stark Mountain exterior)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "stark-mountain-entrance",
+    "location": "stark-mountain",
+    "name": "Stark Mountain",
+    "nameEn": "Stark Mountain (Stark Mountain entrance)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "stark-mountain-heatran-chamber",
+    "location": "stark-mountain",
+    "name": "Stark Mountain",
+    "nameEn": "Stark Mountain (Stark Mountain (Heatran Chamber))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "stark-mountain-inside",
+    "location": "stark-mountain",
+    "name": "Stark Mountain",
+    "nameEn": "Stark Mountain (Stark Mountain main cavern)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sunyshore-city-area",
+    "location": "sunyshore-city",
+    "name": "Sunyshore City",
+    "nameEn": "Sunyshore City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "trophy-garden-area",
+    "location": "trophy-garden",
+    "name": "Trophy Garden",
+    "nameEn": "Trophy Garden"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "turnback-cave-after-pillar-3",
+    "location": "turnback-cave",
+    "name": "Turnback Cave",
+    "nameEn": "Turnback Cave (Turnback Cave (after pillar 3))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "turnback-cave-before-pillar-1",
+    "location": "turnback-cave",
+    "name": "Turnback Cave",
+    "nameEn": "Turnback Cave (Turnback Cave (before pillar 1))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "turnback-cave-between-pillars-1-and-2",
+    "location": "turnback-cave",
+    "name": "Turnback Cave",
+    "nameEn": "Turnback Cave (Turnback Cave (between pillars 1 and 2))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "turnback-cave-between-pillars-2-and-3",
+    "location": "turnback-cave",
+    "name": "Turnback Cave",
+    "nameEn": "Turnback Cave (Turnback Cave (between pillars 2 and 3))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "turnback-cave-pillar-1",
+    "location": "turnback-cave",
+    "name": "Turnback Cave",
+    "nameEn": "Turnback Cave (Turnback Cave (pillar 1))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "turnback-cave-pillar-2",
+    "location": "turnback-cave",
+    "name": "Turnback Cave",
+    "nameEn": "Turnback Cave (Turnback Cave (pillar 2))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "turnback-cave-pillar-3",
+    "location": "turnback-cave",
+    "name": "Turnback Cave",
+    "nameEn": "Turnback Cave (Turnback Cave (pillar 3))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "twinleaf-town-area",
+    "location": "twinleaf-town",
+    "name": "Twinleaf Town",
+    "nameEn": "Twinleaf Town"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "valley-windworks-area",
+    "location": "valley-windworks",
+    "name": "Valley Windworks",
+    "nameEn": "Valley Windworks"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "valor-lakefront-area",
+    "location": "valor-lakefront",
+    "name": "Valor Lakefront",
+    "nameEn": "Valor Lakefront"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "veilstone-city-area",
+    "location": "veilstone-city",
+    "name": "Veilstone City",
+    "nameEn": "Veilstone City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "wayward-cave-1f",
+    "location": "wayward-cave",
+    "name": "Wayward Cave",
+    "nameEn": "Wayward Cave (Wayward Cave (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "wayward-cave-b1f",
+    "location": "wayward-cave",
+    "name": "Wayward Cave",
+    "nameEn": "Wayward Cave (Wayward Cave (B1F))"
+  }
+]

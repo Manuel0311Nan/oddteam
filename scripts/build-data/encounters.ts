@@ -95,6 +95,7 @@ export const ENCOUNTER_METHOD_KINDS: Readonly<Record<string, MethodKind>> = {
   "purple-flowers": "wild",
   "red-flowers": "wild",
   "rough-terrain": "wild",
+  "honey-tree": "wild", // Sinnoh: honey + 6 h wait; rarity floor in key-items.ts (D-027)
   // Guaranteed
   gift: "gift",
   "gift-egg": "gift",
@@ -110,6 +111,7 @@ export const ENCOUNTER_METHOD_KINDS: Readonly<Record<string, MethodKind>> = {
   "colosseum-bonus-disc-jpn": "excluded",
   "colosseum-bonus-disc": "excluded",
   "pokeflute-event": "excluded",
+  "pokemon-ranger": "excluded", // Manaphy egg transferred from Pokémon Ranger (another game)
 };
 
 export function methodKind(method: string): MethodKind | undefined {

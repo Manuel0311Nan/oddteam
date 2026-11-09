@@ -1,10 +1,20 @@
 [
   {
+    "dataVersion": "787fa0ad",
     "family": "emerald",
     "generation": 3,
     "name": "Esmeralda",
     "publishable": false,
     "region": "hoenn",
     "slug": "emerald"
+  },
+  {
+    "dataVersion": "959bf964",
+    "family": "platinum",
+    "generation": 4,
+    "name": "Platino",
+    "publishable": false,
+    "region": "sinnoh",
+    "slug": "platinum"
   }
 ]

@@ -231,4 +231,16 @@ LCP medido con un build de producción, Moto G4 y CPU ×4: 0,2–0,4 s en las 4 
 Pendiente:
 - Decidir la imagen Open Graph por equipo compartido, que necesita una ruta dinámica.
 - Dominio de preview para enseñarla. |
-| F9–F10 | Pendiente |
+| F9 | En curso.
+
+**Platino (borrador)**:
+- Hecho: overrides de las 162 zonas con nombres de WikiDex, las 100 MT/MO, los 13 jefes con movimientos, los métodos (incluidos los árboles de miel), las condiciones, los encuentros especiales y las evoluciones.
+- Estado: 0 errores y 18 TODO.
+  - Resuelto: objetos evolutivos cotejados con la guía de WikiDex; las 4 especies que solo llegan transferidas no cuentan (D-028); Porygon y Cueva Extravío ubicados.
+  - Quedan: fósiles, Pokémon del día del Gran Pantano, el sótano de la Puerta Pirita y 5 MT/MO.
+- Pendiente: 5 equipos de referencia de dificultad y revisión de la Ruta.
+
+Arreglado de paso: versión de datos por juego y `--game` sin borrar otros juegos (D-026).
+
+**HeartGold/SoulSilver y Negro 2/Blanco 2:** pendientes. |
+| F10 | Pendiente |

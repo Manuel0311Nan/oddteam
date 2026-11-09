@@ -7,7 +7,7 @@
  * left out (never assumed available).
  */
 
-import { bestRarity, encounterRarity } from "@/lib/analysis/rarity";
+import { bestRarity, compareRarity, encounterRarity } from "@/lib/analysis/rarity";
 import type {
   GeneratedEncounter,
   GeneratedEvolutionChain,
@@ -191,18 +191,24 @@ export function merge(input: MergeInput): MergeOutput {
     }
     const kind: EncounterKind = e.kind === "wild" || e.kind === "gift" || e.kind === "static" || e.kind === "trade-ingame" || e.kind === "roaming" ? e.kind : "static";
     const area = areaById.get(e.locationAreaId);
+    // Curated rarity: the special encounter's, else the method's floor if the chance looks easier.
+    const minRarity = family.methods[e.method]?.minRarity;
+    const chanceRarity = kind === "wild" ? encounterRarity({ kind, chance: e.chance }) : undefined;
+    const rarity =
+      special?.rarity ??
+      (minRarity && chanceRarity && compareRarity(chanceRarity, minRarity) < 0 ? minRarity : undefined);
     pushEncounter(e.speciesId, {
       asSpeciesId: e.speciesId,
       kind,
       locationAreaId: e.locationAreaId,
-      where: area?.name ?? e.locationAreaId,
+      where: (area?.hasSpanishName ? area.name : loc.name) ?? area?.name ?? e.locationAreaId,
       ...(kind === "wild" ? { method: e.method, chance: e.chance } : { method: e.method }),
       conditions: e.conditions,
       levels: e.levels,
       segment: segmentAt(r),
       unique: special?.unique ?? kind === "static",
       ...(special?.exclusiveGroup ? { exclusiveGroup: special.exclusiveGroup } : {}),
-      ...(special?.rarity ? { rarity: special.rarity } : {}),
+      ...(rarity ? { rarity } : {}),
       rank: r,
       starter: special?.starter ?? false,
     });
@@ -311,6 +317,7 @@ export function merge(input: MergeInput): MergeOutput {
       }
       if (d.item) r = Math.max(r, itemRank(d.item, where));
       if (d.heldItem) r = Math.max(r, itemRank(d.heldItem, where));
+      if (choice?.segment !== undefined) r = Math.max(r, rank(choice.segment, `evolución ${where}`));
       if (r === NEVER) continue;
       const step: Step = {
         fromSpeciesId: s.fromSpeciesId,
@@ -460,7 +467,9 @@ export function merge(input: MergeInput): MergeOutput {
 
   // --- Untranslated names (warnings) ----------------------------------------
   for (const a of input.areas) {
-    if (!a.hasSpanishName && areasWithCounted.has(a.id)) add("warning", "nombres", `Zona sin nombre en español en PokéAPI: ${a.id} ("${a.nameEn}")`);
+    if (!a.hasSpanishName && !locations[a.id]?.name && areasWithCounted.has(a.id)) {
+      add("warning", "nombres", `Zona sin nombre en español (ni en PokéAPI ni curado): ${a.id} ("${a.nameEn}")`);
+    }
   }
 
   const game: Game = {

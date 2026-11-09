@@ -159,3 +159,30 @@ Con estos cambios, en 20 000 equipos por defecto el reparto es: Paseo ~39 %, Nor
 **Notas:**
 - Fredoka llega hasta el peso 700, así que las clases `font-extrabold` (800) se pintan con 700.
 - Las imágenes de Open Graph siguen con la letra por defecto de `next/og` hasta que se incluya el archivo de la fuente.
+
+### D-026 · 2026-11-09 · Versión de datos por juego
+**Decisión:**
+- Cada juego tiene su propia `dataVersion`, guardada en `games.json`. Es el hash de los archivos que ese juego lee: su carpeta, los movimientos y MT de su grupo de versiones, la tabla de tipos de su generación y los nombres de tipos.
+- `meta.json` guarda el hash de todas.
+- `pnpm data:build --game=x` ya no borra los demás juegos de `games.json`.
+- Los juegos sin overrides (sin `game.json`) no salen en la web ni tienen destacados.
+
+**Motivo:** al añadir Platino, construir un solo juego dejaba `games.json` con ese juego y Esmeralda desaparecía. Además, una `dataVersion` global hacía que curar Platino marcara como «datos anteriores» los enlaces de Esmeralda y dejara sus destacados desfasados.
+
+### D-027 · 2026-11-09 · Curación de Sinnoh (Platino)
+**Decisión:**
+1. **Nombres de lugares de WikiDex.** PokéAPI no trae ningún nombre en español de Sinnoh. Los overrides llevan `name` por zona, sacado de WikiDex. Cuando WikiDex da dos nombres («Ciudad Eterna/Ciudad Vetusta»), se usa el segundo, que es el de los juegos en España: es el mismo que usan sus páginas de gimnasios. Los detalles entre paréntesis (planta, norte/sur) son descriptivos.
+2. **Árboles de miel.** Cuentan como encuentro salvaje desde que se consigue la Miel (2º tramo). La rareza es como mínimo «raro» (`minRarity` del método): hay que esperar 6 horas reales y el grupo del árbol es aleatorio. Munchlax queda «muy raro» por su porcentaje.
+3. **`pokemon-ranger`** no cuenta: es el huevo de Manaphy traído de otro juego.
+4. **Evoluciones por lugar** (Leafeon, Glaceon, Magnezone, Probopass): la elección de método lleva el tramo del lugar.
+5. **Supercaña:** en Platino se consigue en la Zona Combate, así que todo lo que solo sale con Supercaña es post-juego.
+6. **Movimientos de los jefes:** se toman de WikiDex, que usa los nombres de la 4ª generación («Canto helado», «Foco resplandor»), y se traducen a los identificadores de PokéAPI. En la web se ven con el nombre moderno de PokéAPI («Esquirla Helada», «Cañón Resplandor»).
+
+**Motivo:** cumplir D-016 y D-017 con lo que PokéAPI no da para Sinnoh, sin escribir nombres de memoria ni dar por disponible algo antes de tiempo.
+
+### D-028 · 2026-11-09 · Solo cuenta lo que se captura en el propio juego
+**Decisión:**
+- **Especies sin encuentro.** Una especie que está en la Pokédex de la versión pero no se puede capturar ni recibir jugando, porque solo llega transferida o intercambiada desde otro juego, no cuenta. Tampoco cuentan sus evoluciones. Se apunta en `versions/{game}.ts` como no obtenible, sin `todo`. En Platino son Murkrow, Misdreavus, Glameow y Stunky, con Honchkrow, Mismagius, Purugly y Skuntank.
+- **Objetos evolutivos.** Solo cuentan los que tienen una ubicación fija en el juego. Se cotejan ruta por ruta con la guía de WikiDex del juego y, si la guía no los menciona, con la ficha del objeto en WikiDex o con Bulbapedia. Excavar en el Subsuelo y los objetos equipados en Pokémon salvajes son aleatorios: se anotan, pero no cuentan. Por eso la Escama Dragón queda excluida en Platino.
+
+**Motivo:** decisión de Manuel. Un equipo válido se consigue jugando ese juego, no trayendo Pokémon de fuera ni dependiendo del azar.

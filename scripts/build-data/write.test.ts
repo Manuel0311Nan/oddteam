@@ -38,4 +38,16 @@ describe("dataVersion", () => {
     two.text("emerald/report.md", "# hi");
     expect(two.dataVersion()).toBe(one.dataVersion());
   });
+
+  it("can be restricted to one game's files (D-026)", () => {
+    const a = new OutputSet();
+    a.json("emerald/game.json", { a: 1 });
+    a.json("platinum/game.json", { b: 1 });
+    const b = new OutputSet();
+    b.json("emerald/game.json", { a: 1 });
+    b.json("platinum/game.json", { b: 2 });
+    const emerald = (p: string) => p.startsWith("emerald/");
+    expect(a.dataVersion(emerald)).toBe(b.dataVersion(emerald));
+    expect(a.dataVersion()).not.toBe(b.dataVersion());
+  });
 });

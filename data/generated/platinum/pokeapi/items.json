@@ -1,0 +1,107 @@
+{
+  "dawn-stone": {
+    "id": "dawn-stone",
+    "name": "Piedra Alba",
+    "nameEn": "Dawn Stone"
+  },
+  "dragon-scale": {
+    "id": "dragon-scale",
+    "name": "Escama Dragón",
+    "nameEn": "Dragon Scale"
+  },
+  "dubious-disc": {
+    "id": "dubious-disc",
+    "name": "Disco Extraño",
+    "nameEn": "Dubious Disc"
+  },
+  "dusk-stone": {
+    "id": "dusk-stone",
+    "name": "Piedra Noche",
+    "nameEn": "Dusk Stone"
+  },
+  "electirizer": {
+    "id": "electirizer",
+    "name": "Electrizador",
+    "nameEn": "Electirizer"
+  },
+  "fire-stone": {
+    "id": "fire-stone",
+    "name": "Piedra Fuego",
+    "nameEn": "Fire Stone"
+  },
+  "kings-rock": {
+    "id": "kings-rock",
+    "name": "Roca del Rey",
+    "nameEn": "King’s Rock"
+  },
+  "leaf-stone": {
+    "id": "leaf-stone",
+    "name": "Piedra Hoja",
+    "nameEn": "Leaf Stone"
+  },
+  "magmarizer": {
+    "id": "magmarizer",
+    "name": "Magmatizador",
+    "nameEn": "Magmarizer"
+  },
+  "metal-coat": {
+    "id": "metal-coat",
+    "name": "Revest. Metálico",
+    "nameEn": "Metal Coat"
+  },
+  "moon-stone": {
+    "id": "moon-stone",
+    "name": "Piedra Lunar",
+    "nameEn": "Moon Stone"
+  },
+  "oval-stone": {
+    "id": "oval-stone",
+    "name": "Piedra Oval",
+    "nameEn": "Oval Stone"
+  },
+  "protector": {
+    "id": "protector",
+    "name": "Protector",
+    "nameEn": "Protector"
+  },
+  "razor-claw": {
+    "id": "razor-claw",
+    "name": "Garra Afilada",
+    "nameEn": "Razor Claw"
+  },
+  "razor-fang": {
+    "id": "razor-fang",
+    "name": "Colmillo Agudo",
+    "nameEn": "Razor Fang"
+  },
+  "reaper-cloth": {
+    "id": "reaper-cloth",
+    "name": "Tela Terrible",
+    "nameEn": "Reaper Cloth"
+  },
+  "shiny-stone": {
+    "id": "shiny-stone",
+    "name": "Piedra Día",
+    "nameEn": "Shiny Stone"
+  },
+  "sun-stone": {
+    "id": "sun-stone",
+    "name": "Piedra Solar",
+    "nameEn": "Sun Stone"
+  },
+  "thunder-stone": {
+    "id": "thunder-stone",
+    "name": "Piedra Trueno",
+    "nameEn": "Thunder Stone"
+  },
+  "up-grade": {
+    "id": "up-grade",
+    "name": "Mejora",
+    "nameEn": "Upgrade"
+  },
+  "water-stone": {
+    "id": "water-stone",
+    "name": "Piedra Agua",
+    "nameEn": "Water Stone"
+  }
+}

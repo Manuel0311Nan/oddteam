@@ -8,6 +8,7 @@
  * Phase F3 will merge data/overrides on top (specs/02-datos-y-pipeline.md).
  */
 
+import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
 import type { FamilyOverrides, VersionOverrides } from "../../data/overrides/types";
@@ -58,7 +59,8 @@ import type {
 import { curationReport, merge } from "./merge";
 import { buildReport } from "./report";
 import { generationNumber, localizedName } from "./resolve";
-import { OutputSet } from "./write";
+import { mergeGameList } from "./games";
+import { dataVersionOf, OutputSet } from "./write";
 
 const ROOT = process.cwd();
 const OUT_DIR = join(ROOT, "data", "generated");
@@ -415,6 +417,15 @@ async function buildGame(
   log(
     `  ${areas.length} zonas con encuentros · ${encounters.length} encuentros · ${Object.keys(moves).length} movimientos · ${machines.length} MT/MO`,
   );
+  // Per-game data version (D-026): only the files this game reads.
+  const shared = new Set([
+    `${config.versionGroup}/moves.json`,
+    `${config.versionGroup}/machines.json`,
+    `type-chart/gen-${generation}.json`,
+    "type-names.json",
+  ]);
+  const dataVersion = out.dataVersion((p) => p.startsWith(`${config.slug}/`) || shared.has(p));
+
   return {
     slug: config.slug,
     publishable,
@@ -425,8 +436,17 @@ async function buildGame(
       region: config.region,
       generation,
       publishable: publishable === true,
+      dataVersion,
     },
   };
+}
+
+async function readPreviousGames(): Promise<GeneratedGameListEntry[]> {
+  try {
+    return JSON.parse(await readFile(join(OUT_DIR, "games.json"), "utf8")) as GeneratedGameListEntry[];
+  } catch {
+    return [];
+  }
 }
 
 async function main() {
@@ -448,19 +468,25 @@ async function main() {
     results.push(await buildGame(client, game, out, log));
   }
 
-  out.json("games.json", results.map((r) => r.entry));
-  const meta: GeneratedMeta = { dataVersion: out.dataVersion(), games: args.games.map((g) => g.slug) };
+  const previous = await readPreviousGames();
+  const games = mergeGameList(previous, results.map((r) => r.entry));
+  out.json("games.json", games);
+  const meta: GeneratedMeta = {
+    dataVersion: dataVersionOf(new Map(games.map((g) => [g.slug, g.dataVersion]))),
+    games: games.map((g) => g.slug),
+  };
   out.json("meta.json", meta);
   const written = await out.writeTo(OUT_DIR);
   const { network, cache } = client.stats();
   log(
-    `\n${written.length} archivos en data/generated · dataVersion ${meta.dataVersion} · ${network} descargas, ${cache} desde caché · ${((Date.now() - started) / 1000).toFixed(1)} s`,
+    `\n${written.length} archivos en data/generated · ${results.map((r) => `${r.slug} ${r.entry.dataVersion}`).join(" · ")} · ${network} descargas, ${cache} desde caché · ${((Date.now() - started) / 1000).toFixed(1)} s`,
   );
   for (const g of args.games) log(`Informe: data/generated/${g.slug}/report.md`);
 
   // Featured teams depend on the data just written: rebuild them now (D-021).
   if (args.featured) {
-    for (const g of args.games) log(`Destacados ${g.slug}: ${summary(await buildFeatured(g.slug))}`);
+    // Only games with overrides have a game.json (and a pool to generate from).
+    for (const r of results.filter((x) => x.publishable !== null)) log(`Destacados ${r.slug}: ${summary(await buildFeatured(r.slug))}`);
   }
 
   // --strict: fail unless every game is publishable (no errors, no TODO).
