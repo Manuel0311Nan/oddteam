@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { LoaderCircle } from "lucide-react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useStore } from "zustand";
 import { computeDifficulty } from "@/lib/analysis/difficulty";
 import { difficultyDataOf } from "@/lib/analysis/difficulty-data";
@@ -9,16 +10,41 @@ import { earlyNeeded } from "@/lib/generator/context";
 import { CAPTURE_EFFORT_LABELS, captureEffort } from "@/lib/generator/effort";
 import { formatSeed } from "@/lib/rng";
 import { createGeneratorStore } from "@/store/generator";
+import { revealResults } from "@/lib/ui/reveal";
 import { AvailabilityTimeline } from "./availability-timeline";
 import { BossTable } from "./boss-table";
 import { DifficultyBadge } from "./difficulty-badge";
 import { OptionsPanel } from "./options-panel";
 import { PokemonCard } from "./pokemon-card";
 
+/** Minimum time the loading state is shown, so the change is noticeable. */
+const GENERATE_FEEDBACK_MS = 450;
+
 export function GeneratorApp({ game }: { game: ClientGame }) {
   const [store] = useState(() => createGeneratorStore(game));
   const state = useStore(store);
   const [copied, setCopied] = useState(false);
+  const [generating, setGenerating] = useState(false);
+  const [announcement, setAnnouncement] = useState("");
+  const resultsRef = useRef<HTMLElement>(null);
+
+  /**
+   * Generating is instant, so on mobile the button looked dead: the team was
+   * off-screen below the options. Show a short loading state, then bring the
+   * team into view (and focus it for screen readers).
+   */
+  const generateWithFeedback = useCallback(() => {
+    if (generating) return;
+    setGenerating(true);
+    setAnnouncement("");
+    window.setTimeout(() => {
+      store.getState().generate();
+      setGenerating(false);
+      const { error } = store.getState();
+      setAnnouncement(error ? "No se ha podido generar el equipo." : "Equipo nuevo generado.");
+      window.requestAnimationFrame(() => revealResults(resultsRef.current));
+    }, GENERATE_FEEDBACK_MS);
+  }, [generating, store]);
 
   // Read the link once on mount, then keep the URL in sync with the team.
   useEffect(() => {
@@ -54,7 +80,7 @@ export function GeneratorApp({ game }: { game: ClientGame }) {
   return (
     <div className="flex flex-wrap items-start gap-7">
       <div className="w-full lg:w-[340px] lg:shrink-0">
-        <OptionsPanel game={game} options={state.options} onChange={state.setOptions} onGenerate={state.generate} />
+        <OptionsPanel game={game} options={state.options} onChange={state.setOptions} onGenerate={generateWithFeedback} generating={generating} />
       </div>
 
       <div className="flex min-w-0 flex-[999_1_560px] flex-col gap-7">
@@ -69,7 +95,16 @@ export function GeneratorApp({ game }: { game: ClientGame }) {
           </p>
         ) : null}
 
-        <section className="flex flex-wrap items-end justify-between gap-4">
+        <p role="status" className="sr-only">
+          {announcement}
+        </p>
+
+        <section
+          ref={resultsRef}
+          tabIndex={-1}
+          aria-label="Resultado"
+          className="flex scroll-mt-4 flex-wrap items-end justify-between gap-4 outline-none"
+        >
           <div className="flex flex-col gap-1.5">
             <span className="text-sm font-semibold text-muted-foreground">
               Pokémon {game.name} · {game.region.charAt(0).toUpperCase() + game.region.slice(1)}
@@ -106,10 +141,13 @@ export function GeneratorApp({ game }: { game: ClientGame }) {
             </button>
             <button
               type="button"
-              onClick={state.generate}
-              className="min-h-11 rounded-xl bg-foreground px-3.5 text-sm font-bold text-white"
+              onClick={generateWithFeedback}
+              disabled={generating}
+              aria-busy={generating}
+              className="inline-flex min-h-11 items-center gap-2 rounded-xl bg-foreground px-3.5 text-sm font-bold text-white disabled:opacity-80"
             >
-              Regenerar no fijados
+              {generating ? <LoaderCircle aria-hidden className="size-4 animate-spin" /> : null}
+              {generating ? "Generando…" : "Regenerar no fijados"}
             </button>
           </div>
         </section>
@@ -120,10 +158,10 @@ export function GeneratorApp({ game }: { game: ClientGame }) {
           </p>
         ) : null}
 
-        <section aria-label="Equipo" aria-busy={!state.ready} className="grid grid-cols-[repeat(auto-fill,minmax(270px,1fr))] gap-4">
+        <section aria-label="Equipo" aria-busy={!state.ready || generating} className="grid grid-cols-[repeat(auto-fill,minmax(270px,1fr))] gap-4">
           <h2 className="sr-only">Miembros del equipo</h2>
-          {!state.ready
-            ? Array.from({ length: 6 }, (_, i) => (
+          {!state.ready || generating
+            ? Array.from({ length: state.options.size }, (_, i) => (
                 <div key={i} className="h-[260px] animate-pulse rounded-2xl border border-border bg-card" />
               ))
             : state.slots.map((slot, i) => (
