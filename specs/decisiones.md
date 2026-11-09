@@ -145,3 +145,17 @@ Con estos cambios, en 20 000 equipos por defecto el reparto es: Paseo ~39 %, Nor
 - Una recomendación por **línea evolutiva** en cada parada (Wurmple → Beautifly o Dustox, Machoke o Machamp): la de mejor puntuación.
 - La URL de la Ruta añade `r`, las pulsaciones de "Ver otras" por parada, para que un enlace compartido reproduzca exactamente lo que se ve.
 - El factor ×0,5 para especies de tramos anteriores se aplica a `routeScore`, así que afecta tanto a qué candidatos entran en la lista como al muestreo.
+
+### D-024 · 2026-11-07 · Las capturas en la Ruta, para la 2.0
+**Decisión:** marcar en la Ruta los Pokémon capturados, con una barra inferior de lo capturado, queda para la **2.0**. Se mantiene D-008: la Ruta de la 1.0 no tiene estado de partida. El diseño acordado está en `07`, "Capturas en la Ruta":
+- lo capturado desaparece de las paradas siguientes;
+- la barra tiene como mucho 6, y solo muestra la imagen.
+
+**Motivo:** Manuel prefiere no ampliar el alcance de la 1.0. Con cuentas, las capturas se guardan con la partida del jugador.
+
+### D-025 · 2026-11-09 · Tipografía Fredoka
+**Decisión:** la tipografía de la interfaz pasa de Bricolage Grotesque a **Fredoka**, de Google Fonts. JetBrains Mono se queda para semillas y números de Pokédex. Se aplica en la web (`layout.tsx`, `--font-sans`) y en el diseño de referencia.
+**Motivo:** Manuel quería una letra más cercana a la animación y a los juegos de niños. De las tres opciones que se probaron sobre la interfaz (Fredoka, Baloo 2, y Lilita One con Nunito), Fredoka es la más legible en texto pequeño, como tarjetas y tablas de combates, sin perder el aire infantil.
+**Notas:**
+- Fredoka llega hasta el peso 700, así que las clases `font-extrabold` (800) se pintan con 700.
+- Las imágenes de Open Graph siguen con la letra por defecto de `next/og` hasta que se incluya el archivo de la fuente.

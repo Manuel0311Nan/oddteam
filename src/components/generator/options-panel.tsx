@@ -2,7 +2,8 @@
 
 import { RefreshCw, X } from "lucide-react";
 import { useId, useMemo, useState } from "react";
-import { Segmented, Switch } from "@/components/ui/segmented";
+import { CollapsiblePanel, Segmented, Switch } from "@/components/ui/segmented";
+import { DIFFICULTY_LABELS } from "@/lib/analysis/difficulty";
 import type { ClientGame } from "@/lib/game-data";
 import { type DifficultyFilter, type GeneratorOptions, type RarityFilter, TYPE_NAMES, type TypeName } from "@/lib/types";
 
@@ -25,10 +26,7 @@ export function OptionsPanel({ game, options, onChange, onGenerate }: Props) {
   const typeMode = options.typeRule.mode;
 
   return (
-    <aside
-      aria-label="Opciones del generador"
-      className="flex flex-col gap-5 rounded-2xl border border-border bg-card p-5 lg:sticky lg:top-6"
-    >
+    <CollapsiblePanel label="Opciones" summary={optionsSummary(game, options)}>
       <section className="flex flex-col gap-2.5">
         <Heading>Tamaño del equipo</Heading>
         <Segmented
@@ -179,8 +177,37 @@ export function OptionsPanel({ game, options, onChange, onGenerate }: Props) {
         Generar equipo
       </button>
       <p className="-mt-2 text-center text-xs text-muted-foreground">Las opciones se aplican al generar.</p>
-    </aside>
+    </CollapsiblePanel>
   );
+}
+
+/** "6 · inicial aleatorio · sin repetir tipos · Paseo" (specs/06). */
+export function optionsSummary(game: ClientGame, o: GeneratorOptions): string {
+  const starter =
+    o.starter.mode === "none"
+      ? "sin inicial"
+      : o.starter.mode === "random"
+        ? "inicial aleatorio"
+        : `con ${game.species[o.starter.speciesId]?.name ?? "inicial"}`;
+  const types =
+    o.typeRule.mode === "unique"
+      ? "sin repetir tipos"
+      : o.typeRule.mode === "max-two"
+        ? "máx. 2 por tipo"
+        : o.typeRule.mode === "free"
+          ? "tipos libres"
+          : `monotipo ${game.typeNames[o.typeRule.type] ?? o.typeRule.type}`;
+  return [
+    String(o.size),
+    starter,
+    types,
+    o.difficulty === "any" ? null : DIFFICULTY_LABELS[o.difficulty],
+    o.allowTradeEvolutions ? "con intercambio" : null,
+    o.allowLegendaries ? "con legendarios" : null,
+    o.excluded.length ? `${o.excluded.length} excluidos` : null,
+  ]
+    .filter(Boolean)
+    .join(" · ");
 }
 
 export function ExcludedPicker({

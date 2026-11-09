@@ -13,8 +13,14 @@ export function SiteHeader() {
           </svg>
           <span className="flex flex-col">
             <span className="text-[22px] font-extrabold tracking-tight">OddTeam</span>
-            <span className="text-[13px] text-muted-foreground">Equipos aleatorios y válidos para la historia</span>
+            <span className="hidden text-[13px] text-muted-foreground sm:block">Equipos aleatorios y válidos para la historia</span>
           </span>
+        </Link>
+        <Link
+          href="/como-funciona"
+          className="inline-flex min-h-11 items-center rounded-xl px-2 text-[15px] font-bold underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-ring"
+        >
+          Cómo funciona
         </Link>
       </div>
     </header>

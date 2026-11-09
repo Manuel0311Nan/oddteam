@@ -15,9 +15,12 @@ export async function generateMetadata({ params }: { params: Promise<{ game: str
   const { game: slug } = await params;
   const game = listGames().find((g) => g.slug === slug);
   if (!game) return {};
+  const title = `Equipos aleatorios para Pokémon ${game.name} · OddTeam`;
+  const description = `Genera un equipo aleatorio que puedes conseguir de verdad en la historia de Pokémon ${game.name}.`;
   return {
-    title: `Equipos aleatorios para Pokémon ${game.name} · OddTeam`,
-    description: `Genera un equipo aleatorio que puedes conseguir de verdad en la historia de Pokémon ${game.name}.`,
+    title,
+    description,
+    openGraph: { title, description, url: `/${slug}` },
     robots: game.publishable ? undefined : { index: false },
   };
 }
