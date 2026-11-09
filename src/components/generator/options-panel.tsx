@@ -1,6 +1,6 @@
 "use client";
 
-import { RefreshCw, X } from "lucide-react";
+import { LoaderCircle, RefreshCw, X } from "lucide-react";
 import { useId, useMemo, useState } from "react";
 import { CollapsiblePanel, Segmented, Switch } from "@/components/ui/segmented";
 import { DIFFICULTY_LABELS } from "@/lib/analysis/difficulty";
@@ -12,6 +12,8 @@ type Props = {
   options: GeneratorOptions;
   onChange: (patch: Partial<GeneratorOptions>) => void;
   onGenerate: () => void;
+  /** True while a team is being generated (loading state of the button). */
+  generating?: boolean;
 };
 
 const Heading = ({ children, id }: { children: React.ReactNode; id?: string }) => (
@@ -20,7 +22,7 @@ const Heading = ({ children, id }: { children: React.ReactNode; id?: string }) =
   </h2>
 );
 
-export function OptionsPanel({ game, options, onChange, onGenerate }: Props) {
+export function OptionsPanel({ game, options, onChange, onGenerate, generating = false }: Props) {
   const typeOptions = TYPE_NAMES.filter((t) => game.typeNames[t]).map((t) => ({ value: t, label: game.typeNames[t] as string }));
   const starterMode = options.starter.mode;
   const typeMode = options.typeRule.mode;
@@ -171,10 +173,16 @@ export function OptionsPanel({ game, options, onChange, onGenerate }: Props) {
       <button
         type="button"
         onClick={onGenerate}
-        className="flex min-h-[52px] items-center justify-center gap-2.5 rounded-xl bg-primary text-[17px] font-extrabold text-primary-foreground hover:brightness-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+        disabled={generating}
+        aria-busy={generating}
+        className="flex min-h-[52px] items-center justify-center gap-2.5 rounded-xl bg-primary text-[17px] font-extrabold text-primary-foreground hover:brightness-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring disabled:cursor-progress disabled:brightness-90"
       >
-        <RefreshCw aria-hidden className="size-5" strokeWidth={2.4} />
-        Generar equipo
+        {generating ? (
+          <LoaderCircle aria-hidden className="size-5 animate-spin" strokeWidth={2.4} />
+        ) : (
+          <RefreshCw aria-hidden className="size-5" strokeWidth={2.4} />
+        )}
+        {generating ? "Generando…" : "Generar equipo"}
       </button>
       <p className="-mt-2 text-center text-xs text-muted-foreground">Las opciones se aplican al generar.</p>
     </CollapsiblePanel>

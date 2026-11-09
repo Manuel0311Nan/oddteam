@@ -1,8 +1,8 @@
 "use client";
 
-import { RefreshCw, Shuffle } from "lucide-react";
+import { LoaderCircle, RefreshCw, Shuffle } from "lucide-react";
 import Image from "next/image";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { ExcludedPicker } from "@/components/generator/options-panel";
 import { TypeBadge } from "@/components/generator/type-badge";
 import { CollapsiblePanel, Switch } from "@/components/ui/segmented";
@@ -12,6 +12,7 @@ import { DEFAULT_OPTIONS, normalizeOptions } from "@/lib/generator/options";
 import { formatSeed, newSeed, type Seed } from "@/lib/rng";
 import type { GeneratorOptions } from "@/lib/types";
 import { methodLabel, RARITY_LABEL, SEGMENT_TONE } from "@/lib/ui/labels";
+import { revealResults } from "@/lib/ui/reveal";
 import { decodeRouteState, encodeRouteState } from "@/lib/url-state";
 import { cn } from "@/lib/utils";
 
@@ -44,6 +45,20 @@ export function RouteApp({ game }: { game: ClientGame }) {
   const [seed, setSeed] = useState<Seed | null>(null);
   const [options, setOptions] = useState<GeneratorOptions>(DEFAULT_OPTIONS);
   const [others, setOthers] = useState<number[]>([]);
+  const [generating, setGenerating] = useState(false);
+  const resultsRef = useRef<HTMLElement>(null);
+
+  // Same feedback as the generator: a short loading state, then the route in view.
+  const newRoute = () => {
+    if (generating) return;
+    setGenerating(true);
+    window.setTimeout(() => {
+      setOthers([]);
+      setSeed(newSeed());
+      setGenerating(false);
+      window.requestAnimationFrame(() => revealResults(resultsRef.current));
+    }, 450);
+  };
   const [notice, setNotice] = useState<string | null>(null);
 
   // Read the link once; without one, a fresh seed and the saved "habituales".
@@ -135,14 +150,17 @@ export function RouteApp({ game }: { game: ClientGame }) {
         <ExcludedPicker game={game} excluded={options.excluded} onChange={(excluded) => change({ excluded })} />
         <button
           type="button"
-          onClick={() => {
-            setOthers([]);
-            setSeed(newSeed());
-          }}
-          className="flex min-h-[52px] items-center justify-center gap-2.5 rounded-xl bg-primary text-[17px] font-extrabold text-primary-foreground hover:brightness-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+          onClick={newRoute}
+          disabled={generating}
+          aria-busy={generating}
+          className="flex min-h-[52px] items-center justify-center gap-2.5 rounded-xl bg-primary text-[17px] font-extrabold text-primary-foreground hover:brightness-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring disabled:cursor-progress disabled:brightness-90"
         >
-          <RefreshCw aria-hidden className="size-5" strokeWidth={2.4} />
-          Otra ruta
+          {generating ? (
+            <LoaderCircle aria-hidden className="size-5 animate-spin" strokeWidth={2.4} />
+          ) : (
+            <RefreshCw aria-hidden className="size-5" strokeWidth={2.4} />
+          )}
+          {generating ? "Buscando…" : "Otra ruta"}
         </button>
         <p className="-mt-2 text-center text-xs text-muted-foreground">
           La ruta no guarda tu partida: con el mismo enlace, cualquiera ve la misma.
@@ -161,7 +179,12 @@ export function RouteApp({ game }: { game: ClientGame }) {
           </p>
         ) : null}
 
-        <section className="flex flex-wrap items-end justify-between gap-4">
+        <section
+          ref={resultsRef}
+          tabIndex={-1}
+          aria-label="Resultado"
+          className="flex scroll-mt-4 flex-wrap items-end justify-between gap-4 outline-none"
+        >
           <div className="flex flex-col gap-1.5">
             <span className="text-sm font-semibold text-muted-foreground">Pokémon {game.name}</span>
             <h1 className="text-4xl font-extrabold leading-none tracking-tight sm:text-[40px]">Ruta de capturas</h1>
@@ -176,7 +199,7 @@ export function RouteApp({ game }: { game: ClientGame }) {
           ) : null}
         </section>
 
-        <ol className="flex flex-col">
+        <ol className={cn("flex flex-col transition-opacity", generating && "opacity-40")} aria-busy={generating}>
           {picked.map(({ stop, picks }, i) => {
             const segment = game.segments.find((s) => s.id === stop.segment);
             const tone = SEGMENT_TONE(stop.order, game.segments.length);
