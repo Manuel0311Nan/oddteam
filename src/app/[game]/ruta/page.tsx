@@ -15,9 +15,12 @@ export async function generateMetadata({ params }: { params: Promise<{ game: str
   const { game: slug } = await params;
   const game = listGames().find((g) => g.slug === slug);
   if (!game) return {};
+  const title = `Qué capturar en cada tramo de Pokémon ${game.name} · OddTeam`;
+  const description = `Recomendaciones de captura antes de cada gimnasio de Pokémon ${game.name}: para quedarse o para salir del paso.`;
   return {
-    title: `Qué capturar en cada tramo de Pokémon ${game.name} · OddTeam`,
-    description: `Recomendaciones de captura antes de cada gimnasio de Pokémon ${game.name}: para quedarse o para salir del paso.`,
+    title,
+    description,
+    openGraph: { title, description, url: `/${slug}/ruta` },
     robots: game.publishable ? undefined : { index: false },
   };
 }

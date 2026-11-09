@@ -60,8 +60,7 @@ export function GeneratorApp({ game }: { game: ClientGame }) {
       <div className="flex min-w-0 flex-[999_1_560px] flex-col gap-7">
         {!game.publishable ? (
           <p className="rounded-xl border border-dashed border-[#BDB5A6] bg-card px-4 py-3 text-sm">
-            <strong>Borrador:</strong> los datos de {game.name} están en revisión y pueden contener errores. Esta página
-            no se publica hasta que la curación esté completa.
+            <strong>Borrador:</strong> los datos de {game.name} están en revisión y pueden contener errores.
           </p>
         ) : null}
         {state.notice ? (
@@ -122,6 +121,7 @@ export function GeneratorApp({ game }: { game: ClientGame }) {
         ) : null}
 
         <section aria-label="Equipo" aria-busy={!state.ready} className="grid grid-cols-[repeat(auto-fill,minmax(270px,1fr))] gap-4">
+          <h2 className="sr-only">Miembros del equipo</h2>
           {!state.ready
             ? Array.from({ length: 6 }, (_, i) => (
                 <div key={i} className="h-[260px] animate-pulse rounded-2xl border border-border bg-card" />

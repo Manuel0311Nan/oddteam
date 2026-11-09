@@ -18,9 +18,12 @@ export async function generateMetadata({ params }: { params: Promise<{ game: str
   const { game: slug } = await params;
   const game = listGames().find((g) => g.slug === slug);
   if (!game) return {};
+  const title = `Equipos destacados para Pokémon ${game.name} por dificultad · OddTeam`;
+  const description = `Equipos válidos para la historia de Pokémon ${game.name}, de Paseo a Reto.`;
   return {
-    title: `Equipos destacados para Pokémon ${game.name} por dificultad · OddTeam`,
-    description: `Equipos válidos para la historia de Pokémon ${game.name}, de Paseo a Reto.`,
+    title,
+    description,
+    openGraph: { title, description, url: `/${slug}/destacados` },
     robots: game.publishable ? undefined : { index: false },
   };
 }

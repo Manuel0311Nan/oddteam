@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 import { ExcludedPicker } from "@/components/generator/options-panel";
 import { TypeBadge } from "@/components/generator/type-badge";
-import { Switch } from "@/components/ui/segmented";
+import { CollapsiblePanel, Switch } from "@/components/ui/segmented";
 import { buildRoute, pickRoute, type RouteCandidate, type RouteOptions } from "@/lib/analysis/route";
 import type { ClientGame } from "@/lib/game-data";
 import { DEFAULT_OPTIONS, normalizeOptions } from "@/lib/generator/options";
@@ -104,9 +104,18 @@ export function RouteApp({ game }: { game: ClientGame }) {
 
   return (
     <div className="flex flex-wrap items-start gap-7">
-      <aside
-        aria-label="Opciones de la ruta"
-        className="flex w-full flex-col gap-5 rounded-2xl border border-border bg-card p-5 lg:sticky lg:top-6 lg:w-[340px] lg:shrink-0"
+      <CollapsiblePanel
+        label="Opciones de la ruta"
+        className="w-full lg:w-[340px] lg:shrink-0"
+        summary={
+          [
+            options.allowTradeEvolutions ? "con intercambio" : "sin intercambio",
+            options.allowLegendaries ? "con legendarios" : "sin legendarios",
+            options.excluded.length ? `${options.excluded.length} excluidos` : null,
+          ]
+            .filter(Boolean)
+            .join(" · ")
+        }
       >
         <section className="flex flex-col gap-1">
           <h2 className="text-[13px] font-bold uppercase tracking-[0.08em] text-muted-foreground">Reglas</h2>
@@ -138,7 +147,7 @@ export function RouteApp({ game }: { game: ClientGame }) {
         <p className="-mt-2 text-center text-xs text-muted-foreground">
           La ruta no guarda tu partida: con el mismo enlace, cualquiera ve la misma.
         </p>
-      </aside>
+      </CollapsiblePanel>
 
       <div className="flex min-w-0 flex-[999_1_560px] flex-col gap-6">
         {!game.publishable ? (

@@ -158,7 +158,7 @@ Cada override cita su fuente en un comentario. Lo no verificado se marca `TODO`.
 - Página "Cómo funciona": qué es válido, fuentes, dificultad, rareza y limitaciones (clase de daño moderna).
 - Estados de carga, error y enlace antiguo.
 - Revisión de accesibilidad y rendimiento (LCP < 1,5 s en móvil).
-- Metadatos, Open Graph por equipo compartido, favicon propio.
+- Metadatos, Open Graph por equipo compartido (pendiente de decidir: necesita una ruta dinámica), favicon propio.
 - Aviso legal de proyecto de fans no afiliado.
 
 **Hecho cuando:** Esmeralda completa está en un dominio de preview y se puede compartir con otras personas para pedir opinión.
@@ -219,4 +219,16 @@ Lo aprendido en cada familia se pasa a las specs y a `decisiones.md` antes de em
 | F5 | Hecha: `analysis/moves.ts` (formas y ataques a tiempo, puntuación) y `analysis/bosses.ts` (precálculo por entrada y jefe, veredicto), `BossTable` desplegable con ataques, MT agrupadas y "elige uno" para las de un solo uso. Premios del Casino fuera (D-020). 31 tests de análisis, 116 en total. |
 | F6 | Hecha, con calibración provisional: `analysis/difficulty.ts` (4 componentes), cortes y umbral calibrados (D-021), filtro de dificultad en el generador, `DifficultyBadge` con desglose, `data:featured` (20 000 equipos, 10 por nivel, D-022) y `/emerald/destacados` con pestañas. 5 equipos de referencia provisionales: falta confirmarlos con partidas reales. 139 tests. |
 | F7 | Hecha: `analysis/route.ts` (paradas, shortTerm/longTerm, etiquetas, MT del tramo y selección con semilla), `/emerald/ruta` con pestañas Equipo / Ruta / Destacados, "Ver otras" en la URL y opciones de intercambio, legendarios y excluidos. Sin `route.json` (D-023). 154 tests. |
-| F8–F10 | Pendiente |
+| F8 | Casi hecha (M2):
+- Portada por familias, con botones de versión y "próximamente".
+- Página `/como-funciona` y pie con el aviso legal.
+- 404 y error, panel de opciones plegable en móvil e interruptores pulsables en todo el renglón.
+- Open Graph general y por juego, y favicon propio.
+- axe sin incidencias y sin desbordes a 360 px.
+
+LCP medido con un build de producción, Moto G4 y CPU ×4: 0,2–0,4 s en las 4 páginas principales (el elemento más grande es el título, pintado en el servidor). El equipo o la Ruta aparecen hacia 1 s en 4G rápido y 2,2 s en 4G lento.
+
+Pendiente:
+- Decidir la imagen Open Graph por equipo compartido, que necesita una ruta dinámica.
+- Dominio de preview para enseñarla. |
+| F9–F10 | Pendiente |

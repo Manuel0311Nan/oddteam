@@ -1,5 +1,7 @@
 "use client";
 
+import { ChevronDown } from "lucide-react";
+import { useId, useState } from "react";
 import { cn } from "@/lib/utils";
 
 type Option<T extends string> = { value: T; label: string };
@@ -47,7 +49,7 @@ export function Segmented<T extends string>({
   );
 }
 
-/** On/off switch with a visible label and hint. */
+/** On/off switch with a visible label and hint. The whole row is clickable. */
 export function Switch({
   label,
   hint,
@@ -60,11 +62,11 @@ export function Switch({
   onChange: (checked: boolean) => void;
 }) {
   return (
-    <div className="flex min-h-12 items-center justify-between gap-3">
-      <div className="flex flex-col">
+    <label className="flex min-h-12 cursor-pointer items-center justify-between gap-3">
+      <span className="flex flex-col">
         <span className="text-[15px] font-semibold">{label}</span>
         {hint ? <span className="text-[13px] text-muted-foreground">{hint}</span> : null}
-      </div>
+      </span>
       <button
         type="button"
         role="switch"
@@ -78,6 +80,45 @@ export function Switch({
       >
         <span className="block size-[22px] rounded-full bg-white" />
       </button>
-    </div>
+    </label>
+  );
+}
+
+/**
+ * Side panel that collapses into a summary bar below the lg breakpoint (specs/06:
+ * "móvil: hoja desplegable con resumen"). Always open on desktop.
+ */
+export function CollapsiblePanel({
+  label,
+  summary,
+  children,
+  className,
+}: {
+  label: string;
+  summary: string;
+  children: React.ReactNode;
+  className?: string;
+}) {
+  const [open, setOpen] = useState(false);
+  const id = useId();
+  return (
+    <aside aria-label={label} className={cn("flex flex-col rounded-2xl border border-border bg-card lg:sticky lg:top-6", className)}>
+      <button
+        type="button"
+        aria-expanded={open}
+        aria-controls={id}
+        onClick={() => setOpen((o) => !o)}
+        className="flex min-h-14 items-center justify-between gap-3 rounded-2xl px-5 py-3 text-left focus-visible:outline-2 focus-visible:outline-ring lg:hidden"
+      >
+        <span className="flex min-w-0 flex-col">
+          <span className="text-[15px] font-extrabold">{label}</span>
+          <span className="truncate text-[13px] text-muted-foreground">{summary}</span>
+        </span>
+        <ChevronDown aria-hidden className={cn("size-5 shrink-0 transition-transform", open && "rotate-180")} />
+      </button>
+      <div id={id} className={cn("flex-col gap-5 p-5 pt-1 lg:flex lg:pt-5", open ? "flex" : "hidden")}>
+        {children}
+      </div>
+    </aside>
   );
 }

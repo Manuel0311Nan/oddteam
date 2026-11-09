@@ -62,7 +62,8 @@ El código de la web vive en `src/` (alias `@/*` → `src/*`). Datos, scripts y 
 ```
 src/
   app/
-    page.tsx                    # portada: elegir juego
+    page.tsx                    # portada: familias y versiones
+    como-funciona/page.tsx      # explicación de reglas, datos y límites
     [game]/page.tsx             # generador (estático con generateStaticParams)
     [game]/ruta/page.tsx        # modo Ruta: recomendaciones por tramo
     [game]/destacados/page.tsx  # equipos destacados por dificultad
@@ -70,13 +71,15 @@ src/
     generator/                  # opciones, tarjeta, línea de tiempo, tabla de combates, dificultad
     route/                      # modo Ruta
     featured/                   # pestañas de destacados
-    site/                       # cabecera y navegación Equipo / Ruta / Destacados
+    site/                       # cabecera, pie con aviso legal, navegación Equipo / Ruta / Destacados, imagen OG
     ui/                         # shadcn
   lib/
     generator/                  # filter, pick, validate
     analysis/                   # types (tabla de tipos), moves (ataques recomendados), bosses, difficulty, route
     game-data.ts                # lee data/generated en el servidor y prepara los datos del cliente
     ui/labels.ts                # textos y colores de la interfaz (los nombres oficiales vienen de los datos)
+    catalog.ts                  # familias y versiones de la portada (solo etiquetas)
+    site.ts                     # URL pública para metadatos
     rng.ts                      # mulberry32 con semilla
     url-state.ts                # codificar/decodificar opciones y semilla en la URL
     types.ts
