@@ -5,7 +5,7 @@
  * carries a `todo`: the validator lists it and a game with TODOs is not published.
  */
 
-import type { BossKind, FamilySlug, GameSlug, Rarity } from "../../src/lib/types";
+import type { BossKind, FamilySlug, GameScope, GameSlug, Rarity } from "../../src/lib/types";
 import type { SourceId } from "./sources";
 
 /** Segment id of the family, or a state that never counts as story availability. */
@@ -51,6 +51,8 @@ export type MethodOverride = Sourced & {
 export type ConditionOverride = Sourced & {
   /** Undefined = the condition does not gate availability. */
   segment?: Availability;
+  /** Rarity floor for encounters with this condition, as for methods (HGSS headbutt trees). */
+  minRarity?: Rarity;
 };
 
 export type SpecialEncounterOverride = Sourced & {
@@ -112,6 +114,8 @@ export type FamilyOverrides = {
   evolutionChoices: readonly EvolutionChoice[];
   bosses: readonly BossOverride[];
   tms: Readonly<Record<string, TmOverride>>;
+  /** Story scopes when the story continues after the League (D-029). */
+  scopes?: readonly GameScope[];
 };
 
 /** Differences of one version inside its family. */

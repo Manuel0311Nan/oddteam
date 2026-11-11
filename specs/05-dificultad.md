@@ -59,7 +59,7 @@ En la 2.0, las valoraciones de "dificultad percibida" de la comunidad sirven par
 
 `pnpm data:featured`:
 
-1. Genera N = 20 000 equipos por juego con opciones por defecto y semillas deterministas.
+1. Genera N = 20 000 equipos por juego con opciones por defecto y semillas deterministas. En juegos con alcances, con el alcance por defecto (D-029).
 2. Puntúa cada uno.
 3. Por nivel, elige **10 equipos** maximizando la variedad: ninguna especie aparece en más de 2 equipos del mismo nivel. El inicial se reparte aparte (D-022). Si no hay suficientes equipos variados, el nivel muestra menos (en Esmeralda, Reto tiene 7).
 4. Escribe `data/generated/featured/{game}.json` con semilla, equipo y opciones, de modo que cada destacado se abre en el generador con su URL. Las opciones llevan su nivel como filtro, así que "Regenerar" se queda en ese nivel.

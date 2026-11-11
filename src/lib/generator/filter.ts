@@ -1,8 +1,9 @@
 import { passesRarityFilter } from "@/lib/analysis/rarity";
 import type { GeneratorOptions, PoolEntry } from "@/lib/types";
 import { type GeneratorContext, speciesOf } from "./context";
+import { entryInScope, scopeMaxRank } from "./scope";
 
-export type FilterReason = "legendary" | "trade" | "excluded" | "rarity" | "mono" | "starter";
+export type FilterReason = "scope" | "legendary" | "trade" | "excluded" | "rarity" | "mono" | "starter";
 
 /** Why an entry is out of the candidate pool, or null if it is in. */
 export function rejectReason(
@@ -10,6 +11,7 @@ export function rejectReason(
   entry: PoolEntry,
   options: GeneratorOptions,
 ): FilterReason | null {
+  if (!entryInScope(entry, ctx.segments, scopeMaxRank(ctx, options.scope))) return "scope";
   if (!options.allowLegendaries && (entry.flags.legendary || entry.flags.mythical)) return "legendary";
   if (!options.allowTradeEvolutions && entry.flags.needsTrade) return "trade";
   if (options.excluded.length > 0) {

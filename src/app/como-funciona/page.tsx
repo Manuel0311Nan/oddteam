@@ -78,6 +78,11 @@ export default function HowItWorksPage() {
               <li>Sin legendarios ni singulares, salvo que actives la opción.</li>
               <li>Las evoluciones se completan sin intercambiar con otra consola, salvo que actives la opción.</li>
               <li>Nunca dos miembros de la misma línea evolutiva, y como mucho un inicial.</li>
+              <li>
+                En los juegos que siguen tras la Liga, como Plata SoulSilver, eliges el <strong>alcance</strong>: solo Johto o
+                Johto y Kanto. Con «Solo Johto», cada miembro se consigue y termina de evolucionar antes de la Liga, y los
+                combates acaban en el campeón.
+              </li>
             </ul>
             <p>
               Tampoco cuenta lo que depende de eventos, del post-juego o de hardware extra, ni lo que se pesca o se alcanza

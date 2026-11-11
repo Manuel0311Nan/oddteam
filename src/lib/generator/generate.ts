@@ -104,7 +104,7 @@ export function generateTeam(input: GenerateInput): GenerateResult {
       }
       // Difficulty filter (specs/03, step 6). A fully locked team has nothing left to choose: it is kept as is.
       const filtered = options.difficulty !== "any" && locked.length < options.size;
-      if (filtered && ctx.difficultyOf?.(outcome) !== options.difficulty) {
+      if (filtered && ctx.difficultyOf?.(outcome, options.scope) !== options.difficulty) {
         failures.set("no-difficulty", (failures.get("no-difficulty") ?? 0) + 1);
         continue;
       }

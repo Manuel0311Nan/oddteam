@@ -36,6 +36,8 @@ export type DecodeResult =
   | { ok: false; reason: string };
 
 const OPTIONS_VERSION = "1";
+/** v2 adds the story scope as a 9th field (D-029); v1 links stay valid and mean the default scope. */
+const OPTIONS_VERSION_SCOPED = "2";
 
 const DIFFICULTY_CODES: Record<DifficultyFilter, string> = {
   any: "a",
@@ -115,15 +117,17 @@ function decodeIds(text: string): number[] | null {
 /**
  * Fields, in order, separated by "-":
  * version · size · starter · typeRule · flags (balanced, trade, legendaries as 0/1) ·
- * difficulty · rarity · excluded ids ("." separated, may be empty)
+ * difficulty · rarity · excluded ids ("." separated, may be empty) · [v2] scope id
+ * Without a scope the v1 form is written, so links of games without scopes do not change.
  */
 export function encodeOptions(options: GeneratorOptions): string {
   const o = normalizeOptions(options);
   const flags = [o.balancedProgression, o.allowTradeEvolutions, o.allowLegendaries]
     .map((f) => (f ? "1" : "0"))
     .join("");
+  const scoped = o.scope !== undefined;
   return [
-    OPTIONS_VERSION,
+    scoped ? OPTIONS_VERSION_SCOPED : OPTIONS_VERSION,
     String(o.size),
     encodeStarter(o.starter),
     encodeTypeRule(o.typeRule),
@@ -131,14 +135,18 @@ export function encodeOptions(options: GeneratorOptions): string {
     DIFFICULTY_CODES[o.difficulty],
     RARITY_CODES[o.rarity],
     encodeIds(o.excluded),
+    ...(scoped ? [o.scope as string] : []),
   ].join("-");
 }
 
 export function decodeOptions(text: string): GeneratorOptions | null {
   const parts = text.split("-");
-  if (parts.length !== 8 || parts[0] !== OPTIONS_VERSION) return null;
+  const scoped = parts[0] === OPTIONS_VERSION_SCOPED && parts.length === 9;
+  if (!scoped && (parts.length !== 8 || parts[0] !== OPTIONS_VERSION)) return null;
   const [, sizeText, starterCode, typeCode, flags, diffCode, rarityCode, excludedText] =
     parts as [string, string, string, string, string, string, string, string];
+  const scope = scoped ? (parts[8] as string) : undefined;
+  if (scope !== undefined && !/^[a-z0-9]+(?:_[a-z0-9]+)*$/.test(scope)) return null;
 
   if (!/^\d+$/.test(sizeText)) return null;
   const size = Number(sizeText);
@@ -162,6 +170,7 @@ export function decodeOptions(text: string): GeneratorOptions | null {
     difficulty,
     rarity,
     excluded: normalizeExcluded(excluded),
+    ...(scope !== undefined ? { scope } : {}),
   };
 }
 

@@ -64,7 +64,7 @@ export function GeneratorApp({ game }: { game: ClientGame }) {
     : undefined;
   const early = team.filter((m) => order(m.firstAvailable) <= 1).length;
   const effort = team.length ? captureEffort(team) : null;
-  const dd = useMemo(() => difficultyDataOf(game), [game]);
+  const dd = useMemo(() => difficultyDataOf(game, state.options.scope), [game, state.options.scope]);
   const difficulty = useMemo(() => (team.length ? computeDifficulty(team, dd) : null), [team, dd]);
 
   const copyLink = async () => {
@@ -177,7 +177,7 @@ export function GeneratorApp({ game }: { game: ClientGame }) {
         </section>
 
         {team.length ? <AvailabilityTimeline team={team} game={game} /> : null}
-        {team.length ? <BossTable team={team} game={game} /> : null}
+        {team.length ? <BossTable team={team} game={game} scope={state.options.scope} /> : null}
       </div>
     </div>
   );

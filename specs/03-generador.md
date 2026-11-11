@@ -7,6 +7,7 @@
 | Opción | Valores | Por defecto |
 |---|---|---|
 | Juego | juegos publicados | — (obligatorio) |
+| Alcance | los del juego, si tiene más de uno (HGSS: solo Johto / Johto y Kanto) | el primero (D-029) |
 | Tamaño | 1–6 | 6 |
 | Inicial | ninguno / aleatorio / elegir uno | aleatorio |
 | Tipos | sin repetir / máx. 2 por tipo / libre / monotipo (+ tipo) | sin repetir |
@@ -18,6 +19,8 @@
 | Excluir habituales | lista de especies | vacía (se guarda en local) |
 
 "Tipos" se evalúa sobre la **forma final** del Pokémon.
+
+"Alcance" deja fuera las líneas que no se consiguen y completan dentro de él, y limita los jefes y tramos de la dificultad (D-029).
 
 ## Algoritmo
 
@@ -41,7 +44,7 @@ Cada equipo muestra un indicador **Esfuerzo de captura: bajo / medio / alto**, c
 
 - RNG: `mulberry32`. La semilla se muestra en formato `XXXX-XXXX` (hex).
 - URL: `/{game}?s=7F3A91C2&o=<opciones codificadas>&l=<especies fijadas>&d=<dataVersion>`.
-  - `o`: cadena compacta y versionada (`1-6-r-u-100-a-v-264.286`: versión · tamaño · inicial · regla de tipos · interruptores · dificultad · rareza · excluidos). Implementación en `src/lib/url-state.ts`.
+  - `o`: cadena compacta y versionada (`1-6-r-u-100-a-v-264.286`: versión · tamaño · inicial · regla de tipos · interruptores · dificultad · rareza · excluidos). Con alcance se usa la versión `2` y un noveno campo (`2-6-r-u-100-a-v--kanto`, D-029). Implementación en `src/lib/url-state.ts`.
   - `l`: **ids de especie (forma final) de todo el equipo**, en orden de hueco (D-019). El historial local cambia los pesos del sorteo, así que la semilla sola no reproduciría el equipo en otro dispositivo.
   - `d`: `dataVersion` con la que se creó el enlace, para avisar si los datos cambiaron.
   - Un parámetro que falta toma el valor por defecto; uno mal formado da error, nunca se adivina.

@@ -94,6 +94,26 @@ describe("buildRoute (specs/08)", () => {
   });
 });
 
+describe("buildRoute with a story scope (D-029)", () => {
+  const scoped: RouteData = { ...data, scopes: [{ id: "early", label: "Hasta el 4º gimnasio", until: "gym-3-4" }, { id: "full", label: "Completa", until: "league" }] };
+
+  it("stops at the end of the scope and only offers lines completed inside it", () => {
+    const early = buildRoute(scoped, { ...DEFAULTS, scope: "early" });
+    expect(early.map((s) => s.segment)).toEqual(["pre-gym-1", "gym-1-2", "gym-2-3", "gym-3-4"]);
+    expect(early.at(-1)!.bossIds).toEqual(["gym-4"]);
+    for (const stop of early)
+      for (const c of stop.candidates) {
+        const e = entry(c.finalFormId);
+        expect(r(e.firstAvailable)).toBeLessThanOrEqual(3);
+        for (const step of e.evolution) expect(r(step.segment)).toBeLessThanOrEqual(3);
+      }
+  });
+
+  it("covers the whole story with the wider scope", () => {
+    expect(buildRoute(scoped, { ...DEFAULTS, scope: "full" }).length).toBe(stops.length);
+  });
+});
+
 describe("pickRoute", () => {
   it("is identical with the same seed", () => {
     const a = pickRoute(stops, 777).map((p) => p.picks.map((c) => c.finalFormId));

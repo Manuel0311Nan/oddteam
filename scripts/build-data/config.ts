@@ -10,7 +10,9 @@ export type GameConfig = {
   family: FamilySlug;
   version: string; // PokéAPI version slug
   versionGroup: string; // PokéAPI version-group slug
-  region: string; // PokéAPI region slug
+  region: string; // PokéAPI region slug (the game's own region)
+  /** Other regions the story visits (HGSS: Kanto), whose areas are also read. */
+  extraRegions?: readonly string[];
   pokedexes: readonly string[]; // regional dexes used to list "expected" species
 };
 
@@ -30,6 +32,15 @@ export const GAME_CONFIGS: readonly GameConfig[] = [
     versionGroup: "platinum",
     region: "sinnoh",
     pokedexes: ["extended-sinnoh"],
+  },
+  {
+    slug: "soulsilver",
+    family: "hgss",
+    version: "soulsilver",
+    versionGroup: "heartgold-soulsilver",
+    region: "johto",
+    extraRegions: ["kanto"],
+    pokedexes: ["updated-johto"],
   },
 ];
 

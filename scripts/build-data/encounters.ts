@@ -103,6 +103,7 @@ export const ENCOUNTER_METHOD_KINDS: Readonly<Record<string, MethodKind>> = {
   "devon-scope": "static",
   "wailmer-pail": "static",
   "squirt-bottle": "static",
+  pokeflute: "static", // HGSS: Snorlax woken with the Poké Flute station of the Pokégear
   "npc-trade": "trade-ingame",
   // Roamers
   "roaming-grass": "roaming",

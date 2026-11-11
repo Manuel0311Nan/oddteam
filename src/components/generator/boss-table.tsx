@@ -4,6 +4,7 @@ import { ChevronDown } from "lucide-react";
 import { teamVerdict, type Verdict } from "@/lib/analysis/bosses";
 import type { MoveSource } from "@/lib/analysis/moves";
 import type { ClientGame } from "@/lib/game-data";
+import { bossesInScope, scopeMaxRank } from "@/lib/generator/scope";
 import type { PoolEntry } from "@/lib/types";
 import { TypeBadge } from "./type-badge";
 
@@ -14,7 +15,10 @@ const VERDICT: Record<Verdict, { label: string; className: string }> = {
 };
 
 function kindLabel(id: string, kind: string): string {
-  if (kind === "gym") return `Gimnasio ${id.replace("gym-", "")}`;
+  if (kind === "gym") {
+    const n = /^gym-(\d+)$/.exec(id)?.[1];
+    return n ? `Gimnasio ${n}` : id.startsWith("kanto-") ? "Gimnasio de Kanto" : "Gimnasio";
+  }
   if (kind === "elite-four") return "Alto Mando";
   if (kind === "champion") return "Campeón";
   return "Rival";
@@ -28,7 +32,7 @@ function sourceLabel(source: MoveSource, game: ClientGame): string {
 }
 
 /** "Contra los jefes": verdict per boss and, on demand, moves and TMs per member (specs/04, specs/06). */
-export function BossTable({ team, game }: Readonly<{ team: readonly PoolEntry[]; game: ClientGame }>) {
+export function BossTable({ team, game, scope }: { team: readonly PoolEntry[]; game: ClientGame; scope?: string }) {
   const name = (id: number) => game.species[id]?.name ?? `#${id}`;
 
   return (
@@ -41,7 +45,7 @@ export function BossTable({ team, game }: Readonly<{ team: readonly PoolEntry[];
       </div>
 
       <ul className="flex flex-col">
-        {game.bosses.map((boss) => {
+        {bossesInScope(game.bosses, game.segments, scopeMaxRank(game, scope)).map((boss) => {
           const v = teamVerdict(team, boss, game.matchups);
           const keys = [...new Set(v.answers.filter((x): x is number => x !== null))];
           const level = game.segments.find((s) => s.id === boss.segment)?.expectedLevel;

@@ -63,8 +63,17 @@ function writeLocal(key: string, value: unknown): void {
 
 export function createGeneratorStore(game: ClientGame) {
   const typings = new Map<number, Typing>(Object.values(game.species).map((s) => [s.id, s.typing]));
-  const difficultyData = difficultyDataOf(game);
-  const ctx: GeneratorContext = createContext(game, typings, game.name, (team) => computeDifficulty(team, difficultyData).level);
+  const difficultyData = new Map<string, ReturnType<typeof difficultyDataOf>>();
+  const dataFor = (scope?: string) => {
+    const key = scope ?? "";
+    let d = difficultyData.get(key);
+    if (!d) {
+      d = difficultyDataOf(game, scope);
+      difficultyData.set(key, d);
+    }
+    return d;
+  };
+  const ctx: GeneratorContext = createContext(game, typings, game.name, (team, scope) => computeDifficulty(team, dataFor(scope)).level);
   const byFinal = new Map(game.pool.map((e) => [entryKey(e), e]));
   const historyKey = `oddteam:history:${game.slug}`;
   const excludedKey = `oddteam:excluded:${game.slug}`;

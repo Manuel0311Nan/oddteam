@@ -53,6 +53,15 @@ describe("encodeOptions / decodeOptions", () => {
     }
   });
 
+  it("writes v1 without a scope and v2 with one, round-tripping it (D-029)", () => {
+    expect(encodeOptions(DEFAULT_OPTIONS).startsWith("1-")).toBe(true);
+    const scoped = encodeOptions({ ...custom, scope: "kanto" });
+    expect(scoped.startsWith("2-")).toBe(true);
+    expect(decodeOptions(scoped)).toEqual(normalizeOptions({ ...custom, scope: "kanto" }));
+    expect(decodeOptions(scoped.replace(/kanto$/, "Kan-to"))).toBeNull();
+    expect(decodeOptions(encodeOptions(DEFAULT_OPTIONS).replace(/^1-/, "2-"))).toBeNull();
+  });
+
   it("rejects malformed or unknown versions", () => {
     for (const bad of [
       "",

@@ -234,6 +234,7 @@ type Game = {
   generation: number;           // 3
   region: string;               // "hoenn"
   segments: Segment[];
+  scopes?: GameScope[];         // { id, label, until }: alcances de la historia (D-029)
   pool: PoolEntry[];
   bosses: Boss[];
   tms: TmEntry[];
@@ -287,3 +288,11 @@ type TmEntry = { number: string; moveId: string; where: string; segment: string;
 - `MethodOverride.minRarity`: rareza mínima de todos los encuentros de un método (árboles de miel).
 - `EvolutionChoice.segment`: tramo de las evoluciones que dependen de un lugar.
 - Versión de datos por juego en `games.json`; `meta.json` guarda el hash de todas (D-026).
+
+## Ampliaciones de F9 (HeartGold/SoulSilver)
+
+- `GameConfig.extraRegions`: regiones de PokéAPI que el juego también recorre (HGSS lee Johto y Kanto).
+- `FamilyOverrides.scopes` y `Game.scopes`: alcances de la historia (D-029).
+- `ConditionOverride.minRarity`: rareza mínima por condición, como la de los métodos (árboles especiales de Golpe Cabeza, D-030). Si hay varias, gana la más difícil.
+- Pool: una especie que se captura pero a la que su preevolución no puede llegar en ese juego (Chansey sin la Piedra Oval) entra con su propia línea desde ella.
+- Intercambios del juego: la especie que piden cuenta como obtenible también si se consigue evolucionando (Forretress desde Pineco).

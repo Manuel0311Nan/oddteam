@@ -9,12 +9,21 @@
     "slug": "emerald"
   },
   {
-    "dataVersion": "959bf964",
+    "dataVersion": "0c23a4cc",
     "family": "platinum",
     "generation": 4,
     "name": "Platino",
     "publishable": false,
     "region": "sinnoh",
     "slug": "platinum"
+  },
+  {
+    "dataVersion": "011e5be6",
+    "family": "hgss",
+    "generation": 4,
+    "name": "Plata SoulSilver",
+    "publishable": true,
+    "region": "johto",
+    "slug": "soulsilver"
   }
 ]

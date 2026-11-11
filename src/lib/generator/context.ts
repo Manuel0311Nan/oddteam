@@ -1,4 +1,4 @@
-import type { Difficulty, Game, PoolEntry, Segment, Typing } from "@/lib/types";
+import type { Difficulty, Game, GameScope, PoolEntry, Segment, Typing } from "@/lib/types";
 
 /** Everything the generator needs about one game, independent of React and I/O. */
 export type GeneratorContext = {
@@ -6,19 +6,22 @@ export type GeneratorContext = {
   segments: readonly Segment[];
   pool: readonly PoolEntry[];
   typingOf: (speciesId: number) => Typing;
-  /** Estimated difficulty of a team (specs/05). Without it the difficulty filter is unavailable. */
-  difficultyOf?: (team: readonly PoolEntry[]) => Difficulty;
+  /** Story scopes of the game, if it has more than one (D-029). */
+  scopes?: readonly GameScope[];
+  /** Estimated difficulty of a team in a scope (specs/05). Without it the difficulty filter is unavailable. */
+  difficultyOf?: (team: readonly PoolEntry[], scope?: string) => Difficulty;
 };
 
 export function createContext(
-  game: Pick<Game, "segments" | "pool">,
+  game: Pick<Game, "segments" | "pool" | "scopes">,
   typings: ReadonlyMap<number, Typing>,
   gameName: string,
-  difficultyOf?: (team: readonly PoolEntry[]) => Difficulty,
+  difficultyOf?: (team: readonly PoolEntry[], scope?: string) => Difficulty,
 ): GeneratorContext {
   return {
     gameName,
     difficultyOf,
+    scopes: game.scopes,
     segments: game.segments,
     pool: game.pool,
     typingOf: (id) => {
