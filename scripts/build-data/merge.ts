@@ -28,6 +28,7 @@ import type {
   GameSlug,
   ItemLocation,
   PoolEntry,
+  Rarity,
   Segment,
   TmEntry,
 } from "@/lib/types";
@@ -192,7 +193,11 @@ export function merge(input: MergeInput): MergeOutput {
     const kind: EncounterKind = e.kind === "wild" || e.kind === "gift" || e.kind === "static" || e.kind === "trade-ingame" || e.kind === "roaming" ? e.kind : "static";
     const area = areaById.get(e.locationAreaId);
     // Curated rarity: the special encounter's, else the method's floor if the chance looks easier.
-    const minRarity = family.methods[e.method]?.minRarity;
+    // The hardest floor among the method and the conditions (D-027, D-030).
+    const floors = [family.methods[e.method]?.minRarity, ...e.conditions.map((c) => family.conditions[c]?.minRarity)].filter(
+      (r): r is Rarity => r !== undefined,
+    );
+    const minRarity = floors.reduce<Rarity | undefined>((a, b) => (!a || compareRarity(b, a) > 0 ? b : a), undefined);
     const chanceRarity = kind === "wild" ? encounterRarity({ kind, chance: e.chance }) : undefined;
     const rarity =
       special?.rarity ??
@@ -212,31 +217,6 @@ export function merge(input: MergeInput): MergeOutput {
       rank: r,
       starter: special?.starter ?? false,
     });
-  }
-
-  // In-game trades ("trade-<species>") cannot happen before the species asked for
-  // can be obtained (by any means other than another trade).
-  for (const [speciesId, list] of encountersBySpecies) {
-    for (let i = list.length - 1; i >= 0; i--) {
-      const e = list[i] as (typeof list)[number];
-      if (e.kind !== "trade-ingame") continue;
-      const asked = e.conditions.find((c) => c.startsWith("trade-"))?.slice("trade-".length);
-      if (!asked) continue;
-      const askedId = idBySlug.get(asked);
-      const askedRank =
-        askedId === undefined
-          ? NEVER
-          : Math.min(NEVER, ...(encountersBySpecies.get(askedId) ?? []).filter((x) => x.kind !== "trade-ingame").map((x) => x.rank));
-      if (askedRank === NEVER) {
-        add("warning", "intercambios", `${speciesById.get(speciesId)?.slug}: el intercambio pide ${asked}, que no se obtiene en la historia; se descarta`);
-        list.splice(i, 1);
-        encountersCounted--;
-      } else if (askedRank > e.rank) {
-        e.rank = askedRank;
-        e.segment = segmentAt(askedRank);
-      }
-    }
-    if (list.length === 0) encountersBySpecies.delete(speciesId);
   }
 
   // Extra encounters PokéAPI does not have.
@@ -333,6 +313,36 @@ export function merge(input: MergeInput): MergeOutput {
     }
   }
 
+  // In-game trades ("trade-<species>") cannot happen before the species asked for
+  // can be obtained (by any means other than another trade), caught or evolved.
+  const stepsTo = new Map<number, Step[]>();
+  for (const list of stepsFrom.values()) for (const st of list) stepsTo.set(st.toSpeciesId, [...(stepsTo.get(st.toSpeciesId) ?? []), st]);
+  const obtainRank = (id: number, seen: ReadonlySet<number> = new Set()): number => {
+    if (seen.has(id)) return NEVER;
+    const direct = Math.min(NEVER, ...(encountersBySpecies.get(id) ?? []).filter((x) => x.kind !== "trade-ingame").map((x) => x.rank));
+    const viaEvolution = (stepsTo.get(id) ?? []).map((st) => Math.max(st.rank, obtainRank(st.fromSpeciesId, new Set([...seen, id]))));
+    return Math.min(direct, ...viaEvolution);
+  };
+  for (const [speciesId, list] of encountersBySpecies) {
+    for (let i = list.length - 1; i >= 0; i--) {
+      const e = list[i] as (typeof list)[number];
+      if (e.kind !== "trade-ingame") continue;
+      const asked = e.conditions.find((c) => c.startsWith("trade-"))?.slice("trade-".length);
+      if (!asked) continue;
+      const askedId = idBySlug.get(asked);
+      const askedRank = askedId === undefined ? NEVER : obtainRank(askedId);
+      if (askedRank === NEVER) {
+        add("warning", "intercambios", `${speciesById.get(speciesId)?.slug}: el intercambio pide ${asked}, que no se obtiene en la historia; se descarta`);
+        list.splice(i, 1);
+        encountersCounted--;
+      } else if (askedRank > e.rank) {
+        e.rank = askedRank;
+        e.segment = segmentAt(askedRank);
+      }
+    }
+    if (list.length === 0) encountersBySpecies.delete(speciesId);
+  }
+
   // --- Pool -----------------------------------------------------------------
   const chainOf = new Map<number, number>();
   for (const c of input.chains) {
@@ -347,27 +357,32 @@ export function merge(input: MergeInput): MergeOutput {
   type Path = { nodes: number[]; steps: Step[] };
   const pool: PoolEntry[] = [];
   const seenEntry = new Set<string>();
+  const covered = new Set<number>();
 
   // Walk every line from its base form; emit() trims each path to its lowest
   // directly obtainable form, so evolved forms caught in the wild do not
   // create duplicate entries.
   const starts = new Set<number>(input.chains.map((c) => c.baseSpeciesId));
   for (const id of encountersBySpecies.keys()) if (!chainOf.has(id)) starts.add(id);
-  for (const start of starts) {
-    const walk = (path: Path, noTradeTerminalEmitted: boolean) => {
-      const last = path.nodes[path.nodes.length - 1] as number;
-      const next = stepsFrom.get(last) ?? [];
-      const nonTrade = next.filter((s) => !s.needsTrade);
-      if (next.length === 0) {
-        emit(path);
-        return;
-      }
-      if (nonTrade.length === 0 && !noTradeTerminalEmitted) emit(path); // last form without trading
-      for (const step of next) {
-        walk({ nodes: [...path.nodes, step.toSpeciesId], steps: [...path.steps, step] }, noTradeTerminalEmitted || nonTrade.length === 0);
-      }
-    };
-    walk({ nodes: [start], steps: [] }, false);
+  const walk = (path: Path, noTradeTerminalEmitted: boolean) => {
+    const last = path.nodes[path.nodes.length - 1] as number;
+    const next = stepsFrom.get(last) ?? [];
+    const nonTrade = next.filter((s) => !s.needsTrade);
+    if (next.length === 0) {
+      emit(path);
+      return;
+    }
+    if (nonTrade.length === 0 && !noTradeTerminalEmitted) emit(path); // last form without trading
+    for (const step of next) {
+      walk({ nodes: [...path.nodes, step.toSpeciesId], steps: [...path.steps, step] }, noTradeTerminalEmitted || nonTrade.length === 0);
+    }
+  };
+  for (const start of starts) walk({ nodes: [start], steps: [] }, false);
+  // A species caught directly whose pre-evolution cannot evolve into it in this
+  // game (Chansey without the Oval Stone) is not reached from its line's base:
+  // walk from it too.
+  for (const [id] of encountersBySpecies) {
+    if (directRank(id) < NEVER && !covered.has(id)) walk({ nodes: [id], steps: [] }, false);
   }
 
   function emit(path: Path) {
@@ -377,6 +392,7 @@ export function merge(input: MergeInput): MergeOutput {
     if (firstIdx === -1) return;
     const nodes = path.nodes.slice(firstIdx);
     const steps = path.steps.slice(firstIdx);
+    for (const n of nodes) covered.add(n);
     const base = nodes[0] as number;
     const key = `${base}>${finalId}`;
     if (seenEntry.has(key)) return;
@@ -483,7 +499,13 @@ export function merge(input: MergeInput): MergeOutput {
     bosses,
     tms,
     evolutionItems,
+    ...(family.scopes?.length ? { scopes: family.scopes } : {}),
   };
+  for (const sc of family.scopes ?? []) {
+    if (!rankOf.has(sc.until)) add("error", "tramos", `El alcance "${sc.id}" acaba en un tramo desconocido: ${sc.until}`);
+    // The id travels in the URL, where "-" separates fields (url-state.ts).
+    if (!/^[a-z0-9]+(?:_[a-z0-9]+)*$/.test(sc.id)) add("error", "tramos", `Id de alcance no válido para la URL: "${sc.id}"`);
+  }
 
   const curatedAreas = [...areasWithCounted].filter((a) => locations[a]).length;
   return {

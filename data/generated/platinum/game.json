@@ -10328,7 +10328,7 @@
           ],
           "locationAreaId": "snowpoint-city-north-west-house",
           "method": "npc-trade",
-          "segment": "gym-7-8",
+          "segment": "gym-6-7",
           "unique": false,
           "where": "Ciudad Puntaneva"
         }
@@ -10783,7 +10783,7 @@
           ],
           "locationAreaId": "snowpoint-city-north-west-house",
           "method": "npc-trade",
-          "segment": "gym-7-8",
+          "segment": "gym-6-7",
           "unique": false,
           "where": "Ciudad Puntaneva"
         }

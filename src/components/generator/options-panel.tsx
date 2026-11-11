@@ -29,6 +29,18 @@ export function OptionsPanel({ game, options, onChange, onGenerate, generating =
 
   return (
     <CollapsiblePanel label="Opciones" summary={optionsSummary(game, options)}>
+      {game.scopes && game.scopes.length > 1 ? (
+        <section className="flex flex-col gap-2.5">
+          <Heading>Alcance</Heading>
+          <Segmented
+            label="Alcance de la historia"
+            value={options.scope ?? game.scopes[0]!.id}
+            options={game.scopes.map((sc) => ({ value: sc.id, label: sc.label }))}
+            onChange={(v) => onChange({ scope: v })}
+          />
+        </section>
+      ) : null}
+
       <section className="flex flex-col gap-2.5">
         <Heading>Tamaño del equipo</Heading>
         <Segmented
@@ -205,7 +217,9 @@ export function optionsSummary(game: ClientGame, o: GeneratorOptions): string {
         : o.typeRule.mode === "free"
           ? "tipos libres"
           : `monotipo ${game.typeNames[o.typeRule.type] ?? o.typeRule.type}`;
+  const scope = game.scopes && game.scopes.length > 1 ? (game.scopes.find((sc) => sc.id === o.scope) ?? game.scopes[0])?.label : null;
   return [
+    scope,
     String(o.size),
     starter,
     types,

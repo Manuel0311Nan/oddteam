@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ExcludedPicker } from "@/components/generator/options-panel";
 import { TypeBadge } from "@/components/generator/type-badge";
-import { CollapsiblePanel, Switch } from "@/components/ui/segmented";
+import { CollapsiblePanel, Segmented, Switch } from "@/components/ui/segmented";
 import { buildRoute, pickRoute, type RouteCandidate, type RouteOptions } from "@/lib/analysis/route";
 import type { ClientGame } from "@/lib/game-data";
 import { DEFAULT_OPTIONS, normalizeOptions } from "@/lib/generator/options";
@@ -86,8 +86,9 @@ export function RouteApp({ game }: { game: ClientGame }) {
       allowLegendaries: options.allowLegendaries,
       allowTradeEvolutions: options.allowTradeEvolutions,
       excluded: options.excluded,
+      scope: options.scope,
     }),
-    [options.allowLegendaries, options.allowTradeEvolutions, options.excluded],
+    [options.allowLegendaries, options.allowTradeEvolutions, options.excluded, options.scope],
   );
   const stops = useMemo(
     () => buildRoute({ ...game, statTotalOf: (id) => game.statTotals[id] ?? 0 }, routeOptions),
@@ -124,6 +125,7 @@ export function RouteApp({ game }: { game: ClientGame }) {
         className="w-full lg:w-[340px] lg:shrink-0"
         summary={
           [
+            game.scopes && game.scopes.length > 1 ? (game.scopes.find((sc) => sc.id === options.scope) ?? game.scopes[0])?.label : null,
             options.allowTradeEvolutions ? "con intercambio" : "sin intercambio",
             options.allowLegendaries ? "con legendarios" : "sin legendarios",
             options.excluded.length ? `${options.excluded.length} excluidos` : null,
@@ -132,6 +134,17 @@ export function RouteApp({ game }: { game: ClientGame }) {
             .join(" · ")
         }
       >
+        {game.scopes && game.scopes.length > 1 ? (
+          <section className="flex flex-col gap-2.5">
+            <h2 className="text-[13px] font-bold uppercase tracking-[0.08em] text-muted-foreground">Alcance</h2>
+            <Segmented
+              label="Alcance de la historia"
+              value={options.scope ?? game.scopes[0]!.id}
+              options={game.scopes.map((sc) => ({ value: sc.id, label: sc.label }))}
+              onChange={(v) => change({ scope: v })}
+            />
+          </section>
+        ) : null}
         <section className="flex flex-col gap-1">
           <h2 className="text-[13px] font-bold uppercase tracking-[0.08em] text-muted-foreground">Reglas</h2>
           <Switch

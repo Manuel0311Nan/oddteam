@@ -58,6 +58,8 @@ export type ClientGame = {
   tms: Record<string, Pick<TmEntry, "where" | "segment" | "repeatable" | "moveId">>;
   /** Base stat total of every form used in a battle (difficulty, specs/05). */
   statTotals: Record<number, number>;
+  /** Story scopes, only in games that have them (D-029). */
+  scopes?: Game["scopes"];
 };
 
 export function loadClientGame(slug: string): ClientGame | null {
@@ -157,6 +159,7 @@ export function loadClientGame(slug: string): ClientGame | null {
       game.tms.map((t) => [t.number, { where: t.where, segment: t.segment, repeatable: t.repeatable, moveId: t.moveId }]),
     ),
     statTotals,
+    ...(game.scopes ? { scopes: game.scopes } : {}),
   };
 }
 

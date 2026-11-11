@@ -242,5 +242,11 @@ Pendiente:
 
 Arreglado de paso: versión de datos por juego y `--game` sin borrar otros juegos (D-026).
 
-**HeartGold/SoulSilver y Negro 2/Blanco 2:** pendientes. |
+**Plata SoulSilver (publicable)**:
+- Hecho: alcances «Solo Johto» y «Johto y Kanto» en el generador, la Ruta, la dificultad y la URL (D-029); overrides de las 172 zonas con nombres de WikiDex, las 100 MT/MO, los 21 jefes (8 de Johto, Alto Mando y Lance, 8 de Kanto) con movimientos, métodos, condiciones, encuentros especiales y objetos evolutivos (D-030).
+- Estado: 0 errores y 0 TODO; pool de 165 entradas. Es el primer juego con el validador en verde.
+- Arreglado de paso en el pipeline: líneas que empiezan a mitad de cadena (Chansey) e intercambios que piden una especie evolucionada.
+- Pendiente: 5 equipos de referencia de dificultad y revisión de la Ruta.
+
+**Oro HeartGold y Negro 2/Blanco 2:** pendientes. HeartGold reutiliza la familia `hgss`: solo le falta `versions/heartgold.ts` y su configuración. |
 | F10 | Pendiente |

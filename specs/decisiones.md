@@ -186,3 +186,32 @@ Con estos cambios, en 20 000 equipos por defecto el reparto es: Paseo ~39 %, Nor
 - **Objetos evolutivos.** Solo cuentan los que tienen una ubicación fija en el juego. Se cotejan ruta por ruta con la guía de WikiDex del juego y, si la guía no los menciona, con la ficha del objeto en WikiDex o con Bulbapedia. Excavar en el Subsuelo y los objetos equipados en Pokémon salvajes son aleatorios: se anotan, pero no cuentan. Por eso la Escama Dragón queda excluida en Platino.
 
 **Motivo:** decisión de Manuel. Un equipo válido se consigue jugando ese juego, no trayendo Pokémon de fuera ni dependiendo del azar.
+
+### D-029 · 2026-11-11 · Alcance de la historia: Johto o Johto y Kanto
+**Decisión:** un juego puede tener varios **alcances**, que son hasta dónde se juega la historia. HeartGold y SoulSilver tienen dos:
+- **Solo Johto**, por defecto: hasta el campeón de la Liga;
+- **Johto y Kanto**: sigue por los 8 gimnasios de Kanto y acaba en Rojo.
+
+El alcance es una opción más del generador y de la Ruta, no un juego aparte:
+- Cada alcance acaba en un tramo (`until`). Se declara en `scopes` del override de la familia, y el primero es el de por defecto.
+- Con un alcance, solo entran las líneas que se consiguen **y se completan** dentro de él. Si la forma final necesita un objeto o un lugar de fuera, la línea no cuenta, aunque las primeras formas sí estén.
+- La dificultad, la tabla de combates y la Ruta solo cuentan los tramos y jefes de ese alcance.
+- En la URL, el alcance va como noveno campo de `o`, con la versión `2` del formato. Sin alcance se sigue escribiendo la versión `1`, así que los enlaces de Esmeralda y Platino no cambian. Un enlace `1` abre el alcance por defecto.
+- Los ids de alcance solo llevan minúsculas, cifras y `_`, porque `-` separa los campos de `o`. El validador lo comprueba.
+- Los equipos destacados se calculan con el alcance por defecto.
+
+**Motivo:** Manuel quiere poder generar equipos solo con Pokémon de Johto, sin que el generador proponga algo que no aparece hasta Kanto. Duplicar el juego habría duplicado datos, URL y destacados. Con una opción, todo eso se comparte.
+**Pendiente:** las recomendaciones para Kanto a partir del equipo de Johto quedan como idea para más adelante.
+
+### D-030 · 2026-11-11 · Curación de HeartGold/SoulSilver
+**Decisión:**
+1. **Kanto en un solo tramo.** Los 8 gimnasios de Kanto no tienen orden fijo, así que comparten el tramo `kanto`, que cierra Azul (pide las otras 7 medallas). Su nivel esperado es el del as de Azul − 2. Las MT que dan esos gimnasios no se cuentan para esos combates (quedan como post-juego).
+2. **Lo que pide las 16 medallas** (Cueva Celeste, Ruta 28, Monte Plateado, Treparrocas) queda fuera de los dos alcances, y también Rojo.
+3. **Carpa Pokéathlon.** Su canje por puntos atleta cuenta como ubicación fija de los objetos evolutivos, con su día de la semana. Abre desde el 3er gimnasio. Las piedras que solo canjea con la Pokédex Nacional cuentan desde Kanto. No cuentan: objetos de Pokémon salvajes, regalos por teléfono (llamadas al azar), premios del Concurso de captura de bichos, la Lotería de Ciudad Trigal, el Pokéwalker ni Pokémon Battle Revolution.
+4. **Golpe Cabeza.** Los árboles especiales y secretos tienen rareza mínima «raro»: el juego no indica cuáles son.
+5. **No cuentan:** los fósiles (salen al azar rompiendo rocas), los huevos de Primo (piden palabras que el juego no da), los bloques de la Zona Safari (llegan con la Pokédex Nacional y tardan días), los premios del Casino (D-020) y el Spearow que se presta en Ciudad Trigal.
+6. **Zona Safari** sin bloques: cuenta desde el 7º tramo, cuando ya se pueden hacer los dos retos de Baoba que abren sus zonas.
+7. **Frente Batalla:** abre tras ganar la Liga, así que sus premios cuentan desde Kanto.
+
+**Motivo:** aplicar D-016, D-020 y D-028 a lo que tiene de nuevo HGSS: una segunda región sin orden de gimnasios y muchos objetos que solo se canjean.
+**Confirmado por Manuel (2026-11-11):** la Carpa Pokéathlon cuenta. Sin ella, en Plata SoulSilver no hay ninguna Piedra Trueno con ubicación fija y Raichu o Jolteon no saldrían.

@@ -145,8 +145,10 @@ async function buildGame(
   log(`  grupo ${vg.name} · Gen ${generation} · orden ${vg.order}`);
 
   // Locations and wild encounters of this version.
-  const region = await byName<ApiRegion>(client, "region", config.region);
-  const locations = await Promise.all(region.locations.map((l) => client.get<ApiLocation>(l.url)));
+  const regions = await Promise.all(
+    [config.region, ...(config.extraRegions ?? [])].map((r) => byName<ApiRegion>(client, "region", r)),
+  );
+  const locations = await Promise.all(regions.flatMap((r) => r.locations).map((l) => client.get<ApiLocation>(l.url)));
   const areaRefs = locations.flatMap((l) => l.areas.map((a) => ({ location: l, url: a.url })));
   const areasRaw = await Promise.all(areaRefs.map((a) => client.get<ApiLocationArea>(a.url)));
   log(`  ${locations.length} ubicaciones · ${areasRaw.length} zonas en la región`);

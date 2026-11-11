@@ -1,0 +1,1206 @@
+[
+  {
+    "hasSpanishName": false,
+    "id": "azalea-town-area",
+    "location": "azalea-town",
+    "name": "Azalea Town",
+    "nameEn": "Azalea Town"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "bell-tower-10f",
+    "location": "bell-tower",
+    "name": "Bell Tower",
+    "nameEn": "Bell Tower (Bell Tower (10F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "bell-tower-2f",
+    "location": "bell-tower",
+    "name": "Bell Tower",
+    "nameEn": "Bell Tower (Bell Tower (2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "bell-tower-3f",
+    "location": "bell-tower",
+    "name": "Bell Tower",
+    "nameEn": "Bell Tower (Bell Tower (3F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "bell-tower-4f",
+    "location": "bell-tower",
+    "name": "Bell Tower",
+    "nameEn": "Bell Tower (Bell Tower (4F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "bell-tower-5f",
+    "location": "bell-tower",
+    "name": "Bell Tower",
+    "nameEn": "Bell Tower (Bell Tower (5F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "bell-tower-6f",
+    "location": "bell-tower",
+    "name": "Bell Tower",
+    "nameEn": "Bell Tower (Bell Tower (6F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "bell-tower-7f",
+    "location": "bell-tower",
+    "name": "Bell Tower",
+    "nameEn": "Bell Tower (Bell Tower (7F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "bell-tower-8f",
+    "location": "bell-tower",
+    "name": "Bell Tower",
+    "nameEn": "Bell Tower (Bell Tower (8F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "bell-tower-9f",
+    "location": "bell-tower",
+    "name": "Bell Tower",
+    "nameEn": "Bell Tower (Bell Tower (9F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "bell-tower-roof",
+    "location": "bell-tower",
+    "name": "Bell Tower",
+    "nameEn": "Bell Tower (Bell Tower (roof))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "blackthorn-city-area",
+    "location": "blackthorn-city",
+    "name": "Blackthorn City",
+    "nameEn": "Blackthorn City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "burned-tower-1f",
+    "location": "burned-tower",
+    "name": "Burned Tower",
+    "nameEn": "Burned Tower (Burned Tower (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "burned-tower-b1f",
+    "location": "burned-tower",
+    "name": "Burned Tower",
+    "nameEn": "Burned Tower (Burned Tower (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "celadon-city-area",
+    "location": "celadon-city",
+    "name": "Celadon City",
+    "nameEn": "Celadon City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "celadon-city-prize-corner",
+    "location": "celadon-city",
+    "name": "Celadon City",
+    "nameEn": "Celadon City (Celadon City Prize Corner)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "cerulean-cave-1f",
+    "location": "cerulean-cave",
+    "name": "Cerulean Cave",
+    "nameEn": "Cerulean Cave (Cerulean Cave (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "cerulean-cave-2f",
+    "location": "cerulean-cave",
+    "name": "Cerulean Cave",
+    "nameEn": "Cerulean Cave (Cerulean Cave (2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "cerulean-cave-b1f",
+    "location": "cerulean-cave",
+    "name": "Cerulean Cave",
+    "nameEn": "Cerulean Cave (Cerulean Cave (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "cerulean-city-area",
+    "location": "cerulean-city",
+    "name": "Cerulean City",
+    "nameEn": "Cerulean City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "cherrygrove-city-area",
+    "location": "cherrygrove-city",
+    "name": "Cherrygrove City",
+    "nameEn": "Cherrygrove City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "cianwood-city-area",
+    "location": "cianwood-city",
+    "name": "Cianwood City",
+    "nameEn": "Cianwood City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "cianwood-city-kirks-house",
+    "location": "cianwood-city",
+    "name": "Cianwood City",
+    "nameEn": "Cianwood City (Cianwood City (Kirk's house))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "cianwood-city-pokemon-center",
+    "location": "cianwood-city",
+    "name": "Cianwood City",
+    "nameEn": "Cianwood City (Pokemon Center (Cianwood City))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "cinnabar-island-area",
+    "location": "cinnabar-island",
+    "name": "Cinnabar Island",
+    "nameEn": "Cinnabar Island"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "dark-cave-blackthorn-city-entrance",
+    "location": "dark-cave",
+    "name": "Dark Cave",
+    "nameEn": "Dark Cave (Dark Cave (Blackthorn City entrance))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "dark-cave-violet-city-entrance",
+    "location": "dark-cave",
+    "name": "Dark Cave",
+    "nameEn": "Dark Cave (Dark Cave (Violet City entrance))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "digletts-cave-area",
+    "location": "digletts-cave",
+    "name": "Diglett's Cave",
+    "nameEn": "Diglett's Cave (Digletts Cave)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "dragons-den-area",
+    "location": "dragons-den",
+    "name": "Dragon's Den",
+    "nameEn": "Dragon's Den"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "ecruteak-city-area",
+    "location": "ecruteak-city",
+    "name": "Ecruteak City",
+    "nameEn": "Ecruteak City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "embedded-tower-groundon-room",
+    "location": "embedded-tower",
+    "name": "Embedded Tower",
+    "nameEn": "Embedded Tower (Embedded Tower (Groudon’s room))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "embedded-tower-rayquaza-room",
+    "location": "embedded-tower",
+    "name": "Embedded Tower",
+    "nameEn": "Embedded Tower (Embedded Tower (Rayquaza’s room))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "fuchsia-city-area",
+    "location": "fuchsia-city",
+    "name": "Fuchsia City",
+    "nameEn": "Fuchsia City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "goldenrod-city-bills-house",
+    "location": "goldenrod-city",
+    "name": "Goldenrod City",
+    "nameEn": "Goldenrod City (Goldenrod City (Bill's house))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "goldenrod-city-department-store-5f",
+    "location": "goldenrod-city",
+    "name": "Goldenrod City",
+    "nameEn": "Goldenrod City (Goldenrod City Department Store 5F)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "goldenrod-city-game-corner",
+    "location": "goldenrod-city",
+    "name": "Goldenrod City",
+    "nameEn": "Goldenrod City (Goldenrod City Game Corner)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "goldenrod-city-north-gate",
+    "location": "goldenrod-city",
+    "name": "Goldenrod City",
+    "nameEn": "Goldenrod City (Goldenrod City (north gate))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "ice-path-1f",
+    "location": "ice-path",
+    "name": "Ice Path",
+    "nameEn": "Ice Path (Ice Path (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "ice-path-b1f",
+    "location": "ice-path",
+    "name": "Ice Path",
+    "nameEn": "Ice Path (Ice Path (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "ice-path-b2f",
+    "location": "ice-path",
+    "name": "Ice Path",
+    "nameEn": "Ice Path (Ice Path (B2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "ice-path-b3f",
+    "location": "ice-path",
+    "name": "Ice Path",
+    "nameEn": "Ice Path (Ice Path (B3F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "ilex-forest-area",
+    "location": "ilex-forest",
+    "name": "Ilex Forest",
+    "nameEn": "Ilex Forest"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-pokemart-area",
+    "location": "johto-pokemart",
+    "name": "johto-pokemart",
+    "nameEn": "johto-pokemart"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-route-29-area",
+    "location": "johto-route-29",
+    "name": "Route 29",
+    "nameEn": "Route 29 (Road 29)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-route-30-area",
+    "location": "johto-route-30",
+    "name": "Route 30",
+    "nameEn": "Route 30 (Road 30)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-route-31-area",
+    "location": "johto-route-31",
+    "name": "Route 31",
+    "nameEn": "Route 31 (Road 31)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-route-32-area",
+    "location": "johto-route-32",
+    "name": "Route 32",
+    "nameEn": "Route 32 (Road 32)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-route-33-area",
+    "location": "johto-route-33",
+    "name": "Route 33",
+    "nameEn": "Route 33 (Road 33)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-route-34-area",
+    "location": "johto-route-34",
+    "name": "Route 34",
+    "nameEn": "Route 34 (Road 34)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-route-35-area",
+    "location": "johto-route-35",
+    "name": "Route 35",
+    "nameEn": "Route 35 (Road 35)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-route-36-area",
+    "location": "johto-route-36",
+    "name": "Route 36",
+    "nameEn": "Route 36 (Road 36)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-route-37-area",
+    "location": "johto-route-37",
+    "name": "Route 37",
+    "nameEn": "Route 37 (Road 37)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-route-38-area",
+    "location": "johto-route-38",
+    "name": "Route 38",
+    "nameEn": "Route 38 (Road 38)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-route-39-area",
+    "location": "johto-route-39",
+    "name": "Route 39",
+    "nameEn": "Route 39 (Road 39)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-route-42-area",
+    "location": "johto-route-42",
+    "name": "Route 42",
+    "nameEn": "Route 42 (Road 42)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-route-43-area",
+    "location": "johto-route-43",
+    "name": "Route 43",
+    "nameEn": "Route 43 (Road 43)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-route-44-area",
+    "location": "johto-route-44",
+    "name": "Route 44",
+    "nameEn": "Route 44 (Road 44)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-route-45-area",
+    "location": "johto-route-45",
+    "name": "Route 45",
+    "nameEn": "Route 45 (Road 45)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-route-46-area",
+    "location": "johto-route-46",
+    "name": "Route 46",
+    "nameEn": "Route 46 (Road 46)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-route-47-area",
+    "location": "johto-route-47",
+    "name": "Route 47",
+    "nameEn": "Route 47 (Road 47)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-route-47-cave-gate",
+    "location": "johto-route-47",
+    "name": "Route 47",
+    "nameEn": "Route 47 (Road 47 (cave gate))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-route-47-inside-cave",
+    "location": "johto-route-47",
+    "name": "Route 47",
+    "nameEn": "Route 47 (Road 47 (inside cave))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-route-48-area",
+    "location": "johto-route-48",
+    "name": "Route 48",
+    "nameEn": "Route 48 (Road 48)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-safari-zone-desert",
+    "location": "johto-safari-zone",
+    "name": "Johto Safari Zone",
+    "nameEn": "Johto Safari Zone (Safari Zone Desert)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-safari-zone-forest",
+    "location": "johto-safari-zone",
+    "name": "Johto Safari Zone",
+    "nameEn": "Johto Safari Zone (Safari Zone Forest)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-safari-zone-marshland",
+    "location": "johto-safari-zone",
+    "name": "Johto Safari Zone",
+    "nameEn": "Johto Safari Zone (Safari Zone Marshland)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-safari-zone-meadow",
+    "location": "johto-safari-zone",
+    "name": "Johto Safari Zone",
+    "nameEn": "Johto Safari Zone (Safari Zone Meadow)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-safari-zone-mountain",
+    "location": "johto-safari-zone",
+    "name": "Johto Safari Zone",
+    "nameEn": "Johto Safari Zone (Safari Zone Mountain)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-safari-zone-peak",
+    "location": "johto-safari-zone",
+    "name": "Johto Safari Zone",
+    "nameEn": "Johto Safari Zone (Safari Zone Peak)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-safari-zone-plains",
+    "location": "johto-safari-zone",
+    "name": "Johto Safari Zone",
+    "nameEn": "Johto Safari Zone (Safari Zone Plains)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-safari-zone-rocky-beach",
+    "location": "johto-safari-zone",
+    "name": "Johto Safari Zone",
+    "nameEn": "Johto Safari Zone (Safari Zone Rocky Beach)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-safari-zone-savannah",
+    "location": "johto-safari-zone",
+    "name": "Johto Safari Zone",
+    "nameEn": "Johto Safari Zone (Safari Zone Savannah)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-safari-zone-swamp",
+    "location": "johto-safari-zone",
+    "name": "Johto Safari Zone",
+    "nameEn": "Johto Safari Zone (Safari Zone Swamp)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-safari-zone-wasteland",
+    "location": "johto-safari-zone",
+    "name": "Johto Safari Zone",
+    "nameEn": "Johto Safari Zone (Safari Zone Wasteland)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-safari-zone-wetland",
+    "location": "johto-safari-zone",
+    "name": "Johto Safari Zone",
+    "nameEn": "Johto Safari Zone (Safari Zone Wetland)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-sea-route-40-area",
+    "location": "johto-sea-route-40",
+    "name": "Sea Route 40",
+    "nameEn": "Sea Route 40 (Road 40)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "johto-sea-route-41-area",
+    "location": "johto-sea-route-41",
+    "name": "Sea Route 41",
+    "nameEn": "Sea Route 41 (Road 41)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-power-plant-area",
+    "location": "kanto-power-plant",
+    "name": "Kanto Power Plant",
+    "nameEn": "Kanto Power Plant (Power Plant)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-1-area",
+    "location": "kanto-route-1",
+    "name": "Route 1",
+    "nameEn": "Route 1 (Road 1)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-10-area",
+    "location": "kanto-route-10",
+    "name": "Route 10",
+    "nameEn": "Route 10 (Road 10)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-11-area",
+    "location": "kanto-route-11",
+    "name": "Route 11",
+    "nameEn": "Route 11 (Road 11)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-12-area",
+    "location": "kanto-route-12",
+    "name": "Route 12",
+    "nameEn": "Route 12 (Road 12)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-13-area",
+    "location": "kanto-route-13",
+    "name": "Route 13",
+    "nameEn": "Route 13 (Road 13)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-14-area",
+    "location": "kanto-route-14",
+    "name": "Route 14",
+    "nameEn": "Route 14 (Road 14)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-15-area",
+    "location": "kanto-route-15",
+    "name": "Route 15",
+    "nameEn": "Route 15 (Road 15)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-16-area",
+    "location": "kanto-route-16",
+    "name": "Route 16",
+    "nameEn": "Route 16 (Road 16)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-17-area",
+    "location": "kanto-route-17",
+    "name": "Route 17",
+    "nameEn": "Route 17 (Road 17)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-18-area",
+    "location": "kanto-route-18",
+    "name": "Route 18",
+    "nameEn": "Route 18 (Road 18)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-2-north-towards-pewter-city",
+    "location": "kanto-route-2",
+    "name": "Route 2",
+    "nameEn": "Route 2 (Road 2 (north, towards Pewter City))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-2-south-towards-viridian-city",
+    "location": "kanto-route-2",
+    "name": "Route 2",
+    "nameEn": "Route 2 (Road 2 (south, towards Viridian City))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-22-area",
+    "location": "kanto-route-22",
+    "name": "Route 22",
+    "nameEn": "Route 22 (Road 22)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-24-area",
+    "location": "kanto-route-24",
+    "name": "Route 24",
+    "nameEn": "Route 24 (Road 24)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-25-area",
+    "location": "kanto-route-25",
+    "name": "Route 25",
+    "nameEn": "Route 25 (Road 25)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-26-area",
+    "location": "kanto-route-26",
+    "name": "Route 26",
+    "nameEn": "Route 26 (Road 26)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-27-area",
+    "location": "kanto-route-27",
+    "name": "Route 27",
+    "nameEn": "Route 27 (Road 27)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-28-area",
+    "location": "kanto-route-28",
+    "name": "Route 28",
+    "nameEn": "Route 28 (Road 28)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-3-area",
+    "location": "kanto-route-3",
+    "name": "Route 3",
+    "nameEn": "Route 3 (Road 3)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-4-area",
+    "location": "kanto-route-4",
+    "name": "Route 4",
+    "nameEn": "Route 4 (Road 4)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-5-area",
+    "location": "kanto-route-5",
+    "name": "Route 5",
+    "nameEn": "Route 5 (Road 5)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-6-area",
+    "location": "kanto-route-6",
+    "name": "Route 6",
+    "nameEn": "Route 6 (Road 6)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-7-area",
+    "location": "kanto-route-7",
+    "name": "Route 7",
+    "nameEn": "Route 7 (Road 7)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-8-area",
+    "location": "kanto-route-8",
+    "name": "Route 8",
+    "nameEn": "Route 8 (Road 8)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-9-area",
+    "location": "kanto-route-9",
+    "name": "Route 9",
+    "nameEn": "Route 9 (Road 9)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-sea-route-19-area",
+    "location": "kanto-sea-route-19",
+    "name": "Sea Route 19",
+    "nameEn": "Sea Route 19 (Road 19)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-sea-route-20-area",
+    "location": "kanto-sea-route-20",
+    "name": "Sea Route 20",
+    "nameEn": "Sea Route 20 (Road 20)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-sea-route-21-area",
+    "location": "kanto-sea-route-21",
+    "name": "Sea Route 21",
+    "nameEn": "Sea Route 21 (Road 21)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-victory-road-1-1f",
+    "location": "kanto-victory-road-1",
+    "name": "Victory Road",
+    "nameEn": "Victory Road (Victory Road 1 (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-victory-road-1-2f",
+    "location": "kanto-victory-road-1",
+    "name": "Victory Road",
+    "nameEn": "Victory Road (Victory Road 1 (2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-victory-road-1-3f",
+    "location": "kanto-victory-road-1",
+    "name": "Victory Road",
+    "nameEn": "Victory Road (Victory Road 1 (3F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lake-of-rage-area",
+    "location": "lake-of-rage",
+    "name": "Lake of Rage",
+    "nameEn": "Lake of Rage"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-moon-1f",
+    "location": "mt-moon",
+    "name": "Mt. Moon",
+    "nameEn": "Mt. Moon (Mount Moon (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-moon-2f",
+    "location": "mt-moon",
+    "name": "Mt. Moon",
+    "nameEn": "Mt. Moon (Mount Moon (2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-moon-mt-moon-square",
+    "location": "mt-moon",
+    "name": "Mt. Moon",
+    "nameEn": "Mt. Moon (Mount Moon Square)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-mortar-1f",
+    "location": "mt-mortar",
+    "name": "Mt. Mortar",
+    "nameEn": "Mt. Mortar (Mount Mortar (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-mortar-b1f",
+    "location": "mt-mortar",
+    "name": "Mt. Mortar",
+    "nameEn": "Mt. Mortar (Mount Mortar (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-mortar-lower-cave",
+    "location": "mt-mortar",
+    "name": "Mt. Mortar",
+    "nameEn": "Mt. Mortar (Mount Mortar (Lower Cave))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-mortar-upper-cave",
+    "location": "mt-mortar",
+    "name": "Mt. Mortar",
+    "nameEn": "Mt. Mortar (Mount Mortar (Upper Cave))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-silver-1f",
+    "location": "mt-silver",
+    "name": "Mt. Silver",
+    "nameEn": "Mt. Silver (Mount Silver (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-silver-1f-top",
+    "location": "mt-silver",
+    "name": "Mt. Silver",
+    "nameEn": "Mt. Silver (Mount Silver (1F top))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-silver-2f",
+    "location": "mt-silver",
+    "name": "Mt. Silver",
+    "nameEn": "Mt. Silver (Mount Silver (2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-silver-3f",
+    "location": "mt-silver",
+    "name": "Mt. Silver",
+    "nameEn": "Mt. Silver (Mount Silver (3F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-silver-4f",
+    "location": "mt-silver",
+    "name": "Mt. Silver",
+    "nameEn": "Mt. Silver (Mount Silver (4F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-silver-mountainside",
+    "location": "mt-silver",
+    "name": "Mt. Silver",
+    "nameEn": "Mt. Silver (Mount Silver (mountainside))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-silver-outside",
+    "location": "mt-silver",
+    "name": "Mt. Silver",
+    "nameEn": "Mt. Silver (Mount Silver (outside))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-silver-top",
+    "location": "mt-silver",
+    "name": "Mt. Silver",
+    "nameEn": "Mt. Silver (Mount Silver (top))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "national-park-area",
+    "location": "national-park",
+    "name": "National Park",
+    "nameEn": "National Park"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "new-bark-town-area",
+    "location": "new-bark-town",
+    "name": "New Bark Town",
+    "nameEn": "New Bark Town"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "olivine-city-area",
+    "location": "olivine-city",
+    "name": "Olivine City",
+    "nameEn": "Olivine City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "olivine-city-gym",
+    "location": "olivine-city",
+    "name": "Olivine City",
+    "nameEn": "Olivine City (Olivine City Gym)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "pallet-town-area",
+    "location": "pallet-town",
+    "name": "Pallet Town",
+    "nameEn": "Pallet Town"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "pewter-city-area",
+    "location": "pewter-city",
+    "name": "Pewter City",
+    "nameEn": "Pewter City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "pewter-city-pewter-museum-of-science",
+    "location": "pewter-city",
+    "name": "Pewter City",
+    "nameEn": "Pewter City (Pewter Museum of Science)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "roaming-johto-area",
+    "location": "roaming-johto",
+    "name": "Roaming Johto",
+    "nameEn": "Roaming Johto (Wandert durch Johto)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "rock-tunnel-1f",
+    "location": "rock-tunnel",
+    "name": "Rock Tunnel",
+    "nameEn": "Rock Tunnel (Rock Tunnel (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "rock-tunnel-b1f",
+    "location": "rock-tunnel",
+    "name": "Rock Tunnel",
+    "nameEn": "Rock Tunnel (Rock Tunnel (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "ruins-of-alph-interior-a",
+    "location": "ruins-of-alph",
+    "name": "Ruins of Alph",
+    "nameEn": "Ruins of Alph (Ruins of Alph (interior A))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "ruins-of-alph-interior-b",
+    "location": "ruins-of-alph",
+    "name": "Ruins of Alph",
+    "nameEn": "Ruins of Alph (Ruins of Alph (interior B))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "ruins-of-alph-interior-c",
+    "location": "ruins-of-alph",
+    "name": "Ruins of Alph",
+    "nameEn": "Ruins of Alph (Ruins of Alph (interior C))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "ruins-of-alph-interior-d",
+    "location": "ruins-of-alph",
+    "name": "Ruins of Alph",
+    "nameEn": "Ruins of Alph (Ruins of Alph (interior D))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "ruins-of-alph-outside",
+    "location": "ruins-of-alph",
+    "name": "Ruins of Alph",
+    "nameEn": "Ruins of Alph (Ruins of Alph (outside))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "safari-zone-gate-area",
+    "location": "safari-zone-gate",
+    "name": "Safari Zone Gate",
+    "nameEn": "Safari Zone Gate"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "saffron-city-magnet-train-station",
+    "location": "saffron-city",
+    "name": "Saffron City",
+    "nameEn": "Saffron City (Saffron City Magnet Train Station)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "saffron-city-silph-co",
+    "location": "saffron-city",
+    "name": "Saffron City",
+    "nameEn": "Saffron City (Silph Co.)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "seafoam-islands-1f",
+    "location": "seafoam-islands",
+    "name": "Seafoam Islands",
+    "nameEn": "Seafoam Islands (Seafoam Islands (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "seafoam-islands-b1f",
+    "location": "seafoam-islands",
+    "name": "Seafoam Islands",
+    "nameEn": "Seafoam Islands (Seafoam Islands (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "seafoam-islands-b2f",
+    "location": "seafoam-islands",
+    "name": "Seafoam Islands",
+    "nameEn": "Seafoam Islands (Seafoam Islands (B2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "seafoam-islands-b3f",
+    "location": "seafoam-islands",
+    "name": "Seafoam Islands",
+    "nameEn": "Seafoam Islands (Seafoam Islands (B3F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "seafoam-islands-b4f",
+    "location": "seafoam-islands",
+    "name": "Seafoam Islands",
+    "nameEn": "Seafoam Islands (Seafoam Islands (B4F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sinjoh-ruins-area",
+    "location": "sinjoh-ruins",
+    "name": "Sinjoh Ruins",
+    "nameEn": "Sinjoh Ruins (Sinjoy Ruins)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "slowpoke-well-1f",
+    "location": "slowpoke-well",
+    "name": "Slowpoke Well",
+    "nameEn": "Slowpoke Well (Slowpoke Well (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "slowpoke-well-b1f",
+    "location": "slowpoke-well",
+    "name": "Slowpoke Well",
+    "nameEn": "Slowpoke Well (Slowpoke Well (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sprout-tower-2f",
+    "location": "sprout-tower",
+    "name": "Sprout Tower",
+    "nameEn": "Sprout Tower (Sprout Tower (2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sprout-tower-3f",
+    "location": "sprout-tower",
+    "name": "Sprout Tower",
+    "nameEn": "Sprout Tower (Sprout Tower (3F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "team-rocket-hq-area",
+    "location": "team-rocket-hq",
+    "name": "Team Rocket HQ",
+    "nameEn": "Team Rocket HQ"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "tohjo-falls-area",
+    "location": "tohjo-falls",
+    "name": "Tohjo Falls",
+    "nameEn": "Tohjo Falls"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "union-cave-1f",
+    "location": "union-cave",
+    "name": "Union Cave",
+    "nameEn": "Union Cave (Union Cave (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "union-cave-b1f",
+    "location": "union-cave",
+    "name": "Union Cave",
+    "nameEn": "Union Cave (Union Cave (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "union-cave-b2f",
+    "location": "union-cave",
+    "name": "Union Cave",
+    "nameEn": "Union Cave (Union Cave (B2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "unknown-all-bugs-area",
+    "location": "unknown-all-bugs",
+    "name": "Unknown; all bugs",
+    "nameEn": "Unknown; all bugs (Unknown Area; all bugs)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "unknown-all-poliwag-area",
+    "location": "unknown-all-poliwag",
+    "name": "Unknown; all Poliwag",
+    "nameEn": "Unknown; all Poliwag (Unknown Area; all Poliwag)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "unknown-all-rattata-area",
+    "location": "unknown-all-rattata",
+    "name": "Unknown; all Rattata",
+    "nameEn": "Unknown; all Rattata (Unknown Area; all Rattata)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "vermilion-city-area",
+    "location": "vermilion-city",
+    "name": "Vermilion City",
+    "nameEn": "Vermilion City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "vermilion-city-ss-anne-dock",
+    "location": "vermilion-city",
+    "name": "Vermilion City",
+    "nameEn": "Vermilion City (S.S. Anne dock)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "violet-city-area",
+    "location": "violet-city",
+    "name": "Violet City",
+    "nameEn": "Violet City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "violet-city-poke-mart",
+    "location": "violet-city",
+    "name": "Violet City",
+    "nameEn": "Violet City (Violet City (Poke Mart))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "violet-city-pokemon-center",
+    "location": "violet-city",
+    "name": "Violet City",
+    "nameEn": "Violet City (Violet City (Pokemon Center))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "viridian-city-area",
+    "location": "viridian-city",
+    "name": "Viridian City",
+    "nameEn": "Viridian City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "viridian-forest-area",
+    "location": "viridian-forest",
+    "name": "Viridian Forest",
+    "nameEn": "Viridian Forest"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "whirl-islands-1f",
+    "location": "whirl-islands",
+    "name": "Whirl Islands",
+    "nameEn": "Whirl Islands (Whirl Islands (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "whirl-islands-b1f",
+    "location": "whirl-islands",
+    "name": "Whirl Islands",
+    "nameEn": "Whirl Islands (Whirl Islands (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "whirl-islands-b2f",
+    "location": "whirl-islands",
+    "name": "Whirl Islands",
+    "nameEn": "Whirl Islands (Whirl Islands (B2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "whirl-islands-b3f",
+    "location": "whirl-islands",
+    "name": "Whirl Islands",
+    "nameEn": "Whirl Islands (Whirl Islands (B3F))"
+  }
+]

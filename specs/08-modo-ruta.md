@@ -29,7 +29,7 @@ La Ruta **no tiene estado de partida**: es la misma para cualquier jugador con l
 
 ## Paradas
 
-Una parada por tramo de `Game.segments`, en orden. Cada parada tiene:
+Una parada por tramo de `Game.segments`, en orden, hasta el último tramo del alcance elegido (D-029). Los candidatos son solo líneas que se completan dentro del alcance. Cada parada tiene:
 
 - `segment`: el tramo.
 - `nextBoss`: el primer jefe cuyo tramo es ≥ al de la parada. El tramo de la Liga agrupa Alto Mando y campeón.

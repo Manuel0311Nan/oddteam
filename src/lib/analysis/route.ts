@@ -7,7 +7,8 @@
  */
 
 import { createRng, deriveSeed, type Seed } from "@/lib/rng";
-import type { Boss, Encounter, GeneratorOptions, PoolEntry, Rarity, Segment, TmEntry, TypeName } from "@/lib/types";
+import { bossesInScope, entryInScope, scopeMaxRank } from "@/lib/generator/scope";
+import type { Boss, Encounter, GameScope, GeneratorOptions, PoolEntry, Rarity, Segment, TmEntry, TypeName } from "@/lib/types";
 import type { Matchups } from "./bosses";
 import {
   effectiveThreshold,
@@ -77,10 +78,11 @@ export type RouteData = {
   matchups: Matchups;
   statTotalOf: (speciesId: number) => number;
   tms: Readonly<Record<string, Pick<TmEntry, "where" | "segment" | "repeatable" | "moveId">>>;
+  scopes?: readonly GameScope[];
 };
 
 /** Hard options of the route: legendaries, trade evolutions and excluded species (specs/08). */
-export type RouteOptions = Pick<GeneratorOptions, "allowLegendaries" | "allowTradeEvolutions" | "excluded">;
+export type RouteOptions = Pick<GeneratorOptions, "allowLegendaries" | "allowTradeEvolutions" | "excluded" | "scope">;
 
 const clamp = (x: number, lo = 0, hi = 100) => Math.max(lo, Math.min(hi, x));
 const round = (x: number) => Math.round(x);
@@ -96,14 +98,17 @@ export function passesRouteOptions(entry: PoolEntry, options: RouteOptions): boo
 }
 
 export function buildRoute(data: RouteData, options: RouteOptions): RouteStop[] {
-  const order = new Map(data.segments.map((s) => [s.id, s.order]));
+  // Story scope (D-029): only its segments, its bosses and lines completed inside it.
+  const maxRank = scopeMaxRank(data, options.scope);
+  const segments = data.segments.filter((s) => s.order <= maxRank);
+  const order = new Map(segments.map((s) => [s.id, s.order]));
   const rankOf = (id: string) => order.get(id) ?? Number.POSITIVE_INFINITY;
-  const lastOrder = Math.max(1, ...data.segments.map((s) => s.order));
-  const bossesByRank = [...data.bosses].sort((a, b) => rankOf(a.segment) - rankOf(b.segment));
-  const pool = data.pool.filter((e) => passesRouteOptions(e, options));
+  const lastOrder = Math.max(1, ...segments.map((s) => s.order));
+  const bossesByRank = bossesInScope(data.bosses, data.segments, maxRank).sort((a, b) => rankOf(a.segment) - rankOf(b.segment));
+  const pool = data.pool.filter((e) => passesRouteOptions(e, options) && entryInScope(e, data.segments, maxRank));
 
   const stops: RouteStop[] = [];
-  for (const segment of [...data.segments].sort((a, b) => a.order - b.order)) {
+  for (const segment of [...segments].sort((a, b) => a.order - b.order)) {
     const rank = segment.order;
     const nextRank = Math.min(...bossesByRank.filter((b) => rankOf(b.segment) >= rank).map((b) => rankOf(b.segment)));
     if (!Number.isFinite(nextRank)) continue; // nothing left to fight (post-game)

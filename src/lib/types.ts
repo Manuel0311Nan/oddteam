@@ -203,6 +203,17 @@ export type ItemLocation = {
 // Game data bundle
 // ---------------------------------------------------------------------------
 
+/**
+ * How much of the story a team covers, for games whose story continues after
+ * the League (HGSS: Johto, then Kanto). The first scope is the default (D-029).
+ */
+export type GameScope = {
+  id: string; // "johto", "johto-kanto"
+  label: string; // "Solo Johto"
+  /** Last segment included (inclusive). */
+  until: string;
+};
+
 export type Game = {
   slug: GameSlug;
   family: FamilySlug;
@@ -215,6 +226,8 @@ export type Game = {
   bosses: readonly Boss[];
   tms: readonly TmEntry[];
   evolutionItems: readonly ItemLocation[];
+  /** Only in games with more than one scope (D-029). */
+  scopes?: readonly GameScope[];
 };
 
 // ---------------------------------------------------------------------------
@@ -252,4 +265,6 @@ export type GeneratorOptions = {
   difficulty: DifficultyFilter;
   rarity: RarityFilter;
   excluded: readonly number[]; // species ids, sorted and unique
+  /** GameScope id; undefined = the game's default (first) scope (D-029). */
+  scope?: string;
 };
