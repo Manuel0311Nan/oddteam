@@ -1,5 +1,23 @@
 [
   {
+    "dataVersion": "47237a1a",
+    "family": "frlg",
+    "generation": 3,
+    "name": "Rojo Fuego",
+    "publishable": true,
+    "region": "kanto",
+    "slug": "firered"
+  },
+  {
+    "dataVersion": "cce23f42",
+    "family": "frlg",
+    "generation": 3,
+    "name": "Verde Hoja",
+    "publishable": true,
+    "region": "kanto",
+    "slug": "leafgreen"
+  },
+  {
     "dataVersion": "787fa0ad",
     "family": "emerald",
     "generation": 3,

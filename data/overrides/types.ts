@@ -92,6 +92,8 @@ export type BossOverride = Sourced & {
   /** Segment in which the battle happens (the one it closes). */
   segment: string;
   rewardTm?: string;
+  /** Variant fought only if the player chose this starter (species slug, D-032). */
+  ifStarter?: string;
   team: readonly { species: string; level: number; heldItem?: string; moves: readonly string[] }[];
 };
 
@@ -116,6 +118,11 @@ export type FamilyOverrides = {
   tms: Readonly<Record<string, TmOverride>>;
   /** Story scopes when the story continues after the League (D-029). */
   scopes?: readonly GameScope[];
+  /**
+   * Evolutions into species above `maxSpeciesId` need the National Pokédex
+   * (FireRed/LeafGreen: Golbat → Crobat waits for it). They take `segment`.
+   */
+  nationalDexEvolutions?: Sourced & { maxSpeciesId: number; segment: Availability };
 };
 
 /** Differences of one version inside its family. */

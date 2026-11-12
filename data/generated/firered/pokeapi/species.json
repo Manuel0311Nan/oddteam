@@ -1,0 +1,5703 @@
+[
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 49,
+      "defense": 49,
+      "hp": 45,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 45
+    },
+    "captureRate": 45,
+    "evolutionChainId": 1,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 1,
+    "legendary": false,
+    "mythical": false,
+    "name": "Bulbasaur",
+    "nameEn": "Bulbasaur",
+    "slug": "bulbasaur",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/1.png",
+    "typing": [
+      "grass",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 62,
+      "defense": 63,
+      "hp": 60,
+      "specialAttack": 80,
+      "specialDefense": 80,
+      "speed": 60
+    },
+    "captureRate": 45,
+    "evolutionChainId": 1,
+    "evolvesFrom": 1,
+    "generation": 1,
+    "id": 2,
+    "legendary": false,
+    "mythical": false,
+    "name": "Ivysaur",
+    "nameEn": "Ivysaur",
+    "slug": "ivysaur",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/2.png",
+    "typing": [
+      "grass",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 82,
+      "defense": 83,
+      "hp": 80,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 80
+    },
+    "captureRate": 45,
+    "evolutionChainId": 1,
+    "evolvesFrom": 2,
+    "generation": 1,
+    "id": 3,
+    "legendary": false,
+    "mythical": false,
+    "name": "Venusaur",
+    "nameEn": "Venusaur",
+    "slug": "venusaur",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/3.png",
+    "typing": [
+      "grass",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 52,
+      "defense": 43,
+      "hp": 39,
+      "specialAttack": 60,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "captureRate": 45,
+    "evolutionChainId": 2,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 4,
+    "legendary": false,
+    "mythical": false,
+    "name": "Charmander",
+    "nameEn": "Charmander",
+    "slug": "charmander",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/4.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 64,
+      "defense": 58,
+      "hp": 58,
+      "specialAttack": 80,
+      "specialDefense": 65,
+      "speed": 80
+    },
+    "captureRate": 45,
+    "evolutionChainId": 2,
+    "evolvesFrom": 4,
+    "generation": 1,
+    "id": 5,
+    "legendary": false,
+    "mythical": false,
+    "name": "Charmeleon",
+    "nameEn": "Charmeleon",
+    "slug": "charmeleon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/5.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 84,
+      "defense": 78,
+      "hp": 78,
+      "specialAttack": 109,
+      "specialDefense": 85,
+      "speed": 100
+    },
+    "captureRate": 45,
+    "evolutionChainId": 2,
+    "evolvesFrom": 5,
+    "generation": 1,
+    "id": 6,
+    "legendary": false,
+    "mythical": false,
+    "name": "Charizard",
+    "nameEn": "Charizard",
+    "slug": "charizard",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/6.png",
+    "typing": [
+      "fire",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 48,
+      "defense": 65,
+      "hp": 44,
+      "specialAttack": 50,
+      "specialDefense": 64,
+      "speed": 43
+    },
+    "captureRate": 45,
+    "evolutionChainId": 3,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 7,
+    "legendary": false,
+    "mythical": false,
+    "name": "Squirtle",
+    "nameEn": "Squirtle",
+    "slug": "squirtle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/7.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 63,
+      "defense": 80,
+      "hp": 59,
+      "specialAttack": 65,
+      "specialDefense": 80,
+      "speed": 58
+    },
+    "captureRate": 45,
+    "evolutionChainId": 3,
+    "evolvesFrom": 7,
+    "generation": 1,
+    "id": 8,
+    "legendary": false,
+    "mythical": false,
+    "name": "Wartortle",
+    "nameEn": "Wartortle",
+    "slug": "wartortle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/8.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 83,
+      "defense": 100,
+      "hp": 79,
+      "specialAttack": 85,
+      "specialDefense": 105,
+      "speed": 78
+    },
+    "captureRate": 45,
+    "evolutionChainId": 3,
+    "evolvesFrom": 8,
+    "generation": 1,
+    "id": 9,
+    "legendary": false,
+    "mythical": false,
+    "name": "Blastoise",
+    "nameEn": "Blastoise",
+    "slug": "blastoise",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/9.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 30,
+      "defense": 35,
+      "hp": 45,
+      "specialAttack": 20,
+      "specialDefense": 20,
+      "speed": 45
+    },
+    "captureRate": 255,
+    "evolutionChainId": 4,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 10,
+    "legendary": false,
+    "mythical": false,
+    "name": "Caterpie",
+    "nameEn": "Caterpie",
+    "slug": "caterpie",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/10.png",
+    "typing": [
+      "bug"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 20,
+      "defense": 55,
+      "hp": 50,
+      "specialAttack": 25,
+      "specialDefense": 25,
+      "speed": 30
+    },
+    "captureRate": 120,
+    "evolutionChainId": 4,
+    "evolvesFrom": 10,
+    "generation": 1,
+    "id": 11,
+    "legendary": false,
+    "mythical": false,
+    "name": "Metapod",
+    "nameEn": "Metapod",
+    "slug": "metapod",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/11.png",
+    "typing": [
+      "bug"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 50,
+      "hp": 60,
+      "specialAttack": 80,
+      "specialDefense": 80,
+      "speed": 70
+    },
+    "captureRate": 45,
+    "evolutionChainId": 4,
+    "evolvesFrom": 11,
+    "generation": 1,
+    "id": 12,
+    "legendary": false,
+    "mythical": false,
+    "name": "Butterfree",
+    "nameEn": "Butterfree",
+    "slug": "butterfree",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/12.png",
+    "typing": [
+      "bug",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 35,
+      "defense": 30,
+      "hp": 40,
+      "specialAttack": 20,
+      "specialDefense": 20,
+      "speed": 50
+    },
+    "captureRate": 255,
+    "evolutionChainId": 5,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 13,
+    "legendary": false,
+    "mythical": false,
+    "name": "Weedle",
+    "nameEn": "Weedle",
+    "slug": "weedle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/13.png",
+    "typing": [
+      "bug",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 25,
+      "defense": 50,
+      "hp": 45,
+      "specialAttack": 25,
+      "specialDefense": 25,
+      "speed": 35
+    },
+    "captureRate": 120,
+    "evolutionChainId": 5,
+    "evolvesFrom": 13,
+    "generation": 1,
+    "id": 14,
+    "legendary": false,
+    "mythical": false,
+    "name": "Kakuna",
+    "nameEn": "Kakuna",
+    "slug": "kakuna",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/14.png",
+    "typing": [
+      "bug",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 40,
+      "hp": 65,
+      "specialAttack": 45,
+      "specialDefense": 80,
+      "speed": 75
+    },
+    "captureRate": 45,
+    "evolutionChainId": 5,
+    "evolvesFrom": 14,
+    "generation": 1,
+    "id": 15,
+    "legendary": false,
+    "mythical": false,
+    "name": "Beedrill",
+    "nameEn": "Beedrill",
+    "slug": "beedrill",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/15.png",
+    "typing": [
+      "bug",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 40,
+      "hp": 40,
+      "specialAttack": 35,
+      "specialDefense": 35,
+      "speed": 56
+    },
+    "captureRate": 255,
+    "evolutionChainId": 6,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 16,
+    "legendary": false,
+    "mythical": false,
+    "name": "Pidgey",
+    "nameEn": "Pidgey",
+    "slug": "pidgey",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/16.png",
+    "typing": [
+      "normal",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 55,
+      "hp": 63,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 71
+    },
+    "captureRate": 120,
+    "evolutionChainId": 6,
+    "evolvesFrom": 16,
+    "generation": 1,
+    "id": 17,
+    "legendary": false,
+    "mythical": false,
+    "name": "Pidgeotto",
+    "nameEn": "Pidgeotto",
+    "slug": "pidgeotto",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/17.png",
+    "typing": [
+      "normal",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 75,
+      "hp": 83,
+      "specialAttack": 70,
+      "specialDefense": 70,
+      "speed": 91
+    },
+    "captureRate": 45,
+    "evolutionChainId": 6,
+    "evolvesFrom": 17,
+    "generation": 1,
+    "id": 18,
+    "legendary": false,
+    "mythical": false,
+    "name": "Pidgeot",
+    "nameEn": "Pidgeot",
+    "slug": "pidgeot",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/18.png",
+    "typing": [
+      "normal",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 56,
+      "defense": 35,
+      "hp": 30,
+      "specialAttack": 25,
+      "specialDefense": 35,
+      "speed": 72
+    },
+    "captureRate": 255,
+    "evolutionChainId": 7,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 19,
+    "legendary": false,
+    "mythical": false,
+    "name": "Rattata",
+    "nameEn": "Rattata",
+    "slug": "rattata",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/19.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 81,
+      "defense": 60,
+      "hp": 55,
+      "specialAttack": 50,
+      "specialDefense": 70,
+      "speed": 97
+    },
+    "captureRate": 127,
+    "evolutionChainId": 7,
+    "evolvesFrom": 19,
+    "generation": 1,
+    "id": 20,
+    "legendary": false,
+    "mythical": false,
+    "name": "Raticate",
+    "nameEn": "Raticate",
+    "slug": "raticate",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/20.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 30,
+      "hp": 40,
+      "specialAttack": 31,
+      "specialDefense": 31,
+      "speed": 70
+    },
+    "captureRate": 255,
+    "evolutionChainId": 8,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 21,
+    "legendary": false,
+    "mythical": false,
+    "name": "Spearow",
+    "nameEn": "Spearow",
+    "slug": "spearow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/21.png",
+    "typing": [
+      "normal",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 65,
+      "hp": 65,
+      "specialAttack": 61,
+      "specialDefense": 61,
+      "speed": 100
+    },
+    "captureRate": 90,
+    "evolutionChainId": 8,
+    "evolvesFrom": 21,
+    "generation": 1,
+    "id": 22,
+    "legendary": false,
+    "mythical": false,
+    "name": "Fearow",
+    "nameEn": "Fearow",
+    "slug": "fearow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/22.png",
+    "typing": [
+      "normal",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 44,
+      "hp": 35,
+      "specialAttack": 40,
+      "specialDefense": 54,
+      "speed": 55
+    },
+    "captureRate": 255,
+    "evolutionChainId": 9,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 23,
+    "legendary": false,
+    "mythical": false,
+    "name": "Ekans",
+    "nameEn": "Ekans",
+    "slug": "ekans",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/23.png",
+    "typing": [
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 69,
+      "hp": 60,
+      "specialAttack": 65,
+      "specialDefense": 79,
+      "speed": 80
+    },
+    "captureRate": 90,
+    "evolutionChainId": 9,
+    "evolvesFrom": 23,
+    "generation": 1,
+    "id": 24,
+    "legendary": false,
+    "mythical": false,
+    "name": "Arbok",
+    "nameEn": "Arbok",
+    "slug": "arbok",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/24.png",
+    "typing": [
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 55,
+      "defense": 30,
+      "hp": 35,
+      "specialAttack": 50,
+      "specialDefense": 40,
+      "speed": 90
+    },
+    "captureRate": 190,
+    "evolutionChainId": 10,
+    "evolvesFrom": 172,
+    "generation": 1,
+    "id": 25,
+    "legendary": false,
+    "mythical": false,
+    "name": "Pikachu",
+    "nameEn": "Pikachu",
+    "slug": "pikachu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/25.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 55,
+      "hp": 60,
+      "specialAttack": 90,
+      "specialDefense": 80,
+      "speed": 100
+    },
+    "captureRate": 75,
+    "evolutionChainId": 10,
+    "evolvesFrom": 25,
+    "generation": 1,
+    "id": 26,
+    "legendary": false,
+    "mythical": false,
+    "name": "Raichu",
+    "nameEn": "Raichu",
+    "slug": "raichu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/26.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 85,
+      "hp": 50,
+      "specialAttack": 20,
+      "specialDefense": 30,
+      "speed": 40
+    },
+    "captureRate": 255,
+    "evolutionChainId": 11,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 27,
+    "legendary": false,
+    "mythical": false,
+    "name": "Sandshrew",
+    "nameEn": "Sandshrew",
+    "slug": "sandshrew",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/27.png",
+    "typing": [
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 110,
+      "hp": 75,
+      "specialAttack": 45,
+      "specialDefense": 55,
+      "speed": 65
+    },
+    "captureRate": 90,
+    "evolutionChainId": 11,
+    "evolvesFrom": 27,
+    "generation": 1,
+    "id": 28,
+    "legendary": false,
+    "mythical": false,
+    "name": "Sandslash",
+    "nameEn": "Sandslash",
+    "slug": "sandslash",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/28.png",
+    "typing": [
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 47,
+      "defense": 52,
+      "hp": 55,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 41
+    },
+    "captureRate": 235,
+    "evolutionChainId": 12,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 29,
+    "legendary": false,
+    "mythical": false,
+    "name": "Nidoran♀",
+    "nameEn": "Nidoran♀",
+    "slug": "nidoran-f",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/29.png",
+    "typing": [
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 62,
+      "defense": 67,
+      "hp": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 56
+    },
+    "captureRate": 120,
+    "evolutionChainId": 12,
+    "evolvesFrom": 29,
+    "generation": 1,
+    "id": 30,
+    "legendary": false,
+    "mythical": false,
+    "name": "Nidorina",
+    "nameEn": "Nidorina",
+    "slug": "nidorina",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/30.png",
+    "typing": [
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 82,
+      "defense": 87,
+      "hp": 90,
+      "specialAttack": 75,
+      "specialDefense": 85,
+      "speed": 76
+    },
+    "captureRate": 45,
+    "evolutionChainId": 12,
+    "evolvesFrom": 30,
+    "generation": 1,
+    "id": 31,
+    "legendary": false,
+    "mythical": false,
+    "name": "Nidoqueen",
+    "nameEn": "Nidoqueen",
+    "slug": "nidoqueen",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/31.png",
+    "typing": [
+      "poison",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 57,
+      "defense": 40,
+      "hp": 46,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 50
+    },
+    "captureRate": 235,
+    "evolutionChainId": 13,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 32,
+    "legendary": false,
+    "mythical": false,
+    "name": "Nidoran♂",
+    "nameEn": "Nidoran♂",
+    "slug": "nidoran-m",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/32.png",
+    "typing": [
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 72,
+      "defense": 57,
+      "hp": 61,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 65
+    },
+    "captureRate": 120,
+    "evolutionChainId": 13,
+    "evolvesFrom": 32,
+    "generation": 1,
+    "id": 33,
+    "legendary": false,
+    "mythical": false,
+    "name": "Nidorino",
+    "nameEn": "Nidorino",
+    "slug": "nidorino",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/33.png",
+    "typing": [
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 92,
+      "defense": 77,
+      "hp": 81,
+      "specialAttack": 85,
+      "specialDefense": 75,
+      "speed": 85
+    },
+    "captureRate": 45,
+    "evolutionChainId": 13,
+    "evolvesFrom": 33,
+    "generation": 1,
+    "id": 34,
+    "legendary": false,
+    "mythical": false,
+    "name": "Nidoking",
+    "nameEn": "Nidoking",
+    "slug": "nidoking",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/34.png",
+    "typing": [
+      "poison",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 48,
+      "hp": 70,
+      "specialAttack": 60,
+      "specialDefense": 65,
+      "speed": 35
+    },
+    "captureRate": 150,
+    "evolutionChainId": 14,
+    "evolvesFrom": 173,
+    "generation": 1,
+    "id": 35,
+    "legendary": false,
+    "mythical": false,
+    "name": "Clefairy",
+    "nameEn": "Clefairy",
+    "slug": "clefairy",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/35.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 73,
+      "hp": 95,
+      "specialAttack": 85,
+      "specialDefense": 90,
+      "speed": 60
+    },
+    "captureRate": 25,
+    "evolutionChainId": 14,
+    "evolvesFrom": 35,
+    "generation": 1,
+    "id": 36,
+    "legendary": false,
+    "mythical": false,
+    "name": "Clefable",
+    "nameEn": "Clefable",
+    "slug": "clefable",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/36.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 41,
+      "defense": 40,
+      "hp": 38,
+      "specialAttack": 50,
+      "specialDefense": 65,
+      "speed": 65
+    },
+    "captureRate": 190,
+    "evolutionChainId": 15,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 37,
+    "legendary": false,
+    "mythical": false,
+    "name": "Vulpix",
+    "nameEn": "Vulpix",
+    "slug": "vulpix",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/37.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 76,
+      "defense": 75,
+      "hp": 73,
+      "specialAttack": 81,
+      "specialDefense": 100,
+      "speed": 100
+    },
+    "captureRate": 75,
+    "evolutionChainId": 15,
+    "evolvesFrom": 37,
+    "generation": 1,
+    "id": 38,
+    "legendary": false,
+    "mythical": false,
+    "name": "Ninetales",
+    "nameEn": "Ninetales",
+    "slug": "ninetales",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/38.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 20,
+      "hp": 115,
+      "specialAttack": 45,
+      "specialDefense": 25,
+      "speed": 20
+    },
+    "captureRate": 170,
+    "evolutionChainId": 16,
+    "evolvesFrom": 174,
+    "generation": 1,
+    "id": 39,
+    "legendary": false,
+    "mythical": false,
+    "name": "Jigglypuff",
+    "nameEn": "Jigglypuff",
+    "slug": "jigglypuff",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/39.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 45,
+      "hp": 140,
+      "specialAttack": 75,
+      "specialDefense": 50,
+      "speed": 45
+    },
+    "captureRate": 50,
+    "evolutionChainId": 16,
+    "evolvesFrom": 39,
+    "generation": 1,
+    "id": 40,
+    "legendary": false,
+    "mythical": false,
+    "name": "Wigglytuff",
+    "nameEn": "Wigglytuff",
+    "slug": "wigglytuff",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/40.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 35,
+      "hp": 40,
+      "specialAttack": 30,
+      "specialDefense": 40,
+      "speed": 55
+    },
+    "captureRate": 255,
+    "evolutionChainId": 17,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 41,
+    "legendary": false,
+    "mythical": false,
+    "name": "Zubat",
+    "nameEn": "Zubat",
+    "slug": "zubat",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/41.png",
+    "typing": [
+      "poison",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 70,
+      "hp": 75,
+      "specialAttack": 65,
+      "specialDefense": 75,
+      "speed": 90
+    },
+    "captureRate": 90,
+    "evolutionChainId": 17,
+    "evolvesFrom": 41,
+    "generation": 1,
+    "id": 42,
+    "legendary": false,
+    "mythical": false,
+    "name": "Golbat",
+    "nameEn": "Golbat",
+    "slug": "golbat",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/42.png",
+    "typing": [
+      "poison",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 55,
+      "hp": 45,
+      "specialAttack": 75,
+      "specialDefense": 65,
+      "speed": 30
+    },
+    "captureRate": 255,
+    "evolutionChainId": 18,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 43,
+    "legendary": false,
+    "mythical": false,
+    "name": "Oddish",
+    "nameEn": "Oddish",
+    "slug": "oddish",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/43.png",
+    "typing": [
+      "grass",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 70,
+      "hp": 60,
+      "specialAttack": 85,
+      "specialDefense": 75,
+      "speed": 40
+    },
+    "captureRate": 120,
+    "evolutionChainId": 18,
+    "evolvesFrom": 43,
+    "generation": 1,
+    "id": 44,
+    "legendary": false,
+    "mythical": false,
+    "name": "Gloom",
+    "nameEn": "Gloom",
+    "slug": "gloom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/44.png",
+    "typing": [
+      "grass",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 85,
+      "hp": 75,
+      "specialAttack": 100,
+      "specialDefense": 90,
+      "speed": 50
+    },
+    "captureRate": 45,
+    "evolutionChainId": 18,
+    "evolvesFrom": 44,
+    "generation": 1,
+    "id": 45,
+    "legendary": false,
+    "mythical": false,
+    "name": "Vileplume",
+    "nameEn": "Vileplume",
+    "slug": "vileplume",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/45.png",
+    "typing": [
+      "grass",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 55,
+      "hp": 35,
+      "specialAttack": 45,
+      "specialDefense": 55,
+      "speed": 25
+    },
+    "captureRate": 190,
+    "evolutionChainId": 19,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 46,
+    "legendary": false,
+    "mythical": false,
+    "name": "Paras",
+    "nameEn": "Paras",
+    "slug": "paras",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/46.png",
+    "typing": [
+      "bug",
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 95,
+      "defense": 80,
+      "hp": 60,
+      "specialAttack": 60,
+      "specialDefense": 80,
+      "speed": 30
+    },
+    "captureRate": 75,
+    "evolutionChainId": 19,
+    "evolvesFrom": 46,
+    "generation": 1,
+    "id": 47,
+    "legendary": false,
+    "mythical": false,
+    "name": "Parasect",
+    "nameEn": "Parasect",
+    "slug": "parasect",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/47.png",
+    "typing": [
+      "bug",
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 55,
+      "defense": 50,
+      "hp": 60,
+      "specialAttack": 40,
+      "specialDefense": 55,
+      "speed": 45
+    },
+    "captureRate": 190,
+    "evolutionChainId": 20,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 48,
+    "legendary": false,
+    "mythical": false,
+    "name": "Venonat",
+    "nameEn": "Venonat",
+    "slug": "venonat",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/48.png",
+    "typing": [
+      "bug",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 60,
+      "hp": 70,
+      "specialAttack": 90,
+      "specialDefense": 75,
+      "speed": 90
+    },
+    "captureRate": 75,
+    "evolutionChainId": 20,
+    "evolvesFrom": 48,
+    "generation": 1,
+    "id": 49,
+    "legendary": false,
+    "mythical": false,
+    "name": "Venomoth",
+    "nameEn": "Venomoth",
+    "slug": "venomoth",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/49.png",
+    "typing": [
+      "bug",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 55,
+      "defense": 25,
+      "hp": 10,
+      "specialAttack": 35,
+      "specialDefense": 45,
+      "speed": 95
+    },
+    "captureRate": 255,
+    "evolutionChainId": 21,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 50,
+    "legendary": false,
+    "mythical": false,
+    "name": "Diglett",
+    "nameEn": "Diglett",
+    "slug": "diglett",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/50.png",
+    "typing": [
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 50,
+      "hp": 35,
+      "specialAttack": 50,
+      "specialDefense": 70,
+      "speed": 120
+    },
+    "captureRate": 50,
+    "evolutionChainId": 21,
+    "evolvesFrom": 50,
+    "generation": 1,
+    "id": 51,
+    "legendary": false,
+    "mythical": false,
+    "name": "Dugtrio",
+    "nameEn": "Dugtrio",
+    "slug": "dugtrio",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/51.png",
+    "typing": [
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 35,
+      "hp": 40,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 90
+    },
+    "captureRate": 255,
+    "evolutionChainId": 22,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 52,
+    "legendary": false,
+    "mythical": false,
+    "name": "Meowth",
+    "nameEn": "Meowth",
+    "slug": "meowth",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/52.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 60,
+      "hp": 65,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 115
+    },
+    "captureRate": 90,
+    "evolutionChainId": 22,
+    "evolvesFrom": 52,
+    "generation": 1,
+    "id": 53,
+    "legendary": false,
+    "mythical": false,
+    "name": "Persian",
+    "nameEn": "Persian",
+    "slug": "persian",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/53.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 52,
+      "defense": 48,
+      "hp": 50,
+      "specialAttack": 65,
+      "specialDefense": 50,
+      "speed": 55
+    },
+    "captureRate": 190,
+    "evolutionChainId": 23,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 54,
+    "legendary": false,
+    "mythical": false,
+    "name": "Psyduck",
+    "nameEn": "Psyduck",
+    "slug": "psyduck",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/54.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 82,
+      "defense": 78,
+      "hp": 80,
+      "specialAttack": 95,
+      "specialDefense": 80,
+      "speed": 85
+    },
+    "captureRate": 75,
+    "evolutionChainId": 23,
+    "evolvesFrom": 54,
+    "generation": 1,
+    "id": 55,
+    "legendary": false,
+    "mythical": false,
+    "name": "Golduck",
+    "nameEn": "Golduck",
+    "slug": "golduck",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/55.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 35,
+      "hp": 40,
+      "specialAttack": 35,
+      "specialDefense": 45,
+      "speed": 70
+    },
+    "captureRate": 190,
+    "evolutionChainId": 24,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 56,
+    "legendary": false,
+    "mythical": false,
+    "name": "Mankey",
+    "nameEn": "Mankey",
+    "slug": "mankey",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/56.png",
+    "typing": [
+      "fighting"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 105,
+      "defense": 60,
+      "hp": 65,
+      "specialAttack": 60,
+      "specialDefense": 70,
+      "speed": 95
+    },
+    "captureRate": 75,
+    "evolutionChainId": 24,
+    "evolvesFrom": 56,
+    "generation": 1,
+    "id": 57,
+    "legendary": false,
+    "mythical": false,
+    "name": "Primeape",
+    "nameEn": "Primeape",
+    "slug": "primeape",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/57.png",
+    "typing": [
+      "fighting"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 45,
+      "hp": 55,
+      "specialAttack": 70,
+      "specialDefense": 50,
+      "speed": 60
+    },
+    "captureRate": 190,
+    "evolutionChainId": 25,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 58,
+    "legendary": false,
+    "mythical": false,
+    "name": "Growlithe",
+    "nameEn": "Growlithe",
+    "slug": "growlithe",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/58.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 110,
+      "defense": 80,
+      "hp": 90,
+      "specialAttack": 100,
+      "specialDefense": 80,
+      "speed": 95
+    },
+    "captureRate": 75,
+    "evolutionChainId": 25,
+    "evolvesFrom": 58,
+    "generation": 1,
+    "id": 59,
+    "legendary": false,
+    "mythical": false,
+    "name": "Arcanine",
+    "nameEn": "Arcanine",
+    "slug": "arcanine",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/59.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 40,
+      "hp": 40,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 90
+    },
+    "captureRate": 255,
+    "evolutionChainId": 26,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 60,
+    "legendary": false,
+    "mythical": false,
+    "name": "Poliwag",
+    "nameEn": "Poliwag",
+    "slug": "poliwag",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/60.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 65,
+      "hp": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 90
+    },
+    "captureRate": 120,
+    "evolutionChainId": 26,
+    "evolvesFrom": 60,
+    "generation": 1,
+    "id": 61,
+    "legendary": false,
+    "mythical": false,
+    "name": "Poliwhirl",
+    "nameEn": "Poliwhirl",
+    "slug": "poliwhirl",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/61.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 95,
+      "hp": 90,
+      "specialAttack": 70,
+      "specialDefense": 90,
+      "speed": 70
+    },
+    "captureRate": 45,
+    "evolutionChainId": 26,
+    "evolvesFrom": 61,
+    "generation": 1,
+    "id": 62,
+    "legendary": false,
+    "mythical": false,
+    "name": "Poliwrath",
+    "nameEn": "Poliwrath",
+    "slug": "poliwrath",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/62.png",
+    "typing": [
+      "water",
+      "fighting"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 20,
+      "defense": 15,
+      "hp": 25,
+      "specialAttack": 105,
+      "specialDefense": 55,
+      "speed": 90
+    },
+    "captureRate": 200,
+    "evolutionChainId": 27,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 63,
+    "legendary": false,
+    "mythical": false,
+    "name": "Abra",
+    "nameEn": "Abra",
+    "slug": "abra",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/63.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 35,
+      "defense": 30,
+      "hp": 40,
+      "specialAttack": 120,
+      "specialDefense": 70,
+      "speed": 105
+    },
+    "captureRate": 100,
+    "evolutionChainId": 27,
+    "evolvesFrom": 63,
+    "generation": 1,
+    "id": 64,
+    "legendary": false,
+    "mythical": false,
+    "name": "Kadabra",
+    "nameEn": "Kadabra",
+    "slug": "kadabra",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/64.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 45,
+      "hp": 55,
+      "specialAttack": 135,
+      "specialDefense": 85,
+      "speed": 120
+    },
+    "captureRate": 50,
+    "evolutionChainId": 27,
+    "evolvesFrom": 64,
+    "generation": 1,
+    "id": 65,
+    "legendary": false,
+    "mythical": false,
+    "name": "Alakazam",
+    "nameEn": "Alakazam",
+    "slug": "alakazam",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/65.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 50,
+      "hp": 70,
+      "specialAttack": 35,
+      "specialDefense": 35,
+      "speed": 35
+    },
+    "captureRate": 180,
+    "evolutionChainId": 28,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 66,
+    "legendary": false,
+    "mythical": false,
+    "name": "Machop",
+    "nameEn": "Machop",
+    "slug": "machop",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/66.png",
+    "typing": [
+      "fighting"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 70,
+      "hp": 80,
+      "specialAttack": 50,
+      "specialDefense": 60,
+      "speed": 45
+    },
+    "captureRate": 90,
+    "evolutionChainId": 28,
+    "evolvesFrom": 66,
+    "generation": 1,
+    "id": 67,
+    "legendary": false,
+    "mythical": false,
+    "name": "Machoke",
+    "nameEn": "Machoke",
+    "slug": "machoke",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/67.png",
+    "typing": [
+      "fighting"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 130,
+      "defense": 80,
+      "hp": 90,
+      "specialAttack": 65,
+      "specialDefense": 85,
+      "speed": 55
+    },
+    "captureRate": 45,
+    "evolutionChainId": 28,
+    "evolvesFrom": 67,
+    "generation": 1,
+    "id": 68,
+    "legendary": false,
+    "mythical": false,
+    "name": "Machamp",
+    "nameEn": "Machamp",
+    "slug": "machamp",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/68.png",
+    "typing": [
+      "fighting"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 35,
+      "hp": 50,
+      "specialAttack": 70,
+      "specialDefense": 30,
+      "speed": 40
+    },
+    "captureRate": 255,
+    "evolutionChainId": 29,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 69,
+    "legendary": false,
+    "mythical": false,
+    "name": "Bellsprout",
+    "nameEn": "Bellsprout",
+    "slug": "bellsprout",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/69.png",
+    "typing": [
+      "grass",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 50,
+      "hp": 65,
+      "specialAttack": 85,
+      "specialDefense": 45,
+      "speed": 55
+    },
+    "captureRate": 120,
+    "evolutionChainId": 29,
+    "evolvesFrom": 69,
+    "generation": 1,
+    "id": 70,
+    "legendary": false,
+    "mythical": false,
+    "name": "Weepinbell",
+    "nameEn": "Weepinbell",
+    "slug": "weepinbell",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/70.png",
+    "typing": [
+      "grass",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 105,
+      "defense": 65,
+      "hp": 80,
+      "specialAttack": 100,
+      "specialDefense": 60,
+      "speed": 70
+    },
+    "captureRate": 45,
+    "evolutionChainId": 29,
+    "evolvesFrom": 70,
+    "generation": 1,
+    "id": 71,
+    "legendary": false,
+    "mythical": false,
+    "name": "Victreebel",
+    "nameEn": "Victreebel",
+    "slug": "victreebel",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/71.png",
+    "typing": [
+      "grass",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 40,
+      "defense": 35,
+      "hp": 40,
+      "specialAttack": 50,
+      "specialDefense": 100,
+      "speed": 70
+    },
+    "captureRate": 190,
+    "evolutionChainId": 30,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 72,
+    "legendary": false,
+    "mythical": false,
+    "name": "Tentacool",
+    "nameEn": "Tentacool",
+    "slug": "tentacool",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/72.png",
+    "typing": [
+      "water",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 65,
+      "hp": 80,
+      "specialAttack": 80,
+      "specialDefense": 120,
+      "speed": 100
+    },
+    "captureRate": 60,
+    "evolutionChainId": 30,
+    "evolvesFrom": 72,
+    "generation": 1,
+    "id": 73,
+    "legendary": false,
+    "mythical": false,
+    "name": "Tentacruel",
+    "nameEn": "Tentacruel",
+    "slug": "tentacruel",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/73.png",
+    "typing": [
+      "water",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 100,
+      "hp": 40,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 20
+    },
+    "captureRate": 255,
+    "evolutionChainId": 31,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 74,
+    "legendary": false,
+    "mythical": false,
+    "name": "Geodude",
+    "nameEn": "Geodude",
+    "slug": "geodude",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/74.png",
+    "typing": [
+      "rock",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 95,
+      "defense": 115,
+      "hp": 55,
+      "specialAttack": 45,
+      "specialDefense": 45,
+      "speed": 35
+    },
+    "captureRate": 120,
+    "evolutionChainId": 31,
+    "evolvesFrom": 74,
+    "generation": 1,
+    "id": 75,
+    "legendary": false,
+    "mythical": false,
+    "name": "Graveler",
+    "nameEn": "Graveler",
+    "slug": "graveler",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/75.png",
+    "typing": [
+      "rock",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 110,
+      "defense": 130,
+      "hp": 80,
+      "specialAttack": 55,
+      "specialDefense": 65,
+      "speed": 45
+    },
+    "captureRate": 45,
+    "evolutionChainId": 31,
+    "evolvesFrom": 75,
+    "generation": 1,
+    "id": 76,
+    "legendary": false,
+    "mythical": false,
+    "name": "Golem",
+    "nameEn": "Golem",
+    "slug": "golem",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/76.png",
+    "typing": [
+      "rock",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 55,
+      "hp": 50,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 90
+    },
+    "captureRate": 190,
+    "evolutionChainId": 32,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 77,
+    "legendary": false,
+    "mythical": false,
+    "name": "Ponyta",
+    "nameEn": "Ponyta",
+    "slug": "ponyta",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/77.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 70,
+      "hp": 65,
+      "specialAttack": 80,
+      "specialDefense": 80,
+      "speed": 105
+    },
+    "captureRate": 60,
+    "evolutionChainId": 32,
+    "evolvesFrom": 77,
+    "generation": 1,
+    "id": 78,
+    "legendary": false,
+    "mythical": false,
+    "name": "Rapidash",
+    "nameEn": "Rapidash",
+    "slug": "rapidash",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/78.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 65,
+      "hp": 90,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 15
+    },
+    "captureRate": 190,
+    "evolutionChainId": 33,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 79,
+    "legendary": false,
+    "mythical": false,
+    "name": "Slowpoke",
+    "nameEn": "Slowpoke",
+    "slug": "slowpoke",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/79.png",
+    "typing": [
+      "water",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 110,
+      "hp": 95,
+      "specialAttack": 100,
+      "specialDefense": 80,
+      "speed": 30
+    },
+    "captureRate": 75,
+    "evolutionChainId": 33,
+    "evolvesFrom": 79,
+    "generation": 1,
+    "id": 80,
+    "legendary": false,
+    "mythical": false,
+    "name": "Slowbro",
+    "nameEn": "Slowbro",
+    "slug": "slowbro",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/80.png",
+    "typing": [
+      "water",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 35,
+      "defense": 70,
+      "hp": 25,
+      "specialAttack": 95,
+      "specialDefense": 55,
+      "speed": 45
+    },
+    "captureRate": 190,
+    "evolutionChainId": 34,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 81,
+    "legendary": false,
+    "mythical": false,
+    "name": "Magnemite",
+    "nameEn": "Magnemite",
+    "slug": "magnemite",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/81.png",
+    "typing": [
+      "electric",
+      "steel"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 95,
+      "hp": 50,
+      "specialAttack": 120,
+      "specialDefense": 70,
+      "speed": 70
+    },
+    "captureRate": 60,
+    "evolutionChainId": 34,
+    "evolvesFrom": 81,
+    "generation": 1,
+    "id": 82,
+    "legendary": false,
+    "mythical": false,
+    "name": "Magneton",
+    "nameEn": "Magneton",
+    "slug": "magneton",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/82.png",
+    "typing": [
+      "electric",
+      "steel"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 55,
+      "hp": 52,
+      "specialAttack": 58,
+      "specialDefense": 62,
+      "speed": 60
+    },
+    "captureRate": 45,
+    "evolutionChainId": 35,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 83,
+    "legendary": false,
+    "mythical": false,
+    "name": "Farfetch’d",
+    "nameEn": "Farfetch’d",
+    "slug": "farfetchd",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/83.png",
+    "typing": [
+      "normal",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 45,
+      "hp": 35,
+      "specialAttack": 35,
+      "specialDefense": 35,
+      "speed": 75
+    },
+    "captureRate": 190,
+    "evolutionChainId": 36,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 84,
+    "legendary": false,
+    "mythical": false,
+    "name": "Doduo",
+    "nameEn": "Doduo",
+    "slug": "doduo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/84.png",
+    "typing": [
+      "normal",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 110,
+      "defense": 70,
+      "hp": 60,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 100
+    },
+    "captureRate": 45,
+    "evolutionChainId": 36,
+    "evolvesFrom": 84,
+    "generation": 1,
+    "id": 85,
+    "legendary": false,
+    "mythical": false,
+    "name": "Dodrio",
+    "nameEn": "Dodrio",
+    "slug": "dodrio",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/85.png",
+    "typing": [
+      "normal",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 55,
+      "hp": 65,
+      "specialAttack": 45,
+      "specialDefense": 70,
+      "speed": 45
+    },
+    "captureRate": 190,
+    "evolutionChainId": 37,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 86,
+    "legendary": false,
+    "mythical": false,
+    "name": "Seel",
+    "nameEn": "Seel",
+    "slug": "seel",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/86.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 80,
+      "hp": 90,
+      "specialAttack": 70,
+      "specialDefense": 95,
+      "speed": 70
+    },
+    "captureRate": 75,
+    "evolutionChainId": 37,
+    "evolvesFrom": 86,
+    "generation": 1,
+    "id": 87,
+    "legendary": false,
+    "mythical": false,
+    "name": "Dewgong",
+    "nameEn": "Dewgong",
+    "slug": "dewgong",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/87.png",
+    "typing": [
+      "water",
+      "ice"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 50,
+      "hp": 80,
+      "specialAttack": 40,
+      "specialDefense": 50,
+      "speed": 25
+    },
+    "captureRate": 190,
+    "evolutionChainId": 38,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 88,
+    "legendary": false,
+    "mythical": false,
+    "name": "Grimer",
+    "nameEn": "Grimer",
+    "slug": "grimer",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/88.png",
+    "typing": [
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 105,
+      "defense": 75,
+      "hp": 105,
+      "specialAttack": 65,
+      "specialDefense": 100,
+      "speed": 50
+    },
+    "captureRate": 75,
+    "evolutionChainId": 38,
+    "evolvesFrom": 88,
+    "generation": 1,
+    "id": 89,
+    "legendary": false,
+    "mythical": false,
+    "name": "Muk",
+    "nameEn": "Muk",
+    "slug": "muk",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/89.png",
+    "typing": [
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 100,
+      "hp": 30,
+      "specialAttack": 45,
+      "specialDefense": 25,
+      "speed": 40
+    },
+    "captureRate": 190,
+    "evolutionChainId": 39,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 90,
+    "legendary": false,
+    "mythical": false,
+    "name": "Shellder",
+    "nameEn": "Shellder",
+    "slug": "shellder",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/90.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 95,
+      "defense": 180,
+      "hp": 50,
+      "specialAttack": 85,
+      "specialDefense": 45,
+      "speed": 70
+    },
+    "captureRate": 60,
+    "evolutionChainId": 39,
+    "evolvesFrom": 90,
+    "generation": 1,
+    "id": 91,
+    "legendary": false,
+    "mythical": false,
+    "name": "Cloyster",
+    "nameEn": "Cloyster",
+    "slug": "cloyster",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/91.png",
+    "typing": [
+      "water",
+      "ice"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 35,
+      "defense": 30,
+      "hp": 30,
+      "specialAttack": 100,
+      "specialDefense": 35,
+      "speed": 80
+    },
+    "captureRate": 190,
+    "evolutionChainId": 40,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 92,
+    "legendary": false,
+    "mythical": false,
+    "name": "Gastly",
+    "nameEn": "Gastly",
+    "slug": "gastly",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/92.png",
+    "typing": [
+      "ghost",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 45,
+      "hp": 45,
+      "specialAttack": 115,
+      "specialDefense": 55,
+      "speed": 95
+    },
+    "captureRate": 90,
+    "evolutionChainId": 40,
+    "evolvesFrom": 92,
+    "generation": 1,
+    "id": 93,
+    "legendary": false,
+    "mythical": false,
+    "name": "Haunter",
+    "nameEn": "Haunter",
+    "slug": "haunter",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/93.png",
+    "typing": [
+      "ghost",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 60,
+      "hp": 60,
+      "specialAttack": 130,
+      "specialDefense": 75,
+      "speed": 110
+    },
+    "captureRate": 45,
+    "evolutionChainId": 40,
+    "evolvesFrom": 93,
+    "generation": 1,
+    "id": 94,
+    "legendary": false,
+    "mythical": false,
+    "name": "Gengar",
+    "nameEn": "Gengar",
+    "slug": "gengar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/94.png",
+    "typing": [
+      "ghost",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 160,
+      "hp": 35,
+      "specialAttack": 30,
+      "specialDefense": 45,
+      "speed": 70
+    },
+    "captureRate": 45,
+    "evolutionChainId": 41,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 95,
+    "legendary": false,
+    "mythical": false,
+    "name": "Onix",
+    "nameEn": "Onix",
+    "slug": "onix",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/95.png",
+    "typing": [
+      "rock",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 48,
+      "defense": 45,
+      "hp": 60,
+      "specialAttack": 43,
+      "specialDefense": 90,
+      "speed": 42
+    },
+    "captureRate": 190,
+    "evolutionChainId": 42,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 96,
+    "legendary": false,
+    "mythical": false,
+    "name": "Drowzee",
+    "nameEn": "Drowzee",
+    "slug": "drowzee",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/96.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 73,
+      "defense": 70,
+      "hp": 85,
+      "specialAttack": 73,
+      "specialDefense": 115,
+      "speed": 67
+    },
+    "captureRate": 75,
+    "evolutionChainId": 42,
+    "evolvesFrom": 96,
+    "generation": 1,
+    "id": 97,
+    "legendary": false,
+    "mythical": false,
+    "name": "Hypno",
+    "nameEn": "Hypno",
+    "slug": "hypno",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/97.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 105,
+      "defense": 90,
+      "hp": 30,
+      "specialAttack": 25,
+      "specialDefense": 25,
+      "speed": 50
+    },
+    "captureRate": 225,
+    "evolutionChainId": 43,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 98,
+    "legendary": false,
+    "mythical": false,
+    "name": "Krabby",
+    "nameEn": "Krabby",
+    "slug": "krabby",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/98.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 130,
+      "defense": 115,
+      "hp": 55,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 75
+    },
+    "captureRate": 60,
+    "evolutionChainId": 43,
+    "evolvesFrom": 98,
+    "generation": 1,
+    "id": 99,
+    "legendary": false,
+    "mythical": false,
+    "name": "Kingler",
+    "nameEn": "Kingler",
+    "slug": "kingler",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/99.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 30,
+      "defense": 50,
+      "hp": 40,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 100
+    },
+    "captureRate": 190,
+    "evolutionChainId": 44,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 100,
+    "legendary": false,
+    "mythical": false,
+    "name": "Voltorb",
+    "nameEn": "Voltorb",
+    "slug": "voltorb",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/100.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 70,
+      "hp": 60,
+      "specialAttack": 80,
+      "specialDefense": 80,
+      "speed": 140
+    },
+    "captureRate": 60,
+    "evolutionChainId": 44,
+    "evolvesFrom": 100,
+    "generation": 1,
+    "id": 101,
+    "legendary": false,
+    "mythical": false,
+    "name": "Electrode",
+    "nameEn": "Electrode",
+    "slug": "electrode",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/101.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 40,
+      "defense": 80,
+      "hp": 60,
+      "specialAttack": 60,
+      "specialDefense": 45,
+      "speed": 40
+    },
+    "captureRate": 90,
+    "evolutionChainId": 45,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 102,
+    "legendary": false,
+    "mythical": false,
+    "name": "Exeggcute",
+    "nameEn": "Exeggcute",
+    "slug": "exeggcute",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/102.png",
+    "typing": [
+      "grass",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 95,
+      "defense": 85,
+      "hp": 95,
+      "specialAttack": 125,
+      "specialDefense": 65,
+      "speed": 55
+    },
+    "captureRate": 45,
+    "evolutionChainId": 45,
+    "evolvesFrom": 102,
+    "generation": 1,
+    "id": 103,
+    "legendary": false,
+    "mythical": false,
+    "name": "Exeggutor",
+    "nameEn": "Exeggutor",
+    "slug": "exeggutor",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/103.png",
+    "typing": [
+      "grass",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 95,
+      "hp": 50,
+      "specialAttack": 40,
+      "specialDefense": 50,
+      "speed": 35
+    },
+    "captureRate": 190,
+    "evolutionChainId": 46,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 104,
+    "legendary": false,
+    "mythical": false,
+    "name": "Cubone",
+    "nameEn": "Cubone",
+    "slug": "cubone",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/104.png",
+    "typing": [
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 110,
+      "hp": 60,
+      "specialAttack": 50,
+      "specialDefense": 80,
+      "speed": 45
+    },
+    "captureRate": 75,
+    "evolutionChainId": 46,
+    "evolvesFrom": 104,
+    "generation": 1,
+    "id": 105,
+    "legendary": false,
+    "mythical": false,
+    "name": "Marowak",
+    "nameEn": "Marowak",
+    "slug": "marowak",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/105.png",
+    "typing": [
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 120,
+      "defense": 53,
+      "hp": 50,
+      "specialAttack": 35,
+      "specialDefense": 110,
+      "speed": 87
+    },
+    "captureRate": 45,
+    "evolutionChainId": 47,
+    "evolvesFrom": 236,
+    "generation": 1,
+    "id": 106,
+    "legendary": false,
+    "mythical": false,
+    "name": "Hitmonlee",
+    "nameEn": "Hitmonlee",
+    "slug": "hitmonlee",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/106.png",
+    "typing": [
+      "fighting"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 105,
+      "defense": 79,
+      "hp": 50,
+      "specialAttack": 35,
+      "specialDefense": 110,
+      "speed": 76
+    },
+    "captureRate": 45,
+    "evolutionChainId": 47,
+    "evolvesFrom": 236,
+    "generation": 1,
+    "id": 107,
+    "legendary": false,
+    "mythical": false,
+    "name": "Hitmonchan",
+    "nameEn": "Hitmonchan",
+    "slug": "hitmonchan",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/107.png",
+    "typing": [
+      "fighting"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 55,
+      "defense": 75,
+      "hp": 90,
+      "specialAttack": 60,
+      "specialDefense": 75,
+      "speed": 30
+    },
+    "captureRate": 45,
+    "evolutionChainId": 48,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 108,
+    "legendary": false,
+    "mythical": false,
+    "name": "Lickitung",
+    "nameEn": "Lickitung",
+    "slug": "lickitung",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/108.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 95,
+      "hp": 40,
+      "specialAttack": 60,
+      "specialDefense": 45,
+      "speed": 35
+    },
+    "captureRate": 190,
+    "evolutionChainId": 49,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 109,
+    "legendary": false,
+    "mythical": false,
+    "name": "Koffing",
+    "nameEn": "Koffing",
+    "slug": "koffing",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/109.png",
+    "typing": [
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 120,
+      "hp": 65,
+      "specialAttack": 85,
+      "specialDefense": 70,
+      "speed": 60
+    },
+    "captureRate": 60,
+    "evolutionChainId": 49,
+    "evolvesFrom": 109,
+    "generation": 1,
+    "id": 110,
+    "legendary": false,
+    "mythical": false,
+    "name": "Weezing",
+    "nameEn": "Weezing",
+    "slug": "weezing",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/110.png",
+    "typing": [
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 95,
+      "hp": 80,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 25
+    },
+    "captureRate": 120,
+    "evolutionChainId": 50,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 111,
+    "legendary": false,
+    "mythical": false,
+    "name": "Rhyhorn",
+    "nameEn": "Rhyhorn",
+    "slug": "rhyhorn",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/111.png",
+    "typing": [
+      "ground",
+      "rock"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 130,
+      "defense": 120,
+      "hp": 105,
+      "specialAttack": 45,
+      "specialDefense": 45,
+      "speed": 40
+    },
+    "captureRate": 60,
+    "evolutionChainId": 50,
+    "evolvesFrom": 111,
+    "generation": 1,
+    "id": 112,
+    "legendary": false,
+    "mythical": false,
+    "name": "Rhydon",
+    "nameEn": "Rhydon",
+    "slug": "rhydon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/112.png",
+    "typing": [
+      "ground",
+      "rock"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 5,
+      "defense": 5,
+      "hp": 250,
+      "specialAttack": 35,
+      "specialDefense": 105,
+      "speed": 50
+    },
+    "captureRate": 30,
+    "evolutionChainId": 51,
+    "evolvesFrom": 440,
+    "generation": 1,
+    "id": 113,
+    "legendary": false,
+    "mythical": false,
+    "name": "Chansey",
+    "nameEn": "Chansey",
+    "slug": "chansey",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/113.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 55,
+      "defense": 115,
+      "hp": 65,
+      "specialAttack": 100,
+      "specialDefense": 40,
+      "speed": 60
+    },
+    "captureRate": 45,
+    "evolutionChainId": 52,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 114,
+    "legendary": false,
+    "mythical": false,
+    "name": "Tangela",
+    "nameEn": "Tangela",
+    "slug": "tangela",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/114.png",
+    "typing": [
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 95,
+      "defense": 80,
+      "hp": 105,
+      "specialAttack": 40,
+      "specialDefense": 80,
+      "speed": 90
+    },
+    "captureRate": 45,
+    "evolutionChainId": 53,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 115,
+    "legendary": false,
+    "mythical": false,
+    "name": "Kangaskhan",
+    "nameEn": "Kangaskhan",
+    "slug": "kangaskhan",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/115.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 40,
+      "defense": 70,
+      "hp": 30,
+      "specialAttack": 70,
+      "specialDefense": 25,
+      "speed": 60
+    },
+    "captureRate": 225,
+    "evolutionChainId": 54,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 116,
+    "legendary": false,
+    "mythical": false,
+    "name": "Horsea",
+    "nameEn": "Horsea",
+    "slug": "horsea",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/116.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 95,
+      "hp": 55,
+      "specialAttack": 95,
+      "specialDefense": 45,
+      "speed": 85
+    },
+    "captureRate": 75,
+    "evolutionChainId": 54,
+    "evolvesFrom": 116,
+    "generation": 1,
+    "id": 117,
+    "legendary": false,
+    "mythical": false,
+    "name": "Seadra",
+    "nameEn": "Seadra",
+    "slug": "seadra",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/117.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 67,
+      "defense": 60,
+      "hp": 45,
+      "specialAttack": 35,
+      "specialDefense": 50,
+      "speed": 63
+    },
+    "captureRate": 225,
+    "evolutionChainId": 55,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 118,
+    "legendary": false,
+    "mythical": false,
+    "name": "Goldeen",
+    "nameEn": "Goldeen",
+    "slug": "goldeen",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/118.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 92,
+      "defense": 65,
+      "hp": 80,
+      "specialAttack": 65,
+      "specialDefense": 80,
+      "speed": 68
+    },
+    "captureRate": 60,
+    "evolutionChainId": 55,
+    "evolvesFrom": 118,
+    "generation": 1,
+    "id": 119,
+    "legendary": false,
+    "mythical": false,
+    "name": "Seaking",
+    "nameEn": "Seaking",
+    "slug": "seaking",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/119.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 55,
+      "hp": 30,
+      "specialAttack": 70,
+      "specialDefense": 55,
+      "speed": 85
+    },
+    "captureRate": 225,
+    "evolutionChainId": 56,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 120,
+    "legendary": false,
+    "mythical": false,
+    "name": "Staryu",
+    "nameEn": "Staryu",
+    "slug": "staryu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/120.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 85,
+      "hp": 60,
+      "specialAttack": 100,
+      "specialDefense": 85,
+      "speed": 115
+    },
+    "captureRate": 60,
+    "evolutionChainId": 56,
+    "evolvesFrom": 120,
+    "generation": 1,
+    "id": 121,
+    "legendary": false,
+    "mythical": false,
+    "name": "Starmie",
+    "nameEn": "Starmie",
+    "slug": "starmie",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/121.png",
+    "typing": [
+      "water",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 65,
+      "hp": 40,
+      "specialAttack": 100,
+      "specialDefense": 120,
+      "speed": 90
+    },
+    "captureRate": 45,
+    "evolutionChainId": 57,
+    "evolvesFrom": 439,
+    "generation": 1,
+    "id": 122,
+    "legendary": false,
+    "mythical": false,
+    "name": "Mr. Mime",
+    "nameEn": "Mr. Mime",
+    "slug": "mr-mime",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/122.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 110,
+      "defense": 80,
+      "hp": 70,
+      "specialAttack": 55,
+      "specialDefense": 80,
+      "speed": 105
+    },
+    "captureRate": 45,
+    "evolutionChainId": 58,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 123,
+    "legendary": false,
+    "mythical": false,
+    "name": "Scyther",
+    "nameEn": "Scyther",
+    "slug": "scyther",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/123.png",
+    "typing": [
+      "bug",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 35,
+      "hp": 65,
+      "specialAttack": 115,
+      "specialDefense": 95,
+      "speed": 95
+    },
+    "captureRate": 45,
+    "evolutionChainId": 59,
+    "evolvesFrom": 238,
+    "generation": 1,
+    "id": 124,
+    "legendary": false,
+    "mythical": false,
+    "name": "Jynx",
+    "nameEn": "Jynx",
+    "slug": "jynx",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/124.png",
+    "typing": [
+      "ice",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 83,
+      "defense": 57,
+      "hp": 65,
+      "specialAttack": 95,
+      "specialDefense": 85,
+      "speed": 105
+    },
+    "captureRate": 45,
+    "evolutionChainId": 60,
+    "evolvesFrom": 239,
+    "generation": 1,
+    "id": 125,
+    "legendary": false,
+    "mythical": false,
+    "name": "Electabuzz",
+    "nameEn": "Electabuzz",
+    "slug": "electabuzz",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/125.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 95,
+      "defense": 57,
+      "hp": 65,
+      "specialAttack": 100,
+      "specialDefense": 85,
+      "speed": 93
+    },
+    "captureRate": 45,
+    "evolutionChainId": 61,
+    "evolvesFrom": 240,
+    "generation": 1,
+    "id": 126,
+    "legendary": false,
+    "mythical": false,
+    "name": "Magmar",
+    "nameEn": "Magmar",
+    "slug": "magmar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/126.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 125,
+      "defense": 100,
+      "hp": 65,
+      "specialAttack": 55,
+      "specialDefense": 70,
+      "speed": 85
+    },
+    "captureRate": 45,
+    "evolutionChainId": 62,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 127,
+    "legendary": false,
+    "mythical": false,
+    "name": "Pinsir",
+    "nameEn": "Pinsir",
+    "slug": "pinsir",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/127.png",
+    "typing": [
+      "bug"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 95,
+      "hp": 75,
+      "specialAttack": 40,
+      "specialDefense": 70,
+      "speed": 110
+    },
+    "captureRate": 45,
+    "evolutionChainId": 63,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 128,
+    "legendary": false,
+    "mythical": false,
+    "name": "Tauros",
+    "nameEn": "Tauros",
+    "slug": "tauros",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/128.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 10,
+      "defense": 55,
+      "hp": 20,
+      "specialAttack": 15,
+      "specialDefense": 20,
+      "speed": 80
+    },
+    "captureRate": 255,
+    "evolutionChainId": 64,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 129,
+    "legendary": false,
+    "mythical": false,
+    "name": "Magikarp",
+    "nameEn": "Magikarp",
+    "slug": "magikarp",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/129.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 125,
+      "defense": 79,
+      "hp": 95,
+      "specialAttack": 60,
+      "specialDefense": 100,
+      "speed": 81
+    },
+    "captureRate": 45,
+    "evolutionChainId": 64,
+    "evolvesFrom": 129,
+    "generation": 1,
+    "id": 130,
+    "legendary": false,
+    "mythical": false,
+    "name": "Gyarados",
+    "nameEn": "Gyarados",
+    "slug": "gyarados",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/130.png",
+    "typing": [
+      "water",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 80,
+      "hp": 130,
+      "specialAttack": 85,
+      "specialDefense": 95,
+      "speed": 60
+    },
+    "captureRate": 45,
+    "evolutionChainId": 65,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 131,
+    "legendary": false,
+    "mythical": false,
+    "name": "Lapras",
+    "nameEn": "Lapras",
+    "slug": "lapras",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/131.png",
+    "typing": [
+      "water",
+      "ice"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 48,
+      "defense": 48,
+      "hp": 48,
+      "specialAttack": 48,
+      "specialDefense": 48,
+      "speed": 48
+    },
+    "captureRate": 35,
+    "evolutionChainId": 66,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 132,
+    "legendary": false,
+    "mythical": false,
+    "name": "Ditto",
+    "nameEn": "Ditto",
+    "slug": "ditto",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/132.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 55,
+      "defense": 50,
+      "hp": 55,
+      "specialAttack": 45,
+      "specialDefense": 65,
+      "speed": 55
+    },
+    "captureRate": 45,
+    "evolutionChainId": 67,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 133,
+    "legendary": false,
+    "mythical": false,
+    "name": "Eevee",
+    "nameEn": "Eevee",
+    "slug": "eevee",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/133.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 60,
+      "hp": 130,
+      "specialAttack": 110,
+      "specialDefense": 95,
+      "speed": 65
+    },
+    "captureRate": 45,
+    "evolutionChainId": 67,
+    "evolvesFrom": 133,
+    "generation": 1,
+    "id": 134,
+    "legendary": false,
+    "mythical": false,
+    "name": "Vaporeon",
+    "nameEn": "Vaporeon",
+    "slug": "vaporeon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/134.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 60,
+      "hp": 65,
+      "specialAttack": 110,
+      "specialDefense": 95,
+      "speed": 130
+    },
+    "captureRate": 45,
+    "evolutionChainId": 67,
+    "evolvesFrom": 133,
+    "generation": 1,
+    "id": 135,
+    "legendary": false,
+    "mythical": false,
+    "name": "Jolteon",
+    "nameEn": "Jolteon",
+    "slug": "jolteon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/135.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 130,
+      "defense": 60,
+      "hp": 65,
+      "specialAttack": 95,
+      "specialDefense": 110,
+      "speed": 65
+    },
+    "captureRate": 45,
+    "evolutionChainId": 67,
+    "evolvesFrom": 133,
+    "generation": 1,
+    "id": 136,
+    "legendary": false,
+    "mythical": false,
+    "name": "Flareon",
+    "nameEn": "Flareon",
+    "slug": "flareon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/136.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 70,
+      "hp": 65,
+      "specialAttack": 85,
+      "specialDefense": 75,
+      "speed": 40
+    },
+    "captureRate": 45,
+    "evolutionChainId": 68,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 137,
+    "legendary": false,
+    "mythical": false,
+    "name": "Porygon",
+    "nameEn": "Porygon",
+    "slug": "porygon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/137.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 40,
+      "defense": 100,
+      "hp": 35,
+      "specialAttack": 90,
+      "specialDefense": 55,
+      "speed": 35
+    },
+    "captureRate": 45,
+    "evolutionChainId": 69,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 138,
+    "legendary": false,
+    "mythical": false,
+    "name": "Omanyte",
+    "nameEn": "Omanyte",
+    "slug": "omanyte",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/138.png",
+    "typing": [
+      "rock",
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 125,
+      "hp": 70,
+      "specialAttack": 115,
+      "specialDefense": 70,
+      "speed": 55
+    },
+    "captureRate": 45,
+    "evolutionChainId": 69,
+    "evolvesFrom": 138,
+    "generation": 1,
+    "id": 139,
+    "legendary": false,
+    "mythical": false,
+    "name": "Omastar",
+    "nameEn": "Omastar",
+    "slug": "omastar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/139.png",
+    "typing": [
+      "rock",
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 90,
+      "hp": 30,
+      "specialAttack": 55,
+      "specialDefense": 45,
+      "speed": 55
+    },
+    "captureRate": 45,
+    "evolutionChainId": 70,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 140,
+    "legendary": false,
+    "mythical": false,
+    "name": "Kabuto",
+    "nameEn": "Kabuto",
+    "slug": "kabuto",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/140.png",
+    "typing": [
+      "rock",
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 115,
+      "defense": 105,
+      "hp": 60,
+      "specialAttack": 65,
+      "specialDefense": 70,
+      "speed": 80
+    },
+    "captureRate": 45,
+    "evolutionChainId": 70,
+    "evolvesFrom": 140,
+    "generation": 1,
+    "id": 141,
+    "legendary": false,
+    "mythical": false,
+    "name": "Kabutops",
+    "nameEn": "Kabutops",
+    "slug": "kabutops",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/141.png",
+    "typing": [
+      "rock",
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 105,
+      "defense": 65,
+      "hp": 80,
+      "specialAttack": 60,
+      "specialDefense": 75,
+      "speed": 130
+    },
+    "captureRate": 45,
+    "evolutionChainId": 71,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 142,
+    "legendary": false,
+    "mythical": false,
+    "name": "Aerodactyl",
+    "nameEn": "Aerodactyl",
+    "slug": "aerodactyl",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/142.png",
+    "typing": [
+      "rock",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 110,
+      "defense": 65,
+      "hp": 160,
+      "specialAttack": 65,
+      "specialDefense": 110,
+      "speed": 30
+    },
+    "captureRate": 25,
+    "evolutionChainId": 72,
+    "evolvesFrom": 446,
+    "generation": 1,
+    "id": 143,
+    "legendary": false,
+    "mythical": false,
+    "name": "Snorlax",
+    "nameEn": "Snorlax",
+    "slug": "snorlax",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/143.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 100,
+      "hp": 90,
+      "specialAttack": 95,
+      "specialDefense": 125,
+      "speed": 85
+    },
+    "captureRate": 3,
+    "evolutionChainId": 73,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 144,
+    "legendary": true,
+    "mythical": false,
+    "name": "Articuno",
+    "nameEn": "Articuno",
+    "slug": "articuno",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/144.png",
+    "typing": [
+      "ice",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 85,
+      "hp": 90,
+      "specialAttack": 125,
+      "specialDefense": 90,
+      "speed": 100
+    },
+    "captureRate": 3,
+    "evolutionChainId": 74,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 145,
+    "legendary": true,
+    "mythical": false,
+    "name": "Zapdos",
+    "nameEn": "Zapdos",
+    "slug": "zapdos",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/145.png",
+    "typing": [
+      "electric",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 90,
+      "hp": 90,
+      "specialAttack": 125,
+      "specialDefense": 85,
+      "speed": 90
+    },
+    "captureRate": 3,
+    "evolutionChainId": 75,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 146,
+    "legendary": true,
+    "mythical": false,
+    "name": "Moltres",
+    "nameEn": "Moltres",
+    "slug": "moltres",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/146.png",
+    "typing": [
+      "fire",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 64,
+      "defense": 45,
+      "hp": 41,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 50
+    },
+    "captureRate": 45,
+    "evolutionChainId": 76,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 147,
+    "legendary": false,
+    "mythical": false,
+    "name": "Dratini",
+    "nameEn": "Dratini",
+    "slug": "dratini",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/147.png",
+    "typing": [
+      "dragon"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 84,
+      "defense": 65,
+      "hp": 61,
+      "specialAttack": 70,
+      "specialDefense": 70,
+      "speed": 70
+    },
+    "captureRate": 45,
+    "evolutionChainId": 76,
+    "evolvesFrom": 147,
+    "generation": 1,
+    "id": 148,
+    "legendary": false,
+    "mythical": false,
+    "name": "Dragonair",
+    "nameEn": "Dragonair",
+    "slug": "dragonair",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/148.png",
+    "typing": [
+      "dragon"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 134,
+      "defense": 95,
+      "hp": 91,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 80
+    },
+    "captureRate": 45,
+    "evolutionChainId": 76,
+    "evolvesFrom": 148,
+    "generation": 1,
+    "id": 149,
+    "legendary": false,
+    "mythical": false,
+    "name": "Dragonite",
+    "nameEn": "Dragonite",
+    "slug": "dragonite",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/149.png",
+    "typing": [
+      "dragon",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 110,
+      "defense": 90,
+      "hp": 106,
+      "specialAttack": 154,
+      "specialDefense": 90,
+      "speed": 130
+    },
+    "captureRate": 3,
+    "evolutionChainId": 77,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 150,
+    "legendary": true,
+    "mythical": false,
+    "name": "Mewtwo",
+    "nameEn": "Mewtwo",
+    "slug": "mewtwo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/150.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 100,
+      "hp": 100,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 100
+    },
+    "captureRate": 45,
+    "evolutionChainId": 78,
+    "evolvesFrom": null,
+    "generation": 1,
+    "id": 151,
+    "legendary": false,
+    "mythical": true,
+    "name": "Mew",
+    "nameEn": "Mew",
+    "slug": "mew",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/151.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 46,
+      "defense": 34,
+      "hp": 35,
+      "specialAttack": 35,
+      "specialDefense": 45,
+      "speed": 20
+    },
+    "captureRate": 255,
+    "evolutionChainId": 82,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 161,
+    "legendary": false,
+    "mythical": false,
+    "name": "Sentret",
+    "nameEn": "Sentret",
+    "slug": "sentret",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/161.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 76,
+      "defense": 64,
+      "hp": 85,
+      "specialAttack": 45,
+      "specialDefense": 55,
+      "speed": 90
+    },
+    "captureRate": 90,
+    "evolutionChainId": 82,
+    "evolvesFrom": 161,
+    "generation": 2,
+    "id": 162,
+    "legendary": false,
+    "mythical": false,
+    "name": "Furret",
+    "nameEn": "Furret",
+    "slug": "furret",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/162.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 20,
+      "defense": 30,
+      "hp": 40,
+      "specialAttack": 40,
+      "specialDefense": 80,
+      "speed": 55
+    },
+    "captureRate": 255,
+    "evolutionChainId": 84,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 165,
+    "legendary": false,
+    "mythical": false,
+    "name": "Ledyba",
+    "nameEn": "Ledyba",
+    "slug": "ledyba",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/165.png",
+    "typing": [
+      "bug",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 35,
+      "defense": 50,
+      "hp": 55,
+      "specialAttack": 55,
+      "specialDefense": 110,
+      "speed": 85
+    },
+    "captureRate": 90,
+    "evolutionChainId": 84,
+    "evolvesFrom": 165,
+    "generation": 2,
+    "id": 166,
+    "legendary": false,
+    "mythical": false,
+    "name": "Ledian",
+    "nameEn": "Ledian",
+    "slug": "ledian",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/166.png",
+    "typing": [
+      "bug",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 40,
+      "hp": 40,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 30
+    },
+    "captureRate": 255,
+    "evolutionChainId": 85,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 167,
+    "legendary": false,
+    "mythical": false,
+    "name": "Spinarak",
+    "nameEn": "Spinarak",
+    "slug": "spinarak",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/167.png",
+    "typing": [
+      "bug",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 70,
+      "hp": 70,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 40
+    },
+    "captureRate": 90,
+    "evolutionChainId": 85,
+    "evolvesFrom": 167,
+    "generation": 2,
+    "id": 168,
+    "legendary": false,
+    "mythical": false,
+    "name": "Ariados",
+    "nameEn": "Ariados",
+    "slug": "ariados",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/168.png",
+    "typing": [
+      "bug",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 80,
+      "hp": 85,
+      "specialAttack": 70,
+      "specialDefense": 80,
+      "speed": 130
+    },
+    "captureRate": 90,
+    "evolutionChainId": 17,
+    "evolvesFrom": 42,
+    "generation": 2,
+    "id": 169,
+    "legendary": false,
+    "mythical": false,
+    "name": "Crobat",
+    "nameEn": "Crobat",
+    "slug": "crobat",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/169.png",
+    "typing": [
+      "poison",
+      "flying"
+    ]
+  },
+  {
+    "baby": true,
+    "baseStats": {
+      "attack": 40,
+      "defense": 15,
+      "hp": 20,
+      "specialAttack": 35,
+      "specialDefense": 35,
+      "speed": 60
+    },
+    "captureRate": 190,
+    "evolutionChainId": 10,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 172,
+    "legendary": false,
+    "mythical": false,
+    "name": "Pichu",
+    "nameEn": "Pichu",
+    "slug": "pichu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/172.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": true,
+    "baseStats": {
+      "attack": 25,
+      "defense": 28,
+      "hp": 50,
+      "specialAttack": 45,
+      "specialDefense": 55,
+      "speed": 15
+    },
+    "captureRate": 150,
+    "evolutionChainId": 14,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 173,
+    "legendary": false,
+    "mythical": false,
+    "name": "Cleffa",
+    "nameEn": "Cleffa",
+    "slug": "cleffa",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/173.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": true,
+    "baseStats": {
+      "attack": 30,
+      "defense": 15,
+      "hp": 90,
+      "specialAttack": 40,
+      "specialDefense": 20,
+      "speed": 15
+    },
+    "captureRate": 170,
+    "evolutionChainId": 16,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 174,
+    "legendary": false,
+    "mythical": false,
+    "name": "Igglybuff",
+    "nameEn": "Igglybuff",
+    "slug": "igglybuff",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/174.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": true,
+    "baseStats": {
+      "attack": 20,
+      "defense": 65,
+      "hp": 35,
+      "specialAttack": 40,
+      "specialDefense": 65,
+      "speed": 20
+    },
+    "captureRate": 190,
+    "evolutionChainId": 87,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 175,
+    "legendary": false,
+    "mythical": false,
+    "name": "Togepi",
+    "nameEn": "Togepi",
+    "slug": "togepi",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/175.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 40,
+      "defense": 85,
+      "hp": 55,
+      "specialAttack": 80,
+      "specialDefense": 105,
+      "speed": 40
+    },
+    "captureRate": 75,
+    "evolutionChainId": 87,
+    "evolvesFrom": 175,
+    "generation": 2,
+    "id": 176,
+    "legendary": false,
+    "mythical": false,
+    "name": "Togetic",
+    "nameEn": "Togetic",
+    "slug": "togetic",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/176.png",
+    "typing": [
+      "normal",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 45,
+      "hp": 40,
+      "specialAttack": 70,
+      "specialDefense": 45,
+      "speed": 70
+    },
+    "captureRate": 190,
+    "evolutionChainId": 88,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 177,
+    "legendary": false,
+    "mythical": false,
+    "name": "Natu",
+    "nameEn": "Natu",
+    "slug": "natu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/177.png",
+    "typing": [
+      "psychic",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 70,
+      "hp": 65,
+      "specialAttack": 95,
+      "specialDefense": 70,
+      "speed": 95
+    },
+    "captureRate": 75,
+    "evolutionChainId": 88,
+    "evolvesFrom": 177,
+    "generation": 2,
+    "id": 178,
+    "legendary": false,
+    "mythical": false,
+    "name": "Xatu",
+    "nameEn": "Xatu",
+    "slug": "xatu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/178.png",
+    "typing": [
+      "psychic",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 40,
+      "defense": 40,
+      "hp": 55,
+      "specialAttack": 65,
+      "specialDefense": 45,
+      "speed": 35
+    },
+    "captureRate": 235,
+    "evolutionChainId": 89,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 179,
+    "legendary": false,
+    "mythical": false,
+    "name": "Mareep",
+    "nameEn": "Mareep",
+    "slug": "mareep",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/179.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 55,
+      "defense": 55,
+      "hp": 70,
+      "specialAttack": 80,
+      "specialDefense": 60,
+      "speed": 45
+    },
+    "captureRate": 120,
+    "evolutionChainId": 89,
+    "evolvesFrom": 179,
+    "generation": 2,
+    "id": 180,
+    "legendary": false,
+    "mythical": false,
+    "name": "Flaaffy",
+    "nameEn": "Flaaffy",
+    "slug": "flaaffy",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/180.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 75,
+      "hp": 90,
+      "specialAttack": 115,
+      "specialDefense": 90,
+      "speed": 55
+    },
+    "captureRate": 45,
+    "evolutionChainId": 89,
+    "evolvesFrom": 180,
+    "generation": 2,
+    "id": 181,
+    "legendary": false,
+    "mythical": false,
+    "name": "Ampharos",
+    "nameEn": "Ampharos",
+    "slug": "ampharos",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/181.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 85,
+      "hp": 75,
+      "specialAttack": 90,
+      "specialDefense": 100,
+      "speed": 50
+    },
+    "captureRate": 45,
+    "evolutionChainId": 18,
+    "evolvesFrom": 44,
+    "generation": 2,
+    "id": 182,
+    "legendary": false,
+    "mythical": false,
+    "name": "Bellossom",
+    "nameEn": "Bellossom",
+    "slug": "bellossom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/182.png",
+    "typing": [
+      "grass"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 75,
+      "hp": 90,
+      "specialAttack": 90,
+      "specialDefense": 100,
+      "speed": 70
+    },
+    "captureRate": 45,
+    "evolutionChainId": 26,
+    "evolvesFrom": 61,
+    "generation": 2,
+    "id": 186,
+    "legendary": false,
+    "mythical": false,
+    "name": "Politoed",
+    "nameEn": "Politoed",
+    "slug": "politoed",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/186.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 35,
+      "defense": 40,
+      "hp": 35,
+      "specialAttack": 35,
+      "specialDefense": 55,
+      "speed": 50
+    },
+    "captureRate": 255,
+    "evolutionChainId": 92,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 187,
+    "legendary": false,
+    "mythical": false,
+    "name": "Hoppip",
+    "nameEn": "Hoppip",
+    "slug": "hoppip",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/187.png",
+    "typing": [
+      "grass",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 50,
+      "hp": 55,
+      "specialAttack": 45,
+      "specialDefense": 65,
+      "speed": 80
+    },
+    "captureRate": 120,
+    "evolutionChainId": 92,
+    "evolvesFrom": 187,
+    "generation": 2,
+    "id": 188,
+    "legendary": false,
+    "mythical": false,
+    "name": "Skiploom",
+    "nameEn": "Skiploom",
+    "slug": "skiploom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/188.png",
+    "typing": [
+      "grass",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 55,
+      "defense": 70,
+      "hp": 75,
+      "specialAttack": 55,
+      "specialDefense": 85,
+      "speed": 110
+    },
+    "captureRate": 45,
+    "evolutionChainId": 92,
+    "evolvesFrom": 188,
+    "generation": 2,
+    "id": 189,
+    "legendary": false,
+    "mythical": false,
+    "name": "Jumpluff",
+    "nameEn": "Jumpluff",
+    "slug": "jumpluff",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/189.png",
+    "typing": [
+      "grass",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 55,
+      "hp": 55,
+      "specialAttack": 40,
+      "specialDefense": 55,
+      "speed": 85
+    },
+    "captureRate": 45,
+    "evolutionChainId": 93,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 190,
+    "legendary": false,
+    "mythical": false,
+    "name": "Aipom",
+    "nameEn": "Aipom",
+    "slug": "aipom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/190.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 45,
+      "hp": 65,
+      "specialAttack": 75,
+      "specialDefense": 45,
+      "speed": 95
+    },
+    "captureRate": 75,
+    "evolutionChainId": 95,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 193,
+    "legendary": false,
+    "mythical": false,
+    "name": "Yanma",
+    "nameEn": "Yanma",
+    "slug": "yanma",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/193.png",
+    "typing": [
+      "bug",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 45,
+      "defense": 45,
+      "hp": 55,
+      "specialAttack": 25,
+      "specialDefense": 25,
+      "speed": 15
+    },
+    "captureRate": 255,
+    "evolutionChainId": 96,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 194,
+    "legendary": false,
+    "mythical": false,
+    "name": "Wooper",
+    "nameEn": "Wooper",
+    "slug": "wooper",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/194.png",
+    "typing": [
+      "water",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 85,
+      "hp": 95,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 35
+    },
+    "captureRate": 90,
+    "evolutionChainId": 96,
+    "evolvesFrom": 194,
+    "generation": 2,
+    "id": 195,
+    "legendary": false,
+    "mythical": false,
+    "name": "Quagsire",
+    "nameEn": "Quagsire",
+    "slug": "quagsire",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/195.png",
+    "typing": [
+      "water",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 60,
+      "hp": 65,
+      "specialAttack": 130,
+      "specialDefense": 95,
+      "speed": 110
+    },
+    "captureRate": 45,
+    "evolutionChainId": 67,
+    "evolvesFrom": 133,
+    "generation": 2,
+    "id": 196,
+    "legendary": false,
+    "mythical": false,
+    "name": "Espeon",
+    "nameEn": "Espeon",
+    "slug": "espeon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/196.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 110,
+      "hp": 95,
+      "specialAttack": 60,
+      "specialDefense": 130,
+      "speed": 65
+    },
+    "captureRate": 45,
+    "evolutionChainId": 67,
+    "evolvesFrom": 133,
+    "generation": 2,
+    "id": 197,
+    "legendary": false,
+    "mythical": false,
+    "name": "Umbreon",
+    "nameEn": "Umbreon",
+    "slug": "umbreon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/197.png",
+    "typing": [
+      "dark"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 42,
+      "hp": 60,
+      "specialAttack": 85,
+      "specialDefense": 42,
+      "speed": 91
+    },
+    "captureRate": 30,
+    "evolutionChainId": 97,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 198,
+    "legendary": false,
+    "mythical": false,
+    "name": "Murkrow",
+    "nameEn": "Murkrow",
+    "slug": "murkrow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/198.png",
+    "typing": [
+      "dark",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 80,
+      "hp": 95,
+      "specialAttack": 100,
+      "specialDefense": 110,
+      "speed": 30
+    },
+    "captureRate": 70,
+    "evolutionChainId": 33,
+    "evolvesFrom": 79,
+    "generation": 2,
+    "id": 199,
+    "legendary": false,
+    "mythical": false,
+    "name": "Slowking",
+    "nameEn": "Slowking",
+    "slug": "slowking",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/199.png",
+    "typing": [
+      "water",
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 72,
+      "defense": 48,
+      "hp": 48,
+      "specialAttack": 72,
+      "specialDefense": 48,
+      "speed": 48
+    },
+    "captureRate": 225,
+    "evolutionChainId": 99,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 201,
+    "legendary": false,
+    "mythical": false,
+    "name": "Unown",
+    "nameEn": "Unown",
+    "slug": "unown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/201.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 33,
+      "defense": 58,
+      "hp": 190,
+      "specialAttack": 33,
+      "specialDefense": 58,
+      "speed": 33
+    },
+    "captureRate": 45,
+    "evolutionChainId": 100,
+    "evolvesFrom": 360,
+    "generation": 2,
+    "id": 202,
+    "legendary": false,
+    "mythical": false,
+    "name": "Wobbuffet",
+    "nameEn": "Wobbuffet",
+    "slug": "wobbuffet",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/202.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 65,
+      "defense": 90,
+      "hp": 50,
+      "specialAttack": 35,
+      "specialDefense": 35,
+      "speed": 15
+    },
+    "captureRate": 190,
+    "evolutionChainId": 102,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 204,
+    "legendary": false,
+    "mythical": false,
+    "name": "Pineco",
+    "nameEn": "Pineco",
+    "slug": "pineco",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/204.png",
+    "typing": [
+      "bug"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 140,
+      "hp": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 40
+    },
+    "captureRate": 75,
+    "evolutionChainId": 102,
+    "evolvesFrom": 204,
+    "generation": 2,
+    "id": 205,
+    "legendary": false,
+    "mythical": false,
+    "name": "Forretress",
+    "nameEn": "Forretress",
+    "slug": "forretress",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/205.png",
+    "typing": [
+      "bug",
+      "steel"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 70,
+      "defense": 70,
+      "hp": 100,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 45
+    },
+    "captureRate": 190,
+    "evolutionChainId": 103,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 206,
+    "legendary": false,
+    "mythical": false,
+    "name": "Dunsparce",
+    "nameEn": "Dunsparce",
+    "slug": "dunsparce",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/206.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 200,
+      "hp": 75,
+      "specialAttack": 55,
+      "specialDefense": 65,
+      "speed": 30
+    },
+    "captureRate": 25,
+    "evolutionChainId": 41,
+    "evolvesFrom": 95,
+    "generation": 2,
+    "id": 208,
+    "legendary": false,
+    "mythical": false,
+    "name": "Steelix",
+    "nameEn": "Steelix",
+    "slug": "steelix",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/208.png",
+    "typing": [
+      "steel",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 95,
+      "defense": 75,
+      "hp": 65,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 85
+    },
+    "captureRate": 45,
+    "evolutionChainId": 106,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 211,
+    "legendary": false,
+    "mythical": false,
+    "name": "Qwilfish",
+    "nameEn": "Qwilfish",
+    "slug": "qwilfish",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/211.png",
+    "typing": [
+      "water",
+      "poison"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 130,
+      "defense": 100,
+      "hp": 70,
+      "specialAttack": 55,
+      "specialDefense": 80,
+      "speed": 65
+    },
+    "captureRate": 25,
+    "evolutionChainId": 58,
+    "evolvesFrom": 123,
+    "generation": 2,
+    "id": 212,
+    "legendary": false,
+    "mythical": false,
+    "name": "Scizor",
+    "nameEn": "Scizor",
+    "slug": "scizor",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/212.png",
+    "typing": [
+      "bug",
+      "steel"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 10,
+      "defense": 230,
+      "hp": 20,
+      "specialAttack": 10,
+      "specialDefense": 230,
+      "speed": 5
+    },
+    "captureRate": 190,
+    "evolutionChainId": 107,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 213,
+    "legendary": false,
+    "mythical": false,
+    "name": "Shuckle",
+    "nameEn": "Shuckle",
+    "slug": "shuckle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/213.png",
+    "typing": [
+      "bug",
+      "rock"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 125,
+      "defense": 75,
+      "hp": 80,
+      "specialAttack": 40,
+      "specialDefense": 95,
+      "speed": 85
+    },
+    "captureRate": 45,
+    "evolutionChainId": 108,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 214,
+    "legendary": false,
+    "mythical": false,
+    "name": "Heracross",
+    "nameEn": "Heracross",
+    "slug": "heracross",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/214.png",
+    "typing": [
+      "bug",
+      "fighting"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 50,
+      "hp": 60,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 40
+    },
+    "captureRate": 120,
+    "evolutionChainId": 110,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 216,
+    "legendary": false,
+    "mythical": false,
+    "name": "Teddiursa",
+    "nameEn": "Teddiursa",
+    "slug": "teddiursa",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/216.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 130,
+      "defense": 75,
+      "hp": 90,
+      "specialAttack": 75,
+      "specialDefense": 75,
+      "speed": 55
+    },
+    "captureRate": 60,
+    "evolutionChainId": 110,
+    "evolvesFrom": 216,
+    "generation": 2,
+    "id": 217,
+    "legendary": false,
+    "mythical": false,
+    "name": "Ursaring",
+    "nameEn": "Ursaring",
+    "slug": "ursaring",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/217.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 40,
+      "defense": 40,
+      "hp": 40,
+      "specialAttack": 70,
+      "specialDefense": 40,
+      "speed": 20
+    },
+    "captureRate": 190,
+    "evolutionChainId": 111,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 218,
+    "legendary": false,
+    "mythical": false,
+    "name": "Slugma",
+    "nameEn": "Slugma",
+    "slug": "slugma",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/218.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 120,
+      "hp": 50,
+      "specialAttack": 80,
+      "specialDefense": 80,
+      "speed": 30
+    },
+    "captureRate": 75,
+    "evolutionChainId": 111,
+    "evolvesFrom": 218,
+    "generation": 2,
+    "id": 219,
+    "legendary": false,
+    "mythical": false,
+    "name": "Magcargo",
+    "nameEn": "Magcargo",
+    "slug": "magcargo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/219.png",
+    "typing": [
+      "fire",
+      "rock"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 50,
+      "defense": 40,
+      "hp": 50,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 50
+    },
+    "captureRate": 225,
+    "evolutionChainId": 112,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 220,
+    "legendary": false,
+    "mythical": false,
+    "name": "Swinub",
+    "nameEn": "Swinub",
+    "slug": "swinub",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/220.png",
+    "typing": [
+      "ice",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 80,
+      "hp": 100,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 50
+    },
+    "captureRate": 75,
+    "evolutionChainId": 112,
+    "evolvesFrom": 220,
+    "generation": 2,
+    "id": 221,
+    "legendary": false,
+    "mythical": false,
+    "name": "Piloswine",
+    "nameEn": "Piloswine",
+    "slug": "piloswine",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/221.png",
+    "typing": [
+      "ice",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 55,
+      "defense": 45,
+      "hp": 45,
+      "specialAttack": 65,
+      "specialDefense": 45,
+      "speed": 75
+    },
+    "captureRate": 45,
+    "evolutionChainId": 115,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 225,
+    "legendary": false,
+    "mythical": false,
+    "name": "Delibird",
+    "nameEn": "Delibird",
+    "slug": "delibird",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/225.png",
+    "typing": [
+      "ice",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 140,
+      "hp": 65,
+      "specialAttack": 40,
+      "specialDefense": 70,
+      "speed": 70
+    },
+    "captureRate": 25,
+    "evolutionChainId": 117,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 227,
+    "legendary": false,
+    "mythical": false,
+    "name": "Skarmory",
+    "nameEn": "Skarmory",
+    "slug": "skarmory",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/227.png",
+    "typing": [
+      "steel",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 30,
+      "hp": 45,
+      "specialAttack": 80,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "captureRate": 120,
+    "evolutionChainId": 118,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 228,
+    "legendary": false,
+    "mythical": false,
+    "name": "Houndour",
+    "nameEn": "Houndour",
+    "slug": "houndour",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/228.png",
+    "typing": [
+      "dark",
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 50,
+      "hp": 75,
+      "specialAttack": 110,
+      "specialDefense": 80,
+      "speed": 95
+    },
+    "captureRate": 45,
+    "evolutionChainId": 118,
+    "evolvesFrom": 228,
+    "generation": 2,
+    "id": 229,
+    "legendary": false,
+    "mythical": false,
+    "name": "Houndoom",
+    "nameEn": "Houndoom",
+    "slug": "houndoom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/229.png",
+    "typing": [
+      "dark",
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 95,
+      "defense": 95,
+      "hp": 75,
+      "specialAttack": 95,
+      "specialDefense": 95,
+      "speed": 85
+    },
+    "captureRate": 45,
+    "evolutionChainId": 54,
+    "evolvesFrom": 117,
+    "generation": 2,
+    "id": 230,
+    "legendary": false,
+    "mythical": false,
+    "name": "Kingdra",
+    "nameEn": "Kingdra",
+    "slug": "kingdra",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/230.png",
+    "typing": [
+      "water",
+      "dragon"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 60,
+      "defense": 60,
+      "hp": 90,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 40
+    },
+    "captureRate": 120,
+    "evolutionChainId": 119,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 231,
+    "legendary": false,
+    "mythical": false,
+    "name": "Phanpy",
+    "nameEn": "Phanpy",
+    "slug": "phanpy",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/231.png",
+    "typing": [
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 120,
+      "defense": 120,
+      "hp": 90,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 50
+    },
+    "captureRate": 60,
+    "evolutionChainId": 119,
+    "evolvesFrom": 231,
+    "generation": 2,
+    "id": 232,
+    "legendary": false,
+    "mythical": false,
+    "name": "Donphan",
+    "nameEn": "Donphan",
+    "slug": "donphan",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/232.png",
+    "typing": [
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 80,
+      "defense": 90,
+      "hp": 85,
+      "specialAttack": 105,
+      "specialDefense": 95,
+      "speed": 60
+    },
+    "captureRate": 45,
+    "evolutionChainId": 68,
+    "evolvesFrom": 137,
+    "generation": 2,
+    "id": 233,
+    "legendary": false,
+    "mythical": false,
+    "name": "Porygon2",
+    "nameEn": "Porygon2",
+    "slug": "porygon2",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/233.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 95,
+      "defense": 62,
+      "hp": 73,
+      "specialAttack": 85,
+      "specialDefense": 65,
+      "speed": 85
+    },
+    "captureRate": 45,
+    "evolutionChainId": 120,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 234,
+    "legendary": false,
+    "mythical": false,
+    "name": "Stantler",
+    "nameEn": "Stantler",
+    "slug": "stantler",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/234.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 20,
+      "defense": 35,
+      "hp": 55,
+      "specialAttack": 20,
+      "specialDefense": 45,
+      "speed": 75
+    },
+    "captureRate": 45,
+    "evolutionChainId": 121,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 235,
+    "legendary": false,
+    "mythical": false,
+    "name": "Smeargle",
+    "nameEn": "Smeargle",
+    "slug": "smeargle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/235.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": true,
+    "baseStats": {
+      "attack": 35,
+      "defense": 35,
+      "hp": 35,
+      "specialAttack": 35,
+      "specialDefense": 35,
+      "speed": 35
+    },
+    "captureRate": 75,
+    "evolutionChainId": 47,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 236,
+    "legendary": false,
+    "mythical": false,
+    "name": "Tyrogue",
+    "nameEn": "Tyrogue",
+    "slug": "tyrogue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/236.png",
+    "typing": [
+      "fighting"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 95,
+      "defense": 95,
+      "hp": 50,
+      "specialAttack": 35,
+      "specialDefense": 110,
+      "speed": 70
+    },
+    "captureRate": 45,
+    "evolutionChainId": 47,
+    "evolvesFrom": 236,
+    "generation": 2,
+    "id": 237,
+    "legendary": false,
+    "mythical": false,
+    "name": "Hitmontop",
+    "nameEn": "Hitmontop",
+    "slug": "hitmontop",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/237.png",
+    "typing": [
+      "fighting"
+    ]
+  },
+  {
+    "baby": true,
+    "baseStats": {
+      "attack": 30,
+      "defense": 15,
+      "hp": 45,
+      "specialAttack": 85,
+      "specialDefense": 65,
+      "speed": 65
+    },
+    "captureRate": 45,
+    "evolutionChainId": 59,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 238,
+    "legendary": false,
+    "mythical": false,
+    "name": "Smoochum",
+    "nameEn": "Smoochum",
+    "slug": "smoochum",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/238.png",
+    "typing": [
+      "ice",
+      "psychic"
+    ]
+  },
+  {
+    "baby": true,
+    "baseStats": {
+      "attack": 63,
+      "defense": 37,
+      "hp": 45,
+      "specialAttack": 65,
+      "specialDefense": 55,
+      "speed": 95
+    },
+    "captureRate": 45,
+    "evolutionChainId": 60,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 239,
+    "legendary": false,
+    "mythical": false,
+    "name": "Elekid",
+    "nameEn": "Elekid",
+    "slug": "elekid",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/239.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": true,
+    "baseStats": {
+      "attack": 75,
+      "defense": 37,
+      "hp": 45,
+      "specialAttack": 70,
+      "specialDefense": 55,
+      "speed": 83
+    },
+    "captureRate": 45,
+    "evolutionChainId": 61,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 240,
+    "legendary": false,
+    "mythical": false,
+    "name": "Magby",
+    "nameEn": "Magby",
+    "slug": "magby",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/240.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 10,
+      "defense": 10,
+      "hp": 255,
+      "specialAttack": 75,
+      "specialDefense": 135,
+      "speed": 55
+    },
+    "captureRate": 30,
+    "evolutionChainId": 51,
+    "evolvesFrom": 113,
+    "generation": 2,
+    "id": 242,
+    "legendary": false,
+    "mythical": false,
+    "name": "Blissey",
+    "nameEn": "Blissey",
+    "slug": "blissey",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/242.png",
+    "typing": [
+      "normal"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 85,
+      "defense": 75,
+      "hp": 90,
+      "specialAttack": 115,
+      "specialDefense": 100,
+      "speed": 115
+    },
+    "captureRate": 3,
+    "evolutionChainId": 123,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 243,
+    "legendary": true,
+    "mythical": false,
+    "name": "Raikou",
+    "nameEn": "Raikou",
+    "slug": "raikou",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/243.png",
+    "typing": [
+      "electric"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 115,
+      "defense": 85,
+      "hp": 115,
+      "specialAttack": 90,
+      "specialDefense": 75,
+      "speed": 100
+    },
+    "captureRate": 3,
+    "evolutionChainId": 124,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 244,
+    "legendary": true,
+    "mythical": false,
+    "name": "Entei",
+    "nameEn": "Entei",
+    "slug": "entei",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/244.png",
+    "typing": [
+      "fire"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 75,
+      "defense": 115,
+      "hp": 100,
+      "specialAttack": 90,
+      "specialDefense": 115,
+      "speed": 85
+    },
+    "captureRate": 3,
+    "evolutionChainId": 125,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 245,
+    "legendary": true,
+    "mythical": false,
+    "name": "Suicune",
+    "nameEn": "Suicune",
+    "slug": "suicune",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/245.png",
+    "typing": [
+      "water"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 64,
+      "defense": 50,
+      "hp": 50,
+      "specialAttack": 45,
+      "specialDefense": 50,
+      "speed": 41
+    },
+    "captureRate": 45,
+    "evolutionChainId": 126,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 246,
+    "legendary": false,
+    "mythical": false,
+    "name": "Larvitar",
+    "nameEn": "Larvitar",
+    "slug": "larvitar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/246.png",
+    "typing": [
+      "rock",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 84,
+      "defense": 70,
+      "hp": 70,
+      "specialAttack": 65,
+      "specialDefense": 70,
+      "speed": 51
+    },
+    "captureRate": 45,
+    "evolutionChainId": 126,
+    "evolvesFrom": 246,
+    "generation": 2,
+    "id": 247,
+    "legendary": false,
+    "mythical": false,
+    "name": "Pupitar",
+    "nameEn": "Pupitar",
+    "slug": "pupitar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/247.png",
+    "typing": [
+      "rock",
+      "ground"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 134,
+      "defense": 110,
+      "hp": 100,
+      "specialAttack": 95,
+      "specialDefense": 100,
+      "speed": 61
+    },
+    "captureRate": 45,
+    "evolutionChainId": 126,
+    "evolvesFrom": 247,
+    "generation": 2,
+    "id": 248,
+    "legendary": false,
+    "mythical": false,
+    "name": "Tyranitar",
+    "nameEn": "Tyranitar",
+    "slug": "tyranitar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/248.png",
+    "typing": [
+      "rock",
+      "dark"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 90,
+      "defense": 130,
+      "hp": 106,
+      "specialAttack": 90,
+      "specialDefense": 154,
+      "speed": 110
+    },
+    "captureRate": 3,
+    "evolutionChainId": 127,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 249,
+    "legendary": true,
+    "mythical": false,
+    "name": "Lugia",
+    "nameEn": "Lugia",
+    "slug": "lugia",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/249.png",
+    "typing": [
+      "psychic",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 130,
+      "defense": 90,
+      "hp": 106,
+      "specialAttack": 110,
+      "specialDefense": 154,
+      "speed": 90
+    },
+    "captureRate": 3,
+    "evolutionChainId": 128,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 250,
+    "legendary": true,
+    "mythical": false,
+    "name": "Ho-Oh",
+    "nameEn": "Ho-Oh",
+    "slug": "ho-oh",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/250.png",
+    "typing": [
+      "fire",
+      "flying"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 100,
+      "defense": 100,
+      "hp": 100,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 100
+    },
+    "captureRate": 45,
+    "evolutionChainId": 129,
+    "evolvesFrom": null,
+    "generation": 2,
+    "id": 251,
+    "legendary": false,
+    "mythical": true,
+    "name": "Celebi",
+    "nameEn": "Celebi",
+    "slug": "celebi",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/251.png",
+    "typing": [
+      "psychic",
+      "grass"
+    ]
+  },
+  {
+    "baby": true,
+    "baseStats": {
+      "attack": 23,
+      "defense": 48,
+      "hp": 95,
+      "specialAttack": 23,
+      "specialDefense": 48,
+      "speed": 23
+    },
+    "captureRate": 125,
+    "evolutionChainId": 100,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 360,
+    "legendary": false,
+    "mythical": false,
+    "name": "Wynaut",
+    "nameEn": "Wynaut",
+    "slug": "wynaut",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/360.png",
+    "typing": [
+      "psychic"
+    ]
+  },
+  {
+    "baby": false,
+    "baseStats": {
+      "attack": 150,
+      "defense": 50,
+      "hp": 50,
+      "specialAttack": 150,
+      "specialDefense": 50,
+      "speed": 150
+    },
+    "captureRate": 3,
+    "evolutionChainId": 202,
+    "evolvesFrom": null,
+    "generation": 3,
+    "id": 386,
+    "legendary": false,
+    "mythical": true,
+    "name": "Deoxys",
+    "nameEn": "Deoxys",
+    "slug": "deoxys",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/386.png",
+    "typing": [
+      "psychic"
+    ]
+  }
+]

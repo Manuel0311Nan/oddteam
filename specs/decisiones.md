@@ -215,3 +215,26 @@ El alcance es una opción más del generador y de la Ruta, no un juego aparte:
 
 **Motivo:** aplicar D-016, D-020 y D-028 a lo que tiene de nuevo HGSS: una segunda región sin orden de gimnasios y muchos objetos que solo se canjean.
 **Confirmado por Manuel (2026-11-11):** la Carpa Pokéathlon cuenta. Sin ella, en Plata SoulSilver no hay ninguna Piedra Trueno con ubicación fija y Raichu o Jolteon no saldrían.
+
+### D-031 · 2026-11-12 · Rojo Fuego y Verde Hoja entran en la 1.0
+**Decisión:** Rojo Fuego y Verde Hoja se añaden como quinta familia (`frlg`), antes de Negro 2 y Blanco 2. La 1.0 pasa a **8 versiones de 5 familias**. Curación:
+1. **Una sola historia, sin alcances.** Acaba en la Liga. De las Islas Sete, Prima, Secunda y Tera se visitan tras el 7º gimnasio. Quarta a Sétima, la Cueva Celeste y el camino del Rubí del Monte Ascuas son post-juego.
+2. **Pokédex Nacional.** Hasta tenerla, que la da Oak tras la Liga, ningún Pokémon evoluciona a una especie de fuera de Kanto (Golbat no llega a Crobat, ni Eevee a Espeon). Se modela con `nationalDexEvolutions` en el override de la familia: esas evoluciones son post-juego.
+3. **Piedras evolutivas.** Las cuatro básicas se compran en el Centro Comercial de Azulona, así que cuentan desde el 3er gimnasio. La Piedra Lunar está en el Monte Moon.
+4. **Campeón.** Su equipo depende de tu inicial: se curan las tres variantes (D-032).
+5. **Fósiles.** El del Monte Moon es a elegir: Hélix o Domo. El Ámbar Viejo es fijo. Los dos cuentan, al revés que en HGSS, porque no son al azar.
+
+**Motivo:** Manuel quiere tener los remakes de los juegos iniciales. Reutilizan la mayor parte del pipeline y de la curación de Kanto.
+
+### D-032 · 2026-11-12 · Jefes que dependen del inicial
+**Decisión:** un jefe puede tener variantes según el inicial que eligió el jugador. Se declara con `ifStarter` en el override del jefe. El campeón de Rojo Fuego y Verde Hoja tiene tres:
+- si eliges a Bulbasaur, Azul lleva a Charizard, con Exeggutor y Gyarados;
+- si eliges a Charmander, lleva a Blastoise, con Arcanine y Exeggutor;
+- si eliges a Squirtle, lleva a Venusaur, con Gyarados y Arcanine.
+
+Pidgeot, Alakazam y Rhydon están en las tres.
+- **Si el equipo lleva un inicial**, la tabla de combates y la dificultad usan solo la variante de ese inicial.
+- **Si no lleva ninguno**, no se sabe qué inicial eligió el jugador. Salen las tres variantes, cada una marcada con «si elegiste a…», y en la dificultad se reparten el peso de un solo campeón.
+- La Ruta no tiene equipo, así que su parada de la Liga cuenta las tres.
+
+**Motivo:** Manuel pasó los tres equipos. Movimientos de la página de Azul en WikiDex; niveles cotejados con Serebii. En dos variantes, el nivel 59 y el 61 están al revés que en la lista de Manuel; se sigue a las dos fuentes, que coinciden.

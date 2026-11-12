@@ -1,6 +1,8 @@
 {
-  "dataVersion": "69a085c7",
+  "dataVersion": "165889fa",
   "games": [
+    "firered",
+    "leafgreen",
     "emerald",
     "platinum",
     "heartgold",

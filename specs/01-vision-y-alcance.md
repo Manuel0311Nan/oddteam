@@ -23,7 +23,7 @@ Jugadores que rejuegan títulos de la saga (originales, remakes o emulación) y 
 
 ### 1.0 — Generador (sin backend)
 
-- **6 versiones de 4 familias** al lanzar. Orden de curación propuesto: **Esmeralda → Platino → HeartGold + SoulSilver → Negro 2 + Blanco 2**. Cada versión entra solo cuando su override (base de la familia + diferencias de la versión) está completo y validado.
+- **8 versiones de 5 familias** al lanzar (D-031). Orden de curación: **Esmeralda → Platino → HeartGold + SoulSilver → Rojo Fuego + Verde Hoja → Negro 2 + Blanco 2**. Cada versión entra solo cuando su override (base de la familia + diferencias de la versión) está completo y validado.
 - Cada versión tiene sus exclusivos: el pool de Negro 2 no incluye lo que solo sale en Blanco 2, y al revés.
 - Generador con todas las opciones de `03`.
 - Línea de tiempo de disponibilidad.

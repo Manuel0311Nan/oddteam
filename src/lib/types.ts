@@ -12,6 +12,8 @@
 
 /** A concrete game version. The version is the unit of the whole product (D-009). */
 export const GAME_SLUGS = [
+  "firered",
+  "leafgreen",
   "emerald",
   "platinum",
   "heartgold",
@@ -26,7 +28,7 @@ export function isGameSlug(value: string): value is GameSlug {
 }
 
 /** Override family: versions that share story, map and most bosses. */
-export const FAMILY_SLUGS = ["emerald", "platinum", "hgss", "b2w2"] as const;
+export const FAMILY_SLUGS = ["frlg", "emerald", "platinum", "hgss", "b2w2"] as const;
 export type FamilySlug = (typeof FAMILY_SLUGS)[number];
 
 // ---------------------------------------------------------------------------
@@ -174,6 +176,12 @@ export type Boss = {
   segment: string; // segment in which the fight happens
   team: readonly BossPokemon[];
   rewardTm?: string; // TM number given, e.g. "TM34"
+  /**
+   * Variant fought only if the player chose this starter (FRLG champion, D-032):
+   * species id of the player's starter and its evolution line.
+   */
+  ifStarter?: number;
+  ifStarterLine?: number;
 };
 
 export type Move = {

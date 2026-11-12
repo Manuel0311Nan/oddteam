@@ -167,17 +167,18 @@ Cada override cita su fuente en un comentario. Lo no verificado se marca `TODO`.
 
 ## F9 · Más versiones · L (×3)
 
-**Objetivo:** pasar de 1 a 6 versiones. Se repite el ciclo de F3 por familia, en este orden:
+**Objetivo:** pasar de 1 a 8 versiones (D-031). Se repite el ciclo de F3 por familia, en este orden:
 
 1. **Platino**: valida que el pipeline sirve para Gen 4.
 2. **HeartGold + SoulSilver**: primera familia con dos versiones. Valida `versions/{game}.ts` y el cambio de versión en la cabecera.
-3. **Negro 2 + Blanco 2**: Gen 5 y estaciones.
+3. **Rojo Fuego + Verde Hoja**: remakes de Kanto, añadidos por D-031.
+4. **Negro 2 + Blanco 2**: Gen 5 y estaciones.
 
 Por cada familia: curación de overrides, validador en verde, 5 equipos de referencia para calibrar la dificultad y revisión de la Ruta.
 
 Lo aprendido en cada familia se pasa a las specs y a `decisiones.md` antes de empezar la siguiente.
 
-**Hecho cuando:** las 6 versiones pasan el validador y tienen destacados y Ruta.
+**Hecho cuando:** las 8 versiones pasan el validador y tienen destacados y Ruta.
 
 ---
 
@@ -255,6 +256,10 @@ Arreglado de paso: versión de datos por juego y `--game` sin borrar otros juego
 - la sala de Kyogre de la Torre Oculta.
 
 Lo común a las dos versiones está en `versions/shared.ts`. Estado: 0 errores y 0 TODO; pool de 165 entradas.
+
+**Rojo Fuego y Verde Hoja (publicables)**: familia `frlg` con sus dos versiones (D-031). Curados los 13 jefes con movimientos, las 138 zonas con nombres de WikiDex, las 58 MT/MO, las piedras evolutivas, los regalos y los exclusivos de cada versión. Lo común a las dos está en `versions/shared.ts`.
+- Estado: 0 errores y 0 TODO; pool de 75 entradas en cada una.
+- Pendiente: 5 equipos de referencia y revisión de la Ruta.
 
 **Negro 2/Blanco 2:** pendientes. |
 | F10 | Pendiente |

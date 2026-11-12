@@ -15,6 +15,16 @@ export type CatalogFamily = {
 };
 
 export const CATALOG: readonly CatalogFamily[] = [
+  {
+    slug: "frlg",
+    title: "Rojo Fuego y Verde Hoja",
+    region: "Kanto",
+    generation: 3,
+    versions: [
+      { slug: "firered", name: "Rojo Fuego" },
+      { slug: "leafgreen", name: "Verde Hoja" },
+    ],
+  },
   { slug: "emerald", title: "Esmeralda", region: "Hoenn", generation: 3, versions: [{ slug: "emerald", name: "Esmeralda" }] },
   { slug: "platinum", title: "Platino", region: "Sinnoh", generation: 4, versions: [{ slug: "platinum", name: "Platino" }] },
   {

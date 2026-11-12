@@ -85,3 +85,7 @@ El análisis de cada entrada del pool contra cada jefe se **precalcula en el ser
 
 - Simulación de combate, cálculo de daño exacto, IA del rival.
 - Objetos de combate y habilidades. Como mucho, se mencionan las habilidades que anulan un tipo (Levitación, Absorbe Agua…) en el riesgo defensivo, si el override lo indica.
+
+## Jefes que dependen del inicial
+
+Algunos jefes cambian de equipo según el inicial que eligió el jugador, como el campeón de Rojo Fuego y Verde Hoja. Cada variante lleva `ifStarter`. Con un inicial en el equipo solo se muestra y puntúa su variante. Sin inicial salen todas, y en la dificultad se reparten el peso de un jefe (D-032).

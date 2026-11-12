@@ -1,6 +1,7 @@
 "use client";
 
 import { ChevronDown } from "lucide-react";
+import { bossesForTeam } from "@/lib/analysis/boss-variants";
 import { teamVerdict, type Verdict } from "@/lib/analysis/bosses";
 import type { MoveSource } from "@/lib/analysis/moves";
 import type { ClientGame } from "@/lib/game-data";
@@ -45,7 +46,7 @@ export function BossTable({ team, game, scope }: { team: readonly PoolEntry[]; g
       </div>
 
       <ul className="flex flex-col">
-        {bossesInScope(game.bosses, game.segments, scopeMaxRank(game, scope)).map((boss) => {
+        {bossesForTeam(bossesInScope(game.bosses, game.segments, scopeMaxRank(game, scope)), team).map((boss) => {
           const v = teamVerdict(team, boss, game.matchups);
           const keys = [...new Set(v.answers.filter((x): x is number => x !== null))];
           const level = game.segments.find((s) => s.id === boss.segment)?.expectedLevel;
@@ -58,6 +59,7 @@ export function BossTable({ team, game, scope }: { team: readonly PoolEntry[]; g
                     <span className="font-bold">{boss.name}</span>
                     <span className="text-xs text-muted-foreground">
                       {kindLabel(boss.id, boss.kind)}
+                      {boss.ifStarter !== undefined ? ` · si elegiste a ${name(boss.ifStarter)}` : ""}
                       {level ? ` · as al nv ${Math.max(...boss.team.map((m) => m.level))}` : ""}
                     </span>
                   </span>

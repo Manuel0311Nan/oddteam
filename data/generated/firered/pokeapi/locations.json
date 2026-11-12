@@ -1,0 +1,975 @@
+[
+  {
+    "hasSpanishName": false,
+    "id": "berry-forest-area",
+    "location": "berry-forest",
+    "name": "Berry Forest",
+    "nameEn": "Berry Forest"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "birth-island-area",
+    "location": "birth-island",
+    "name": "Birth Island",
+    "nameEn": "Birth Island"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "bond-bridge-area",
+    "location": "bond-bridge",
+    "name": "Bond Bridge",
+    "nameEn": "Bond Bridge"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "canyon-entrance-area",
+    "location": "canyon-entrance",
+    "name": "Canyon Entrance",
+    "nameEn": "Canyon Entrance"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "cape-brink-area",
+    "location": "cape-brink",
+    "name": "Cape Brink",
+    "nameEn": "Cape Brink"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "celadon-city-area",
+    "location": "celadon-city",
+    "name": "Celadon City",
+    "nameEn": "Celadon City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "celadon-city-celadon-mansion",
+    "location": "celadon-city",
+    "name": "Celadon City",
+    "nameEn": "Celadon City (Celadon Mansion rooftop)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "celadon-city-prize-corner",
+    "location": "celadon-city",
+    "name": "Celadon City",
+    "nameEn": "Celadon City (Celadon City Prize Corner)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "cerulean-cave-1f",
+    "location": "cerulean-cave",
+    "name": "Cerulean Cave",
+    "nameEn": "Cerulean Cave (Cerulean Cave (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "cerulean-cave-2f",
+    "location": "cerulean-cave",
+    "name": "Cerulean Cave",
+    "nameEn": "Cerulean Cave (Cerulean Cave (2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "cerulean-cave-b1f",
+    "location": "cerulean-cave",
+    "name": "Cerulean Cave",
+    "nameEn": "Cerulean Cave (Cerulean Cave (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "cerulean-city-area",
+    "location": "cerulean-city",
+    "name": "Cerulean City",
+    "nameEn": "Cerulean City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "cinnabar-island-area",
+    "location": "cinnabar-island",
+    "name": "Cinnabar Island",
+    "nameEn": "Cinnabar Island"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "cinnabar-island-cinnabar-lab",
+    "location": "cinnabar-island",
+    "name": "Cinnabar Island",
+    "nameEn": "Cinnabar Island (Cinnabar Lab (Cinnabar Island))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "digletts-cave-area",
+    "location": "digletts-cave",
+    "name": "Diglett's Cave",
+    "nameEn": "Diglett's Cave (Digletts Cave)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "dilford-chamber-area",
+    "location": "dilford-chamber",
+    "name": "Dilford Chamber",
+    "nameEn": "Dilford Chamber"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "five-island-area",
+    "location": "five-island",
+    "name": "Five Island",
+    "nameEn": "Five Island"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "five-isle-meadow-area",
+    "location": "five-isle-meadow",
+    "name": "Five Isle Meadow",
+    "nameEn": "Five Isle Meadow"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "four-island-area",
+    "location": "four-island",
+    "name": "Four Island",
+    "nameEn": "Four Island"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "fuchsia-city-area",
+    "location": "fuchsia-city",
+    "name": "Fuchsia City",
+    "nameEn": "Fuchsia City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "green-path-area",
+    "location": "green-path",
+    "name": "Green Path",
+    "nameEn": "Green Path"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "icefall-cave-1f",
+    "location": "icefall-cave",
+    "name": "Icefall Cave",
+    "nameEn": "Icefall Cave (Icefall Cave (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "icefall-cave-b1f",
+    "location": "icefall-cave",
+    "name": "Icefall Cave",
+    "nameEn": "Icefall Cave (Icefall Cave (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "icefall-cave-entrance",
+    "location": "icefall-cave",
+    "name": "Icefall Cave",
+    "nameEn": "Icefall Cave (Icefall Cave (entrance))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "icefall-cave-waterfall",
+    "location": "icefall-cave",
+    "name": "Icefall Cave",
+    "nameEn": "Icefall Cave (Icefall Cave (waterfall))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-altering-cave-a",
+    "location": "kanto-altering-cave",
+    "name": "Altering Cave",
+    "nameEn": "Altering Cave (Altering Cave (A))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-altering-cave-b",
+    "location": "kanto-altering-cave",
+    "name": "Altering Cave",
+    "nameEn": "Altering Cave (Altering Cave (B))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-altering-cave-c",
+    "location": "kanto-altering-cave",
+    "name": "Altering Cave",
+    "nameEn": "Altering Cave (Altering Cave (C))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-altering-cave-d",
+    "location": "kanto-altering-cave",
+    "name": "Altering Cave",
+    "nameEn": "Altering Cave (Altering Cave (D))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-altering-cave-e",
+    "location": "kanto-altering-cave",
+    "name": "Altering Cave",
+    "nameEn": "Altering Cave (Altering Cave (E))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-altering-cave-f",
+    "location": "kanto-altering-cave",
+    "name": "Altering Cave",
+    "nameEn": "Altering Cave (Altering Cave (F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-altering-cave-g",
+    "location": "kanto-altering-cave",
+    "name": "Altering Cave",
+    "nameEn": "Altering Cave (Altering Cave (G))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-altering-cave-h",
+    "location": "kanto-altering-cave",
+    "name": "Altering Cave",
+    "nameEn": "Altering Cave (Altering Cave (H))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-altering-cave-i",
+    "location": "kanto-altering-cave",
+    "name": "Altering Cave",
+    "nameEn": "Altering Cave (Altering Cave (I))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-pokecenter-area",
+    "location": "kanto-pokecenter",
+    "name": "kanto-pokecenter",
+    "nameEn": "kanto-pokecenter"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-power-plant-area",
+    "location": "kanto-power-plant",
+    "name": "Kanto Power Plant",
+    "nameEn": "Kanto Power Plant (Power Plant)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-1-area",
+    "location": "kanto-route-1",
+    "name": "Route 1",
+    "nameEn": "Route 1 (Road 1)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-10-area",
+    "location": "kanto-route-10",
+    "name": "Route 10",
+    "nameEn": "Route 10 (Road 10)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-11-area",
+    "location": "kanto-route-11",
+    "name": "Route 11",
+    "nameEn": "Route 11 (Road 11)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-12-area",
+    "location": "kanto-route-12",
+    "name": "Route 12",
+    "nameEn": "Route 12 (Road 12)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-13-area",
+    "location": "kanto-route-13",
+    "name": "Route 13",
+    "nameEn": "Route 13 (Road 13)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-14-area",
+    "location": "kanto-route-14",
+    "name": "Route 14",
+    "nameEn": "Route 14 (Road 14)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-15-area",
+    "location": "kanto-route-15",
+    "name": "Route 15",
+    "nameEn": "Route 15 (Road 15)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-16-area",
+    "location": "kanto-route-16",
+    "name": "Route 16",
+    "nameEn": "Route 16 (Road 16)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-17-area",
+    "location": "kanto-route-17",
+    "name": "Route 17",
+    "nameEn": "Route 17 (Road 17)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-18-area",
+    "location": "kanto-route-18",
+    "name": "Route 18",
+    "nameEn": "Route 18 (Road 18)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-2-north-towards-pewter-city",
+    "location": "kanto-route-2",
+    "name": "Route 2",
+    "nameEn": "Route 2 (Road 2 (north, towards Pewter City))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-2-south-towards-viridian-city",
+    "location": "kanto-route-2",
+    "name": "Route 2",
+    "nameEn": "Route 2 (Road 2 (south, towards Viridian City))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-22-area",
+    "location": "kanto-route-22",
+    "name": "Route 22",
+    "nameEn": "Route 22 (Road 22)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-23-area",
+    "location": "kanto-route-23",
+    "name": "Route 23",
+    "nameEn": "Route 23 (Road 23)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-24-area",
+    "location": "kanto-route-24",
+    "name": "Route 24",
+    "nameEn": "Route 24 (Road 24)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-25-area",
+    "location": "kanto-route-25",
+    "name": "Route 25",
+    "nameEn": "Route 25 (Road 25)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-3-area",
+    "location": "kanto-route-3",
+    "name": "Route 3",
+    "nameEn": "Route 3 (Road 3)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-3-pokemon-center",
+    "location": "kanto-route-3",
+    "name": "Route 3",
+    "nameEn": "Route 3 (Pokemon Center (Road 3))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-4-area",
+    "location": "kanto-route-4",
+    "name": "Route 4",
+    "nameEn": "Route 4 (Road 4)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-4-pokemon-center",
+    "location": "kanto-route-4",
+    "name": "Route 4",
+    "nameEn": "Route 4 (Pokemon Center (Road 4))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-5-area",
+    "location": "kanto-route-5",
+    "name": "Route 5",
+    "nameEn": "Route 5 (Road 5)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-6-area",
+    "location": "kanto-route-6",
+    "name": "Route 6",
+    "nameEn": "Route 6 (Road 6)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-7-area",
+    "location": "kanto-route-7",
+    "name": "Route 7",
+    "nameEn": "Route 7 (Road 7)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-8-area",
+    "location": "kanto-route-8",
+    "name": "Route 8",
+    "nameEn": "Route 8 (Road 8)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-route-9-area",
+    "location": "kanto-route-9",
+    "name": "Route 9",
+    "nameEn": "Route 9 (Road 9)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-safari-zone-area-1-east",
+    "location": "kanto-safari-zone",
+    "name": "Safari Zone",
+    "nameEn": "Safari Zone (Safari Zone (Area 1, east))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-safari-zone-area-2-north",
+    "location": "kanto-safari-zone",
+    "name": "Safari Zone",
+    "nameEn": "Safari Zone (Safari Zone (Area 2, north))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-safari-zone-area-3-west",
+    "location": "kanto-safari-zone",
+    "name": "Safari Zone",
+    "nameEn": "Safari Zone (Safari Zone (Area 3, west))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-safari-zone-middle",
+    "location": "kanto-safari-zone",
+    "name": "Safari Zone",
+    "nameEn": "Safari Zone (Safari Zone (middle))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-sea-route-19-area",
+    "location": "kanto-sea-route-19",
+    "name": "Sea Route 19",
+    "nameEn": "Sea Route 19 (Road 19)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-sea-route-20-area",
+    "location": "kanto-sea-route-20",
+    "name": "Sea Route 20",
+    "nameEn": "Sea Route 20 (Road 20)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-sea-route-21-area",
+    "location": "kanto-sea-route-21",
+    "name": "Sea Route 21",
+    "nameEn": "Sea Route 21 (Road 21)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-underground-path-area",
+    "location": "kanto-underground-path",
+    "name": "Kanto Underground Path",
+    "nameEn": "Kanto Underground Path"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-victory-road-2-1f",
+    "location": "kanto-victory-road-2",
+    "name": "Victory Road",
+    "nameEn": "Victory Road (Victory Road 2 (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-victory-road-2-2f",
+    "location": "kanto-victory-road-2",
+    "name": "Victory Road",
+    "nameEn": "Victory Road (Victory Road 2 (2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kanto-victory-road-2-3f",
+    "location": "kanto-victory-road-2",
+    "name": "Victory Road",
+    "nameEn": "Victory Road (Victory Road 2 (3F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "kindle-road-area",
+    "location": "kindle-road",
+    "name": "Kindle Road",
+    "nameEn": "Kindle Road"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "liptoo-chamber-area",
+    "location": "liptoo-chamber",
+    "name": "Liptoo Chamber",
+    "nameEn": "Liptoo Chamber"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lost-cave-item-rooms",
+    "location": "lost-cave",
+    "name": "Lost Cave",
+    "nameEn": "Lost Cave (Lost Cave (item rooms))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lost-cave-room-1",
+    "location": "lost-cave",
+    "name": "Lost Cave",
+    "nameEn": "Lost Cave (Lost Cave (room 1))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lost-cave-room-10",
+    "location": "lost-cave",
+    "name": "Lost Cave",
+    "nameEn": "Lost Cave (Lost Cave (room 10))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lost-cave-room-2",
+    "location": "lost-cave",
+    "name": "Lost Cave",
+    "nameEn": "Lost Cave (Lost Cave (room 2))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lost-cave-room-3",
+    "location": "lost-cave",
+    "name": "Lost Cave",
+    "nameEn": "Lost Cave (Lost Cave (room 3))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lost-cave-room-4",
+    "location": "lost-cave",
+    "name": "Lost Cave",
+    "nameEn": "Lost Cave (Lost Cave (room 4))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lost-cave-room-5",
+    "location": "lost-cave",
+    "name": "Lost Cave",
+    "nameEn": "Lost Cave (Lost Cave (room 5))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lost-cave-room-6",
+    "location": "lost-cave",
+    "name": "Lost Cave",
+    "nameEn": "Lost Cave (Lost Cave (room 6))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lost-cave-room-7",
+    "location": "lost-cave",
+    "name": "Lost Cave",
+    "nameEn": "Lost Cave (Lost Cave (room 7))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lost-cave-room-8",
+    "location": "lost-cave",
+    "name": "Lost Cave",
+    "nameEn": "Lost Cave (Lost Cave (room 8))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "lost-cave-room-9",
+    "location": "lost-cave",
+    "name": "Lost Cave",
+    "nameEn": "Lost Cave (Lost Cave (room 9))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "memorial-pillar-area",
+    "location": "memorial-pillar",
+    "name": "Memorial Pillar",
+    "nameEn": "Memorial Pillar"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "monean-chamber-area",
+    "location": "monean-chamber",
+    "name": "Monean Chamber",
+    "nameEn": "Monean Chamber"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-ember-1f-cave-behind-team-rocket",
+    "location": "mt-ember",
+    "name": "Mt. Ember",
+    "nameEn": "Mt. Ember (Mount Ember (1F, cave behind team rocket))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-ember-area",
+    "location": "mt-ember",
+    "name": "Mt. Ember",
+    "nameEn": "Mt. Ember (Mount Ember)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-ember-b1f",
+    "location": "mt-ember",
+    "name": "Mt. Ember",
+    "nameEn": "Mt. Ember (Mount Ember (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-ember-b2f",
+    "location": "mt-ember",
+    "name": "Mt. Ember",
+    "nameEn": "Mt. Ember (Mount Ember (B2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-ember-b3f",
+    "location": "mt-ember",
+    "name": "Mt. Ember",
+    "nameEn": "Mt. Ember (Mount Ember (B3F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-ember-cave",
+    "location": "mt-ember",
+    "name": "Mt. Ember",
+    "nameEn": "Mt. Ember (Mount Ember (cave))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-ember-inside",
+    "location": "mt-ember",
+    "name": "Mt. Ember",
+    "nameEn": "Mt. Ember (Mount Ember (inside))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-ember-summit",
+    "location": "mt-ember",
+    "name": "Mt. Ember",
+    "nameEn": "Mt. Ember (Mount Ember Summit)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-moon-1f",
+    "location": "mt-moon",
+    "name": "Mt. Moon",
+    "nameEn": "Mt. Moon (Mount Moon (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-moon-b1f",
+    "location": "mt-moon",
+    "name": "Mt. Moon",
+    "nameEn": "Mt. Moon (Mount Moon (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "mt-moon-b2f",
+    "location": "mt-moon",
+    "name": "Mt. Moon",
+    "nameEn": "Mt. Moon (Mount Moon (B2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "navel-rock-area",
+    "location": "navel-rock",
+    "name": "Navel Rock",
+    "nameEn": "Navel Rock"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "one-island-area",
+    "location": "one-island",
+    "name": "One Island",
+    "nameEn": "One Island"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "outcast-island-area",
+    "location": "outcast-island",
+    "name": "Outcast Island",
+    "nameEn": "Outcast Island"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "pallet-town-area",
+    "location": "pallet-town",
+    "name": "Pallet Town",
+    "nameEn": "Pallet Town"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "pattern-bush-area",
+    "location": "pattern-bush",
+    "name": "Pattern Bush",
+    "nameEn": "Pattern Bush"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "pokemon-mansion-1f",
+    "location": "pokemon-mansion",
+    "name": "Pokémon Mansion",
+    "nameEn": "Pokémon Mansion (Pokemon Mansion (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "pokemon-mansion-2f",
+    "location": "pokemon-mansion",
+    "name": "Pokémon Mansion",
+    "nameEn": "Pokémon Mansion (Pokemon Mansion (2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "pokemon-mansion-3f",
+    "location": "pokemon-mansion",
+    "name": "Pokémon Mansion",
+    "nameEn": "Pokémon Mansion (Pokemon Mansion (3F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "pokemon-mansion-b1f",
+    "location": "pokemon-mansion",
+    "name": "Pokémon Mansion",
+    "nameEn": "Pokémon Mansion (Pokemon Mansion (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "pokemon-tower-3f",
+    "location": "pokemon-tower",
+    "name": "Pokémon Tower",
+    "nameEn": "Pokémon Tower (Pokemon Tower (3F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "pokemon-tower-4f",
+    "location": "pokemon-tower",
+    "name": "Pokémon Tower",
+    "nameEn": "Pokémon Tower (Pokemon Tower (4F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "pokemon-tower-5f",
+    "location": "pokemon-tower",
+    "name": "Pokémon Tower",
+    "nameEn": "Pokémon Tower (Pokemon Tower (5F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "pokemon-tower-6f",
+    "location": "pokemon-tower",
+    "name": "Pokémon Tower",
+    "nameEn": "Pokémon Tower (Pokemon Tower (6F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "pokemon-tower-7f",
+    "location": "pokemon-tower",
+    "name": "Pokémon Tower",
+    "nameEn": "Pokémon Tower (Pokemon Tower (7F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "resort-gorgeous-area",
+    "location": "resort-gorgeous",
+    "name": "Resort Gorgeous",
+    "nameEn": "Resort Gorgeous"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "rixy-chamber-area",
+    "location": "rixy-chamber",
+    "name": "Rixy Chamber",
+    "nameEn": "Rixy Chamber"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "roaming-kanto-area",
+    "location": "roaming-kanto",
+    "name": "Roaming Kanto",
+    "nameEn": "Roaming Kanto"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "rock-tunnel-1f",
+    "location": "rock-tunnel",
+    "name": "Rock Tunnel",
+    "nameEn": "Rock Tunnel (Rock Tunnel (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "rock-tunnel-b1f",
+    "location": "rock-tunnel",
+    "name": "Rock Tunnel",
+    "nameEn": "Rock Tunnel (Rock Tunnel (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "ruin-valley-area",
+    "location": "ruin-valley",
+    "name": "Ruin Valley",
+    "nameEn": "Ruin Valley"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "saffron-city-fighting-dojo",
+    "location": "saffron-city",
+    "name": "Saffron City",
+    "nameEn": "Saffron City (Fighting Dojo)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "saffron-city-silph-co-7f",
+    "location": "saffron-city",
+    "name": "Saffron City",
+    "nameEn": "Saffron City (Silph Co. 7F)"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "scufib-chamber-area",
+    "location": "scufib-chamber",
+    "name": "Scufib Chamber",
+    "nameEn": "Scufib Chamber"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "seafoam-islands-1f",
+    "location": "seafoam-islands",
+    "name": "Seafoam Islands",
+    "nameEn": "Seafoam Islands (Seafoam Islands (1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "seafoam-islands-b1f",
+    "location": "seafoam-islands",
+    "name": "Seafoam Islands",
+    "nameEn": "Seafoam Islands (Seafoam Islands (B1F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "seafoam-islands-b2f",
+    "location": "seafoam-islands",
+    "name": "Seafoam Islands",
+    "nameEn": "Seafoam Islands (Seafoam Islands (B2F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "seafoam-islands-b3f",
+    "location": "seafoam-islands",
+    "name": "Seafoam Islands",
+    "nameEn": "Seafoam Islands (Seafoam Islands (B3F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "seafoam-islands-b4f",
+    "location": "seafoam-islands",
+    "name": "Seafoam Islands",
+    "nameEn": "Seafoam Islands (Seafoam Islands (B4F))"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "sevault-canyon-area",
+    "location": "sevault-canyon",
+    "name": "Sevault Canyon",
+    "nameEn": "Sevault Canyon"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "ss-anne-area",
+    "location": "ss-anne",
+    "name": "S.S. Anne",
+    "nameEn": "S.S. Anne"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "tanoby-ruins-area",
+    "location": "tanoby-ruins",
+    "name": "Tanoby Ruins",
+    "nameEn": "Tanoby Ruins"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "three-isle-port-area",
+    "location": "three-isle-port",
+    "name": "Three Isle Port",
+    "nameEn": "Three Isle Port"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "trainer-tower-area",
+    "location": "trainer-tower",
+    "name": "Trainer Tower",
+    "nameEn": "Trainer Tower"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "treasure-beach-area",
+    "location": "treasure-beach",
+    "name": "Treasure Beach",
+    "nameEn": "Treasure Beach"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "vermilion-city-area",
+    "location": "vermilion-city",
+    "name": "Vermilion City",
+    "nameEn": "Vermilion City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "viapos-chamber-area",
+    "location": "viapos-chamber",
+    "name": "Viapos Chamber",
+    "nameEn": "Viapos Chamber"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "viridian-city-area",
+    "location": "viridian-city",
+    "name": "Viridian City",
+    "nameEn": "Viridian City"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "viridian-forest-area",
+    "location": "viridian-forest",
+    "name": "Viridian Forest",
+    "nameEn": "Viridian Forest"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "water-labyrinth-area",
+    "location": "water-labyrinth",
+    "name": "Water Labyrinth",
+    "nameEn": "Water Labyrinth"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "water-path-area",
+    "location": "water-path",
+    "name": "Water Path",
+    "nameEn": "Water Path"
+  },
+  {
+    "hasSpanishName": false,
+    "id": "weepth-chamber-area",
+    "location": "weepth-chamber",
+    "name": "Weepth Chamber",
+    "nameEn": "Weepth Chamber"
+  }
+]

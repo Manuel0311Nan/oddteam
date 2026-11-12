@@ -1,0 +1,771 @@
+{
+  "game": "leafgreen",
+  "dataVersion": "cce23f42",
+  "samples": 20000,
+  "levels": {
+    "easy": [
+      {
+        "seed": 106044356,
+        "starter": 9,
+        "team": [
+          9,
+          20,
+          31,
+          103,
+          38,
+          106
+        ],
+        "score": 13,
+        "level": "easy",
+        "components": {
+          "availability": 27,
+          "bosses": 9,
+          "stats": 5,
+          "friction": 3
+        },
+        "options": "1-6-r-u-100-e-v-"
+      },
+      {
+        "seed": 368519201,
+        "starter": 3,
+        "team": [
+          3,
+          75,
+          130,
+          124,
+          26,
+          57
+        ],
+        "score": 15,
+        "level": "easy",
+        "components": {
+          "availability": 13,
+          "bosses": 20,
+          "stats": 20,
+          "friction": 0
+        },
+        "options": "1-6-r-u-100-e-v-"
+      },
+      {
+        "seed": 2703465282,
+        "starter": 3,
+        "team": [
+          3,
+          28,
+          40,
+          12,
+          117,
+          97
+        ],
+        "score": 16,
+        "level": "easy",
+        "components": {
+          "availability": 19,
+          "bosses": 15,
+          "stats": 22,
+          "friction": 4
+        },
+        "options": "1-6-r-u-100-e-v-"
+      },
+      {
+        "seed": 2903978898,
+        "starter": 6,
+        "team": [
+          6,
+          20,
+          26,
+          67,
+          64,
+          49
+        ],
+        "score": 16,
+        "level": "easy",
+        "components": {
+          "availability": 17,
+          "bosses": 17,
+          "stats": 30,
+          "friction": 0
+        },
+        "options": "1-6-r-u-100-e-v-"
+      },
+      {
+        "seed": 1667624503,
+        "starter": 9,
+        "team": [
+          9,
+          18,
+          34,
+          106,
+          135,
+          97
+        ],
+        "score": 17,
+        "level": "easy",
+        "components": {
+          "availability": 25,
+          "bosses": 21,
+          "stats": 2,
+          "friction": 5
+        },
+        "options": "1-6-r-u-100-e-v-"
+      },
+      {
+        "seed": 4080344238,
+        "starter": 9,
+        "team": [
+          9,
+          64,
+          31,
+          107,
+          22,
+          136
+        ],
+        "score": 17,
+        "level": "easy",
+        "components": {
+          "availability": 21,
+          "bosses": 21,
+          "stats": 11,
+          "friction": 5
+        },
+        "options": "1-6-r-u-100-e-v-"
+      },
+      {
+        "seed": 1094565516,
+        "starter": 3,
+        "team": [
+          3,
+          22,
+          75,
+          136,
+          121,
+          67
+        ],
+        "score": 19,
+        "level": "easy",
+        "components": {
+          "availability": 23,
+          "bosses": 23,
+          "stats": 18,
+          "friction": 5
+        },
+        "options": "1-6-r-u-100-e-v-"
+      },
+      {
+        "seed": 1604679485,
+        "starter": 9,
+        "team": [
+          9,
+          57,
+          122,
+          93,
+          112,
+          132
+        ],
+        "score": 19,
+        "level": "easy",
+        "components": {
+          "availability": 27,
+          "bosses": 11,
+          "stats": 32,
+          "friction": 10
+        },
+        "options": "1-6-r-u-100-e-v-"
+      },
+      {
+        "seed": 2423085089,
+        "starter": 6,
+        "team": [
+          6,
+          15,
+          28,
+          62,
+          101,
+          103
+        ],
+        "score": 19,
+        "level": "easy",
+        "components": {
+          "availability": 25,
+          "bosses": 24,
+          "stats": 11,
+          "friction": 3
+        },
+        "options": "1-6-r-u-100-e-v-"
+      },
+      {
+        "seed": 3749469118,
+        "starter": 3,
+        "team": [
+          3,
+          12,
+          122,
+          38,
+          139,
+          143
+        ],
+        "score": 19,
+        "level": "easy",
+        "components": {
+          "availability": 29,
+          "bosses": 21,
+          "stats": 5,
+          "friction": 6
+        },
+        "options": "1-6-r-u-100-e-v-"
+      }
+    ],
+    "normal": [
+      {
+        "seed": 1489657411,
+        "starter": 3,
+        "team": [
+          3,
+          122,
+          22,
+          106,
+          99,
+          28
+        ],
+        "score": 20,
+        "level": "normal",
+        "components": {
+          "availability": 23,
+          "bosses": 26,
+          "stats": 15,
+          "friction": 5
+        },
+        "options": "1-6-r-u-100-n-v-"
+      },
+      {
+        "seed": 1935747381,
+        "starter": 6,
+        "team": [
+          6,
+          20,
+          31,
+          99,
+          103,
+          67
+        ],
+        "score": 20,
+        "level": "normal",
+        "components": {
+          "availability": 25,
+          "bosses": 26,
+          "stats": 12,
+          "friction": 3
+        },
+        "options": "1-6-r-u-100-n-v-"
+      },
+      {
+        "seed": 2661257040,
+        "starter": 9,
+        "team": [
+          9,
+          122,
+          42,
+          136,
+          36,
+          51
+        ],
+        "score": 20,
+        "level": "normal",
+        "components": {
+          "availability": 44,
+          "bosses": 12,
+          "stats": 9,
+          "friction": 3
+        },
+        "options": "1-6-r-u-100-n-v-"
+      },
+      {
+        "seed": 1703081294,
+        "starter": 3,
+        "team": [
+          3,
+          75,
+          22,
+          26,
+          136,
+          117
+        ],
+        "score": 21,
+        "level": "normal",
+        "components": {
+          "availability": 17,
+          "bosses": 30,
+          "stats": 21,
+          "friction": 5
+        },
+        "options": "1-6-r-u-100-n-v-"
+      },
+      {
+        "seed": 3525952096,
+        "starter": 6,
+        "team": [
+          6,
+          15,
+          64,
+          119,
+          108,
+          101
+        ],
+        "score": 21,
+        "level": "normal",
+        "components": {
+          "availability": 25,
+          "bosses": 21,
+          "stats": 28,
+          "friction": 3
+        },
+        "options": "1-6-r-u-100-n-v-"
+      },
+      {
+        "seed": 1709147503,
+        "starter": 6,
+        "team": [
+          6,
+          31,
+          64,
+          131,
+          135,
+          128
+        ],
+        "score": 23,
+        "level": "normal",
+        "components": {
+          "availability": 54,
+          "bosses": 15,
+          "stats": 0,
+          "friction": 5
+        },
+        "options": "1-6-r-u-100-n-v-"
+      },
+      {
+        "seed": 2046430569,
+        "starter": 3,
+        "team": [
+          3,
+          28,
+          57,
+          12,
+          126,
+          134
+        ],
+        "score": 25,
+        "level": "normal",
+        "components": {
+          "availability": 23,
+          "bosses": 38,
+          "stats": 18,
+          "friction": 4
+        },
+        "options": "1-6-r-u-100-n-v-"
+      },
+      {
+        "seed": 423964624,
+        "starter": 6,
+        "team": [
+          6,
+          40,
+          47,
+          34,
+          134,
+          97
+        ],
+        "score": 26,
+        "level": "normal",
+        "components": {
+          "availability": 44,
+          "bosses": 29,
+          "stats": 8,
+          "friction": 3
+        },
+        "options": "1-6-r-u-100-n-v-"
+      },
+      {
+        "seed": 1488930447,
+        "starter": 9,
+        "team": [
+          9,
+          47,
+          26,
+          126,
+          67,
+          85
+        ],
+        "score": 28,
+        "level": "normal",
+        "components": {
+          "availability": 31,
+          "bosses": 38,
+          "stats": 23,
+          "friction": 0
+        },
+        "options": "1-6-r-u-100-n-v-"
+      },
+      {
+        "seed": 91638522,
+        "starter": 3,
+        "team": [
+          3,
+          75,
+          36,
+          127,
+          38,
+          101
+        ],
+        "score": 29,
+        "level": "normal",
+        "components": {
+          "availability": 50,
+          "bosses": 30,
+          "stats": 9,
+          "friction": 5
+        },
+        "options": "1-6-r-u-100-n-v-"
+      }
+    ],
+    "hard": [
+      {
+        "seed": 365190077,
+        "starter": 9,
+        "team": [
+          9,
+          18,
+          15,
+          82,
+          57,
+          78
+        ],
+        "score": 30,
+        "level": "hard",
+        "components": {
+          "availability": 29,
+          "bosses": 44,
+          "stats": 24,
+          "friction": 0
+        },
+        "options": "1-6-r-u-100-h-v-"
+      },
+      {
+        "seed": 2455437821,
+        "starter": 6,
+        "team": [
+          6,
+          71,
+          122,
+          67,
+          117,
+          108
+        ],
+        "score": 30,
+        "level": "hard",
+        "components": {
+          "availability": 52,
+          "bosses": 27,
+          "stats": 21,
+          "friction": 3
+        },
+        "options": "1-6-r-u-100-h-v-"
+      },
+      {
+        "seed": 4203834562,
+        "starter": 3,
+        "team": [
+          3,
+          28,
+          12,
+          101,
+          107,
+          78
+        ],
+        "score": 30,
+        "level": "hard",
+        "components": {
+          "availability": 33,
+          "bosses": 41,
+          "stats": 18,
+          "friction": 4
+        },
+        "options": "1-6-r-u-100-h-v-"
+      },
+      {
+        "seed": 1541040110,
+        "starter": 9,
+        "team": [
+          9,
+          40,
+          47,
+          106,
+          42,
+          75
+        ],
+        "score": 31,
+        "level": "hard",
+        "components": {
+          "availability": 44,
+          "bosses": 32,
+          "stats": 30,
+          "friction": 3
+        },
+        "options": "1-6-r-u-100-h-v-"
+      },
+      {
+        "seed": 282173170,
+        "starter": 6,
+        "team": [
+          6,
+          28,
+          40,
+          141,
+          93,
+          127
+        ],
+        "score": 32,
+        "level": "hard",
+        "components": {
+          "availability": 58,
+          "bosses": 27,
+          "stats": 13,
+          "friction": 8
+        },
+        "options": "1-6-r-u-100-h-v-"
+      },
+      {
+        "seed": 1250743826,
+        "starter": 3,
+        "team": [
+          3,
+          64,
+          36,
+          67,
+          134,
+          127
+        ],
+        "score": 32,
+        "level": "hard",
+        "components": {
+          "availability": 50,
+          "bosses": 36,
+          "stats": 10,
+          "friction": 8
+        },
+        "options": "1-6-r-u-100-h-v-"
+      },
+      {
+        "seed": 1794351509,
+        "starter": 9,
+        "team": [
+          9,
+          18,
+          15,
+          95,
+          57,
+          114
+        ],
+        "score": 32,
+        "level": "hard",
+        "components": {
+          "availability": 19,
+          "bosses": 55,
+          "stats": 33,
+          "friction": 0
+        },
+        "options": "1-6-r-u-100-h-v-"
+      },
+      {
+        "seed": 2378145702,
+        "starter": 6,
+        "team": [
+          6,
+          64,
+          75,
+          134,
+          106,
+          82
+        ],
+        "score": 34,
+        "level": "hard",
+        "components": {
+          "availability": 60,
+          "bosses": 30,
+          "stats": 18,
+          "friction": 5
+        },
+        "options": "1-6-r-u-100-h-v-"
+      },
+      {
+        "seed": 1797814025,
+        "starter": 6,
+        "team": [
+          6,
+          122,
+          47,
+          108,
+          87,
+          95
+        ],
+        "score": 37,
+        "level": "hard",
+        "components": {
+          "availability": 58,
+          "bosses": 39,
+          "stats": 28,
+          "friction": 0
+        },
+        "options": "1-6-r-u-100-h-v-"
+      },
+      {
+        "seed": 2007795957,
+        "starter": 3,
+        "team": [
+          3,
+          36,
+          12,
+          141,
+          107,
+          38
+        ],
+        "score": 37,
+        "level": "hard",
+        "components": {
+          "availability": 31,
+          "bosses": 62,
+          "stats": 10,
+          "friction": 6
+        },
+        "options": "1-6-r-u-100-h-v-"
+      }
+    ],
+    "challenge": [
+      {
+        "seed": 500846831,
+        "starter": 6,
+        "team": [
+          6,
+          40,
+          47,
+          89,
+          67,
+          139
+        ],
+        "score": 40,
+        "level": "challenge",
+        "components": {
+          "availability": 56,
+          "bosses": 48,
+          "stats": 20,
+          "friction": 5
+        },
+        "options": "1-6-r-u-100-c-v-"
+      },
+      {
+        "seed": 607629019,
+        "starter": 3,
+        "team": [
+          3,
+          130,
+          36,
+          101,
+          107,
+          127
+        ],
+        "score": 40,
+        "level": "challenge",
+        "components": {
+          "availability": 54,
+          "bosses": 58,
+          "stats": 0,
+          "friction": 8
+        },
+        "options": "1-6-r-u-100-c-v-"
+      },
+      {
+        "seed": 2419505646,
+        "starter": 3,
+        "team": [
+          3,
+          40,
+          12,
+          134,
+          106,
+          82
+        ],
+        "score": 41,
+        "level": "challenge",
+        "components": {
+          "availability": 33,
+          "bosses": 68,
+          "stats": 15,
+          "friction": 6
+        },
+        "options": "1-6-r-u-100-c-v-"
+      },
+      {
+        "seed": 3489569522,
+        "starter": 3,
+        "team": [
+          3,
+          130,
+          75,
+          126,
+          82,
+          128
+        ],
+        "score": 41,
+        "level": "challenge",
+        "components": {
+          "availability": 67,
+          "bosses": 48,
+          "stats": 7,
+          "friction": 0
+        },
+        "options": "1-6-r-u-100-c-v-"
+      },
+      {
+        "seed": 3650255086,
+        "starter": 6,
+        "team": [
+          6,
+          47,
+          75,
+          119,
+          132,
+          67
+        ],
+        "score": 42,
+        "level": "challenge",
+        "components": {
+          "availability": 52,
+          "bosses": 45,
+          "stats": 44,
+          "friction": 8
+        },
+        "options": "1-6-r-u-100-c-v-"
+      },
+      {
+        "seed": 2987977990,
+        "starter": 3,
+        "team": [
+          3,
+          36,
+          12,
+          78,
+          107,
+          141
+        ],
+        "score": 43,
+        "level": "challenge",
+        "components": {
+          "availability": 40,
+          "bosses": 71,
+          "stats": 12,
+          "friction": 6
+        },
+        "options": "1-6-r-u-100-c-v-"
+      }
+    ]
+  }
+}

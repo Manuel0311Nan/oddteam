@@ -1,0 +1,177 @@
+import type { Availability, LocationOverride } from "../types";
+
+/**
+ * When each FireRed/LeafGreen area with encounters becomes reachable, and its
+ * Spanish name.
+ *
+ * Segment: order of the WikiDex guide (pages 3–27). An area takes the segment of
+ * the first page that covers it; a place listed after a gym on its page takes the
+ * next segment (conservative, D-016). Encounter methods add their own gate
+ * (key-items.ts): Surf, rods, Rock Smash.
+ * Islas Sete: Prima, Secunda and Tera are visited after the 7th gym (pages 17–19);
+ * Quarta to Sétima, after the League (pages 23–27, "Archi7").
+ *
+ * Name: PokéAPI has no Spanish names for these areas, so they come from WikiDex
+ * (guide, Kanto page and Archi7 template, D-027). Floor or part details after the
+ * name are descriptive, not official.
+ */
+
+const at = (segment: Availability, name: string, note: string): LocationOverride => ({
+  segment,
+  name,
+  note: note.replace(/^p\. /, "Guía WikiDex, p. "),
+  source: ["wikidex-guia-rfvh", "wikidex-kanto", "wikidex-archi7"],
+});
+
+export const locations: Readonly<Record<string, LocationOverride>> = {
+  // pre-gym-1
+  "pallet-town-area": at("pre-gym-1", "Pueblo Paleta", "p. 3; solo agua (Surf y cañas)"),
+  "kanto-route-1-area": at("pre-gym-1", "Ruta 1", "p. 3"),
+  "viridian-city-area": at("pre-gym-1", "Ciudad Verde", "p. 4; solo agua"),
+  "kanto-route-22-area": at("pre-gym-1", "Ruta 22", "p. 4"),
+  "kanto-route-2-south-towards-viridian-city": at("pre-gym-1", "Ruta 2 (sur, hacia Ciudad Verde)", "p. 4"),
+  "kanto-route-2-north-towards-pewter-city": at("pre-gym-1", "Ruta 2 (norte, hacia Ciudad Plateada)", "p. 4; la casa del intercambio de Mr. Mime se alcanza con Corte (p. 9)"),
+  "viridian-forest-area": at("pre-gym-1", "Bosque Verde", "p. 5"),
+  // gym-1-2
+  "kanto-route-3-area": at("gym-1-2", "Ruta 3", "p. 6; tras el 1er gimnasio"),
+  "kanto-route-3-pokemon-center": at("gym-1-2", "Centro Pokémon de la Ruta 4", "p. 6–7; el vendedor de Magikarp"),
+  "kanto-route-4-pokemon-center": at("gym-1-2", "Centro Pokémon de la Ruta 4", "p. 6–7; el vendedor de Magikarp"),
+  "mt-moon-1f": at("gym-1-2", "Monte Moon (planta 1)", "p. 7"),
+  "mt-moon-b1f": at("gym-1-2", "Monte Moon (sótano 1)", "p. 7"),
+  "mt-moon-b2f": at("gym-1-2", "Monte Moon (sótano 2)", "p. 7"),
+  "kanto-route-4-area": at("gym-1-2", "Ruta 4", "p. 7"),
+  "cerulean-city-area": at("gym-1-2", "Ciudad Celeste", "p. 8; solo agua"),
+  "kanto-route-24-area": at("gym-1-2", "Ruta 24", "p. 8"),
+  "kanto-route-25-area": at("gym-1-2", "Ruta 25", "p. 8"),
+  // gym-2-3
+  "kanto-route-5-area": at("gym-2-3", "Ruta 5", "p. 8; tras el 2º gimnasio"),
+  "kanto-underground-path-area": at("gym-2-3", "Vía Subterránea", "p. 8"),
+  "kanto-route-6-area": at("gym-2-3", "Ruta 6", "p. 8"),
+  "vermilion-city-area": at("gym-2-3", "Ciudad Carmín", "p. 9"),
+  "ss-anne-area": at("gym-2-3", "S.S. Anne", "p. 9"),
+  // gym-3-4
+  "digletts-cave-area": at("gym-3-4", "Cueva Diglett", "p. 9; tras el 3er gimnasio"),
+  "kanto-route-11-area": at("gym-3-4", "Ruta 11", "p. 9"),
+  "kanto-route-9-area": at("gym-3-4", "Ruta 9", "p. 9"),
+  "kanto-route-10-area": at("gym-3-4", "Ruta 10", "p. 9"),
+  "rock-tunnel-1f": at("gym-3-4", "Túnel Roca (planta 1)", "p. 9"),
+  "rock-tunnel-b1f": at("gym-3-4", "Túnel Roca (sótano 1)", "p. 9"),
+  "kanto-route-8-area": at("gym-3-4", "Ruta 8", "p. 10"),
+  "kanto-route-7-area": at("gym-3-4", "Ruta 7", "p. 10"),
+  "celadon-city-area": at("gym-3-4", "Ciudad Azulona", "p. 11; solo agua"),
+  "celadon-city-celadon-mansion": at("gym-3-4", "Mansión Azulona", "p. 11; regalo de Eevee"),
+  "celadon-city-prize-corner": at("gym-3-4", "Tienda de premios del Casino de Azulona", "p. 11; sus premios no cuentan (D-020)"),
+  // gym-4-5
+  "pokemon-tower-3f": at("gym-4-5", "Torre Pokémon (planta 3)", "p. 13; tras el 4º gimnasio"),
+  "pokemon-tower-4f": at("gym-4-5", "Torre Pokémon (planta 4)", "p. 13; tras el 4º gimnasio"),
+  "pokemon-tower-5f": at("gym-4-5", "Torre Pokémon (planta 5)", "p. 13; tras el 4º gimnasio"),
+  "pokemon-tower-6f": at("gym-4-5", "Torre Pokémon (planta 6)", "p. 13; tras el 4º gimnasio"),
+  "pokemon-tower-7f": at("gym-4-5", "Torre Pokémon (planta 7)", "p. 13; tras el 4º gimnasio"),
+  "kanto-route-12-area": at("gym-4-5", "Ruta 12", "p. 13"),
+  "kanto-route-13-area": at("gym-4-5", "Ruta 13", "p. 13"),
+  "kanto-route-14-area": at("gym-4-5", "Ruta 14", "p. 13"),
+  "kanto-route-15-area": at("gym-4-5", "Ruta 15", "p. 13"),
+  "fuchsia-city-area": at("gym-4-5", "Ciudad Fucsia", "p. 14; solo agua"),
+  "kanto-safari-zone-middle": at("gym-4-5", "Zona Safari (Zona Central)", "p. 14"),
+  "kanto-safari-zone-area-1-east": at("gym-4-5", "Zona Safari (Zona 1)", "p. 14"),
+  "kanto-safari-zone-area-2-north": at("gym-4-5", "Zona Safari (Zona 2)", "p. 14"),
+  "kanto-safari-zone-area-3-west": at("gym-4-5", "Zona Safari (Zona 3)", "p. 14"),
+  "kanto-route-18-area": at("gym-4-5", "Ruta 18", "p. 14"),
+  "kanto-route-17-area": at("gym-4-5", "Ruta 17", "p. 14"),
+  "kanto-route-16-area": at("gym-4-5", "Ruta 16", "p. 14"),
+  // gym-5-6
+  "saffron-city-fighting-dojo": at("gym-5-6", "Dojo Karate de Ciudad Azafrán", "p. 15; se elige Hitmonlee o Hitmonchan"),
+  "saffron-city-silph-co-7f": at("gym-5-6", "Silph S.A. (planta 7)", "p. 15; regalo de Lapras"),
+  // gym-6-7
+  "kanto-sea-route-21-area": at("gym-6-7", "Ruta 21", "p. 15; tras el gimnasio de Sabrina"),
+  "cinnabar-island-area": at("gym-6-7", "Isla Canela", "p. 16; solo agua"),
+  "cinnabar-island-cinnabar-lab": at("gym-6-7", "Laboratorio de Isla Canela", "p. 16; revive fósiles e intercambios"),
+  "pokemon-mansion-1f": at("gym-6-7", "Mansión Pokémon (planta 1)", "p. 16"),
+  "pokemon-mansion-2f": at("gym-6-7", "Mansión Pokémon (planta 2)", "p. 16"),
+  "pokemon-mansion-3f": at("gym-6-7", "Mansión Pokémon (planta 3)", "p. 16"),
+  "pokemon-mansion-b1f": at("gym-6-7", "Mansión Pokémon (sótano 1)", "p. 16"),
+  // gym-7-8
+  "one-island-area": at("gym-7-8", "Isla Prima", "p. 17; las Islas Sete se visitan tras el 7º gimnasio"),
+  "treasure-beach-area": at("gym-7-8", "Playa Tesoro", "p. 17"),
+  "cape-brink-area": at("gym-7-8", "Cabo Extremo", "p. 18"),
+  "bond-bridge-area": at("gym-7-8", "Puente Unión", "p. 19"),
+  "berry-forest-area": at("gym-7-8", "Bosque Baya", "p. 19"),
+  "kindle-road-area": at("gym-7-8", "Camino Candente", "p. 19"),
+  "mt-ember-area": at("gym-7-8", "Monte Ascuas (exterior)", "p. 19"),
+  "mt-ember-cave": at("gym-7-8", "Monte Ascuas (cueva)", "p. 19"),
+  "mt-ember-inside": at("gym-7-8", "Monte Ascuas (interior)", "p. 19"),
+  "mt-ember-summit": at("gym-7-8", "Monte Ascuas (cima)", "p. 19"),
+  "kanto-sea-route-19-area": at("gym-7-8", "Ruta 19", "p. 19; con Surf"),
+  "kanto-sea-route-20-area": at("gym-7-8", "Ruta 20", "p. 19; con Surf"),
+  "seafoam-islands-1f": at("gym-7-8", "Islas Espuma (planta 1)", "p. 19; con Fuerza y Surf"),
+  "seafoam-islands-b1f": at("gym-7-8", "Islas Espuma (sótano 1)", "p. 19; con Fuerza y Surf"),
+  "seafoam-islands-b2f": at("gym-7-8", "Islas Espuma (sótano 2)", "p. 19; con Fuerza y Surf"),
+  "seafoam-islands-b3f": at("gym-7-8", "Islas Espuma (sótano 3)", "p. 19; con Fuerza y Surf"),
+  "seafoam-islands-b4f": at("gym-7-8", "Islas Espuma (sótano 4)", "p. 19; con Fuerza y Surf"),
+  "kanto-power-plant-area": at("gym-7-8", "Central Energía", "p. 19; con Surf"),
+  // league
+  "kanto-route-23-area": at("league", "Ruta 23", "p. 20"),
+  "kanto-victory-road-2-1f": at("league", "Calle Victoria (planta 1)", "p. 21"),
+  "kanto-victory-road-2-2f": at("league", "Calle Victoria (planta 2)", "p. 21"),
+  "kanto-victory-road-2-3f": at("league", "Calle Victoria (planta 3)", "p. 21"),
+  // post-game
+  "mt-ember-b3f": at("post-game", "Monte Ascuas (sótano 3)", "p. 23: el camino del Rubí se recorre tras la Liga; aquí salen Pokémon de otras regiones"),
+  "mt-ember-b2f": at("post-game", "Monte Ascuas (sótano 2)", "p. 23: el camino del Rubí se recorre tras la Liga; aquí salen Pokémon de otras regiones"),
+  "mt-ember-b1f": at("post-game", "Monte Ascuas (sótano 1)", "p. 23: el camino del Rubí se recorre tras la Liga; aquí salen Pokémon de otras regiones"),
+  "mt-ember-1f-cave-behind-team-rocket": at("post-game", "Monte Ascuas (cueva tras el Team Rocket)", "p. 23: el camino del Rubí se recorre tras la Liga; aquí salen Pokémon de otras regiones"),
+  "three-isle-port-area": at("post-game", "Puerto Isla Tera", "Solo Pokémon de otras regiones, que no aparecen hasta vencer al Alto Mando"),
+  "four-island-area": at("post-game", "Isla Quarta", "p. 23 (tras la Liga)"),
+  "icefall-cave-1f": at("post-game", "Cueva Glaciada (planta 1)", "p. 23"),
+  "icefall-cave-b1f": at("post-game", "Cueva Glaciada (sótano 1)", "p. 23"),
+  "icefall-cave-entrance": at("post-game", "Cueva Glaciada (entrada)", "p. 23"),
+  "icefall-cave-waterfall": at("post-game", "Cueva Glaciada (cascada)", "p. 23"),
+  "five-island-area": at("post-game", "Isla Inta", "p. 23"),
+  "five-isle-meadow-area": at("post-game", "Prado Isla Inta", "p. 23"),
+  "memorial-pillar-area": at("post-game", "Pilar Recuerdo", "p. 26"),
+  "water-labyrinth-area": at("post-game", "Aquarinto", "Tras la Liga"),
+  "resort-gorgeous-area": at("post-game", "Lugar de Recreo", "Tras la Liga"),
+  "outcast-island-area": at("post-game", "Isla Aislada", "Tras la Liga"),
+  "green-path-area": at("post-game", "Vía Verde", "Tras la Liga"),
+  "water-path-area": at("post-game", "Vía Acuática", "Tras la Liga"),
+  "ruin-valley-area": at("post-game", "Valle Ruinas", "Tras la Liga"),
+  "pattern-bush-area": at("post-game", "Bosquejo", "p. 23"),
+  "trainer-tower-area": at("post-game", "Torre Desafío", "Tras la Liga"),
+  "canyon-entrance-area": at("post-game", "Entrada al Cañón", "Tras la Liga"),
+  "sevault-canyon-area": at("post-game", "Cañón Sétano", "p. 26"),
+  "tanoby-ruins-area": at("post-game", "Ruinas Sete", "Tras la Liga"),
+  "dilford-chamber-area": at("post-game", "Cámaras Sete", "Tras la Liga"),
+  "liptoo-chamber-area": at("post-game", "Cámaras Sete", "Tras la Liga"),
+  "monean-chamber-area": at("post-game", "Cámaras Sete", "Tras la Liga"),
+  "rixy-chamber-area": at("post-game", "Cámaras Sete", "Tras la Liga"),
+  "scufib-chamber-area": at("post-game", "Cámaras Sete", "Tras la Liga"),
+  "viapos-chamber-area": at("post-game", "Cámaras Sete", "Tras la Liga"),
+  "weepth-chamber-area": at("post-game", "Cámaras Sete", "Tras la Liga"),
+  "lost-cave-item-rooms": at("post-game", "Cueva Perdida", "p. 26"),
+  "lost-cave-room-1": at("post-game", "Cueva Perdida", "p. 26"),
+  "lost-cave-room-2": at("post-game", "Cueva Perdida", "p. 26"),
+  "lost-cave-room-3": at("post-game", "Cueva Perdida", "p. 26"),
+  "lost-cave-room-4": at("post-game", "Cueva Perdida", "p. 26"),
+  "lost-cave-room-5": at("post-game", "Cueva Perdida", "p. 26"),
+  "lost-cave-room-6": at("post-game", "Cueva Perdida", "p. 26"),
+  "lost-cave-room-7": at("post-game", "Cueva Perdida", "p. 26"),
+  "lost-cave-room-8": at("post-game", "Cueva Perdida", "p. 26"),
+  "lost-cave-room-9": at("post-game", "Cueva Perdida", "p. 26"),
+  "lost-cave-room-10": at("post-game", "Cueva Perdida", "p. 26"),
+  "kanto-altering-cave-a": at("post-game", "Cueva Cambiante", "Tras la Liga; su Pokémon cambia con eventos del Centro de Redes"),
+  "kanto-altering-cave-b": at("post-game", "Cueva Cambiante", "Tras la Liga; su Pokémon cambia con eventos del Centro de Redes"),
+  "kanto-altering-cave-c": at("post-game", "Cueva Cambiante", "Tras la Liga; su Pokémon cambia con eventos del Centro de Redes"),
+  "kanto-altering-cave-d": at("post-game", "Cueva Cambiante", "Tras la Liga; su Pokémon cambia con eventos del Centro de Redes"),
+  "kanto-altering-cave-e": at("post-game", "Cueva Cambiante", "Tras la Liga; su Pokémon cambia con eventos del Centro de Redes"),
+  "kanto-altering-cave-f": at("post-game", "Cueva Cambiante", "Tras la Liga; su Pokémon cambia con eventos del Centro de Redes"),
+  "kanto-altering-cave-g": at("post-game", "Cueva Cambiante", "Tras la Liga; su Pokémon cambia con eventos del Centro de Redes"),
+  "kanto-altering-cave-h": at("post-game", "Cueva Cambiante", "Tras la Liga; su Pokémon cambia con eventos del Centro de Redes"),
+  "kanto-altering-cave-i": at("post-game", "Cueva Cambiante", "Tras la Liga; su Pokémon cambia con eventos del Centro de Redes"),
+  "cerulean-cave-1f": at("post-game", "Cueva Celeste (planta 1)", "p. 24 (tras la Liga)"),
+  "cerulean-cave-2f": at("post-game", "Cueva Celeste (planta 2)", "p. 24 (tras la Liga)"),
+  "cerulean-cave-b1f": at("post-game", "Cueva Celeste (sótano 1)", "p. 24 (tras la Liga)"),
+  "roaming-kanto-area": at("post-game", "Johto y Kanto (errante)", "Perros legendarios: tras la revancha del Alto Mando"),
+  // excluded
+  "navel-rock-area": at("excluded", "Roca Ombligo", "Solo con el Ticket Misterioso de un evento"),
+  "birth-island-area": at("excluded", "Isla Origen", "Solo con el Ticket Aurora de un evento"),
+  "kanto-pokecenter-area": at("excluded", "Centro Pokémon", "Pokémon del disco extra de Pokémon Colosseum (otro juego)"),
+};
