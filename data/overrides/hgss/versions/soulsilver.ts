@@ -1,44 +1,42 @@
-import type { Sourced, VersionOverrides } from "../../types";
+import type { VersionOverrides } from "../../types";
+import { embeddedTowerRoom, exclusiveOf, UNOBTAINABLE_IN_BOTH } from "./shared";
 
-const hgOnly = (note = "No sale en Plata SoulSilver: es exclusivo de Oro HeartGold (D-028)"): Sourced => ({ source: "pokeapi", note });
-const baby = (parent: string): Sourced => ({ source: "pokeapi", note: `Bebé: solo por crianza de ${parent}, que no cuenta` });
-const fossil = (item: string): Sourced => ({
-  source: "bulbapedia-fossils",
-  note: `Del ${item}, que sale al azar rompiendo rocas en las Ruinas Alfa: no cuenta (D-028)`,
-});
-const event = (): Sourced => ({ source: "bulbapedia-hgss-events", note: "Singular de evento: no se obtiene jugando" });
+const G = "wikidex-guia-hgss" as const;
+const HG = "Oro HeartGold" as const;
 
 /**
  * SoulSilver's differences inside the HGSS family. Dex species with no known way
  * to get them (report.md, section 4) are reviewed here.
+ * Lugia is caught in the story, after the Kimono Girls (guide p. 12); Ho-Oh needs
+ * the Rainbow Wing, which the old man of Pewter City gives in Kanto (p. 20).
  */
 export const version: VersionOverrides = {
   game: "soulsilver",
+  locations: { "embedded-tower-groundon-room": embeddedTowerRoom("Groudon") },
+  specialEncounters: [
+    { species: "lugia", area: "whirl-islands-b3f", method: "static", unique: true, source: G, note: "p. 12: tras el ritual de las chicas Kimono, con el Ala plateada" },
+    {
+      species: "ho-oh",
+      area: "bell-tower-roof",
+      method: "static",
+      segment: "kanto",
+      unique: true,
+      source: G,
+      note: "p. 20: en Plata SoulSilver el Ala arcoíris la da el anciano de Ciudad Plateada",
+    },
+    { species: "latios", area: "roaming-johto-area", method: "roaming-grass", unique: true, source: "pokeapi", note: "Vaga tras hablar con la Copiona" },
+  ],
   unobtainable: {
-    spinarak: hgOnly(),
-    ariados: hgOnly("Evoluciona de Spinarak, exclusivo de Oro HeartGold (D-028)"),
-    growlithe: hgOnly(),
-    arcanine: hgOnly("Evoluciona de Growlithe, exclusivo de Oro HeartGold (D-028)"),
-    mankey: hgOnly(),
-    primeape: hgOnly("Evoluciona de Mankey, exclusivo de Oro HeartGold (D-028)"),
-    gligar: hgOnly(),
-    phanpy: hgOnly(),
-    donphan: hgOnly("Evoluciona de Phanpy, exclusivo de Oro HeartGold (D-028)"),
-    mantine: hgOnly(),
-    pichu: baby("Pikachu"),
-    cleffa: baby("Clefairy"),
-    igglybuff: baby("Jigglypuff"),
-    magby: baby("Magmar"),
-    smoochum: baby("Jynx"),
-    elekid: baby("Electabuzz"),
-    porygon: { source: ["pokeapi", "wikidex-guia-hgss"], note: "Solo como premio del Casino de Ciudad Azulona, que no cuenta (D-020)" },
-    porygon2: { source: "pokeapi", note: "Evoluciona de Porygon, que solo sale en el Casino (D-020)" },
-    omanyte: fossil("Fósil Hélix"),
-    omastar: fossil("Fósil Hélix"),
-    kabuto: fossil("Fósil Domo"),
-    kabutops: fossil("Fósil Domo"),
-    aerodactyl: fossil("Ámbar Viejo"),
-    mew: event(),
-    celebi: event(),
+    ...UNOBTAINABLE_IN_BOTH,
+    spinarak: exclusiveOf(HG),
+    ariados: exclusiveOf(HG, "Spinarak"),
+    growlithe: exclusiveOf(HG),
+    arcanine: exclusiveOf(HG, "Growlithe"),
+    mankey: exclusiveOf(HG),
+    primeape: exclusiveOf(HG, "Mankey"),
+    gligar: exclusiveOf(HG),
+    phanpy: exclusiveOf(HG),
+    donphan: exclusiveOf(HG, "Phanpy"),
+    mantine: exclusiveOf(HG),
   },
 };

@@ -34,6 +34,15 @@ export const GAME_CONFIGS: readonly GameConfig[] = [
     pokedexes: ["extended-sinnoh"],
   },
   {
+    slug: "heartgold",
+    family: "hgss",
+    version: "heartgold",
+    versionGroup: "heartgold-soulsilver",
+    region: "johto",
+    extraRegions: ["kanto"],
+    pokedexes: ["updated-johto"],
+  },
+  {
     slug: "soulsilver",
     family: "hgss",
     version: "soulsilver",

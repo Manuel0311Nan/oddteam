@@ -1,8 +1,9 @@
 {
-  "dataVersion": "8838d082",
+  "dataVersion": "69a085c7",
   "games": [
     "emerald",
     "platinum",
+    "heartgold",
     "soulsilver"
   ]
 }

@@ -4,8 +4,8 @@ import type { SpecialEncounterOverride } from "../types";
  * Corrections and extra data for the gifts, statics, trades and roamers that
  * PokéAPI already lists for HeartGold/SoulSilver (report.md, section 1b). Entries
  * not listed here keep the segment of their area, method and conditions.
- * Version-only encounters (Lugia/Ho-Oh, Latios/Latias…) are filtered by PokéAPI's
- * version data; the ones listed here exist in SoulSilver.
+ * What differs between the versions (when Lugia and Ho-Oh can be caught, Latios
+ * or Latias) goes in versions/{game}.ts.
  */
 const G = "wikidex-guia-hgss" as const;
 
@@ -74,16 +74,6 @@ export const specialEncounters: readonly SpecialEncounterOverride[] = [
   ),
 
   // Legendaries (only with the legendary option).
-  { species: "lugia", area: "whirl-islands-b3f", method: "static", unique: true, source: G, note: "p. 12: tras el ritual de las chicas Kimono, con el Ala plateada" },
-  {
-    species: "ho-oh",
-    area: "bell-tower-roof",
-    method: "static",
-    segment: "kanto",
-    unique: true,
-    source: G,
-    note: "p. 20: en Plata SoulSilver el Ala arcoíris la da el anciano de Ciudad Plateada",
-  },
   { species: "suicune", area: "kanto-route-25-area", method: "static", unique: true, source: G, note: "p. 18: tras vencer a Misty, junto a la casa de Bill" },
   { species: "articuno", area: "seafoam-islands-b4f", method: "static", unique: true, source: G, note: "p. 23" },
   { species: "zapdos", area: "kanto-route-10-area", method: "static", unique: true, source: G, note: "p. 24: junto a la Central de Energía" },
@@ -97,5 +87,4 @@ export const specialEncounters: readonly SpecialEncounterOverride[] = [
       note: "p. 6: vaga por Johto tras la escena de la Torre Quemada",
     }),
   ),
-  { species: "latios", area: "roaming-johto-area", method: "roaming-grass", unique: true, source: "pokeapi", note: "Vaga tras hablar con la Copiona" },
 ];

@@ -1,0 +1,32 @@
+{
+  "good-rod": {
+    "from": "item",
+    "name": "Caña Buena",
+    "nameEn": "Good Rod"
+  },
+  "headbutt": {
+    "from": "move",
+    "name": "Golpe Cabeza",
+    "nameEn": "Headbutt"
+  },
+  "old-rod": {
+    "from": "item",
+    "name": "Caña Vieja",
+    "nameEn": "Old Rod"
+  },
+  "rock-smash": {
+    "from": "move",
+    "name": "Golpe Roca",
+    "nameEn": "Rock Smash"
+  },
+  "super-rod": {
+    "from": "item",
+    "name": "Supercaña",
+    "nameEn": "Super Rod"
+  },
+  "surf": {
+    "from": "move",
+    "name": "Surf",
+    "nameEn": "Surf"
+  }
+}

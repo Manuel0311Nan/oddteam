@@ -248,5 +248,13 @@ Arreglado de paso: versión de datos por juego y `--game` sin borrar otros juego
 - Arreglado de paso en el pipeline: líneas que empiezan a mitad de cadena (Chansey) e intercambios que piden una especie evolucionada.
 - Pendiente: 5 equipos de referencia de dificultad y revisión de la Ruta.
 
-**Oro HeartGold y Negro 2/Blanco 2:** pendientes. HeartGold reutiliza la familia `hgss`: solo le falta `versions/heartgold.ts` y su configuración. |
+**Oro HeartGold (publicable)**: reutiliza toda la familia `hgss`. Solo cambia `versions/heartgold.ts`:
+- los exclusivos de Plata SoulSilver: Ledyba, Vulpix, Meowth, Delibird, Teddiursa y Skarmory;
+- Ho-Oh en la historia y Lugia en Kanto, al revés que en SoulSilver;
+- Latias en vez de Latios;
+- la sala de Kyogre de la Torre Oculta.
+
+Lo común a las dos versiones está en `versions/shared.ts`. Estado: 0 errores y 0 TODO; pool de 165 entradas.
+
+**Negro 2/Blanco 2:** pendientes. |
 | F10 | Pendiente |

@@ -1012,12 +1012,12 @@
     {
       "itemId": "fire-stone",
       "segment": "gym-3-4",
-      "where": "Carpa Pokéathlon (martes, 2500 puntos) · abuelo de Bill, Ruta 25, enseñándole un Vulpix"
+      "where": "Carpa Pokéathlon (martes, 2500 puntos) · abuelo de Bill, Ruta 25, enseñándole un Growlithe (HeartGold) o un Vulpix (SoulSilver)"
     },
     {
       "itemId": "water-stone",
       "segment": "gym-3-4",
-      "where": "Carpa Pokéathlon (miércoles, 2500 puntos) · Islas Espuma · abuelo de Bill, enseñándole un Staryu"
+      "where": "Carpa Pokéathlon (miércoles, 2500 puntos) · Islas Espuma · abuelo de Bill, enseñándole un Marill (HeartGold) o un Staryu (SoulSilver)"
     },
     {
       "itemId": "thunder-stone",

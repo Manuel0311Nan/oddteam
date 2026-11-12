@@ -18,7 +18,16 @@
     "slug": "platinum"
   },
   {
-    "dataVersion": "011e5be6",
+    "dataVersion": "2bbac857",
+    "family": "hgss",
+    "generation": 4,
+    "name": "Oro HeartGold",
+    "publishable": true,
+    "region": "johto",
+    "slug": "heartgold"
+  },
+  {
+    "dataVersion": "3bce7c2b",
     "family": "hgss",
     "generation": 4,
     "name": "Plata SoulSilver",
