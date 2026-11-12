@@ -19,12 +19,12 @@ const G = "wikidex-guia-hgss" as const;
 
 export const evolutionItems: Readonly<Record<string, EvolutionItemOverride>> = {
   "fire-stone": {
-    where: `${A} (martes, 2500 puntos) · abuelo de Bill, Ruta 25, enseñándole un Vulpix`,
+    where: `${A} (martes, 2500 puntos) · abuelo de Bill, Ruta 25, enseñándole un Growlithe (HeartGold) o un Vulpix (SoulSilver)`,
     segment: "gym-3-4",
     source: "wikidex-piedra-fuego",
   },
   "water-stone": {
-    where: `${A} (miércoles, 2500 puntos) · Islas Espuma · abuelo de Bill, enseñándole un Staryu`,
+    where: `${A} (miércoles, 2500 puntos) · Islas Espuma · abuelo de Bill, enseñándole un Marill (HeartGold) o un Staryu (SoulSilver)`,
     segment: "gym-3-4",
     source: ["wikidex-piedra-agua", G],
     note: "Guía p. 23: Islas Espuma",

@@ -4,7 +4,7 @@
 
 ## Qué es este proyecto
 
-Una web que genera **equipos aleatorios pero válidos para jugar la historia de una versión concreta de un juego Pokémon** (Esmeralda, Platino, HeartGold, SoulSilver, Negro 2, Blanco 2…). Cada versión es un juego propio, con sus exclusivos. El objetivo es dejar de jugar siempre con los mismos 6 Pokémon.
+Una web que genera **equipos aleatorios pero válidos para jugar la historia de una versión concreta de un juego Pokémon** (Rojo Fuego, Verde Hoja, Esmeralda, Platino, HeartGold, SoulSilver, Negro 2, Blanco 2…). Cada versión es un juego propio, con sus exclusivos. El objetivo es dejar de jugar siempre con los mismos 6 Pokémon.
 
 Un equipo es **válido** cuando el jugador puede conseguirlo y usarlo jugando ese juego con normalidad:
 

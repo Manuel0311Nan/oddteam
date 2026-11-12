@@ -296,3 +296,7 @@ type TmEntry = { number: string; moveId: string; where: string; segment: string;
 - `ConditionOverride.minRarity`: rareza mínima por condición, como la de los métodos (árboles especiales de Golpe Cabeza, D-030). Si hay varias, gana la más difícil.
 - Pool: una especie que se captura pero a la que su preevolución no puede llegar en ese juego (Chansey sin la Piedra Oval) entra con su propia línea desde ella.
 - Intercambios del juego: la especie que piden cuenta como obtenible también si se consigue evolucionando (Forretress desde Pineco).
+
+## Ampliaciones de F9 (Rojo Fuego/Verde Hoja)
+
+- `FamilyOverrides.nationalDexEvolutions`: las evoluciones a especies con número mayor que `maxSpeciesId` toman el tramo indicado, porque piden la Pokédex Nacional (D-031).

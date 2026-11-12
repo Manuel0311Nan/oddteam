@@ -298,6 +298,8 @@ export function merge(input: MergeInput): MergeOutput {
       if (d.item) r = Math.max(r, itemRank(d.item, where));
       if (d.heldItem) r = Math.max(r, itemRank(d.heldItem, where));
       if (choice?.segment !== undefined) r = Math.max(r, rank(choice.segment, `evolución ${where}`));
+      const nd = family.nationalDexEvolutions;
+      if (nd && s.toSpeciesId > nd.maxSpeciesId) r = Math.max(r, rank(nd.segment, `evolución ${where} (Pokédex Nacional)`));
       if (r === NEVER) continue;
       const step: Step = {
         fromSpeciesId: s.fromSpeciesId,
@@ -455,7 +457,16 @@ export function merge(input: MergeInput): MergeOutput {
       for (const mv of m.moves) if (!input.moves[mv]) add("error", "jefes", `${b.id}: movimiento desconocido "${mv}"`);
       return id === undefined ? [] : [{ speciesId: id, level: m.level, moves: m.moves }];
     });
-    bosses.push({ id: b.id, name: b.name, kind: b.kind, segment: b.segment, team, ...(b.rewardTm ? { rewardTm: b.rewardTm } : {}) });
+    const starterId = b.ifStarter === undefined ? undefined : resolve(b.ifStarter, `jefe ${b.id}`);
+    bosses.push({
+      id: b.id,
+      name: b.name,
+      kind: b.kind,
+      segment: b.segment,
+      team,
+      ...(b.rewardTm ? { rewardTm: b.rewardTm } : {}),
+      ...(starterId !== undefined ? { ifStarter: starterId, ifStarterLine: chainOf.get(starterId) ?? -starterId } : {}),
+    });
     if (b.rewardTm && !input.machines.some((m) => m.number === b.rewardTm)) add("error", "jefes", `${b.id}: MT de recompensa desconocida ${b.rewardTm}`);
   }
 

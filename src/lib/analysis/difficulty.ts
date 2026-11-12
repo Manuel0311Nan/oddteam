@@ -7,6 +7,7 @@
  */
 
 import type { Boss, Difficulty, PoolEntry, Segment } from "@/lib/types";
+import { bossesForTeam, variantShare } from "./boss-variants";
 import { type Matchups, teamVerdict } from "./bosses";
 import {
   AVAILABILITY_EARLY_PENALTY,
@@ -65,7 +66,9 @@ export function levelOf(score: number): Difficulty {
   return "easy";
 }
 
-export function computeDifficulty(team: readonly PoolEntry[], data: DifficultyData): DifficultyResult {
+export function computeDifficulty(team: readonly PoolEntry[], allData: DifficultyData): DifficultyResult {
+  // Starter-dependent bosses (D-032): only the one this team will face, or all of them sharing one weight.
+  const data: DifficultyData = { ...allData, bosses: bossesForTeam(allData.bosses, team) };
   const order = new Map(data.segments.map((s) => [s.id, s.order]));
   const orderOf = (id: string) => order.get(id) ?? Number.POSITIVE_INFINITY;
   const lastOrder = Math.max(1, ...data.segments.map((s) => s.order));
@@ -118,8 +121,9 @@ function bossesScore(team: readonly PoolEntry[], data: DifficultyData, orderOf: 
           : boss === lastGym
             ? BOSS_WEIGHTS.lastGym
             : 1;
-    total += w * VERDICT_POINTS[teamVerdict(team, boss, data.matchups).verdict];
-    weights += w;
+    const share = variantShare(boss, data.bosses);
+    total += w * share * VERDICT_POINTS[teamVerdict(team, boss, data.matchups).verdict];
+    weights += w * share;
   }
   return weights ? total / weights : 0;
 }

@@ -1,5 +1,23 @@
 [
   {
+    "dataVersion": "47237a1a",
+    "family": "frlg",
+    "generation": 3,
+    "name": "Rojo Fuego",
+    "publishable": true,
+    "region": "kanto",
+    "slug": "firered"
+  },
+  {
+    "dataVersion": "cce23f42",
+    "family": "frlg",
+    "generation": 3,
+    "name": "Verde Hoja",
+    "publishable": true,
+    "region": "kanto",
+    "slug": "leafgreen"
+  },
+  {
     "dataVersion": "787fa0ad",
     "family": "emerald",
     "generation": 3,
@@ -18,7 +36,16 @@
     "slug": "platinum"
   },
   {
-    "dataVersion": "011e5be6",
+    "dataVersion": "2bbac857",
+    "family": "hgss",
+    "generation": 4,
+    "name": "Oro HeartGold",
+    "publishable": true,
+    "region": "johto",
+    "slug": "heartgold"
+  },
+  {
+    "dataVersion": "3bce7c2b",
     "family": "hgss",
     "generation": 4,
     "name": "Plata SoulSilver",

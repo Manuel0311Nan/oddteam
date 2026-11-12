@@ -12,6 +12,9 @@ import type { Availability, LocationOverride } from "../types";
  * Kanto opens after the Johto League (guide page 15). What needs the 16 badges
  * (Cerulean Cave, Route 28, Mt. Silver) is outside both story scopes (D-029).
  *
+ * The Embedded Tower room of Groudon (SoulSilver) or Kyogre (HeartGold) is in
+ * versions/{game}.ts.
+ *
  * Name: PokéAPI has no Spanish names for these areas, so they come from WikiDex
  * (Johto template, Kanto page and the guide, D-027). Floor or part details after
  * the name are descriptive, not official.
@@ -200,7 +203,6 @@ export const locations: Readonly<Record<string, LocationOverride>> = {
   "mt-silver-mountainside": at("post-game", "Monte Plateado (ladera)", "p. 27; requiere Treparrocas y las 16 medallas"),
   "mt-silver-outside": at("post-game", "Monte Plateado (exterior)", "p. 27; requiere Treparrocas y las 16 medallas"),
   "mt-silver-top": at("post-game", "Monte Plateado (cima)", "p. 27; requiere Treparrocas y las 16 medallas"),
-  "embedded-tower-groundon-room": at("post-game", "Torre Oculta", "Groudon, Kyogre y Rayquaza: evento tras capturar a Ho-Oh y Lugia (post-juego)"),
   "embedded-tower-rayquaza-room": at("post-game", "Torre Oculta", "Groudon, Kyogre y Rayquaza: evento tras capturar a Ho-Oh y Lugia (post-juego)"),
   // excluded
   "cianwood-city-pokemon-center": at("excluded", "Centro Pokémon de Ciudad Orquídea", "La guía (p. 8) no menciona este regalo de Tentacool: no se cuenta sin verificar (D-016)"),

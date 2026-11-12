@@ -18,6 +18,22 @@ export type GameConfig = {
 
 export const GAME_CONFIGS: readonly GameConfig[] = [
   {
+    slug: "firered",
+    family: "frlg",
+    version: "firered",
+    versionGroup: "firered-leafgreen",
+    region: "kanto",
+    pokedexes: ["kanto"],
+  },
+  {
+    slug: "leafgreen",
+    family: "frlg",
+    version: "leafgreen",
+    versionGroup: "firered-leafgreen",
+    region: "kanto",
+    pokedexes: ["kanto"],
+  },
+  {
     slug: "emerald",
     family: "emerald",
     version: "emerald",
@@ -32,6 +48,15 @@ export const GAME_CONFIGS: readonly GameConfig[] = [
     versionGroup: "platinum",
     region: "sinnoh",
     pokedexes: ["extended-sinnoh"],
+  },
+  {
+    slug: "heartgold",
+    family: "hgss",
+    version: "heartgold",
+    versionGroup: "heartgold-soulsilver",
+    region: "johto",
+    extraRegions: ["kanto"],
+    pokedexes: ["updated-johto"],
   },
   {
     slug: "soulsilver",

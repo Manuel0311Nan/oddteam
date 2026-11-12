@@ -101,6 +101,14 @@ export const SOURCES = {
   "serebii-hgss-tmhm": "https://serebii.net/heartgoldsoulsilver/tmhm.shtml",
   "bulbapedia-fossils": "https://bulbapedia.bulbagarden.net/wiki/Fossil",
   "bulbapedia-hgss-events": "https://bulbapedia.bulbagarden.net/wiki/List_of_in-game_event_Pok%C3%A9mon_in_Pok%C3%A9mon_HeartGold_and_SoulSilver",
+  "wikidex-guia-rfvh": "https://www.wikidex.net/wiki/Gu%C3%ADa_de_Pok%C3%A9mon_Rojo_Fuego_y_Pok%C3%A9mon_Verde_Hoja",
+  "wikidex-liga-kanto": "https://www.wikidex.net/wiki/Liga_Pok%C3%A9mon_(Kanto)",
+  "wikidex-archi7": "https://www.wikidex.net/wiki/Plantilla:Archi7",
+  "wikidex-azul": "https://www.wikidex.net/wiki/Azul_(personaje)",
+  "serebii-frlg-rival": "https://www.serebii.net/fireredleafgreen/rival.shtml",
+  "serebii-frlg-gyms": "https://serebii.net/fireredleafgreen/gyms.shtml",
+  "serebii-frlg-tmhm": "https://serebii.net/fireredleafgreen/tmhm.shtml",
+  "bulbapedia-national-dex": "https://bulbapedia.bulbagarden.net/wiki/National_Pok%C3%A9dex",
 } as const;
 
 export type SourceId = keyof typeof SOURCES;

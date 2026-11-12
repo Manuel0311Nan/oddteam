@@ -42,3 +42,6 @@ next-env.d.ts
 
 # PokéAPI local cache (scripts/build-data)
 /.cache/
+
+# copias sueltas que puede dejar la app de Claude
+/Claude outputs/
